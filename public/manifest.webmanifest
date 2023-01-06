@@ -1,0 +1,18 @@
+{
+  "name": "Armstrong Foundjem",
+  "short_name": "Armstrong Foundjem",
+  "lang": "en-us",
+  "theme_color": "#2962ff",
+  "background_color": "#2962ff",
+  "icons": [{
+    "src": "/foundjem.com/images/icon_hu6351ee64df48d2892d6749f985b342fb_222017_192x192_fill_lanczos_center_3.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/foundjem.com/images/icon_hu6351ee64df48d2892d6749f985b342fb_222017_512x512_fill_lanczos_center_3.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}

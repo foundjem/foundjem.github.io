@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Armstrong Foundjem</title>
+    <link>foundjem.com/publication/</link>
+      <atom:link href="foundjem.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/foundjem.com/images/icon_hu6351ee64df48d2892d6749f985b342fb_222017_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>foundjem.com/publication/</link>
+    </image>
+    
+    <item>
+      <title>A mixed-methods analysis of micro-collaborative coding practices in OpenStack</title>
+      <link>foundjem.com/publication/micro-collab/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>foundjem.com/publication/micro-collab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Release Synchronization in Software Ecosystems</title>
+      <link>foundjem.com/publication/releases/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>foundjem.com/publication/releases/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
