@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Talks | Armstrong Foundjem</title>
+    <title>Talks | $i^2$SSE</title>
     <link>foundjem.com/talk/</link>
       <atom:link href="foundjem.com/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Wed, 24 Mar 2021 16:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023</copyright><lastBuildDate>Wed, 03 Nov 2021 22:22:48 +0530</lastBuildDate>
     <image>
       <url>/foundjem.com/images/icon_hu6351ee64df48d2892d6749f985b342fb_222017_512x512_fill_lanczos_center_3.png</url>
       <title>Talks</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
-      <title>BETS: The dangers of selection bias in early analyses of the coronavirus disease (COVID-19) pandemic</title>
-      <link>foundjem.com/talk/ido-2021/</link>
-      <pubDate>Wed, 24 Mar 2021 16:00:00 +0000</pubDate>
-      <guid>foundjem.com/talk/ido-2021/</guid>
+      <title>ESEC/FSE21 --- Release Synchronization in Software Ecosystems</title>
+      <link>foundjem.com/talk/fse21/</link>
+      <pubDate>Wed, 03 Nov 2021 22:22:48 +0530</pubDate>
+      <guid>foundjem.com/talk/fse21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICSE&#39;21 --- Onboarding vs. Diversity, Productivity and Quality — Empirical Study of the OpenStack Ecosystem</title>
+      <link>foundjem.com/talk/icse21/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>foundjem.com/talk/icse21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CHAOSScast</title>
+      <link>foundjem.com/talk/podcast/</link>
+      <pubDate>Fri, 07 Aug 2020 16:20:15 +0700</pubDate>
+      <guid>foundjem.com/talk/podcast/</guid>
       <description></description>
     </item>
     

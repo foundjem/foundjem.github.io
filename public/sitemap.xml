@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>foundjem.com/project/covid-19/</loc>
-    <lastmod>2022-06-18T00:00:00+01:00</lastmod>
-  </url><url>
     <loc>foundjem.com/</loc>
     <lastmod>2022-06-18T00:00:00+01:00</lastmod>
   </url><url>
@@ -17,10 +14,19 @@
     <loc>foundjem.com/tags/</loc>
     <lastmod>2022-06-18T00:00:00+01:00</lastmod>
   </url><url>
+    <loc>foundjem.com/project/seco/</loc>
+    <lastmod>2022-06-18T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>foundjem.com/publication-type/1/</loc>
+    <lastmod>2022-04-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>foundjem.com/publication-type/2/</loc>
     <lastmod>2022-04-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>foundjem.com/publication/micro-collab/</loc>
+    <lastmod>2022-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>foundjem.com/author/armstrong-foundjem/</loc>
     <lastmod>2022-04-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>foundjem.com/authors/</loc>
@@ -29,16 +35,37 @@
     <loc>foundjem.com/author/bram-adams/</loc>
     <lastmod>2022-04-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>foundjem.com/tag/collaboration/</loc>
+    <lastmod>2022-04-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>foundjem.com/tag/collaborative-coding-practices/</loc>
     <lastmod>2022-04-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>foundjem.com/author/dr.-armstrong/</loc>
+    <loc>foundjem.com/tag/contributors/</loc>
     <lastmod>2022-04-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>foundjem.com/author/eleni-constantinou/</loc>
     <lastmod>2022-04-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>foundjem.com/author/ellis-e.-eghan/</loc>
+    <lastmod>2022-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>foundjem.com/tag/knowledge-transfer/</loc>
+    <lastmod>2022-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>foundjem.com/tag/mentoring/</loc>
+    <lastmod>2022-04-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>foundjem.com/tag/mixed-methods-research/</loc>
+    <lastmod>2022-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>foundjem.com/tag/onboarding/</loc>
+    <lastmod>2022-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>foundjem.com/publication/onboarding/</loc>
+    <lastmod>2022-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>foundjem.com/tag/open-source/</loc>
     <lastmod>2022-04-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>foundjem.com/tag/open-source-software/</loc>
@@ -53,14 +80,23 @@
     <loc>foundjem.com/tag/social-coding/</loc>
     <lastmod>2022-04-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>foundjem.com/tag/software-ecosystems/</loc>
+    <lastmod>2022-04-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>foundjem.com/author/tom-mens/</loc>
     <lastmod>2022-04-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>foundjem.com/talk/ido-2021/</loc>
-    <lastmod>2021-03-24T16:00:00+00:00</lastmod>
+    <loc>foundjem.com/author/armstrong-foundjem/</loc>
+    <lastmod>2021-11-03T22:22:48+05:30</lastmod>
+  </url><url>
+    <loc>foundjem.com/talk/fse21/</loc>
+    <lastmod>2021-11-03T22:22:48+05:30</lastmod>
   </url><url>
     <loc>foundjem.com/talk/</loc>
-    <lastmod>2021-03-24T16:00:00+00:00</lastmod>
+    <lastmod>2021-11-03T22:22:48+05:30</lastmod>
+  </url><url>
+    <loc>foundjem.com/talk/icse21/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>foundjem.com/tag/release-synchronization/</loc>
     <lastmod>2021-03-18T00:00:00+00:00</lastmod>
@@ -68,13 +104,13 @@
     <loc>foundjem.com/publication/releases/</loc>
     <lastmod>2021-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>foundjem.com/tag/software-ecosystems/</loc>
-    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>foundjem.com/post/migrating/</loc>
-    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
+    <loc>foundjem.com/talk/podcast/</loc>
+    <lastmod>2020-08-07T16:20:15+07:00</lastmod>
   </url><url>
     <loc>foundjem.com/post/</loc>
+    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>foundjem.com/post/migrating/</loc>
     <lastmod>2020-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>foundjem.com/tag/workflow/</loc>

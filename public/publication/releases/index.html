@@ -20,7 +20,7 @@
   
   
 
-  <meta name="author" content="Dr. Armstrong">
+  <meta name="author" content="Armstrong Foundjem">
 
   
   
@@ -64,10 +64,8 @@
     
       
       
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
       
     
 
@@ -239,7 +237,7 @@
   }
 
   gtag('js', new Date());
-  gtag('config', 'UA-169798863-1', {});
+  gtag('config', 'UA-169798863-1', { 'anonymize_ip': true });
 
   
   document.addEventListener('click', onClickCallback, false);
@@ -275,9 +273,9 @@
   <meta property="twitter:site" content="@foundjem">
   <meta property="twitter:creator" content="@foundjem">
   
-  <meta property="og:site_name" content="Armstrong Foundjem">
+  <meta property="og:site_name" content="$i^2$SSE">
   <meta property="og:url" content="foundjem.com/publication/releases/">
-  <meta property="og:title" content="Release Synchronization in Software Ecosystems | Armstrong Foundjem">
+  <meta property="og:title" content="Release Synchronization in Software Ecosystems | $i^2$SSE">
   <meta property="og:description" content="Software ecosystems bring value by integrating software projects related to a given domain, such as Linux distributions integrating upstream open-source projects or the Android ecosystem for mobile Apps. Since each project within an ecosystem may potentially have its release cycle and roadmap, this creates an enormous burden for users who must expend the effort to identify and install compatible project releases from the ecosystem manually. Thus, many ecosystems, such as the Linux distributions, take it upon them to release a polished, well-integrated product to the end-user.  However, the body of knowledge lacks empirical evidence about the coordination and synchronization efforts needed at the ecosystem level to ensure such federated releases. This paper empirically studies the strategies used to synchronize releases of ecosystem projects in the context of the OpenStack ecosystem, in which a central release team manages the six-month release cycle of the overall OpenStack ecosystem product. We use qualitative analysis on the release team&#39;s IRC-meeting logs that comprise two OpenStack releases (one-year long). Thus, we identified, cataloged, and documented ten major release synchronization activities, which we further validated through interviews with eight active OpenStack senior practitioners (members of either the release team or project teams). Our results suggest that even though an ecosystem’s power lies in the interaction of inter-dependent projects, release synchronization remains a challenge for both the release team and the project teams. Moreover, we found evidence (and reasons) of multiple release strategies co-existing within a complex ecosystem."><meta property="og:image" content="/foundjem.com/publication/releases/featured.png">
   <meta property="twitter:image" content="/foundjem.com/publication/releases/featured.png"><meta property="og:locale" content="en-us">
   
@@ -319,12 +317,12 @@
   
   "author": {
     "@type": "Person",
-    "name": "Dr. Armstrong"
+    "name": "Armstrong Foundjem"
   },
   
   "publisher": {
     "@type": "Organization",
-    "name": "Armstrong Foundjem",
+    "name": "Institute for intelligence and automation on sustainable software ecosystems --- IIASS.",
     "logo": {
       "@type": "ImageObject",
       "url": "/foundjem.com/images/icon_hu6351ee64df48d2892d6749f985b342fb_222017_192x192_fill_lanczos_center_3.png"
@@ -340,6 +338,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
 
 
   
@@ -348,7 +376,7 @@
 
 
 
-  <title>Release Synchronization in Software Ecosystems | Armstrong Foundjem</title>
+  <title>Release Synchronization in Software Ecosystems | $i^2$SSE</title>
 
 </head>
 
@@ -399,7 +427,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Armstrong Foundjem</a>
+      <a class="navbar-brand" href="/">$i^2$SSE</a>
     </div>
     
 
@@ -412,7 +440,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Armstrong Foundjem</a>
+      <a class="navbar-brand" href="/">$i^2$SSE</a>
     </div>
     
 
@@ -422,28 +450,6 @@
 
       
       <ul class="navbar-nav d-md-inline-flex">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/foundjem.com/post/"><span>Posts</span></a>
-        </li>
-
-        
         
 
         
@@ -550,7 +556,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/foundjem.com/links/"><span>Links</span></a>
+          <a class="nav-link " href="/foundjem.com/links/"><span>Resources</span></a>
         </li>
 
         
@@ -643,7 +649,7 @@
     
 
   
-  <span class="font-weight-bold"><a href="foundjem.com/author/dr.-armstrong/">Dr. Armstrong</a></span>, <span >Bram Adams</span>
+  <span class="font-weight-bold"><a href="foundjem.com/author/armstrong-foundjem/">Armstrong Foundjem</a></span>, <span >Bram Adams</span>
   </div>
   
   
@@ -732,7 +738,7 @@
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="foundjem.com/project/covid-19/">
+  <a class="btn btn-outline-primary my-1 mr-1" href="foundjem.com/project/seco/">
     Project
   </a>
   
@@ -813,8 +819,6 @@
     <div class="article-style"></div>
 
     
-
-
 
 
 
@@ -963,7 +967,7 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="foundjem.com/publication/micro-collab/" rel="next">A mixed-methods analysis of micro-collaborative coding practices in OpenStack</a>
+    <a href="foundjem.com/publication/onboarding/" rel="next">Onboarding vs. Diversity, Productivity, and Quality -- Empirical Study of the OpenStack Ecosystem</a>
   </div>
   
   
@@ -999,6 +1003,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/python.min.js"></script>
         
       
 
@@ -1103,7 +1109,7 @@
   
 
   <p class="powered-by">
-    © 2022
+    © 2023
   </p>
 
   
