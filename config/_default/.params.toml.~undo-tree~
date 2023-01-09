@@ -1,0 +1,10 @@
+(undo-tree-save-format-version . 1)
+"e5bf9106edae69882a4e75393d8aa5f823e75f1e"
+[nil nil nil nil (25532 9543 591999 0) 0 nil]
+([nil nil ((#("and automation" 0 14 (fontified t face font-lock-string-face)) . -1804) (undo-tree-id13 . -14) (undo-tree-id14 . -14) 1818 (t 25528 38760 121441 432000)) nil (25532 9543 591997 0) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t face font-lock-string-face)) . -1803) (undo-tree-id11 . -1) (undo-tree-id12 . -1) 1804) nil (25532 9543 591993 0) 0 nil])
+([nil nil ((#("A" 0 1 (fontified t face font-lock-string-face)) . -1845) (undo-tree-id9 . -1) (undo-tree-id10 . -1) 1846) nil (25532 9543 591990 0) 0 nil])
+([nil nil ((5246 . 5254)) nil (25532 9543 591986 0) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . -6551) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (#("a" 0 1 (fontified t)) . -6552) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (#("l" 0 1 (fontified t)) . -6553) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (#("s" 0 1 (fontified t)) . -6554) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (#("e" 0 1 (fontified t face font-lock-keyword-face)) . -6555) (undo-tree-id8 . -1) 6556) nil (25532 9543 591983 0) 0 nil])
+([nil current ((6551 . 6555)) nil (25532 9543 591953 0) 0 nil])
+nil
