@@ -3,11 +3,11 @@
 
 title: "Broadcast vs. Unicast Review Technology: Does It Matter?"
 authors: ["admin", "Foutse Khomh", "Bram Adams"]
-date: 2021-03-18
+date: 2017-03-18
 doi:  "https://doi.org/10.1109/ICST.2017.27"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2021-03-18
+publishDate: 2017-03-18
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -30,11 +30,11 @@ featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-links:
- - name: Follow
-   url: https://twitter.com
-   icon_pack: fab
-   icon: twitter
+#links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
 
 url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7927977
 url_code: 
