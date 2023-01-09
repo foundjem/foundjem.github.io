@@ -12,7 +12,10 @@ superuser: true
 # Role/position
 role: Research Scientist/Engineer
 
-
+# Organizations/Affiliations
+organizations:
+- name: DEEL Project
+  url: "foundjem.com"
 
 # Short bio (displayed in user profile at end of posts)
 bio: A Mixed-method researcher (Ph.D.)
