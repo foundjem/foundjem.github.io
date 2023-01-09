@@ -4,7 +4,7 @@
 title: "ICST'17 ---Broadcast vs. Unicast Review Technology: Does It Matter?"
 event: "2017 IEEE International Conference on Software Testing, Verification and Validation (ICST)"
 event_url: 
-location: Tokyo - Japan
+location: "Tokyo - Japan"
 address:
   street:
   city:
