@@ -15,7 +15,7 @@ role: Research Scientist/Engineer
 # Organizations/Affiliations
 organizations:
 - name:  DEEL Project
-  url: "foundjem.com"
+  url: "https://deel.quebec"
 
 # Short bio (displayed in user profile at end of posts)
 bio: A Mixed-method researcher (Ph.D.)
