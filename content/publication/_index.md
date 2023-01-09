@@ -6,9 +6,9 @@ title: Publications
 #   2 = Compact
 #   3 = Card
 #   4 = Citation
-view: 2
+view: 1
 
-show_authors_only: true
+show_authors_only: false
 
 # Optional header image (relative to `static/img/` folder).
 header:
