@@ -14,7 +14,7 @@ role: Research Scientist/Engineer
 
 # Organizations/Affiliations
 organizations:
-- name:  DEEL Project --- Polytechnique Montreal
+- name:  [DEEL Project](https://deel.quebec/en/projets/axe2-certifiabilite/) - Polytechnique Montreal
   url: "foundjem.com"
 
 # Short bio (displayed in user profile at end of posts)
