@@ -14,7 +14,7 @@ role: Research Scientist/Engineer
 
 # Organizations/Affiliations
 organizations:
-- name: DEEL Project
+- name: Queen's University
   url: "foundjem.com"
 
 # Short bio (displayed in user profile at end of posts)
