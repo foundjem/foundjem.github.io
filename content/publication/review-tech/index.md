@@ -31,10 +31,10 @@ featured: true
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 # links:
-- name: Follow
-  url: https://twitter.com
-  icon_pack: fab
-  icon: twitter
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
 
 url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7927977
 url_code: 
