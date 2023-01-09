@@ -14,7 +14,7 @@ role: Research Scientist/Engineer
 
 # Organizations/Affiliations
 organizations:
-- name:  DEEL Project --- Polytechnique Montreal#Queen's University
+- name:  DEEL Project --- Polytechnique Montreal
   url: "foundjem.com"
 
 # Short bio (displayed in user profile at end of posts)
