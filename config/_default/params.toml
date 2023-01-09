@@ -45,10 +45,10 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = "Institute for intelligence on sustainable software ecosystems --- IISS."
+org_name = "Institute for intelligence on sustainable software ecosystems --- IISES."
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "IIAS Provides consultation services to organizations, including NGOs, personnel, government, and small, and medium size cooperations, on measures to grow sustainable software ecosystems."
+description = "IISES Provides consultation services to organizations, including NGOs, personnel, government, and small, and medium size cooperations, on measures to grow sustainable software ecosystems."
 
 ############################
 ## Site Features
@@ -163,7 +163,7 @@ profile = false
 
 # Show a copyright license from creativecommons.org in the site footer?
 # Page specific copyright licenses are also possible by adding this option to a page's front matter.
-copyright_license = {enable = true, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
+copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
 
 # Highlight the site author (superuser) in author lists? (true/false)
 highlight_superuser = true
@@ -176,7 +176,7 @@ abstract_length = 150
 
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_js  = []
+plugins_js  = ["custom"]
 
 # Avatars.
 # An avatar is an image that appears next to a user's name.
