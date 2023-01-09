@@ -3,8 +3,8 @@
 
 title: "Broadcast vs. Unicast Review Technology: Does It Matter?"
 authors: ["admin", "Foutse Khomh", "Bram Adams"]
-date: ''2021-03-18''
-doi: ""
+date: 2021-03-18
+doi:  "https://doi.org/10.1007/s10664-020-09929-1"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-03-18
