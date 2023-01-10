@@ -6,7 +6,8 @@ draft = false
 
 ##  winter 2023
 
-***
+_________________
+
 
 >  This semester, I am teaching "Ingénierie de la qualité en Logiciel," (Log8371)[http://www.polymtl.ca/etudes/bc/qualites]
 
@@ -31,14 +32,15 @@ draft = false
 
 | Week (TP) | Description | Weight |
 | --- | --- | ---|
-| `Week X (TP1)` | List all *new or modified* files | 25%|
-| `Week Y (TP2)` | Show file differences that **haven't been** staged |  20%|
-| `Week Z (TP3)` | Show file differences that **haven't been** staged | 10%|
+| `Week X (TP1)` | Plan et test, Maintenabilité et Fiabilité | 25%|
+| `Week Y (TP2)` | Efficacité et performance |  20%|
+| `Week Z (TP3)` | Sécurité | 10%|
 
 
 ##  Past 
 
----
+_________________
+
 
 >   In previous years, I taught the following courses.
 
