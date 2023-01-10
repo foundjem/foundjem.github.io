@@ -8,6 +8,7 @@ draft = false
 ##  winter 2023
 _________________
 
+
 >  This semester, I am teaching "Ingénierie de la qualité en Logiciel," (Log8371)[http://www.polymtl.ca/etudes/bc/qualites]
 
 ### Course program 
@@ -35,10 +36,11 @@ _________________
 | `Week Y (TP2)` | Efficacité et performance |  20%|
 | `Week Z (TP3)` | Sécurité | 10%|
 
-_________________
+
 
 ##  Past 
 _________________
+
 
 >   In previous years, I taught the following courses.
 
