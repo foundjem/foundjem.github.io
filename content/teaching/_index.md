@@ -4,8 +4,8 @@ author = ["Armstrong Foundjem"]
 draft = false
 +++
 
-# Present
-## This winter, 2023, I will be teaching "Ingénierie de la qualité en Logiciel," (Log8371)
+##  winter 2023
+>  This semester, I am teaching "Ingénierie de la qualité en Logiciel," (Log8371)
 
 ### Course program 
 <ins> Module 1:</ins> Functional Quality, Reliability 
@@ -33,8 +33,8 @@ draft = false
 | `Week Z (TP3)` | Show file differences that **haven't been** staged | 10%|
 
 
-# Past 
-## In previous years, I taught the following courses.
+##  Past 
+### In previous years, I taught the following courses.
 
 - Introduction to Software Engineering, Log1000
 - Software Engineering Processes, Log3000
