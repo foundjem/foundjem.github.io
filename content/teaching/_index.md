@@ -5,7 +5,10 @@ draft = false
 +++
 
 ##  winter 2023
->  This semester, I am teaching "Ingénierie de la qualité en Logiciel," (Log8371)
+
+***
+
+>  This semester, I am teaching "Ingénierie de la qualité en Logiciel," (Log8371)[http://www.polymtl.ca/etudes/bc/qualites]
 
 ### Course program 
 <ins> Module 1:</ins> Functional Quality, Reliability 
@@ -34,8 +37,11 @@ draft = false
 
 
 ##  Past 
-### In previous years, I taught the following courses.
 
-- Introduction to Software Engineering, Log1000
-- Software Engineering Processes, Log3000
-- Conception of dynamic website, Log4420 
+---
+
+>   In previous years, I taught the following courses.
+
++ Introduction to Software Engineering, Log1000
++ Software Engineering Processes, Log3000
++ Conception of dynamic website, Log4420 
