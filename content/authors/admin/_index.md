@@ -22,11 +22,11 @@ bio: A Mixed-method researcher (Ph.D.)
 
 
 education:
-  courses:
-  - course: PhD in Computing
+  courses: Ph.D. Computing/Software Engineering
+  - course: 
     institution: Queen's University
     year: 2022
-  - course: PhD in Software Engineering
+  - course: 
     institution: Polytechnique Montreal
     year: 2020
 
