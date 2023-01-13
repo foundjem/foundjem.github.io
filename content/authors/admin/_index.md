@@ -25,7 +25,7 @@ education:
   courses:
   - course: PhD in  Software Engineering  ->  Computing
     institution: Polytechnique Montreal ->  Queen's University
-    year: 2018 -> 2020 -> 2022
+    year: 2018 - 2020 -> 2022
 #  - course: PhD in Software Engineering
 #    institution: Polytechnique Montreal
 #    year: 2020 
