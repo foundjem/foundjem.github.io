@@ -7,17 +7,15 @@ The followings are list of students that I mentor at Polytechnique Montreal
 
 Ph.D Students:
 -
-+   Moses Openja
-+  Tambon Florian
-+   Arghavan Moradi
-+  Gabriel Laberge
++  Moses Openja
 +  Yang Liu
-+  Mehdi morovati
++  Mina Taraghi
++  Gianolli Dorcelus
++  Paulina Stevia
 
 MSc. Students:
 -
 + Khouloud Oueslati
-+ Ahmed Haj Yahmed
 
 
 Alumni:

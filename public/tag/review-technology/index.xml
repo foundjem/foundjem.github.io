@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Review technology | $i^2$SE</title>
+    <link>foundjem.com/tag/review-technology/</link>
+      <atom:link href="foundjem.com/tag/review-technology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Review technology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023</copyright><lastBuildDate>Sat, 18 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/foundjem.com/images/icon_huec2514171e18bb81b1c7200090050c4d_118810_512x512_fill_lanczos_center_3.png</url>
+      <title>Review technology</title>
+      <link>foundjem.com/tag/review-technology/</link>
+    </image>
+    
+    <item>
+      <title>Broadcast vs. Unicast Review Technology: Does It Matter?</title>
+      <link>foundjem.com/publication/review-tech/</link>
+      <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>foundjem.com/publication/review-tech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

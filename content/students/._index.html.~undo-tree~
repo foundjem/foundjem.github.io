@@ -1,0 +1,45 @@
+(undo-tree-save-format-version . 1)
+"6d8a88381c3ec672146023862323f3db60899a61"
+[nil nil nil nil (25884 48923 424103 0) 0 nil]
+([nil nil ((842 . 859) (1 . 318) (1 . 525) (t . -1)) nil (25884 48923 424098 0) 0 nil])
+([nil current ((842 . 859) (1 . 318) (1 . 525) (#("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
+<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"
+	\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">
+
+<html xmlns=\"http://www.w3.org/1999/xhtml\">
+
+<head>
+<title>_index.html</title>
+<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\"/>
+
+</head>
+
+<body>
+
+<p>+++ title = “Students” author = [“Armstrong Foundjem”] draft = false
++++ The followings are list of students that I mentor at Polytechnique
+Montreal</p>
+<h2 id=\"ph.d-students\">Ph.D Students:</h2>
+<ul>
+<li>Moses Openja</li>
+<li>Yang Liu</li>
+<li>Mina Taraghi</li>
+<li>Gianolli Dorcelus</li>
+<li>Paulina Stevia</li>
+</ul>
+<h2 id=\"msc.-students\">MSc. Students:</h2>
+<ul>
+<li>Khouloud Oueslati</li>
+</ul>
+<h2 id=\"alumni\">Alumni:</h2>
+<ul>
+<li>BSc.
+<ul>
+<li>Yabo Ling – Summer intern (July - Sept 2018).</li>
+</ul></li>
+</ul>
+
+</body>
+</html>
+" 0 858 (fontified nil)) . 1) (t 25884 48923 431463 536000)) nil (25884 48954 689521 0) 0 nil])
+nil
