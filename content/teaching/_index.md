@@ -11,22 +11,22 @@ _________________
 
 >  This semester, I am teaching "Ingénierie de la qualité en Logiciel," (Log8371)[http://www.polymtl.ca/etudes/bc/qualites]
 
-### Course program 
-<ins> Module 1:</ins> Functional Quality, Reliability 
-* SQA activities and processes 
-* Quality standards 
-* Functional quality assurance 
-* Unit tests • Automatic tests 
-* Debugging 
-* Inspections, audits and reviews 
-* Verification and validation 
-* Continuous integration 
-* Continuous Delivery 
-* Merge conflicts 
+### Course program
+<ins> Module 1:</ins> Functional Quality, Reliability
+* SQA activities and processes
+* Quality standards
+* Functional quality assurance
+* Unit tests • Automatic tests
+* Debugging
+* Inspections, audits and reviews
+* Verification and validation
+* Continuous integration
+* Continuous Delivery
+* Merge conflicts
 
 
-<ins> Module 2:</ins> Efficiency 
-* Performance 
+<ins> Module 2:</ins> Efficiency
+* Performance
 * Profiling
 
 
@@ -38,12 +38,13 @@ _________________
 
 
 
-##  Past 
+##  Past
 _________________
 
 
 >   In previous years, I taught the following courses.
 
++ Sécurité dans les environnements infonuagiques, Inf8102
 + Introduction to Software Engineering, Log1000
 + Software Engineering Processes, Log3000
-+ Conception of dynamic website, Log4420 
++ Conception of dynamic website, Log4420
