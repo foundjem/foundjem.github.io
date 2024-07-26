@@ -14,11 +14,12 @@ Ph.D Students:
 +  Paulina Stevia
 +  Patrick Foalem
 +  Tambon Florian
-+  Dave Mbiazi
++  Laila Abodinar
 
 MSc. Students:
 -
 + Khouloud Oueslati
++  Dave Mbiazi
 
 
 Alumni:
