@@ -1,0 +1,5 @@
+(undo-tree-save-format-version . 1)
+"b3bf215e124aa3944eb18ea2659e832ce1cef09e"
+[nil nil nil nil (26276 6599 430794 0) 0 nil]
+([nil current ((#("case " 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t)) . -353) (undo-tree-id0 . -5) (353 . 358) (t 25528 58185 35047 650000)) nil (26276 6599 430787 0) 0 nil])
+nil

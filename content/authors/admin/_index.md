@@ -59,4 +59,4 @@ user_groups:
 - Principal Investigators
 ---
 
-Dr. Armstrong is a mixed-method researcher in the intersection of software ecosystems sustainability, release engineering --- AI/ML/Dev-Ops, Certifiability of deep learning models, software engineering for machine learning Applications, natural language processing --- Large language models (LLM), human-centered design, human-computer interaction, mining massive software repositories and datasets --- data science, empirical software engineering, edge/cloud computing. Skills in robotics and automation.
+Dr. Armstrong is a researcher at the intersection of software ecosystem sustainability, affective computing, the trustworthiness of safety-critical systems, and software engineering for machine learning applications, including foundational models, AIWare, and Agentware. He mines massive datasets, including software repositories, and applies socio-technical data science techniques to uncover patterns and empirically make informed decisions. 
