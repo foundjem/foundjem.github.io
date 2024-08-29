@@ -1,0 +1,235 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/foundjem/foundjem.github.io/content/authors/admin/_index.md",
+		"/Users/foundjem/.emacs.d/system_processing.org",
+		"/Users/foundjem/.emacs.d/system_config.org",
+		"/Users/foundjem/.emacs.d/init.el",
+		"/Users/foundjem/.emacs.d/system_setting.org",
+		"/Users/foundjem/.emacs.d/whisper.el",
+		"/Users/foundjem/Dropbox/research/climate-change/energy_climate_change.md",
+		"/Users/foundjem/Desktop/dataset.csv",
+		"/Users/foundjem/Desktop/energy_model.tex",
+		"/private/var/folders/qg/zh47vvqx4w9fgs18ty0xqt1r0000gn/T/tmp-5134-QRnGJpLMvO1U/test3.sh",
+		"/private/var/folders/qg/zh47vvqx4w9fgs18ty0xqt1r0000gn/T/tmp-5134-KoRs4xqHO8Tm/test3.sh",
+		"/Users/foundjem/Desktop/EMSE_R3_Comments.md",
+		"/Users/foundjem/Desktop/code.json",
+		"/Users/foundjem/Desktop/review.tex",
+		"/Users/foundjem/Desktop/socialGroups.md",
+		"/Users/foundjem/Desktop/progressGym.md",
+		"/Users/foundjem/Desktop/CVE-Bench.md",
+		"/Users/foundjem/Desktop/taxonomy.md",
+		"/Users/foundjem/Desktop/asePaper873.txt",
+		"/private/var/folders/qg/zh47vvqx4w9fgs18ty0xqt1r0000gn/T/tmp-4755-U4ySa8aP6YML/Meta-Llama_mbpp.sh",
+		"/private/var/folders/qg/zh47vvqx4w9fgs18ty0xqt1r0000gn/T/tmp-4755-YbIbvC30UjPu/Meta-Llama_mbpp.sh",
+		"/Users/foundjem/Desktop/ExamPreparationGuide.org",
+		"/Users/foundjem/Desktop/finals.tex",
+		"/Users/foundjem/Desktop/testing-properties.md",
+		"/Users/foundjem/Desktop/temp.tex",
+		"/Users/foundjem/Downloads/NeurIPS-2022-autoregressive-perturbations-for-data-poisoning-Bibtex.bib",
+		"/Users/foundjem/Desktop/prompt.md",
+		"/Users/foundjem/Desktop/R3_reviews.txt",
+		"/Users/foundjem/Desktop/finals.html",
+		"/Users/foundjem/.emacs.d/#system_processing.org#",
+		"/Users/foundjem/.emacs.d/system_processing.el",
+		"/Users/foundjem/.emacs.d/scimax/init.el",
+		"/Users/foundjem/.emacs.d/scimax/packages.el",
+		"/Users/foundjem/.emacs.d/#system_setting.org#",
+		"/Users/foundjem/.emacs.d/elpa/org-9.6.10/org-capture.el",
+		"/Users/foundjem/.emacs.d/ews.el",
+		"/Users/foundjem/.emacs.d/straight/repos/org/testing/lisp/test-org-protocol.el",
+		"/Users/foundjem/Documents/org/teaching/log8371/lectures/lect-4/lec-03.org",
+		"/Users/foundjem/Desktop/taxi.html",
+		"/Users/foundjem/.vimrc",
+		"/Users/foundjem/Documents/hack/variables.tf",
+		"/Users/foundjem/tp5-hacks/main.tf",
+		"/Users/foundjem/Documents/hack/dev.tfvars",
+		"/Users/foundjem/Documents/hack/main.tf",
+		"/Users/foundjem/Dropbox/research/emse/review_EMSE.txt",
+		"/Users/foundjem/anomaly/anomaly_detection.tf",
+		"/Users/foundjem/.emacs.d/warning.log",
+		"/Users/foundjem/Desktop/elb.tf",
+		"/Users/foundjem/Desktop/elb/elb_vpc.tf",
+		"/Users/foundjem/.emacs.d/chatgpt.el",
+		"/Users/foundjem/Documents/org/devops/IaC/terraform/lab2/main.tf",
+		"/Users/foundjem/Downloads/hierarchy.el",
+		"/Users/foundjem/Downloads/aws-vpc/vars.tf",
+		"/Users/foundjem/Downloads/aws-vpc/main.tf",
+		"/Users/foundjem/Documents/org/teaching/inf8102-fall23/tp2/terraform/vpc/variables.tf",
+		"/Users/foundjem/Documents/org/teaching/inf8102-fall23/tp2/terraform/vpc/main.tf",
+		"/Users/foundjem/Documents/org/devops/IaC/terraform/example-01/main.tf",
+		"/Users/foundjem/Documents/org/devops/IaC/terraform/learn-terraform-docker-container/main.tf",
+		"/Users/foundjem/Inf8102-A23/vpc/main.tf",
+		"/Users/foundjem/Inf8102-A23/01-s3-bucket/aws-backend/main.tf",
+		"/Users/foundjem/Inf8102-A23/01-s3-bucket/web-app/main.tf",
+		"/Users/foundjem/Inf8102-A23/01-s3-bucket/terraform-cloud-backend/main.tf",
+		"/Users/foundjem/Inf8102-A23/01-s3-bucket/README.md",
+		"/Users/foundjem/Inf8102-A23/02-variables-and-outputs/web-app/variables.tf",
+		"/Users/foundjem/Inf8102-A23/02-variables-and-outputs/web-app/main.tf",
+		"/Users/foundjem/Desktop/vpc/variables.tf",
+		"/Users/foundjem/Desktop/vpc/main.tf",
+		"/Users/foundjem/Documents/org/teaching/inf8102-fall23/tp2/terraform/monitor/main.tf",
+		"/Users/foundjem/Downloads/amazon-eks-vpc-sample.yaml"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "config.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 384.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
