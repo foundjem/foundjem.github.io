@@ -6,7 +6,7 @@ draft = false
 
 <h2> Polytechnique Montreal -- Department of Computer and Software Engineering</h2>
 
-##  winter 2023
+## hiver 2024
 _________________
 
 
@@ -58,9 +58,11 @@ _________________
 _________________
 
 
+##  automne 2023
++ Sécurité dans les environnements infonuagiques, Inf8102
+
 >   In previous years, I taught the following courses.
 
-+ Sécurité dans les environnements infonuagiques, Inf8102
 + Introduction to Software Engineering, Log1000
 + Software Engineering Processes, Log3000
 + Conception of dynamic website, Log4420
