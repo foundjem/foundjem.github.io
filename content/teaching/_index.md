@@ -9,8 +9,8 @@ draft = false
 ## hiver 2024
 _________________
 
-
->  This semester, I am teaching "Ingénierie de la qualité en Logiciel," (Log8371)[http://www.polymtl.ca/etudes/bc/qualites]
+<ins>  This semester, I am teaching "Ingénierie de la qualité en Logiciel," </ins>
+- (Log8371)[http://www.polymtl.ca/etudes/bc/qualites]
 
 ### Course program
 <ins> Module 1:</ins> Qualité fonctionnelle, Fiabilité
@@ -72,7 +72,7 @@ _________________
 
 
 
-<h1>  Past Courses </h1>
+<h2>  Past Courses </h2>
 _________________
 
 >   In previous years, I taught the following courses.
