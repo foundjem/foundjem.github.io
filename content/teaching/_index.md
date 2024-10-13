@@ -25,19 +25,20 @@ blockquote {
 </style>
 
 ### Course outline
+
 | <ins> Module 1:</ins> `Qualité fonctionnelle, Fiabilité` | <ins> Module 2:</ins> `Efficacité` | <ins> Module 3:</ins> `Sécurité` |
 | :--- | :--- | :---|
 | Activités et processus de SQA | Performance | Tests de pénétration | 
 | Normes de qualité | Profiling | Mitigation des attaques |
 | Assurance de qualité fonctionnelle | Monitoring | Chaos Engineering | 
 | Tests unitaires | Allocation des ressources | Systèmes auto-réparateurs | 
-| Tests automatiques | Modèle de performance |  | 
+| Tests automatiques | Modèle de performance | x | 
 | Débogage | Systèmes auto-adaptatifs | | 
-| Inspections, audits et revues | Autoscaling | |
-| Vérification et validation | | | 
-| Intégration continue | | | 
-| Livraison continue | | | 
-| Conflits de fusion | | |
+| Inspections, audits et revues | Autoscaling | x |
+| Vérification et validation | x | x | 
+| Intégration continue | x | x | 
+| Livraison continue | x | x | 
+| Conflits de fusion | x | x |
 
 
 
