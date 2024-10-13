@@ -43,8 +43,16 @@ _________________
 * Systèmes auto-réparateurs
 
 
+| Week (TP) | Description | Weight |
+| --- | --- | ---|
+| `Week  (TP1)` | Plan et test, Maintenabilité et Fiabilité | 25%|
+| `Week Y (TP2)` | Efficacité et performance |  20%|
+| `Week Z (TP3)` | Sécurité | 10%|
+
 <ins>Évaluation </ins>
-| NATURE | NOMBRE | Mode de réalisation (Individuel/équipe)  | Sujet |  PONDÉRATION| DATE|
+
+| NATURE | NOMBRE | Mode de réalisation (Individuel/équipe)  | Sujet |  PONDÉRATION | DATE |
+| --- | --- | ---| --- | --- | ---|
 | `Examen final` | 1 | Individuel | 30% |
 | ``Quiz`` | 1 | Individuel | 20% | 27, 28 février 2024 |
 | ``TP1``  | 1 | Équipe  | Plan et test, Maintenabilité et Fiabilité | 20% | 12 février 2024 |
