@@ -9,38 +9,23 @@ draft = false
 ## hiver 2024
 _________________
 
-<ins>  This semester, I am teaching "Ingénierie de la qualité en Logiciel," </ins>
-- (Log8371)[http://www.polymtl.ca/etudes/bc/qualites]
+>  This semester, I am teaching [Log8371](http://www.polymtl.ca/etudes/bc/qualites) "Ingénierie de la qualité en Logiciel." 
 
-### Course program
-<ins> Module 1:</ins> Qualité fonctionnelle, Fiabilité
-* Activités et processus de SQA
-* Normes de qualité
-* Assurance de qualité fonctionnelle
-* Tests unitaires
-* Tests automatiques
-* Débogage
-* Inspections, audits et revues
-* Vérification et validation
-* Intégration continue
-* Livraison continue
-* Conflits de fusion
+### Course outline
+| <ins> Module 1:</ins> Qualité fonctionnelle, Fiabilité | <ins> Module 2:</ins> Efficacité | <ins> Module 3:</ins> Sécurité |
+| * Activités et processus de SQA | * Performance | * Tests de pénétration | 
+| * Normes de qualité | * Profiling | * Mitigation des attaques |
+| * Assurance de qualité fonctionnelle | * Monitoring | * Chaos Engineering | 
+| * Tests unitaires | * Allocation des ressources | * Systèmes auto-réparateurs | 
+| * Tests automatiques | * Modèle de performance |  | 
+| * Débogage | * Systèmes auto-adaptatifs | | 
+| * Inspections, audits et revues | * Autoscaling | |
+| * Vérification et validation | | | 
+| * Intégration continue | | | 
+| * Livraison continue | | | 
+| * Conflits de fusion | | |
 
 
-<ins> Module 2:</ins> Efficacité
-* Performance
-* Profiling
-* Monitoring
-* Allocation des ressources
-* Modèle de performance
-* Systèmes auto-adaptatifs
-* Autoscaling
-
-<ins> Module 3:</ins> Sécurité
-* Tests de pénétration
-* Mitigation des attaques
-* Chaos Engineering
-* Systèmes auto-réparateurs
 
 
 ### Type d'évaluation
@@ -72,7 +57,7 @@ _________________
 
 
 
-<h2>  Past Courses </h2>
+<h3>  Past Courses </h3>
 _________________
 
 >   In previous years, I taught the following courses.
