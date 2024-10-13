@@ -79,5 +79,5 @@ _________________
 
 ### INF8102
 
-[Lecture 1](slides/Lec-1-1-Intro_Infonuagique.pdf), [Lecture 2](slides/Lec-1-2-Intro_Infonuagique.pdf), [Lecture 3](slides/Lec-2-1-Gestion_Identite_Acces.pdf), 
-[Lecture 4](slides/Lec-2-2-Gestion_Identite_Acces.pdf), [Lecture 5](slides/Lec-3-1-Gestion_Configuration.pdf), [Lecture 6](slides/Lec-3-2-Security_Configuration.pdf)
+- [Lecture 1](slides/inf8102/Lec-1-1-Intro_Infonuagique.pdf), [Lecture 2](slides/inf8102/Lec-1-2-Intro_Infonuagique.pdf), [Lecture 3](slides/inf8102/Lec-2-1-Gestion_Identite_Acces.pdf), 
+[Lecture 4](slides/inf8102/Lec-2-2-Gestion_Identite_Acces.pdf), [Lecture 5](slides/inf8102/Lec-3-1-Gestion_Configuration.pdf), [Lecture 6](slides/inf8102/Lec-3-2-Security_Configuration.pdf)
