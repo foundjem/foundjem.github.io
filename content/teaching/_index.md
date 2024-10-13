@@ -43,7 +43,7 @@ _________________
 * Systèmes auto-réparateurs
 
 
-<ins> Type d'évaluation </ins>
+## Type d'évaluation
 
 | Nature | Qté | Mode de réalisation  | Sujet |  Pondération | Date/Semaine |
 | --- | --- | ---| --- | --- | ---|
