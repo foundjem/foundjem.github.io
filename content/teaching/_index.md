@@ -56,14 +56,9 @@ _________________
 
 ## Selected Slide Deck
 
-- [Intro](static/slides/log8371/01_Intro.pdf)
-- [Week 5](static/slides/log8371/05_perf_eng.pdf)
-- [Week 6](static/slides/log8371/06_perf_model.pdf)
-- [Week 11](static/slides/log8371/11_security_testing.pdf)
-- [Week 12](static/slides/log8371/12_security_testing_2.pdf)
-- [Week 14](static/slides/log8371/14_Autoscaling.pdf)
+- [Intro](static/slides/log8371/01_Intro.pdf), [Week 5](static/slides/log8371/05_perf_eng.pdf), [Week 6](static/slides/log8371/06_perf_model.pdf), [Week 11](static/slides/log8371/11_security_testing.pdf), [Week 12](static/slides/log8371/12_security_testing_2.pdf), [Week 14](static/slides/log8371/14_Autoscaling.pdf)
 
-- [CV](files/cv.pdf)
+
 
 <h1>  Past Courses </h1>
 _________________
