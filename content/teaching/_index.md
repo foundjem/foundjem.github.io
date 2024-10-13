@@ -54,21 +54,30 @@ _________________
 | ``TP3`` | 1 | Équipe  | Sécurité | 15% | 15 avril 2024 |
 
 
-## Selected Slide Deck
-
-- [Intro](slides/log8371/01_Intro.pdf), [Week 5](slides/log8371/05_perf_eng.pdf), [Week 6](slides/log8371/06_perf_model.pdf), [Week 11](slides/log8371/11_security_testing.pdf), [Week 12](slides/log8371/12_security_testing_2.pdf), [Week 14](slides/log8371/14_Autoscaling.pdf)
+##  automne 2023
++ Sécurité dans les environnements infonuagiques, Inf8102
 
 
 
 <h1>  Past Courses </h1>
 _________________
 
-
-##  automne 2023
-+ Sécurité dans les environnements infonuagiques, Inf8102
-
 >   In previous years, I taught the following courses.
 
++ Sécurité dans les environnements infonuagiques, Inf8102
 + Introduction to Software Engineering, Log1000
 + Software Engineering Processes, Log3000
 + Conception of dynamic website, Log4420
+
+
+
+
+## Selected Slide Deck
+
+### LOG8371
+- [Intro](slides/log8371/01_Intro.pdf), [Week 5](slides/log8371/05_perf_eng.pdf), [Week 6](slides/log8371/06_perf_model.pdf), [Week 11](slides/log8371/11_security_testing.pdf), [Week 12](slides/log8371/12_security_testing_2.pdf), [Week 14](slides/log8371/14_Autoscaling.pdf)
+
+### INF8102
+
+[Lecture 1](slides/Lec-1-1-Intro_Infonuagique.pdf), [Lecture 2](slides/Lec-1-2-Intro_Infonuagique.pdf), [Lecture 3](slides/Lec-2-1-Gestion_Identite_Acces.pdf), 
+[Lecture 4](slides/Lec-2-2-Gestion_Identite_Acces.pdf), [Lecture 5](slides/Lec-3-1-Gestion_Configuration.pdf), [Lecture 6](slides/Lec-3-2-Security_Configuration.pdf)
