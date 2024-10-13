@@ -15,7 +15,7 @@ subtitle = ""
   page_type = "teaching"
 
   # Choose how much pages you would like to display (0 = all pages)
-  count = 2
+  count = 0
 
   # Choose how many pages you would like to offset by
   offset = 0
@@ -57,7 +57,7 @@ subtitle = ""
   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true
+  text_color_light = true
 
 [advanced]
  # Custom CSS.

@@ -54,7 +54,8 @@ _________________
 | ``TP3`` | 1 | Équipe  | Sécurité | 15% | 15 avril 2024 |
 
 
-##  Past
+
+<h1>  Past Courses </h1>
 _________________
 
 
