@@ -5,7 +5,7 @@
     <link>foundjem.com/author/armstrong-foundjem/</link>
       <atom:link href="foundjem.com/author/armstrong-foundjem/index.xml" rel="self" type="application/rss+xml" />
     <description>Armstrong Foundjem</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024</copyright><lastBuildDate>Wed, 03 Nov 2021 22:22:48 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024</copyright>
     <image>
       <url>foundjem.com/images/icon_hu5883219357617175098.png</url>
       <title>Armstrong Foundjem</title>
@@ -13,35 +13,44 @@
     </image>
     
     <item>
-      <title>ESEC/FSE21 --- Release Synchronization in Software Ecosystems</title>
-      <link>foundjem.com/talk/fse21/</link>
-      <pubDate>Wed, 03 Nov 2021 22:22:48 +0530</pubDate>
-      <guid>foundjem.com/talk/fse21/</guid>
+      <title>A mixed-methods analysis of micro-collaborative coding practices in OpenStack</title>
+      <link>foundjem.com/publication/micro-collab/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>foundjem.com/publication/micro-collab/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ICSE&#39;21 --- Onboarding vs. Diversity, Productivity and Quality — Empirical Study of the OpenStack Ecosystem</title>
-      <link>foundjem.com/talk/icse21/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>foundjem.com/talk/icse21/</guid>
+      <title>Onboarding vs. Diversity, Productivity, and Quality -- Empirical Study of the OpenStack Ecosystem</title>
+      <link>foundjem.com/publication/onboarding/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>foundjem.com/publication/onboarding/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>CHAOSScast</title>
-      <link>foundjem.com/talk/podcast/</link>
-      <pubDate>Fri, 07 Aug 2020 16:20:15 +0700</pubDate>
-      <guid>foundjem.com/talk/podcast/</guid>
+      <title>Release Synchronization in Software Ecosystems</title>
+      <link>foundjem.com/publication/releases/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>foundjem.com/publication/releases/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ICST&#39;17 ---Broadcast vs. Unicast Review Technology: Does It Matter?</title>
-      <link>foundjem.com/talk/icst17/</link>
-      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>foundjem.com/talk/icst17/</guid>
+      <title>Broadcast vs. Unicast Review Technology: Does It Matter?</title>
+      <link>foundjem.com/publication/review-tech/</link>
+      <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>foundjem.com/publication/review-tech/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Armstrong Foundjem</title>
+      <link>foundjem.com/author/armstrong-foundjem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>foundjem.com/author/armstrong-foundjem/</guid>
+      <description>&lt;p&gt;Dr. Armstrong is a researcher at the intersection of software ecosystem sustainability, affective computing, the trustworthiness of safety-critical systems, and software engineering for machine learning applications, including foundational models, AIWare, and Agentware. He mines massive datasets, including software repositories, and applies socio-technical data science techniques to uncover patterns and empirically make informed decisions.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
