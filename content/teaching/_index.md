@@ -55,7 +55,10 @@ _________________
 
 
 ## Selected Slide Deck
-
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
+  
 - [Intro](slides/log8371/01_Intro.pdf)
 - [Week 5](slides/log8371/05_perf_eng.pdf)
 - [Week 6](slides/log8371/06_perf_model.pdf)
