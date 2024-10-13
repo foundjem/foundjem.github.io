@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   location = "Montreal"
   date_start = "2022-12-01"
   date_end = ""
-  description = """
+  description = ""
   Responsibilities include:
 
   * Analysing
@@ -38,7 +38,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Montreal"
   date_start = "2022-08-01"
-  date_end = " "
-  description = """ """
+  date_end = ""
+  description = ""
 
 +++
