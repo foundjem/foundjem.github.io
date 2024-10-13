@@ -45,7 +45,7 @@ _________________
 
 <ins> Type d'évaluation </ins>
 
-| NATURE | NOMBRE | Mode de réalisation  | Sujet |  PONDÉRATION | DATE |
+| Nature | Qté | Mode de réalisation  | Sujet |  Pondération | Date/Semaine |
 | --- | --- | ---| --- | --- | ---|
 | `Examen final` | 1 | Individuel | Examen | 30% |
 | ``Quiz`` | 1 | Individuel | Examen | 20% | 27, 28 février 2024 |
