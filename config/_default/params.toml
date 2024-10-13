@@ -62,10 +62,8 @@ highlight_style = "github"  # For supported styles, see https://cdnjs.com/librar
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
-# math = true
-features:
-  math:
-    enable: true
+math = true
+
 
 # Enable diagram rendering? true/false
 #   If false, you can enable diagrams on a per page basis as needed.
