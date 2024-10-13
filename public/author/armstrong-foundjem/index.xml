@@ -5,16 +5,11 @@
     <link>foundjem.com/author/armstrong-foundjem/</link>
       <atom:link href="foundjem.com/author/armstrong-foundjem/index.xml" rel="self" type="application/rss+xml" />
     <description>Armstrong Foundjem</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024</copyright><lastBuildDate>Wed, 03 Nov 2021 22:22:48 +0530</lastBuildDate>
     <image>
       <url>foundjem.com/images/icon_hu5883219357617175098.png</url>
       <title>Armstrong Foundjem</title>
       <link>foundjem.com/author/armstrong-foundjem/</link>
-    </image>
-    
-  </channel>
-</rss>
-strong-foundjem/</link>
     </image>
     
     <item>
@@ -47,6 +42,29 @@ strong-foundjem/</link>
       <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
       <guid>foundjem.com/talk/icst17/</guid>
       <description></description>
+    </item>
+    
+  </channel>
+</rss>
+escription>
+    </item>
+    
+    <item>
+      <title>Armstrong Foundjem</title>
+      <link>foundjem.com/author/armstrong-foundjem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>foundjem.com/author/armstrong-foundjem/</guid>
+      <description>&lt;p&gt;Dr. Armstrong is a researcher at the intersection of software ecosystem sustainability, affective computing, the trustworthiness of safety-critical systems, and software engineering for machine learning applications, including foundational models, AIWare, and Agentware. He mines massive datasets, including software repositories, and applies socio-technical data science techniques to uncover patterns and empirically make informed decisions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Armstrong Foundjem</title>
+      <link>foundjem.com/author/armstrong-foundjem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>foundjem.com/author/armstrong-foundjem/</guid>
+      <description>&lt;p&gt;Dr. Armstrong is a researcher at the intersection of software ecosystem sustainability, affective computing, the trustworthiness of safety-critical systems, and software engineering for machine learning applications, including foundational models, AIWare, and Agentware. He mines massive datasets, including software repositories, and applies socio-technical data science techniques to uncover patterns and empirically make informed decisions.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
