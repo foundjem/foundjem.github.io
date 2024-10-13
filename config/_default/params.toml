@@ -57,12 +57,15 @@ description = "IIAS Provides consultation services to organizations, including N
 # Enable source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
-highlight_languages = ["r", "python"]  # Add support for highlighting additional languages
+highlight_languages = ["r", "python", "c++", "c", "java", "javaScript"]  # Add support for highlighting additional languages
 highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
-math = true
+# math = true
+features:
+  math:
+    enable: true
 
 # Enable diagram rendering? true/false
 #   If false, you can enable diagrams on a per page basis as needed.

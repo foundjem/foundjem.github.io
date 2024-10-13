@@ -54,6 +54,17 @@ _________________
 | ``TP3`` | 1 | Équipe  | Sécurité | 15% | 15 avril 2024 |
 
 
+## Selected Slide Deck
+
+- [Intro](slides/LOG8371/01_Intro.pdf)
+- [Week 5](slides/LOG8371/05_perf_eng.pdf)
+- [Week 6](slides/LOG8371/06_perf_model.pdf)
+- [Week 11](slides/LOG8371/11_security_testing.pdf)
+- [Week 12](slides/LOG8371/12_security_testing_2.pdf)
+- [Week 14](slides/LOG8371/14_Autoscaling.pdf)
+
+
+
 
 <h1>  Past Courses </h1>
 _________________

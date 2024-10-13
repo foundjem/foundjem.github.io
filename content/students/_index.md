@@ -13,10 +13,9 @@ Ph.D Students:
 +  Gianolli Dorcelus
 +  Paulina Stevia
 +  Patrick Foalem
-+  Tambon Florian
 +  Laila Abodinar
 
-MSc. Students:
+M.A.Sc. Students:
 -
 + Khouloud Oueslati
 +  Dave Mbiazi
@@ -26,3 +25,8 @@ Alumni:
 -
 + BSc.
   +  Yabo Ling -- Summer intern (July - Sept 2018).
+
++ Ph.D.  
+  
+
++ M.A.Sc.
