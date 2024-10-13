@@ -31,7 +31,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Vector Institute"
   organization_url = "https://vectorinstitute.ai/"
-  title = "Machine Learning Black & Indigenous Program - Fall 2022"
+  title = "Applied Machine Learning - Fall 2022"
   url = ""
   certificate_url = ""
   date_start = "2022-09-17"
