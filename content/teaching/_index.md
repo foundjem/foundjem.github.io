@@ -12,46 +12,12 @@ _________________
 
 >  This semester, I am teaching [Log8371](http://www.polymtl.ca/etudes/bc/qualites) "Ingénierie de la qualité en Logiciel." 
 
-<style>
-table {
-    border-collapse: collapse;
-}
-table, th, td {
-   border: 1px solid black;
-}
-blockquote {
-    border-left: solid blue;
-	padding-left: 10px;
-}
-</style>
 
 ### Course outline
 
-| <ins> Module 1:</ins> `Qualité fonctionnelle, Fiabilité` | <ins> Module 2:</ins> `Efficacité` | <ins> Module 3:</ins> `Sécurité` |
-| :--- | :--- | :---|
-| Activités et processus de SQA | Performance | Tests de pénétration | 
-| Normes de qualité | Profiling | Mitigation des attaques |
-| Assurance de qualité fonctionnelle | Monitoring | Chaos Engineering | 
-| Tests unitaires | Allocation des ressources | Systèmes auto-réparateurs | 
-| Tests automatiques | Modèle de performance | x | 
-| Débogage | Systèmes auto-adaptatifs | x | 
-| Inspections, audits et revues | Autoscaling | x |
-| Vérification et validation | x | x | 
-| Intégration continue | x | x | 
-| Livraison continue | x | x | 
-| Conflits de fusion | x | x |
-
-
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-```
 
 ```markmap {height="200px"}
-- Course outline (LOG8371)
+- ***Course outline (LOG8371)***
   - Module 1 (`Qualité fonctionnelle, Fiabilité`)
     - Activités et processus de SQA 
     - Normes de qualité 
