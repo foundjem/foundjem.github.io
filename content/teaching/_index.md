@@ -43,7 +43,7 @@ blockquote {
 
 
 ```markmap
-- Mindmaps
+- Course outline (LOG8371)
   - <ins> Module 1:</ins> (`Qualité fonctionnelle, Fiabilité`)
     - Activités et processus de SQA 
     - Normes de qualité 
