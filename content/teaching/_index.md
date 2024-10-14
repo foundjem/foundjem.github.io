@@ -62,7 +62,6 @@ blockquote {
 
 ## Selected Slide Deck
 
-> [!IMPORTANT]
 > These slide decks are subject to change as the materials are periodically updated to reflect the latest information.
 
 ### INF8102
