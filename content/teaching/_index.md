@@ -42,6 +42,36 @@ blockquote {
 | Conflits de fusion | x | x |
 
 
+```markmap
+- Mindmaps
+  - <ins> Module 1:</ins> (`Qualité fonctionnelle, Fiabilité`)
+    - Activités et processus de SQA 
+    - Normes de qualité 
+    - Assurance de qualité fonctionnelle 
+    - Tests unitaires 
+    - Tests automatiques
+    - Débogage
+    - Inspections, audits et revues
+    - Vérification et validation 
+    - Intégration continue
+    - Livraison continue 
+    - Conflits de fusion 
+  - <ins> Module 2:</ins> (`Efficacité`)
+    - Performance
+    - Profiling 
+    - Monitoring 
+    - Allocation des ressources 
+    - Modèle de performance 
+    - Systèmes auto-adaptatifs
+    - Autoscaling
+    -
+  - <ins> Module 3:</ins> `Sécurité`
+    - Tests de pénétration
+    - Mitigation des attaques 
+    - Chaos Engineering 
+    - Systèmes auto-réparateurs 
+```
+
 
 
 ### Type d'évaluation
