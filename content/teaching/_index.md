@@ -42,9 +42,9 @@ blockquote {
 | Conflits de fusion | x | x |
 
 
-```markmap
+```markmap {height="200px"}
 - Course outline (LOG8371)
-  - <ins> Module 1:</ins> (`Qualité fonctionnelle, Fiabilité`)
+  - Module 1 (`Qualité fonctionnelle, Fiabilité`)
     - Activités et processus de SQA 
     - Normes de qualité 
     - Assurance de qualité fonctionnelle 
@@ -56,7 +56,7 @@ blockquote {
     - Intégration continue
     - Livraison continue 
     - Conflits de fusion 
-  - <ins> Module 2:</ins> (`Efficacité`)
+  - Module 2 (`Efficacité`)
     - Performance
     - Profiling 
     - Monitoring 
@@ -64,8 +64,7 @@ blockquote {
     - Modèle de performance 
     - Systèmes auto-adaptatifs
     - Autoscaling
-    -
-  - <ins> Module 3:</ins> `Sécurité`
+  - Module 3 (`Sécurité`)
     - Tests de pénétration
     - Mitigation des attaques 
     - Chaos Engineering 
