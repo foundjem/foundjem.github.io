@@ -17,7 +17,7 @@ _________________
 
 
 ```markmap {height="200px"}
-- Course outline (LOG8371)
+- LOG8371
 
   - _Module 1 (Qualité fonctionnelle, Fiabilité)_
     - Activités et processus de SQA 
