@@ -33,7 +33,7 @@ blockquote {
 | Assurance de qualité fonctionnelle | Monitoring | Chaos Engineering | 
 | Tests unitaires | Allocation des ressources | Systèmes auto-réparateurs | 
 | Tests automatiques | Modèle de performance | x | 
-| Débogage | Systèmes auto-adaptatifs | | 
+| Débogage | Systèmes auto-adaptatifs | x | 
 | Inspections, audits et revues | Autoscaling | x |
 | Vérification et validation | x | x | 
 | Intégration continue | x | x | 
