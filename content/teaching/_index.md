@@ -4,7 +4,7 @@ author = ["Armstrong Foundjem"]
 draft = false
 +++
 
-<h2> Polytechnique Montreal --- Computer and Software Engineering</h2>
+<h2> Polytechnique Montreal *** Computer and Software Engineering</h2>
 
 ## hiver 2024
 _________________
