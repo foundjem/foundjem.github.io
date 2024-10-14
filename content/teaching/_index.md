@@ -12,6 +12,25 @@ _________________
 
 >  This semester, I am teaching [Log8371](http://www.polymtl.ca/etudes/bc/qualites) "Ingénierie de la qualité en Logiciel." 
 
+```markmap
+- Mindmaps
+  - Links
+    - [Hugo Blox Docs](https://hugoblox.com/docs/)
+    - [Discord Community](https://discord.gg/z8wNYzb)
+    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
+  - Features
+    - Markdown formatting
+    - **inline** ~~text~~ *styles*
+    - multiline
+      text
+    - `inline code`
+    -
+      ```js
+      console.log('hello');
+      console.log('code block');
+      ```
+    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+```
 
 
 ```markmap {height="200px"}
