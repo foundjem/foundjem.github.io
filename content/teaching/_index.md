@@ -15,10 +15,10 @@ _________________
 
 ### Course outline
 
-<mark>highlighted quote</mark>
 
 ```markmap {height="200px"}
-- **Course outline (LOG8371)**
+- Course outline (LOG8371)
+
   - _Module 1 (Qualité fonctionnelle, Fiabilité)_
     - Activités et processus de SQA 
     - Normes de qualité 
@@ -31,6 +31,7 @@ _________________
     - Intégration continue
     - Livraison continue 
     - Conflits de fusion 
+
   - _Module 2 (Efficacité)_
     - Performance
     - Profiling 
@@ -39,6 +40,7 @@ _________________
     - Modèle de performance 
     - Systèmes auto-adaptatifs
     - Autoscaling
+
   - _Module 3 (Sécurité)_
     - Tests de pénétration
     - Mitigation des attaques 
