@@ -4,7 +4,8 @@ author = ["Armstrong Foundjem"]
 draft = false
 +++
 
-<h2> Polytechnique Montreal *** Computer and Software Engineering</h2>
+<h2> Polytechnique Montreal </h2>
+Department of  Computer and Software Engineering
 
 ## hiver 2024
 _________________
@@ -60,6 +61,9 @@ blockquote {
 
 
 ## Selected Slide Deck
+
+> [!IMPORTANT]
+> These slide decks are subject to change as the materials are periodically updated to reflect the latest information.
 
 ### INF8102
 
