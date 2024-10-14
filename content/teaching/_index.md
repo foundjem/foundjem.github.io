@@ -16,10 +16,9 @@ _________________
 ### Course outline
 
 
-```markmap {height="200px"}
+```markmap 
 - LOG8371
-
-  - _Module 1 (Qualité fonctionnelle, Fiabilité)_
+  - Module 1 (Qualité fonctionnelle, Fiabilité)
     - Activités et processus de SQA 
     - Normes de qualité 
     - Assurance de qualité fonctionnelle 
@@ -31,8 +30,7 @@ _________________
     - Intégration continue
     - Livraison continue 
     - Conflits de fusion 
-
-  - _Module 2 (Efficacité)_
+  - Module 2 (Efficacité)
     - Performance
     - Profiling 
     - Monitoring 
@@ -40,8 +38,7 @@ _________________
     - Modèle de performance 
     - Systèmes auto-adaptatifs
     - Autoscaling
-
-  - _Module 3 (Sécurité)_
+  - Module 3 (Sécurité)
     - Tests de pénétration
     - Mitigation des attaques 
     - Chaos Engineering 
