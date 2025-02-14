@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper-Conference | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/publication_types/paper-conference/</link>
+      <atom:link href="http://localhost:1313/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paper-Conference</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Paper-Conference</title>
+      <link>http://localhost:1313/publication_types/paper-conference/</link>
+    </image>
+    
+    <item>
+      <title>An open dataset for onboarding new contributors: empirical study of openstack ecosystem</title>
+      <link>http://localhost:1313/publication/foundjem-2021-open/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/foundjem-2021-open/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Onboarding vs. diversity, productivity and quality—empirical study of the openstack ecosystem</title>
+      <link>http://localhost:1313/publication/foundjem-2021-onboarding/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/foundjem-2021-onboarding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-distribution feedback in software ecosystems</title>
+      <link>http://localhost:1313/publication/foundjem-2020-cross/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/foundjem-2020-cross/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Release synchronization in software ecosystems</title>
+      <link>http://localhost:1313/publication/foundjem-2019-release/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/foundjem-2019-release/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Broadcast vs. unicast review technology: Does it matter?</title>
+      <link>http://localhost:1313/publication/armstrong-2017-broadcast/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/armstrong-2017-broadcast/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

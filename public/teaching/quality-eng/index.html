@@ -1,0 +1,2439 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: February 14, 2025 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Builder 0.3.2" />
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Armstrong Foundjem" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Concepts relevant to software quality, quality assurance and testing, quality engineering and quality planning. Anomaly prevention and defect classification. Fault tolerance. Software reliability engineering. Quality models. Comparison of different quality assurance techniques. Improving the software development process. Software and process. Identifying risks for quantifiable quality improvement." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://example.com/teaching/quality-eng/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/themes/emerald.min.css" />
+  
+
+  
+  
+    
+    <link href="/dist/wc.min.05570f1deda629d4e2d77f73534a63aa04471f012db6735c59424372f467db85.css" rel="stylesheet" />
+  
+
+  
+  
+  
+
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
+
+  <link rel="canonical" href="https://example.com/teaching/quality-eng/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@GetResearchDev" />
+    <meta property="twitter:creator" content="@GetResearchDev" />
+  
+  <meta property="og:site_name" content="Hugo Academic CV Theme" />
+  <meta property="og:url" content="https://example.com/teaching/quality-eng/" />
+  <meta property="og:title" content="Software Quality Engineering | Hugo Academic CV Theme" />
+  <meta property="og:description" content="Concepts relevant to software quality, quality assurance and testing, quality engineering and quality planning. Anomaly prevention and defect classification. Fault tolerance. Software reliability engineering. Quality models. Comparison of different quality assurance techniques. Improving the software development process. Software and process. Identifying risks for quantifiable quality improvement." /><meta property="og:image" content="https://example.com/teaching/quality-eng/featured.jpg" />
+    <meta property="twitter:image" content="https://example.com/teaching/quality-eng/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2023-10-24T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2023-10-24T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  <title>Software Quality Engineering | Hugo Academic CV Theme</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/dist/pagefind/pagefind-ui.be766eb419317a14ec769d216e9779bfe8f3737c80e780f4ba0dafb57a41a482.css" integrity="sha256-vnZutBkxehTsdp0hbpd5v&#43;jzc3yA54D0ug2vtXpBpII=" />
+
+
+<script src="/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
+
+
+<script>window.hbb.pagefind = {"baseUrl":"/"};</script>
+
+<style>
+  html.dark {
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
+  }
+
+   
+  .search-close > svg {
+    height: calc(64px * var(--pagefind-ui-scale));
+    width: calc(64px * var(--pagefind-ui-scale));
+  }
+</style>
+
+<script>
+  
+  let searchWrapper = null;
+
+  window.addEventListener('DOMContentLoaded', (event) => {
+    
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      baseUrl: window.hbb.pagefind.baseUrl,
+      bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
+    });
+
+    
+    searchWrapper = document.getElementById('search-wrapper');
+
+    
+    let triggers = document.querySelectorAll('[data-search-toggle]');
+    triggers.forEach(trigger =>
+      trigger.addEventListener('click', handleSearchToggle)
+    );
+  });
+
+  function handleSearchToggle(event) {
+    if (!searchWrapper) return;
+
+    const isHidden = searchWrapper.classList.contains('hidden');
+    searchWrapper.classList.toggle('hidden');
+    document.body.style.overflow = isHidden ? 'hidden' : '';
+
+    const searchInput = searchWrapper.querySelector("input");
+    if (searchInput) {
+      searchInput.value = "";
+      searchInput.focus();
+    }
+
+    if (!searchWrapper.classList.contains('hidden')) {
+      let clearTrigger = document.querySelector('.pagefind-ui__search-clear');
+
+      if (clearTrigger && !clearTrigger.hasAttribute('listenerOnClick')) {
+        clearTrigger.setAttribute('listenerOnClick', 'true');
+
+        clearTrigger.addEventListener('click', () => {
+          searchInput.focus();
+        });
+      }
+    }
+  }
+
+  
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && searchWrapper && !searchWrapper.classList.contains('hidden')) {
+      searchWrapper.classList.add('hidden');
+    }
+  });
+</script>
+
+
+
+
+
+
+
+<style>
+  .markmap > svg {
+    width: 100%;
+    height: 100%;
+  }
+</style>
+<script>
+  window.markmap = {
+    autoLoader: {
+      manual: false,
+      onReady() {
+        const { autoLoader, builtInPlugins } = window.markmap;
+        
+        autoLoader.transformPlugins = builtInPlugins.filter(plugin => plugin.name !== 'prism');
+      },
+    },
+  };
+</script>
+
+
+<script defer src="/dist/lib/markmap/index.min.c9d7aae44c6040009be2304689eae39673e6614f1a92d8f4a69f581bed004b9b.js" integrity="sha256-ydeq5ExgQACb4jBGierjlnPmYU8aktj0pp9YG&#43;0AS5s="></script>
+
+
+
+
+  
+  
+  <link type="text/css" rel="stylesheet" href="/dist/lib/katex/katex.min.505d5f829022bb7b4f24dfee0aa1141cd7bba67afe411d1240335f820960b5c3.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr&#43;QR0SQDNfgglgtcM=" />
+  
+  
+  <script defer src="/dist/lib/katex/katex.min.dc84b296ec3e884de093158f760fd9d45b6c7abe58b5381557f4e138f46a58ae.js" integrity="sha256-3ISyluw&#43;iE3gkxWPdg/Z1Ftser5YtTgVV/ThOPRqWK4="></script>
+  
+  
+  
+  
+  <script defer src="/js/katex-renderer.6579ec9683211cfb952064aedf3a3baea5eeb17a061775b32b70917474637c80.js" integrity="sha256-ZXnsloMhHPuVIGSu3zo7rqXusXoGF3WzK3CRdHRjfIA="></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.47736f84e20cae1bb2224dc4605239689e913811575e32b5f86a700ee9d6529d.js"
+    integrity="sha256-R3NvhOIMrhuyIk3EYFI5aJ6ROBFXXjK1&#43;GpwDunWUp0="
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+      
+    
+  
+
+
+
+
+</head>
+
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
+      
+      
+      
+        
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/" title="Hugo Academic CV Theme">
+        InSeco
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/"
+        >Bio</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/experience/"
+        >Experience</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#papers"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/event/"
+        >Talks</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/post/"
+        >Post</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/projects/"
+        >Projects</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/teaching/"
+        >Teaching</a
+        >
+      </li>
+      
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+
+      
+      
+      
+      <button
+        aria-label="toggle search"
+        class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
+        data-search-toggle>
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+      </button>
+      
+
+      
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+      
+
+      
+      
+
+      
+      
+    </div>
+  </nav>
+</header>
+
+<div
+  id="search-wrapper"
+  class="hidden fixed inset-0 z-50 bg-white dark:bg-gray-900 flex flex-col overflow-hidden"
+>
+  <div class="flex justify-end p-3">
+    <button
+      aria-label="search"
+      class="search-close text-black hover:text-primary dark:text-white"
+      data-search-toggle
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
+
+  <div id="search" class="flex-1 overflow-y-auto p-3">
+    
+  </div>
+</div>
+
+
+        
+      
+    </div>
+    <div class="page-body  my-10">
+      <div class="mx-auto flex max-w-screen-xl">
+  
+
+  
+  <div class="hb-sidebar-mobile-menu fixed inset-0 z-10 bg-white dark:bg-black/80 hidden"></div>
+
+
+
+<aside class="hb-sidebar-container max-lg:[transform:translate3d(0,-100%,0)] lg:sticky">
+  
+  <div class="px-4 pt-4 lg:hidden">
+    
+    
+  </div>
+  <div class="hb-scrollbar lg:h-[calc(100vh-var(--navbar-height))]">
+    <ul class="flex flex-col gap-1 lg:hidden">
+      
+      
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/"
+    
+  >Recent Talks
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/openinfra25/"
+    
+  >Leveraging OpenInfra and Open Source GenAI to Address Climate Change
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/openinfra23/"
+    
+  >How large language and deep learning models can prevent toxicity such as unconscious biases
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/fse21/"
+    
+  >ESEC/FSE21 --- Release Synchronization in Software Ecosystems
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/icse21/"
+    
+  >ICSE&#39;21 --- Onboarding vs. Diversity, Productivity and Quality — Empirical Study of the OpenStack Ecosystem
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/podcast/"
+    
+  >CHAOSScast
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/icst17/"
+    
+  >ICST&#39;17 ---Broadcast vs. Unicast Review Technology: Does It Matter?
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/"
+    
+  >Projects
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/agentic/"
+    
+  >Multi-Agent AI Systems
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/climate-change/"
+    
+  >Climate change
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/toxicity/"
+    
+  >Toxicity and unconcious bias
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/projects/"
+    
+  >Projects
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/"
+    
+  >Publications
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/openja-2024-empirical/"
+    
+  >An empirical study of testing machine learning in the wild
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/taraghi-2024-deep/"
+    
+  >Deep learning model reuse in the huggingface community: Challenges, benefit and trends
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2023-grounded/"
+    
+  >A Grounded Theory of Cross-community SECOs: Feedback Diversity vs. Synchronization
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/openja-2023-studying/"
+    
+  >Studying the Practices of Testing Machine Learning Software in the Wild
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2022-mixed/"
+    
+  >A mixed-methods analysis of micro-collaborative coding practices in OpenStack
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2022-software/"
+    
+  >Software Ecosystem Sustainability, a Socio-Technical Perspective
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2021-open/"
+    
+  >An open dataset for onboarding new contributors: empirical study of openstack ecosystem
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2021-onboarding/"
+    
+  >Onboarding vs. diversity, productivity and quality—empirical study of the openstack ecosystem
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/armstrong-2021-release/"
+    
+  >Release synchronization in software ecosystems
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2021-release/"
+    
+  >Release synchronization in software ecosystems: Empirical Study on OpenStack
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2020-cross/"
+    
+  >Cross-distribution feedback in software ecosystems
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2019-release/"
+    
+  >Release synchronization in software ecosystems
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/armstrong-2017-broadcast/"
+    
+  >Broadcast vs. unicast review technology: Does it matter?
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2017-towards/"
+    
+  >Towards improving the reliability of live migration operations in OpenStack clouds
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/"
+    
+  >Blogging Techky
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/get-started/"
+    
+  >🎉 Easily create your own simple yet highly customizable blog
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/second-brain/"
+    
+  >🧠 Sharpen your thinking with a second brain
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/data-visualization/"
+    
+  >📈 Communicate your results effectively with the best data visualizations
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/teach-courses/"
+    
+  >👩🏼‍🏫 Teaching technical Skills
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/project-management/"
+    
+  >✅ Manage your projects
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/experience/"
+    
+  >Experience
+    </a></li>
+        <li class="open"><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/teaching/"
+    
+  >Teaching
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col open"><a
+    class="hb-sidebar-custom-link
+      sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
+    href="/teaching/quality-eng/"
+    
+  >Software Quality Engineering
+    </a>
+  
+    <ul class="hb-sidebar-mobile-toc"><li>
+              <a
+                href="#lecture-notes--log8371"
+                class="hb-docs-link"
+              >Lecture Notes 📚 Log8371</a>
+            </li>
+          <li>
+              <a
+                href="#outline"
+                class="hb-docs-link"
+              >Outline</a>
+            </li>
+          <li>
+              <a
+                href="#models"
+                class="hb-docs-link"
+              >Models</a>
+            </li>
+          <li>
+              <a
+                href="#queuing-theory-models"
+                class="hb-docs-link"
+              >&lt;strong&gt;Queuing Theory Models&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#pid-controller-in-software-performance-engineering"
+                class="hb-docs-link"
+              >&lt;strong&gt;PID Controller in Software Performance Engineering&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#1-pid-controller-equation"
+                class="hb-docs-link"
+              >&lt;strong&gt;1. PID Controller Equation&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#2-discrete-time-pid-controller"
+                class="hb-docs-link"
+              >&lt;strong&gt;2. Discrete-Time PID Controller&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#3-application-in-software-performance-engineering"
+                class="hb-docs-link"
+              >&lt;strong&gt;3. Application in Software Performance Engineering&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#4-choosing-pid-parameters"
+                class="hb-docs-link"
+              >&lt;strong&gt;4. Choosing PID Parameters&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#5-stability-analysis-laplace-transform"
+                class="hb-docs-link"
+              >&lt;strong&gt;5. Stability Analysis (Laplace Transform)&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#6-example-pid-for-autoscaling-web-servers"
+                class="hb-docs-link"
+              >&lt;strong&gt;6. Example: PID for Autoscaling Web Servers&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#7-conclusion"
+                class="hb-docs-link"
+              >&lt;strong&gt;7. Conclusion&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#dynamic-layered-queuing-networks-lqn"
+                class="hb-docs-link"
+              >&lt;strong&gt;Dynamic Layered Queuing Networks (LQN)&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#1-overview-of-dynamic-lqn"
+                class="hb-docs-link"
+              >&lt;strong&gt;1. Overview of Dynamic LQN&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#2-basic-mathematical-formulation-of-lqn"
+                class="hb-docs-link"
+              >&lt;strong&gt;2. Basic Mathematical Formulation of LQN&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#3-dynamic-extension-of-lqn-dlqn"
+                class="hb-docs-link"
+              >&lt;strong&gt;3. Dynamic Extension of LQN (DLQN)&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#4-performance-metrics-in-dlqn"
+                class="hb-docs-link"
+              >&lt;strong&gt;4. Performance Metrics in DLQN&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#5-example-dynamic-lqn-for-cloud-autoscaling"
+                class="hb-docs-link"
+              >&lt;strong&gt;5. Example: Dynamic LQN for Cloud Autoscaling&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#6-conclusion"
+                class="hb-docs-link"
+              >&lt;strong&gt;6. Conclusion&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#code"
+                class="hb-docs-link"
+              >Code</a>
+            </li>
+          </ul>
+  
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/teaching/security/"
+    
+  >Cloud Security
+    </a>
+              
+            </li></ul>
+      </div></li>
+    </ul>
+
+    <ul class="flex flex-col gap-1 max-lg:hidden">
+        
+        <li class="open"><a
+    class="hb-sidebar-custom-link
+      sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
+    href="/teaching/quality-eng/"
+    
+  >Software Quality Engineering
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/teaching/security/"
+    
+  >Cloud Security
+    </a></li>
+        
+      </ul>
+    </div>
+
+</aside>
+  
+
+<nav class="hb-toc order-last hidden w-64 shrink-0 xl:block print:hidden px-4" aria-label="table of contents">
+  
+
+
+
+
+
+
+
+
+
+
+
+  <div class="hb-scrollbar text-sm [hyphens:auto] sticky top-16 overflow-y-auto pr-4 pt-6 max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] -mr-4 rtl:-ml-4"><p class="mb-4 font-semibold tracking-tight">On this page</p><ul>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#lecture-notes--log8371">Lecture Notes 📚 Log8371</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#outline">Outline</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#models">Models</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#queuing-theory-models">Queuing Theory Models</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#11-single-queue-model-mm1">1.1 Single Queue Model (M/M/1)</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#12-multi-server-queuing-model-mmc">1.2 Multi-server Queuing Model (M/M/c)</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#2-littles-law">2. Little’s Law</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#3-bottleneck-analysis-utilization-law">3. Bottleneck Analysis (Utilization Law)</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#4-scalability-model-amdahls-law">4. Scalability Model (Amdahl’s Law)</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#5-gunthers-universal-scalability-law-usl">5. Gunther’s Universal Scalability Law (USL)</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#6-response-time-model-mean-value-analysis">6. Response Time Model (Mean Value Analysis)</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#7-probabilistic-latency-model">7. Probabilistic Latency Model</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#8-load-testing-model-throughput-and-concurrency">8. Load Testing Model (Throughput and Concurrency)</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#9-failure-rate-and-reliability-models">9. Failure Rate and Reliability Models</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#10-cost-benefit-model-for-performance-optimization">10. Cost-Benefit Model for Performance Optimization</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#conclusion">Conclusion</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#pid-controller-in-software-performance-engineering">PID Controller in Software Performance Engineering</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#1-pid-controller-equation">1. PID Controller Equation</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#2-discrete-time-pid-controller">2. Discrete-Time PID Controller</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#3-application-in-software-performance-engineering">3. Application in Software Performance Engineering</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#autoscaling-for-cloud-resources">Autoscaling for Cloud Resources</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#response-time-optimization">Response Time Optimization</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#database-query-rate-limiting">Database Query Rate Limiting</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#4-choosing-pid-parameters">4. Choosing PID Parameters</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#ziegler-nichols-tuning-method">Ziegler-Nichols Tuning Method</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#5-stability-analysis-laplace-transform">5. Stability Analysis (Laplace Transform)</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#6-example-pid-for-autoscaling-web-servers">6. Example: PID for Autoscaling Web Servers</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#7-conclusion">7. Conclusion</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#dynamic-layered-queuing-networks-lqn">Dynamic Layered Queuing Networks (LQN)</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#1-overview-of-dynamic-lqn">1. Overview of Dynamic LQN</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#2-basic-mathematical-formulation-of-lqn">2. Basic Mathematical Formulation of LQN</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#queuing-equations-for-a-single-layer">Queuing Equations for a Single Layer</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#3-dynamic-extension-of-lqn-dlqn">3. Dynamic Extension of LQN (DLQN)</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#state-equations-in-dynamic-lqn">State Equations in Dynamic LQN</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#dynamic-resource-allocation">Dynamic Resource Allocation</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#dynamic-scaling">Dynamic Scaling</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#4-performance-metrics-in-dlqn">4. Performance Metrics in DLQN</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#5-example-dynamic-lqn-for-cloud-autoscaling">5. Example: Dynamic LQN for Cloud Autoscaling</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#scenario-web-application-with-3-tiers">Scenario: Web Application with 3 Tiers</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#step-1-define-arrival-rate">Step 1: Define Arrival Rate</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#step-2-compute-response-time-per-layer">Step 2: Compute Response Time per Layer</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#step-3-compute-system-response-time">Step 3: Compute System Response Time</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#step-4-adjust-resources-dynamically">Step 4: Adjust Resources Dynamically</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#step-5-compute-throughput">Step 5: Compute Throughput</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#6-conclusion">6. Conclusion</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#code">Code</a>
+      </li></ul>
+
+  
+  
+    
+    
+  
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  </nav>
+
+
+  <article class="flex w-full min-w-0 min-h-[calc(100vh-var(--navbar-height))] justify-center break-words pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+    <main class="prose prose-slate lg:prose-xl dark:prose-invert w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
+      
+      <div class="mb-1">
+        <div class="mt-1.5 flex items-center gap-1 overflow-hidden text-sm text-gray-500 dark:text-gray-400">
+      <div class="whitespace-nowrap transition-colors min-w-[24px] overflow-hidden text-ellipsis hover:text-gray-900 dark:hover:text-gray-100">
+        <a href="https://example.com/teaching/">Teaching</a>
+      </div><svg class="w-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.25 4.5l7.5 7.5l-7.5 7.5"/></svg><div class="whitespace-nowrap font-medium text-gray-700 dark:text-gray-100">Software Quality Engineering</div>
+</div>
+
+      </div>
+      
+
+      <div class="content text-base">
+        <h1>Software Quality Engineering</h1>
+        <p>Concepts relevant to software quality, quality assurance and testing, quality engineering and quality planning. Anomaly prevention and defect classification. Fault tolerance. Software reliability engineering. Quality models. Comparison of different quality assurance techniques. Improving the software development process. Software and process. Identifying risks for quantifiable quality improvement.</p>
+<h2 id="lecture-notes--log8371">Lecture Notes 📚 Log8371</h2>
+<p>📥 <strong>Download PDF</strong>
+<a href="slides/01_Intro.pdf">Lec-01</a>,&hellip; ,<a href="slides/05_perf_eng.pdf">Lec-05</a>, <a href="slides/06_perf_model.pdf">Lec-06</a>,&hellip;, <a href="slides/11_security_testing.pdf">Lec-11</a>, <a href="slides/12_security_testing_2.pdf">Lec-12</a>,&hellip;,<a href="slides/14_Autoscaling.pdf">Lec-14</a></p>
+<h2 id="outline">Outline</h2>
+<div class="markmap" style="height: 500px;">
+
+<pre>- LOG8371
+  - Module 1 (Qualité fonctionnelle, Fiabilité)
+    - Activités et processus de SQA 
+    - Normes de qualité 
+    - Assurance de qualité fonctionnelle 
+    - Tests unitaires 
+    - Tests automatiques
+    - Débogage
+    - Inspections, audits et revues
+    - Vérification et validation 
+    - Intégration continue
+    - Livraison continue 
+    - Conflits de fusion 
+  - Module 2 (Efficacité)
+    - Performance
+    - Profiling 
+    - Monitoring 
+    - Allocation des ressources 
+    - Modèle de performance 
+    - Systèmes auto-adaptatifs
+    - Autoscaling
+  - Module 3 (Sécurité)
+    - Tests de pénétration
+    - Mitigation des attaques 
+    - Chaos Engineering 
+    - Systèmes auto-réparateurs </pre>
+</div>
+
+<h2 id="models">Models</h2>
+<div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+<span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+  <svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/></svg>
+</span>
+  <span class="dark:text-neutral-300">Software Performance Engineering (SPE) relies on mathematical models to analyze, predict, and optimize system performance. Here are some commonly used mathematical models for software performance engineering problems:</span>
+</div>
+<hr>
+<h2 id="queuing-theory-models"><strong>Queuing Theory Models</strong></h2>
+<p>Queuing models are widely used to represent software performance issues related to resource contention, response time, and throughput.</p>
+<h3 id="11-single-queue-model-mm1"><strong>1.1 Single Queue Model (M/M/1)</strong></h3>
+<p>Used for single-server systems where requests arrive randomly.</p>
+<ul>
+<li>\( \lambda \) = arrival rate (requests per second)</li>
+<li>\( \mu \) = service rate (requests per second)</li>
+<li><strong>Utilization</strong>:
+\[
+  \rho = \frac{\lambda}{\mu}, \quad 0 \leq \rho < 1
+  \]</li>
+<li><strong>Average number of requests in the system</strong>:
+\[
+  L = \frac{\rho}{1 - \rho}
+  \]</li>
+<li><strong>Average response time</strong>:
+\[
+  R = \frac{1}{\mu - \lambda}
+  \]</li>
+</ul>
+<h3 id="12-multi-server-queuing-model-mmc"><strong>1.2 Multi-server Queuing Model (M/M/c)</strong></h3>
+<p>Used for systems with multiple processing units (e.g., web servers with multiple threads).</p>
+<ul>
+<li>\( c \) = number of servers</li>
+<li><strong>Utilization per server</strong>:
+\[
+  \rho = \frac{\lambda}{c \cdot \mu}
+  \]</li>
+<li><strong>Probability that all servers are busy (Erlang-C formula)</strong>:
+\[
+  P_0 = \left[ \sum_{n=0}^{c-1} \frac{(\lambda / \mu)^n}{n!} + \frac{(\lambda / \mu)^c}{c!(1 - \rho)} \right]^{-1}
+  \]</li>
+<li><strong>Expected response time</strong>:
+\[
+  R = \frac{1}{\mu} + \frac{P_0 \cdot \rho}{c(1 - \rho) \mu}
+  \]</li>
+</ul>
+<hr>
+<h3 id="2-littles-law"><strong>2. Little’s Law</strong></h3>
+\[
+L = \lambda \times R
+\]<p>
+Where:</p>
+<ul>
+<li>\( L \) = average number of requests in the system</li>
+<li>\( \lambda \) = arrival rate of requests</li>
+<li>\( R \) = response time</li>
+</ul>
+<p>This law is often used to validate performance models and ensure consistency between measured and predicted values.</p>
+<hr>
+<h3 id="3-bottleneck-analysis-utilization-law"><strong>3. Bottleneck Analysis (Utilization Law)</strong></h3>
+\[
+U_i = X \times S_i
+\]<p>
+Where:</p>
+<ul>
+<li>\( U_i \) = utilization of resource \( i \)</li>
+<li>\( X \) = system throughput (requests per second)</li>
+<li>\( S_i \) = average service time at resource \( i \)</li>
+</ul>
+\[
+X_{\max} = \frac{1}{S_{\max}}
+\]<hr>
+<h3 id="4-scalability-model-amdahls-law"><strong>4. Scalability Model (Amdahl’s Law)</strong></h3>
+\[
+S(p) = \frac{1}{(1 - \sigma) + \frac{\sigma}{p}}
+\]<p>
+Where:</p>
+<ul>
+<li>\( S(p) \) = speedup with \( p \) processors</li>
+<li>\( \sigma \) = fraction of execution time that is parallelizable</li>
+<li>\( p \) = number of processors</li>
+</ul>
+<p>For large \( p \), the speedup is limited by the non-parallelizable portion \( (1 - \sigma) \).</p>
+<hr>
+<h3 id="5-gunthers-universal-scalability-law-usl"><strong>5. Gunther’s Universal Scalability Law (USL)</strong></h3>
+\[
+S(p) = \frac{p}{1 + \alpha(p - 1) + \beta p(p - 1)}
+\]<p>
+Where:</p>
+<ul>
+<li>\( \alpha \) = contention factor (how much resources compete for shared resources)</li>
+<li>\( \beta \) = coherence penalty (overhead from synchronization)</li>
+<li>\( S(p) \) = speedup with \( p \) processors</li>
+</ul>
+<p>This model helps predict performance degradation due to parallelism overhead.</p>
+<hr>
+<h3 id="6-response-time-model-mean-value-analysis"><strong>6. Response Time Model (Mean Value Analysis)</strong></h3>
+\[
+R_i = S_i \times (1 + N_i)
+\]<p>
+Where:</p>
+<ul>
+<li>\( R_i \) = response time at resource \( i \)</li>
+<li>\( S_i \) = service time at resource \( i \)</li>
+<li>\( N_i \) = average number of requests in queue at resource \( i \)</li>
+</ul>
+\[
+R_{\text{total}} = \sum_{i=1}^{n} R_i
+\]<hr>
+<h3 id="7-probabilistic-latency-model"><strong>7. Probabilistic Latency Model</strong></h3>
+\[
+E[R] = \sum_{i=1}^{n} P_i \times R_i
+\]<p>This is useful in microservices architectures where different services contribute to overall latency.</p>
+<hr>
+<h3 id="8-load-testing-model-throughput-and-concurrency"><strong>8. Load Testing Model (Throughput and Concurrency)</strong></h3>
+\[
+X = \frac{N}{R}
+\]<p>
+Where:</p>
+<ul>
+<li>\( X \) = throughput (requests/sec)</li>
+<li>\( N \) = number of concurrent users</li>
+<li>\( R \) = response time</li>
+</ul>
+<p>If load increases beyond system capacity, response time grows exponentially.</p>
+<hr>
+<h3 id="9-failure-rate-and-reliability-models"><strong>9. Failure Rate and Reliability Models</strong></h3>
+\[
+R(t) = e^{-\lambda t}
+\]<p>
+Where:</p>
+<ul>
+<li>\( R(t) \) = reliability (probability the system runs without failure up to time \( t \))</li>
+<li>\( \lambda \) = failure rate</li>
+</ul>
+<p>For software systems, failure rate often decreases over time as bugs are fixed.</p>
+<hr>
+<h3 id="10-cost-benefit-model-for-performance-optimization"><strong>10. Cost-Benefit Model for Performance Optimization</strong></h3>
+\[
+C_{\text{total}} = C_{\text{infra}} + C_{\text{latency}} + C_{\text{failure}}
+\]<p>
+Where:</p>
+<ul>
+<li>\( C_{\text{infra}} \) = cost of additional hardware/cloud resources</li>
+<li>\( C_{\text{latency}} \) = lost revenue due to slow response time</li>
+<li>\( C_{\text{failure}} \) = downtime-related costs</li>
+</ul>
+<p>Minimizing \( C_{\text{total}} \) ensures cost-effective performance improvements.</p>
+<hr>
+<h3 id="conclusion"><strong>Conclusion</strong></h3>
+<p>These mathematical models provide a foundation for analyzing and improving software performance. They help predict system behavior, identify bottlenecks, and optimize resources effectively. By applying these models, engineers can ensure software applications meet performance requirements efficiently.</p>
+<h2 id="pid-controller-in-software-performance-engineering"><strong>PID Controller in Software Performance Engineering</strong></h2>
+<p>A <strong>Proportional-Integral-Derivative (PID) Controller</strong> is a feedback control mechanism widely used in software performance engineering for tasks such as <strong>autoscaling, latency management, and resource allocation</strong>. It dynamically adjusts system parameters based on performance deviations.</p>
+<hr>
+<h2 id="1-pid-controller-equation"><strong>1. PID Controller Equation</strong></h2>
+<p>A PID controller computes the corrective action \( u(t) \) using three components: Proportional (P), Integral (I), and Derivative (D):</p>
+\[
+u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{d}{dt} e(t)
+\]<p>Where:</p>
+<ul>
+<li>
+<p>\( u(t) \) = control output (e.g., CPU allocation, number of servers)</p>
+</li>
+<li>
+<p>\( e(t) \) = error between desired performance and actual performance:</p>
+\[
+  e(t) = R_{\text{target}} - R_{\text{actual}}
+  \]</li>
+<li>
+<p>\( K_p \) = Proportional gain (adjusts based on immediate error)</p>
+</li>
+<li>
+<p>\( K_i \) = Integral gain (adjusts based on accumulated past errors)</p>
+</li>
+<li>
+<p>\( K_d \) = Derivative gain (adjusts based on predicted future errors)</p>
+</li>
+<li>
+<p>\( R_{\text{target}} \) = target performance metric (e.g., response time)</p>
+</li>
+<li>
+<p>\( R_{\text{actual}} \) = actual observed performance metric</p>
+</li>
+</ul>
+<hr>
+<h2 id="2-discrete-time-pid-controller"><strong>2. Discrete-Time PID Controller</strong></h2>
+<p>In software systems, performance metrics are sampled at discrete time intervals (\( k \)). The discrete PID formula is:</p>
+\[
+u_k = K_p e_k + K_i \sum_{i=0}^{k} e_i \Delta t + K_d \frac{e_k - e_{k-1}}{\Delta t}
+\]<p>Where:</p>
+<ul>
+<li>\( u_k \) = control output at time step \( k \)</li>
+<li>\( e_k \) = error at time step \( k \)</li>
+<li>\( \Delta t \) = sampling interval</li>
+</ul>
+<p>In <strong>discrete implementation</strong>, the integral is approximated as a sum:</p>
+\[
+I_k = I_{k-1} + e_k \Delta t
+\]<p>And the derivative as a difference:</p>
+\[
+D_k = \frac{e_k - e_{k-1}}{\Delta t}
+\]<p>Thus, the final control equation becomes:</p>
+\[
+u_k = K_p e_k + K_i I_k + K_d D_k
+\]<hr>
+<h2 id="3-application-in-software-performance-engineering"><strong>3. Application in Software Performance Engineering</strong></h2>
+<h3 id="autoscaling-for-cloud-resources"><strong>Autoscaling for Cloud Resources</strong></h3>
+<ul>
+<li><strong>Objective</strong>: Adjust the number of virtual machines (VMs) dynamically based on system load.</li>
+<li><strong>Error Signal</strong>: Difference between target response time and measured response time.</li>
+<li><strong>Control Output</strong>: Number of VMs to add or remove.</li>
+</ul>
+\[
+\text{VMs}_{\text{new}} = \text{VMs}_{\text{current}} + u_k
+\]<h3 id="response-time-optimization"><strong>Response Time Optimization</strong></h3>
+<ul>
+<li><strong>Objective</strong>: Minimize response time in web applications.</li>
+<li><strong>Error Signal</strong>: Difference between target latency and actual latency.</li>
+<li><strong>Control Output</strong>: Request queue size limit or CPU allocation.</li>
+</ul>
+\[
+\text{CPU}_{\text{new}} = \text{CPU}_{\text{current}} + u_k
+\]<h3 id="database-query-rate-limiting"><strong>Database Query Rate Limiting</strong></h3>
+<ul>
+<li><strong>Objective</strong>: Prevent overload on a database by controlling query rates.</li>
+<li><strong>Error Signal</strong>: Difference between allowed and actual queries per second.</li>
+<li><strong>Control Output</strong>: Maximum query rate.</li>
+</ul>
+\[
+\text{Rate}_{\text{new}} = \text{Rate}_{\text{current}} + u_k
+\]<hr>
+<h2 id="4-choosing-pid-parameters"><strong>4. Choosing PID Parameters</strong></h2>
+<p>The effectiveness of a PID controller depends on tuning the parameters \( K_p, K_i, K_d \):</p>
+<ul>
+<li><strong>\( K_p \) (Proportional Gain)</strong>: Large values lead to <strong>faster response</strong> but may cause instability.</li>
+<li><strong>\( K_i \) (Integral Gain)</strong>: Large values <strong>reduce steady-state error</strong> but may cause overshoot.</li>
+<li><strong>\( K_d \) (Derivative Gain)</strong>: Large values help in <strong>predicting future errors</strong> but may amplify noise.</li>
+</ul>
+<h3 id="ziegler-nichols-tuning-method"><strong>Ziegler-Nichols Tuning Method</strong></h3>
+<p>A common method for tuning PID parameters:</p>
+<ol>
+<li>Set \( K_i = 0 \) and \( K_d = 0 \).</li>
+<li>Increase \( K_p \) until system oscillates (critical gain \( K_c \)).</li>
+<li>Find the oscillation period \( T_c \).</li>
+<li>Use tuning rules:</li>
+</ol>
+<table>
+  <thead>
+      <tr>
+          <th>Control Type</th>
+          <th>\( K_p \)</th>
+          <th>\( K_i \)</th>
+          <th>\( K_d \)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>P</td>
+          <td>0.5 \( K_c \)</td>
+          <td>0</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>PI</td>
+          <td>0.45 \( K_c \)</td>
+          <td>\( 1.2 K_c / T_c \)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>PID</td>
+          <td>0.6 \( K_c \)</td>
+          <td>\( 2 K_c / T_c \)</td>
+          <td>\( K_c T_c / 8 \)</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="5-stability-analysis-laplace-transform"><strong>5. Stability Analysis (Laplace Transform)</strong></h2>
+<p>The PID controller in Laplace domain is:</p>
+\[
+U(s) = (K_p + K_i \frac{1}{s} + K_d s) E(s)
+\]<p>The closed-loop system is:</p>
+\[
+G(s) = \frac{U(s) G_{\text{plant}}(s)}{1 + U(s) G_{\text{plant}}(s)}
+\]<p>The characteristic equation:</p>
+\[
+1 + (K_p + K_i \frac{1}{s} + K_d s) G_{\text{plant}}(s) = 0
+\]<p>Stability is determined using:</p>
+<ul>
+<li><strong>Root locus method</strong></li>
+<li><strong>Bode plot for frequency response</strong></li>
+<li><strong>Nyquist criterion</strong></li>
+</ul>
+<hr>
+<h2 id="6-example-pid-for-autoscaling-web-servers"><strong>6. Example: PID for Autoscaling Web Servers</strong></h2>
+<p><strong>Given Data:</strong></p>
+<ul>
+<li><strong>Target response time</strong>: \( R_{\text{target}} = 200ms \)</li>
+<li><strong>Measured response time</strong>: \( R_{\text{actual}} = 300ms \)</li>
+<li><strong>Sampling time</strong>: \( \Delta t = 5s \)</li>
+<li><strong>Initial number of servers</strong>: 10</li>
+<li><strong>PID Parameters</strong>: \( K_p = 1.5, K_i = 0.1, K_d = 0.5 \)</li>
+</ul>
+\[
+e_k = R_{\text{target}} - R_{\text{actual}} = 200 - 300 = -100ms
+\]\[
+P_k = K_p \cdot e_k = 1.5 \cdot (-100) = -150
+\]\[
+I_k = I_{k-1} + K_i e_k \Delta t = 0 + 0.1 \times (-100) \times 5 = -50
+\]\[
+D_k = K_d \frac{e_k - e_{k-1}}{\Delta t} = 0.5 \frac{(-100) - (-50)}{5} = -5
+\]\[
+u_k = P_k + I_k + D_k = -150 - 50 - 5 = -205
+\]\[
+\text{Servers}_{\text{new}} = \text{Servers}_{\text{current}} + u_k = 10 - 2 = 8
+\]<p>If \( u_k \) is negative, it means reducing the number of servers.</p>
+<hr>
+<h2 id="7-conclusion"><strong>7. Conclusion</strong></h2>
+<p>The PID controller is a powerful tool in <strong>software performance engineering</strong>, allowing dynamic resource management by <strong>continuously adjusting</strong> system parameters. It is applied in:</p>
+<ul>
+<li><strong>Autoscaling cloud resources</strong></li>
+<li><strong>Latency and throughput optimization</strong></li>
+<li><strong>Database rate limiting</strong></li>
+</ul>
+<p>By tuning the parameters correctly, it ensures that <strong>performance targets are met</strong> while <strong>avoiding oscillations and instability</strong>.</p>
+<h2 id="dynamic-layered-queuing-networks-lqn"><strong>Dynamic Layered Queuing Networks (LQN)</strong></h2>
+<h2 id="1-overview-of-dynamic-lqn"><strong>1. Overview of Dynamic LQN</strong></h2>
+<p>Layered Queuing Networks (LQNs) extend traditional queuing models to capture the interaction between multiple software and hardware layers, often representing client-server, microservices, and cloud-based architectures.</p>
+<p>A <strong>Dynamic LQN (DLQN)</strong> incorporates time-varying workload, adaptive resource allocation, and system behavior changes over time. These models help predict performance bottlenecks, optimize system capacity, and adjust service strategies dynamically.</p>
+<hr>
+<h2 id="2-basic-mathematical-formulation-of-lqn"><strong>2. Basic Mathematical Formulation of LQN</strong></h2>
+<p>LQNs describe a system as a set of <strong>tasks</strong> and <strong>entries</strong>, where:</p>
+<ul>
+<li><strong>Tasks (\( T_i \))</strong> represent processing elements (e.g., database, application server).</li>
+<li><strong>Entries (\( E_i \))</strong> represent functions or operations executed within a task.</li>
+<li><strong>Calls (\( C_{ij} \))</strong> denote interactions between tasks.</li>
+</ul>
+<p>Each task \( T_i \) has:</p>
+<ul>
+<li><strong>Arrival rate</strong> \( \lambda_i(t) \) (requests per second)</li>
+<li><strong>Service demand</strong> \( S_i(t) \) (time per request)</li>
+<li><strong>Queue discipline</strong> \( Q_i \) (e.g., FIFO, priority-based)</li>
+</ul>
+<h3 id="queuing-equations-for-a-single-layer"><strong>Queuing Equations for a Single Layer</strong></h3>
+\[
+R_i = S_i + \frac{Q_i}{1 - \rho_i}
+\]<p>
+where:</p>
+<ul>
+<li>\( \rho_i = \frac{\lambda_i S_i}{m_i} \) is the utilization of task \( T_i \) (with \( m_i \) parallel servers),</li>
+<li>\( Q_i \) is the waiting time due to other tasks.</li>
+</ul>
+\[
+X_i = \frac{\lambda_i}{1 + \sum_{j \in C_{i}} P_{ij} R_j}
+\]<p>
+where:</p>
+<ul>
+<li>\( P_{ij} \) is the probability that \( T_i \) calls \( T_j \),</li>
+<li>\( R_j \) is the response time of task \( j \).</li>
+</ul>
+<hr>
+<h2 id="3-dynamic-extension-of-lqn-dlqn"><strong>3. Dynamic Extension of LQN (DLQN)</strong></h2>
+<p>To model dynamic behavior, we introduce time-dependent parameters.</p>
+<h3 id="state-equations-in-dynamic-lqn"><strong>State Equations in Dynamic LQN</strong></h3>
+\[
+\frac{dN_i(t)}{dt} = \lambda_i(t) - \mu_i(t) N_i(t)
+\]<p>
+where:</p>
+<ul>
+<li>\( N_i(t) \) is the number of requests in task \( i \) at time \( t \),</li>
+<li>\( \lambda_i(t) \) is the dynamic arrival rate,</li>
+<li>\( \mu_i(t) \) is the service rate.</li>
+</ul>
+<h3 id="dynamic-resource-allocation"><strong>Dynamic Resource Allocation</strong></h3>
+\[
+m_i(t) = \max \left( 1, \frac{\lambda_i(t) S_i}{\rho_{\text{max}}} \right)
+\]<p>
+where \( \rho_{\text{max}} \) is the maximum allowable utilization.</p>
+\[
+\mu_i(t) = \frac{m_i(t)}{S_i}
+\]<h3 id="dynamic-scaling"><strong>Dynamic Scaling</strong></h3>
+\[
+m_i(t+1) = m_i(t) + \Delta m_i
+\]\[
+\Delta m_i = k_p e(t) + k_i \int e(\tau) d\tau + k_d \frac{d e(t)}{dt}
+\]<p>
+where \( e(t) = \rho_i - \rho_{\text{target}} \) and \( k_p, k_i, k_d \) are PID controller gains.</p>
+<hr>
+<h2 id="4-performance-metrics-in-dlqn"><strong>4. Performance Metrics in DLQN</strong></h2>
+\[
+R_{\text{sys}}(t) = \sum_{i=1}^{n} P_i R_i(t)
+\]<p>
+where \( P_i \) is the probability that a request visits task \( i \).</p>
+\[
+U_i(t) = \frac{\lambda_i(t) S_i}{m_i(t)}
+\]<p>
+where \( U_i(t) \leq 1 \) ensures the system does not overload.</p>
+\[
+X_{\text{sys}}(t) = \frac{\lambda_{\text{entry}}(t)}{1 + \sum_{i=1}^{n} P_i R_i(t)}
+\]<hr>
+<h2 id="5-example-dynamic-lqn-for-cloud-autoscaling"><strong>5. Example: Dynamic LQN for Cloud Autoscaling</strong></h2>
+<h3 id="scenario-web-application-with-3-tiers"><strong>Scenario: Web Application with 3 Tiers</strong></h3>
+<ul>
+<li><strong>Task 1</strong>: Load Balancer (\( T_1 \))</li>
+<li><strong>Task 2</strong>: Web Server (\( T_2 \))</li>
+<li><strong>Task 3</strong>: Database (\( T_3 \))</li>
+</ul>
+<h3 id="step-1-define-arrival-rate"><strong>Step 1: Define Arrival Rate</strong></h3>
+\[
+\lambda_1(t) = \lambda_{\text{users}}(t)
+\]<h3 id="step-2-compute-response-time-per-layer"><strong>Step 2: Compute Response Time per Layer</strong></h3>
+\[
+R_1(t) = S_1 + \frac{Q_1}{1 - \rho_1}
+\]\[
+R_2(t) = S_2 + \frac{Q_2}{1 - \rho_2}
+\]\[
+R_3(t) = S_3 + \frac{Q_3}{1 - \rho_3}
+\]<h3 id="step-3-compute-system-response-time"><strong>Step 3: Compute System Response Time</strong></h3>
+\[
+R_{\text{sys}}(t) = R_1(t) + P_{12} R_2(t) + P_{23} R_3(t)
+\]<h3 id="step-4-adjust-resources-dynamically"><strong>Step 4: Adjust Resources Dynamically</strong></h3>
+\[
+\Delta m_2 = k_p e_2 + k_i \int e_2 d\tau + k_d \frac{d e_2}{dt}
+\]<p>where \( e_2 = \rho_2 - 0.8 \) ensures the web server operates below 80% utilization.</p>
+<h3 id="step-5-compute-throughput"><strong>Step 5: Compute Throughput</strong></h3>
+\[
+X_{\text{sys}}(t) = \frac{\lambda_1(t)}{1 + P_{12} R_2(t) + P_{23} R_3(t)}
+\]<hr>
+<h2 id="6-conclusion"><strong>6. Conclusion</strong></h2>
+<p>Dynamic LQN (DLQN) extends standard LQN models by incorporating <strong>time-dependent queuing equations</strong>, <strong>adaptive resource allocation</strong>, and <strong>autoscaling mechanisms</strong>. It is particularly useful in <strong>cloud computing, microservices architectures, and dynamic performance modeling</strong>.</p>
+<p>This model allows for:</p>
+<ol>
+<li><strong>Predicting workload changes</strong> and adjusting resources accordingly.</li>
+<li><strong>Reducing latency</strong> by dynamically adapting queue processing.</li>
+<li><strong>Ensuring scalability</strong> using PID-based autoscaling.</li>
+</ol>
+<p>Using these equations, performance engineers can <strong>simulate, optimize, and manage</strong> complex distributed systems dynamically.</p>
+<h2 id="code">Code</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">scipy.integrate</span> <span class="kn">import</span> <span class="n">odeint</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span></code></pre></div><p>Global variables</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">time</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"><span class="n">integral</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"><span class="n">time_prev</span> <span class="o">=</span> <span class="o">-</span><span class="mf">1e-6</span>
+</span></span><span class="line"><span class="cl"><span class="n">e_prev</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span></code></pre></div><p>The function below calculates the value of manipulated variable (MV) based on the measured value (in example it is the temperature of the liquid) and setpoint value (temperature we want to obtain).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">PID</span><span class="p">(</span><span class="n">Kp</span><span class="p">,</span> <span class="n">Ki</span><span class="p">,</span> <span class="n">Kd</span><span class="p">,</span> <span class="n">setpoint</span><span class="p">,</span> <span class="n">measurement</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">global</span> <span class="n">time</span><span class="p">,</span> <span class="n">integral</span><span class="p">,</span> <span class="n">time_prev</span><span class="p">,</span> <span class="n">e_prev</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># Value of offset - when the error is equal zero</span>
+</span></span><span class="line"><span class="cl">    <span class="n">offset</span> <span class="o">=</span> <span class="mi">320</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c1"># PID calculations</span>
+</span></span><span class="line"><span class="cl">    <span class="n">e</span> <span class="o">=</span> <span class="n">setpoint</span> <span class="o">-</span> <span class="n">measurement</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">    <span class="n">P</span> <span class="o">=</span> <span class="n">Kp</span><span class="o">*</span><span class="n">e</span>
+</span></span><span class="line"><span class="cl">    <span class="n">integral</span> <span class="o">=</span> <span class="n">integral</span> <span class="o">+</span> <span class="n">Ki</span><span class="o">*</span><span class="n">e</span><span class="o">*</span><span class="p">(</span><span class="n">time</span> <span class="o">-</span> <span class="n">time_prev</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">D</span> <span class="o">=</span> <span class="n">Kd</span><span class="o">*</span><span class="p">(</span><span class="n">e</span> <span class="o">-</span> <span class="n">e_prev</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">time</span> <span class="o">-</span> <span class="n">time_prev</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># calculate manipulated variable - MV </span>
+</span></span><span class="line"><span class="cl">    <span class="n">MV</span> <span class="o">=</span> <span class="n">offset</span> <span class="o">+</span> <span class="n">P</span> <span class="o">+</span> <span class="n">integral</span> <span class="o">+</span> <span class="n">D</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c1"># update stored data for next iteration</span>
+</span></span><span class="line"><span class="cl">    <span class="n">e_prev</span> <span class="o">=</span> <span class="n">e</span>
+</span></span><span class="line"><span class="cl">    <span class="n">time_prev</span> <span class="o">=</span> <span class="n">time</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">MV</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">system</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">temp</span><span class="p">,</span> <span class="n">Tq</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">epsilon</span> <span class="o">=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tau</span> <span class="o">=</span> <span class="mi">4</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Tf</span> <span class="o">=</span> <span class="mi">300</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Q</span> <span class="o">=</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">    <span class="n">dTdt</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="n">tau</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="n">epsilon</span><span class="p">))</span> <span class="o">*</span> <span class="p">(</span><span class="n">Tf</span><span class="o">-</span><span class="n">temp</span><span class="p">)</span> <span class="o">+</span> <span class="n">Q</span><span class="o">/</span><span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="n">epsilon</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">Tq</span><span class="o">-</span><span class="n">temp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">dTdt</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">tspan</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">50</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">Tq</span> <span class="o">=</span> <span class="mi">320</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="n">sol</span> <span class="o">=</span> <span class="n">odeint</span><span class="p">(</span><span class="n">system</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span> <span class="n">tspan</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="n">Tq</span><span class="p">,</span> <span class="n">tfirst</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Time&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Temperature&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">tspan</span><span class="p">,</span><span class="n">sol</span><span class="p">)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># number of steps</span>
+</span></span><span class="line"><span class="cl"><span class="n">n</span> <span class="o">=</span> <span class="mi">250</span>
+</span></span><span class="line"><span class="cl"><span class="n">time_prev</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"><span class="n">y0</span> <span class="o">=</span> <span class="mi">300</span>
+</span></span><span class="line"><span class="cl"><span class="n">deltat</span> <span class="o">=</span> <span class="mf">0.1</span>
+</span></span><span class="line"><span class="cl"><span class="n">y_sol</span> <span class="o">=</span> <span class="p">[</span><span class="n">y0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">t_sol</span> <span class="o">=</span> <span class="p">[</span><span class="n">time_prev</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Tq is chosen as a manipulated variable</span>
+</span></span><span class="line"><span class="cl"><span class="n">Tq</span> <span class="o">=</span> <span class="mi">320</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="n">q_sol</span> <span class="o">=</span> <span class="p">[</span><span class="n">Tq</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="n">setpoint</span> <span class="o">=</span> <span class="mi">310</span>
+</span></span><span class="line"><span class="cl"><span class="n">integral</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">time</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="n">deltat</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tspan</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">time_prev</span><span class="p">,</span> <span class="n">time</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Tq</span> <span class="o">=</span> <span class="n">PID</span><span class="p">(</span><span class="mf">0.6</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="n">setpoint</span><span class="p">,</span> <span class="n">y_sol</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">yi</span> <span class="o">=</span> <span class="n">odeint</span><span class="p">(</span><span class="n">system</span><span class="p">,</span><span class="n">y_sol</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">tspan</span><span class="p">,</span> <span class="n">args</span> <span class="o">=</span> <span class="n">Tq</span><span class="p">,</span> <span class="n">tfirst</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">t_sol</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">time</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">y_sol</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">yi</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">    <span class="n">q_sol</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Tq</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">    <span class="n">time_prev</span> <span class="o">=</span> <span class="n">time</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t_sol</span><span class="p">,</span> <span class="n">y_sol</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Time&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Temperature&#39;</span><span class="p">)</span>
+</span></span></code></pre></div>
+      </div>
+
+      
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2023-10-24T00:00:00.000Z">
+    <span>Last updated on</span>
+    Oct 24, 2023</time>
+      
+      
+  
+    
+    
+    
+      
+      
+    
+<div class="pt-1 no-prose w-full">
+  <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+  <div class="flex flex-col md:flex-row flex-nowrap justify-between gap-5 pt-2">
+    <div class="">
+      
+    </div>
+    <div class="">
+      
+        <a class="group flex text-right no-underline" href="/teaching/security/">
+          <span class="flex flex-col">
+            <span
+              class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+            >Cloud Security</span
+            >
+            <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+              
+                Oct 24, 2023
+              
+            </span>
+          </span>
+          <span
+            class="mt-[-0.3rem] ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+          ><span class="ltr:inline">&rarr;</span></span>
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+
+
+      
+
+
+
+    </main>
+  </article>
+</div>
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by text-center">
+    © 2025 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by text-center">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+
+</footer>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
