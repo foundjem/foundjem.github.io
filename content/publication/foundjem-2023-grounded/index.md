@@ -7,7 +7,7 @@ authors:
 date: '2023-01-01'
 publishDate: '2025-02-12T17:08:56.531845Z'
 publication_types:
-- article-journal
+- 1 #article-journal
 publication: '*IEEE Transactions on Software Engineering*'
 featured: true
 ---
