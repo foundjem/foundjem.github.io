@@ -1,7 +1,7 @@
 ---
 title: 'Multi-Agent AI Systems'
 date: 2025-02-11
-link: ''
+link: 'https://github.com/foundjem'
 author: "Armstrong Foundjem"
 tags:
   - Agentic AI
@@ -13,7 +13,7 @@ tags:
 
 # **Agentic AI Systems in Multi-Environment Settings**
 
-#### **1. Introduction to Agentic AI**
+### **1. Introduction to Agentic AI**
 An **Agentic AI System** refers to an autonomous AI system that can sense, decide, and act in an environment to achieve specific goals. In **multi-environment settings**, these AI agents operate across diverse, dynamic, and often conflicting environments, requiring **adaptive decision-making, communication, and coordination**.
 
 
