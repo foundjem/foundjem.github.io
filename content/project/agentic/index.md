@@ -2,7 +2,7 @@
 title: 'Multi-Agent AI Systems'
 date: 2025-02-11
 link: 'https://github.com/foundjem'
-author: "Armstrong Foundjem"
+author: 'Armstrong Foundjem'
 tags:
   - Agentic AI
   - CyberSecurity
