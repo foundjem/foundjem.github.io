@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching | Hugo Academic CV Theme</title>
-    <link>http://localhost:52228/teaching/</link>
-      <atom:link href="http://localhost:52228/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/teaching/</link>
+      <atom:link href="http://localhost:1313/teaching/index.xml" rel="self" type="application/rss+xml" />
     <description>Teaching</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:52228/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Teaching</title>
-      <link>http://localhost:52228/teaching/</link>
+      <link>http://localhost:1313/teaching/</link>
     </image>
     
     <item>
       <title>Software Quality Engineering</title>
-      <link>http://localhost:52228/teaching/quality-eng/</link>
+      <link>http://localhost:1313/teaching/quality-eng/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52228/teaching/quality-eng/</guid>
+      <guid>http://localhost:1313/teaching/quality-eng/</guid>
       <description>&lt;p&gt;Concepts relevant to software quality, quality assurance and testing, quality engineering and quality planning. Anomaly prevention and defect classification. Fault tolerance. Software reliability engineering. Quality models. Comparison of different quality assurance techniques. Improving the software development process. Software and process. Identifying risks for quantifiable quality improvement.&lt;/p&gt;
 &lt;h2 id=&#34;lecture-notes--log8371&#34;&gt;Lecture Notes 📚 Log8371&lt;/h2&gt;
 &lt;p&gt;📥 &lt;strong&gt;Download PDF&lt;/strong&gt;
@@ -563,9 +563,9 @@ X_{\text{sys}}(t) = \frac{\lambda_1(t)}{1 + P_{12} R_2(t) + P_{23} R_3(t)}
     
     <item>
       <title>Cloud Security</title>
-      <link>http://localhost:52228/teaching/security/</link>
+      <link>http://localhost:1313/teaching/security/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52228/teaching/security/</guid>
+      <guid>http://localhost:1313/teaching/security/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Key cloud computing concepts. Dependability and security in the cloud. Identity and access management. Secure configuration management. Data protection and automation. Networking and logging. Compliance,
 incident response and penetration testing. Security in mobile cloud environments.&lt;/li&gt;
