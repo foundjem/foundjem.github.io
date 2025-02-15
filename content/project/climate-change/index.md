@@ -2,7 +2,6 @@
 title: 'Climate change'
 date: 2025-01-26
 author: "Armstrong Foundjem"
-draft: false
 tags:
   - Climate change 
   - Sustanability
