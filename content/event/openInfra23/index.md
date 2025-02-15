@@ -1,6 +1,6 @@
 ---
 title: 'How large language and deep learning models can prevent toxicity such as unconscious biases'
-event: OpenInfra Summit, Vancouver 2023
+event: 'OpenInfra Summit, Vancouver 2023'
 event_url:  'https://openinfra.dev/'
 location: 
 address:
@@ -20,7 +20,7 @@ all_day: false
 publishDate: '2023-06-01T00:00:00Z'
 authors:
   - admin
-tags: [unconscious biases, toxicity, language models]
+tags: ['unconscious biases', 'toxicity', 'language models']
 # Is this a featured talk? (true/false)
 featured: true
 image:
@@ -49,7 +49,7 @@ slides:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: 
-  - 'event'
+  - event
 ---
 
 {{< embed-pdf url="./OpenInfra_Speaker.pdf" >}}

@@ -1,11 +1,11 @@
 ---
 title: 'Climate change'
 date: 2025-01-26
-author: "Armstrong Foundjem"
+author: 'Armstrong Foundjem'
 tags:
-  - Climate change 
-  - Sustanability
-  - Green code
+  - 'Climate change' 
+  - 'Sustanability'
+  - 'Green code'
 ---
 
 

@@ -1,22 +1,21 @@
 ---
 title: 'Multi-Agent AI Systems'
 date: 2025-02-11
-link: 'https://github.com/foundjem'
 author: 'Armstrong Foundjem'
 tags:
-  - Agentic AI
-  - CyberSecurity
-  - Threat Model
-  - Autonomous Systems
+  - 'Agentic AI'
+  - 'CyberSecurity'
+  - 'Threat Model'
+  - 'Autonomous Systems'
 ---
 
 
 # **Agentic AI Systems in Multi-Environment Settings**
 
-### **1. Introduction to Agentic AI**
+#### **1. Introduction to Agentic AI**
 An **Agentic AI System** refers to an autonomous AI system that can sense, decide, and act in an environment to achieve specific goals. In **multi-environment settings**, these AI agents operate across diverse, dynamic, and often conflicting environments, requiring **adaptive decision-making, communication, and coordination**.
 
-
+---
 ## **2. Key Characteristics of Agentic AI in Multi-Environment Systems**
 1. **Autonomy** – Operates independently with minimal human intervention.
 2. **Adaptability** – Adjusts behavior based on real-time environmental changes.
@@ -24,7 +23,7 @@ An **Agentic AI System** refers to an autonomous AI system that can sense, decid
 4. **Distributed Decision-Making** – Decentralized intelligence for resilience.
 5. **Goal-Oriented Optimization** – Maximizes rewards while minimizing risks.
 
-
+---
 ## **3. Types of Multi-Environment Settings**
 ### **3.1. Homogeneous vs. Heterogeneous Environments**
 - **Homogeneous Environments**: AI agents operate in uniform conditions (e.g., cloud-based automation).
@@ -42,7 +41,7 @@ An **Agentic AI System** refers to an autonomous AI system that can sense, decid
 - **Fully Observable**: AI agents have complete visibility (e.g., chess AI).
 - **Partially Observable**: AI agents make decisions with limited information (e.g., autonomous drones in complex terrain).
 
-
+---
 ## **4. Architectural Models for Multi-Environment AI Systems**
 ### **4.1. Multi-Agent Reinforcement Learning (MARL)**
 - Agents learn optimal strategies through interaction and rewards.
@@ -73,7 +72,7 @@ An **Agentic AI System** refers to an autonomous AI system that can sense, decid
   - \( \eta \): Learning rate
   - \( \nabla F(w_t) \): Gradient of the loss function
 
-
+---
 ## **5. Security and Trust in Agentic AI**
 ### **5.1. Adversarial AI Attacks**
 - **Evasion Attacks**: Fooling agents using adversarial examples.
@@ -86,7 +85,7 @@ An **Agentic AI System** refers to an autonomous AI system that can sense, decid
   \]
   where \( P(T | E) \) is the trust probability given evidence \( E \).
 
-
+---
 ## **6. Real-World Applications of Agentic AI in Multi-Environment Systems**
 1. **Autonomous Vehicles** – Navigate in **dynamic, multi-agent** urban traffic.
 2. **Cybersecurity AI** – Detect threats in **partially observable** network environments.
@@ -94,7 +93,7 @@ An **Agentic AI System** refers to an autonomous AI system that can sense, decid
 4. **Financial AI Trading** – **Reinforcement learning-based** market strategies.
 5. **Smart Grid Energy Management** – Adaptive **multi-agent** optimization.
 
-
+---
 ## **7. Conclusion**
 Agentic AI in multi-environment settings requires:
 - **Adaptive learning models** (MARL, Dec-POMDP).
@@ -103,6 +102,7 @@ Agentic AI in multi-environment settings requires:
 These **autonomous systems** will drive the future of **self-learning, secure, and efficient AI ecosystems**. 🚀
 
 
+---
 
 ### **1. Multi-Agent Reinforcement Learning (MARL)**
 This example implements **Q-learning** for two agents navigating a grid environment.
@@ -183,6 +183,7 @@ print("Training complete! Agents have learned optimal paths.")
 - **Grid-based movement**, avoiding invalid moves.
 - **Goal-oriented reinforcement learning**.
 
+---
 
 ### **2. Game Theory-Based Multi-Agent Decision Making**
 This example implements a **Prisoner's Dilemma** game between two AI agents.
@@ -211,7 +212,7 @@ for eq in equilibria:
 - Models two **self-interested agents** choosing **cooperate (C) or defect (D)**.
 - **Nash equilibrium** represents the **optimal mixed strategies**.
 
-
+---
 
 ### **3. Decentralized Multi-Agent System with Communication**
 A **swarm of agents** moves towards a goal using **decentralized coordination**.
@@ -270,6 +271,7 @@ plt.show()
 - **Consensus-based movement** makes it **robust** to missing data.
 - Models **swarm robotics, decentralized AI, and self-organizing systems**.
 
+---
 
 ### **4. Reinforcement Learning for Multi-Agent Traffic Control**
 A **multi-agent reinforcement learning** setup where **traffic lights learn** optimal control.
@@ -325,6 +327,7 @@ print(Q_table)
 - **Traffic signals** learn **optimal switching** using **Q-learning**.
 - **Adaptive control** based on **real-time congestion**.
 
+---
 
 ## **Conclusion**
 These **multi-agent system implementations** provide:

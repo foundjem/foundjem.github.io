@@ -1,12 +1,12 @@
 ---
 title: 'Toxicity and unconcious bias'
 date: 2024-12-26
-author: "Armstrong Foundjem"
+author: 'Armstrong Foundjem'
 draft: false
 tags:
-  - Unconcious Bias
-  - Toxicity
-  - Cyber Bullying 
+  - 'Unconcious Bias'
+  - 'Toxicity'
+  - 'Cyber Bullying' 
 ---
 
 {{< youtube "Oni9oaNjsnQ" >}}
