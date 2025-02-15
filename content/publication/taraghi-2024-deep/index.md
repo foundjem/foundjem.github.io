@@ -13,7 +13,7 @@ author_notes:
 date: '2024-01-01'
 publishDate: '2025-02-12T17:08:56.573702Z'
 publication_types:
-- article-journal
+- 2 #article-journal
 publication: '*arXiv preprint arXiv:2401.13177*'
 featured: true
 ---

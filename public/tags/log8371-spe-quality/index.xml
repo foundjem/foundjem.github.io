@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOG8371 SPE Quality | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/log8371-spe-quality/</link>
+      <atom:link href="http://localhost:1313/tags/log8371-spe-quality/index.xml" rel="self" type="application/rss+xml" />
+    <description>LOG8371 SPE Quality</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>LOG8371 SPE Quality</title>
+      <link>http://localhost:1313/tags/log8371-spe-quality/</link>
+    </image>
+    
+    <item>
+      <title>Software Quality Engineering</title>
+      <link>http://localhost:1313/teaching/quality-eng/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/quality-eng/</guid>
+      <description>&lt;p&gt;Concepts relevant to software quality, quality assurance and testing, quality engineering and quality planning. Anomaly prevention and defect classification. Fault tolerance. Software reliability engineering. Quality models. Comparison of different quality assurance techniques. Improving the software development process. Software and process. Identifying risks for quantifiable quality improvement.&lt;/p&gt;
+&lt;h2 id=&#34;lecture-notes--log8371&#34;&gt;Lecture Notes 📚 Log8371&lt;/h2&gt;
+&lt;p&gt;📥 &lt;strong&gt;Download PDF&lt;/strong&gt;
+&lt;a href=&#34;slides/01_Intro.pdf&#34;&gt;Lec-01&lt;/a&gt;,&amp;hellip; ,&lt;a href=&#34;slides/05_perf_eng.pdf&#34;&gt;Lec-05&lt;/a&gt;, &lt;a href=&#34;slides/06_perf_model.pdf&#34;&gt;Lec-06&lt;/a&gt;,&amp;hellip;, &lt;a href=&#34;slides/11_security_testing.pdf&#34;&gt;Lec-11&lt;/a&gt;, &lt;a href=&#34;slides/12_security_testing_2.pdf&#34;&gt;Lec-12&lt;/a&gt;,&amp;hellip;,&lt;a href=&#34;slides/14_Autoscaling.pdf&#34;&gt;Lec-14&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;outline&#34;&gt;Outline&lt;/h2&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
+
+&lt;pre&gt;- LOG8371
+  - Module 1 (Qualité fonctionnelle, Fiabilité)
+    - Activités et processus de SQA 
+    - Normes de qualité 
+    - Assurance de qualité fonctionnelle 
+    - Tests unitaires 
+    - Tests automatiques
+    - Débogage
+    - Inspections, audits et revues
+    - Vérification et validation 
+    - Intégration continue
+    - Livraison continue 
+    - Conflits de fusion 
+  - Module 2 (Efficacité)
+    - Performance
+    - Profiling 
+    - Monitoring 
+    - Allocation des ressources 
+    - Modèle de performance 
+    - Systèmes auto-adaptatifs
+    - Autoscaling
+  - Module 3 (Sécurité)
+    - Tests de pénétration
+    - Mitigation des attaques 
+    - Chaos Engineering 
+    - Systèmes auto-réparateurs &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;models&#34;&gt;Models&lt;/h2&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Software Performance Engineering (SPE) relies on mathematical models to analyze, predict, and optimize system performance. Here are some commonly used mathematical models for software performance engineering problems:&lt;/span&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;queuing-theory-models&#34;&gt;&lt;strong&gt;Queuing Theory Models&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Queuing models are widely used to represent software performance issues related to resource contention, response time, and throughput.&lt;/p&gt;
+&lt;h3 id=&#34;11-single-queue-model-mm1&#34;&gt;&lt;strong&gt;1.1 Single Queue Model (M/M/1)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Used for single-server systems where requests arrive randomly.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( \lambda \) = arrival rate (requests per second)&lt;/li&gt;
+&lt;li&gt;\( \mu \) = service rate (requests per second)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Utilization&lt;/strong&gt;:
+\[
+  \rho = \frac{\lambda}{\mu}, \quad 0 \leq \rho &lt; 1
+  \]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Average number of requests in the system&lt;/strong&gt;:
+\[
+  L = \frac{\rho}{1 - \rho}
+  \]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Average response time&lt;/strong&gt;:
+\[
+  R = \frac{1}{\mu - \lambda}
+  \]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;12-multi-server-queuing-model-mmc&#34;&gt;&lt;strong&gt;1.2 Multi-server Queuing Model (M/M/c)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Used for systems with multiple processing units (e.g., web servers with multiple threads).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( c \) = number of servers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Utilization per server&lt;/strong&gt;:
+\[
+  \rho = \frac{\lambda}{c \cdot \mu}
+  \]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Probability that all servers are busy (Erlang-C formula)&lt;/strong&gt;:
+\[
+  P_0 = \left[ \sum_{n=0}^{c-1} \frac{(\lambda / \mu)^n}{n!} + \frac{(\lambda / \mu)^c}{c!(1 - \rho)} \right]^{-1}
+  \]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Expected response time&lt;/strong&gt;:
+\[
+  R = \frac{1}{\mu} + \frac{P_0 \cdot \rho}{c(1 - \rho) \mu}
+  \]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-littles-law&#34;&gt;&lt;strong&gt;2. Little’s Law&lt;/strong&gt;&lt;/h3&gt;
+\[
+L = \lambda \times R
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( L \) = average number of requests in the system&lt;/li&gt;
+&lt;li&gt;\( \lambda \) = arrival rate of requests&lt;/li&gt;
+&lt;li&gt;\( R \) = response time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This law is often used to validate performance models and ensure consistency between measured and predicted values.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-bottleneck-analysis-utilization-law&#34;&gt;&lt;strong&gt;3. Bottleneck Analysis (Utilization Law)&lt;/strong&gt;&lt;/h3&gt;
+\[
+U_i = X \times S_i
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( U_i \) = utilization of resource \( i \)&lt;/li&gt;
+&lt;li&gt;\( X \) = system throughput (requests per second)&lt;/li&gt;
+&lt;li&gt;\( S_i \) = average service time at resource \( i \)&lt;/li&gt;
+&lt;/ul&gt;
+\[
+X_{\max} = \frac{1}{S_{\max}}
+\]&lt;hr&gt;
+&lt;h3 id=&#34;4-scalability-model-amdahls-law&#34;&gt;&lt;strong&gt;4. Scalability Model (Amdahl’s Law)&lt;/strong&gt;&lt;/h3&gt;
+\[
+S(p) = \frac{1}{(1 - \sigma) + \frac{\sigma}{p}}
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( S(p) \) = speedup with \( p \) processors&lt;/li&gt;
+&lt;li&gt;\( \sigma \) = fraction of execution time that is parallelizable&lt;/li&gt;
+&lt;li&gt;\( p \) = number of processors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For large \( p \), the speedup is limited by the non-parallelizable portion \( (1 - \sigma) \).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;5-gunthers-universal-scalability-law-usl&#34;&gt;&lt;strong&gt;5. Gunther’s Universal Scalability Law (USL)&lt;/strong&gt;&lt;/h3&gt;
+\[
+S(p) = \frac{p}{1 + \alpha(p - 1) + \beta p(p - 1)}
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( \alpha \) = contention factor (how much resources compete for shared resources)&lt;/li&gt;
+&lt;li&gt;\( \beta \) = coherence penalty (overhead from synchronization)&lt;/li&gt;
+&lt;li&gt;\( S(p) \) = speedup with \( p \) processors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This model helps predict performance degradation due to parallelism overhead.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;6-response-time-model-mean-value-analysis&#34;&gt;&lt;strong&gt;6. Response Time Model (Mean Value Analysis)&lt;/strong&gt;&lt;/h3&gt;
+\[
+R_i = S_i \times (1 + N_i)
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( R_i \) = response time at resource \( i \)&lt;/li&gt;
+&lt;li&gt;\( S_i \) = service time at resource \( i \)&lt;/li&gt;
+&lt;li&gt;\( N_i \) = average number of requests in queue at resource \( i \)&lt;/li&gt;
+&lt;/ul&gt;
+\[
+R_{\text{total}} = \sum_{i=1}^{n} R_i
+\]&lt;hr&gt;
+&lt;h3 id=&#34;7-probabilistic-latency-model&#34;&gt;&lt;strong&gt;7. Probabilistic Latency Model&lt;/strong&gt;&lt;/h3&gt;
+\[
+E[R] = \sum_{i=1}^{n} P_i \times R_i
+\]&lt;p&gt;This is useful in microservices architectures where different services contribute to overall latency.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;8-load-testing-model-throughput-and-concurrency&#34;&gt;&lt;strong&gt;8. Load Testing Model (Throughput and Concurrency)&lt;/strong&gt;&lt;/h3&gt;
+\[
+X = \frac{N}{R}
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( X \) = throughput (requests/sec)&lt;/li&gt;
+&lt;li&gt;\( N \) = number of concurrent users&lt;/li&gt;
+&lt;li&gt;\( R \) = response time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If load increases beyond system capacity, response time grows exponentially.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;9-failure-rate-and-reliability-models&#34;&gt;&lt;strong&gt;9. Failure Rate and Reliability Models&lt;/strong&gt;&lt;/h3&gt;
+\[
+R(t) = e^{-\lambda t}
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( R(t) \) = reliability (probability the system runs without failure up to time \( t \))&lt;/li&gt;
+&lt;li&gt;\( \lambda \) = failure rate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For software systems, failure rate often decreases over time as bugs are fixed.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;10-cost-benefit-model-for-performance-optimization&#34;&gt;&lt;strong&gt;10. Cost-Benefit Model for Performance Optimization&lt;/strong&gt;&lt;/h3&gt;
+\[
+C_{\text{total}} = C_{\text{infra}} + C_{\text{latency}} + C_{\text{failure}}
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( C_{\text{infra}} \) = cost of additional hardware/cloud resources&lt;/li&gt;
+&lt;li&gt;\( C_{\text{latency}} \) = lost revenue due to slow response time&lt;/li&gt;
+&lt;li&gt;\( C_{\text{failure}} \) = downtime-related costs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minimizing \( C_{\text{total}} \) ensures cost-effective performance improvements.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;These mathematical models provide a foundation for analyzing and improving software performance. They help predict system behavior, identify bottlenecks, and optimize resources effectively. By applying these models, engineers can ensure software applications meet performance requirements efficiently.&lt;/p&gt;
+&lt;h2 id=&#34;pid-controller-in-software-performance-engineering&#34;&gt;&lt;strong&gt;PID Controller in Software Performance Engineering&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;Proportional-Integral-Derivative (PID) Controller&lt;/strong&gt; is a feedback control mechanism widely used in software performance engineering for tasks such as &lt;strong&gt;autoscaling, latency management, and resource allocation&lt;/strong&gt;. It dynamically adjusts system parameters based on performance deviations.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-pid-controller-equation&#34;&gt;&lt;strong&gt;1. PID Controller Equation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;A PID controller computes the corrective action \( u(t) \) using three components: Proportional (P), Integral (I), and Derivative (D):&lt;/p&gt;
+\[
+u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{d}{dt} e(t)
+\]&lt;p&gt;Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;\( u(t) \) = control output (e.g., CPU allocation, number of servers)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\( e(t) \) = error between desired performance and actual performance:&lt;/p&gt;
+\[
+  e(t) = R_{\text{target}} - R_{\text{actual}}
+  \]&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\( K_p \) = Proportional gain (adjusts based on immediate error)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\( K_i \) = Integral gain (adjusts based on accumulated past errors)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\( K_d \) = Derivative gain (adjusts based on predicted future errors)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\( R_{\text{target}} \) = target performance metric (e.g., response time)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\( R_{\text{actual}} \) = actual observed performance metric&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-discrete-time-pid-controller&#34;&gt;&lt;strong&gt;2. Discrete-Time PID Controller&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In software systems, performance metrics are sampled at discrete time intervals (\( k \)). The discrete PID formula is:&lt;/p&gt;
+\[
+u_k = K_p e_k + K_i \sum_{i=0}^{k} e_i \Delta t + K_d \frac{e_k - e_{k-1}}{\Delta t}
+\]&lt;p&gt;Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( u_k \) = control output at time step \( k \)&lt;/li&gt;
+&lt;li&gt;\( e_k \) = error at time step \( k \)&lt;/li&gt;
+&lt;li&gt;\( \Delta t \) = sampling interval&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In &lt;strong&gt;discrete implementation&lt;/strong&gt;, the integral is approximated as a sum:&lt;/p&gt;
+\[
+I_k = I_{k-1} + e_k \Delta t
+\]&lt;p&gt;And the derivative as a difference:&lt;/p&gt;
+\[
+D_k = \frac{e_k - e_{k-1}}{\Delta t}
+\]&lt;p&gt;Thus, the final control equation becomes:&lt;/p&gt;
+\[
+u_k = K_p e_k + K_i I_k + K_d D_k
+\]&lt;hr&gt;
+&lt;h2 id=&#34;3-application-in-software-performance-engineering&#34;&gt;&lt;strong&gt;3. Application in Software Performance Engineering&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;autoscaling-for-cloud-resources&#34;&gt;&lt;strong&gt;Autoscaling for Cloud Resources&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Objective&lt;/strong&gt;: Adjust the number of virtual machines (VMs) dynamically based on system load.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Error Signal&lt;/strong&gt;: Difference between target response time and measured response time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control Output&lt;/strong&gt;: Number of VMs to add or remove.&lt;/li&gt;
+&lt;/ul&gt;
+\[
+\text{VMs}_{\text{new}} = \text{VMs}_{\text{current}} + u_k
+\]&lt;h3 id=&#34;response-time-optimization&#34;&gt;&lt;strong&gt;Response Time Optimization&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Objective&lt;/strong&gt;: Minimize response time in web applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Error Signal&lt;/strong&gt;: Difference between target latency and actual latency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control Output&lt;/strong&gt;: Request queue size limit or CPU allocation.&lt;/li&gt;
+&lt;/ul&gt;
+\[
+\text{CPU}_{\text{new}} = \text{CPU}_{\text{current}} + u_k
+\]&lt;h3 id=&#34;database-query-rate-limiting&#34;&gt;&lt;strong&gt;Database Query Rate Limiting&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Objective&lt;/strong&gt;: Prevent overload on a database by controlling query rates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Error Signal&lt;/strong&gt;: Difference between allowed and actual queries per second.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control Output&lt;/strong&gt;: Maximum query rate.&lt;/li&gt;
+&lt;/ul&gt;
+\[
+\text{Rate}_{\text{new}} = \text{Rate}_{\text{current}} + u_k
+\]&lt;hr&gt;
+&lt;h2 id=&#34;4-choosing-pid-parameters&#34;&gt;&lt;strong&gt;4. Choosing PID Parameters&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The effectiveness of a PID controller depends on tuning the parameters \( K_p, K_i, K_d \):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;\( K_p \) (Proportional Gain)&lt;/strong&gt;: Large values lead to &lt;strong&gt;faster response&lt;/strong&gt; but may cause instability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;\( K_i \) (Integral Gain)&lt;/strong&gt;: Large values &lt;strong&gt;reduce steady-state error&lt;/strong&gt; but may cause overshoot.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;\( K_d \) (Derivative Gain)&lt;/strong&gt;: Large values help in &lt;strong&gt;predicting future errors&lt;/strong&gt; but may amplify noise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ziegler-nichols-tuning-method&#34;&gt;&lt;strong&gt;Ziegler-Nichols Tuning Method&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;A common method for tuning PID parameters:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Set \( K_i = 0 \) and \( K_d = 0 \).&lt;/li&gt;
+&lt;li&gt;Increase \( K_p \) until system oscillates (critical gain \( K_c \)).&lt;/li&gt;
+&lt;li&gt;Find the oscillation period \( T_c \).&lt;/li&gt;
+&lt;li&gt;Use tuning rules:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Control Type&lt;/th&gt;
+          &lt;th&gt;\( K_p \)&lt;/th&gt;
+          &lt;th&gt;\( K_i \)&lt;/th&gt;
+          &lt;th&gt;\( K_d \)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;P&lt;/td&gt;
+          &lt;td&gt;0.5 \( K_c \)&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;PI&lt;/td&gt;
+          &lt;td&gt;0.45 \( K_c \)&lt;/td&gt;
+          &lt;td&gt;\( 1.2 K_c / T_c \)&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;PID&lt;/td&gt;
+          &lt;td&gt;0.6 \( K_c \)&lt;/td&gt;
+          &lt;td&gt;\( 2 K_c / T_c \)&lt;/td&gt;
+          &lt;td&gt;\( K_c T_c / 8 \)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;5-stability-analysis-laplace-transform&#34;&gt;&lt;strong&gt;5. Stability Analysis (Laplace Transform)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The PID controller in Laplace domain is:&lt;/p&gt;
+\[
+U(s) = (K_p + K_i \frac{1}{s} + K_d s) E(s)
+\]&lt;p&gt;The closed-loop system is:&lt;/p&gt;
+\[
+G(s) = \frac{U(s) G_{\text{plant}}(s)}{1 + U(s) G_{\text{plant}}(s)}
+\]&lt;p&gt;The characteristic equation:&lt;/p&gt;
+\[
+1 + (K_p + K_i \frac{1}{s} + K_d s) G_{\text{plant}}(s) = 0
+\]&lt;p&gt;Stability is determined using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Root locus method&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bode plot for frequency response&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nyquist criterion&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;6-example-pid-for-autoscaling-web-servers&#34;&gt;&lt;strong&gt;6. Example: PID for Autoscaling Web Servers&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Given Data:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Target response time&lt;/strong&gt;: \( R_{\text{target}} = 200ms \)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measured response time&lt;/strong&gt;: \( R_{\text{actual}} = 300ms \)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling time&lt;/strong&gt;: \( \Delta t = 5s \)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Initial number of servers&lt;/strong&gt;: 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PID Parameters&lt;/strong&gt;: \( K_p = 1.5, K_i = 0.1, K_d = 0.5 \)&lt;/li&gt;
+&lt;/ul&gt;
+\[
+e_k = R_{\text{target}} - R_{\text{actual}} = 200 - 300 = -100ms
+\]\[
+P_k = K_p \cdot e_k = 1.5 \cdot (-100) = -150
+\]\[
+I_k = I_{k-1} + K_i e_k \Delta t = 0 + 0.1 \times (-100) \times 5 = -50
+\]\[
+D_k = K_d \frac{e_k - e_{k-1}}{\Delta t} = 0.5 \frac{(-100) - (-50)}{5} = -5
+\]\[
+u_k = P_k + I_k + D_k = -150 - 50 - 5 = -205
+\]\[
+\text{Servers}_{\text{new}} = \text{Servers}_{\text{current}} + u_k = 10 - 2 = 8
+\]&lt;p&gt;If \( u_k \) is negative, it means reducing the number of servers.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;7-conclusion&#34;&gt;&lt;strong&gt;7. Conclusion&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The PID controller is a powerful tool in &lt;strong&gt;software performance engineering&lt;/strong&gt;, allowing dynamic resource management by &lt;strong&gt;continuously adjusting&lt;/strong&gt; system parameters. It is applied in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Autoscaling cloud resources&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Latency and throughput optimization&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database rate limiting&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By tuning the parameters correctly, it ensures that &lt;strong&gt;performance targets are met&lt;/strong&gt; while &lt;strong&gt;avoiding oscillations and instability&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;dynamic-layered-queuing-networks-lqn&#34;&gt;&lt;strong&gt;Dynamic Layered Queuing Networks (LQN)&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;1-overview-of-dynamic-lqn&#34;&gt;&lt;strong&gt;1. Overview of Dynamic LQN&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Layered Queuing Networks (LQNs) extend traditional queuing models to capture the interaction between multiple software and hardware layers, often representing client-server, microservices, and cloud-based architectures.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;Dynamic LQN (DLQN)&lt;/strong&gt; incorporates time-varying workload, adaptive resource allocation, and system behavior changes over time. These models help predict performance bottlenecks, optimize system capacity, and adjust service strategies dynamically.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-basic-mathematical-formulation-of-lqn&#34;&gt;&lt;strong&gt;2. Basic Mathematical Formulation of LQN&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;LQNs describe a system as a set of &lt;strong&gt;tasks&lt;/strong&gt; and &lt;strong&gt;entries&lt;/strong&gt;, where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tasks (\( T_i \))&lt;/strong&gt; represent processing elements (e.g., database, application server).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Entries (\( E_i \))&lt;/strong&gt; represent functions or operations executed within a task.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Calls (\( C_{ij} \))&lt;/strong&gt; denote interactions between tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each task \( T_i \) has:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Arrival rate&lt;/strong&gt; \( \lambda_i(t) \) (requests per second)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service demand&lt;/strong&gt; \( S_i(t) \) (time per request)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Queue discipline&lt;/strong&gt; \( Q_i \) (e.g., FIFO, priority-based)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;queuing-equations-for-a-single-layer&#34;&gt;&lt;strong&gt;Queuing Equations for a Single Layer&lt;/strong&gt;&lt;/h3&gt;
+\[
+R_i = S_i + \frac{Q_i}{1 - \rho_i}
+\]&lt;p&gt;
+where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( \rho_i = \frac{\lambda_i S_i}{m_i} \) is the utilization of task \( T_i \) (with \( m_i \) parallel servers),&lt;/li&gt;
+&lt;li&gt;\( Q_i \) is the waiting time due to other tasks.&lt;/li&gt;
+&lt;/ul&gt;
+\[
+X_i = \frac{\lambda_i}{1 + \sum_{j \in C_{i}} P_{ij} R_j}
+\]&lt;p&gt;
+where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( P_{ij} \) is the probability that \( T_i \) calls \( T_j \),&lt;/li&gt;
+&lt;li&gt;\( R_j \) is the response time of task \( j \).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-dynamic-extension-of-lqn-dlqn&#34;&gt;&lt;strong&gt;3. Dynamic Extension of LQN (DLQN)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To model dynamic behavior, we introduce time-dependent parameters.&lt;/p&gt;
+&lt;h3 id=&#34;state-equations-in-dynamic-lqn&#34;&gt;&lt;strong&gt;State Equations in Dynamic LQN&lt;/strong&gt;&lt;/h3&gt;
+\[
+\frac{dN_i(t)}{dt} = \lambda_i(t) - \mu_i(t) N_i(t)
+\]&lt;p&gt;
+where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( N_i(t) \) is the number of requests in task \( i \) at time \( t \),&lt;/li&gt;
+&lt;li&gt;\( \lambda_i(t) \) is the dynamic arrival rate,&lt;/li&gt;
+&lt;li&gt;\( \mu_i(t) \) is the service rate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;dynamic-resource-allocation&#34;&gt;&lt;strong&gt;Dynamic Resource Allocation&lt;/strong&gt;&lt;/h3&gt;
+\[
+m_i(t) = \max \left( 1, \frac{\lambda_i(t) S_i}{\rho_{\text{max}}} \right)
+\]&lt;p&gt;
+where \( \rho_{\text{max}} \) is the maximum allowable utilization.&lt;/p&gt;
+\[
+\mu_i(t) = \frac{m_i(t)}{S_i}
+\]&lt;h3 id=&#34;dynamic-scaling&#34;&gt;&lt;strong&gt;Dynamic Scaling&lt;/strong&gt;&lt;/h3&gt;
+\[
+m_i(t+1) = m_i(t) + \Delta m_i
+\]\[
+\Delta m_i = k_p e(t) + k_i \int e(\tau) d\tau + k_d \frac{d e(t)}{dt}
+\]&lt;p&gt;
+where \( e(t) = \rho_i - \rho_{\text{target}} \) and \( k_p, k_i, k_d \) are PID controller gains.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;4-performance-metrics-in-dlqn&#34;&gt;&lt;strong&gt;4. Performance Metrics in DLQN&lt;/strong&gt;&lt;/h2&gt;
+\[
+R_{\text{sys}}(t) = \sum_{i=1}^{n} P_i R_i(t)
+\]&lt;p&gt;
+where \( P_i \) is the probability that a request visits task \( i \).&lt;/p&gt;
+\[
+U_i(t) = \frac{\lambda_i(t) S_i}{m_i(t)}
+\]&lt;p&gt;
+where \( U_i(t) \leq 1 \) ensures the system does not overload.&lt;/p&gt;
+\[
+X_{\text{sys}}(t) = \frac{\lambda_{\text{entry}}(t)}{1 + \sum_{i=1}^{n} P_i R_i(t)}
+\]&lt;hr&gt;
+&lt;h2 id=&#34;5-example-dynamic-lqn-for-cloud-autoscaling&#34;&gt;&lt;strong&gt;5. Example: Dynamic LQN for Cloud Autoscaling&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;scenario-web-application-with-3-tiers&#34;&gt;&lt;strong&gt;Scenario: Web Application with 3 Tiers&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Task 1&lt;/strong&gt;: Load Balancer (\( T_1 \))&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task 2&lt;/strong&gt;: Web Server (\( T_2 \))&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task 3&lt;/strong&gt;: Database (\( T_3 \))&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;step-1-define-arrival-rate&#34;&gt;&lt;strong&gt;Step 1: Define Arrival Rate&lt;/strong&gt;&lt;/h3&gt;
+\[
+\lambda_1(t) = \lambda_{\text{users}}(t)
+\]&lt;h3 id=&#34;step-2-compute-response-time-per-layer&#34;&gt;&lt;strong&gt;Step 2: Compute Response Time per Layer&lt;/strong&gt;&lt;/h3&gt;
+\[
+R_1(t) = S_1 + \frac{Q_1}{1 - \rho_1}
+\]\[
+R_2(t) = S_2 + \frac{Q_2}{1 - \rho_2}
+\]\[
+R_3(t) = S_3 + \frac{Q_3}{1 - \rho_3}
+\]&lt;h3 id=&#34;step-3-compute-system-response-time&#34;&gt;&lt;strong&gt;Step 3: Compute System Response Time&lt;/strong&gt;&lt;/h3&gt;
+\[
+R_{\text{sys}}(t) = R_1(t) + P_{12} R_2(t) + P_{23} R_3(t)
+\]&lt;h3 id=&#34;step-4-adjust-resources-dynamically&#34;&gt;&lt;strong&gt;Step 4: Adjust Resources Dynamically&lt;/strong&gt;&lt;/h3&gt;
+\[
+\Delta m_2 = k_p e_2 + k_i \int e_2 d\tau + k_d \frac{d e_2}{dt}
+\]&lt;p&gt;where \( e_2 = \rho_2 - 0.8 \) ensures the web server operates below 80% utilization.&lt;/p&gt;
+&lt;h3 id=&#34;step-5-compute-throughput&#34;&gt;&lt;strong&gt;Step 5: Compute Throughput&lt;/strong&gt;&lt;/h3&gt;
+\[
+X_{\text{sys}}(t) = \frac{\lambda_1(t)}{1 + P_{12} R_2(t) + P_{23} R_3(t)}
+\]&lt;hr&gt;
+&lt;h2 id=&#34;6-conclusion&#34;&gt;&lt;strong&gt;6. Conclusion&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Dynamic LQN (DLQN) extends standard LQN models by incorporating &lt;strong&gt;time-dependent queuing equations&lt;/strong&gt;, &lt;strong&gt;adaptive resource allocation&lt;/strong&gt;, and &lt;strong&gt;autoscaling mechanisms&lt;/strong&gt;. It is particularly useful in &lt;strong&gt;cloud computing, microservices architectures, and dynamic performance modeling&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This model allows for:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Predicting workload changes&lt;/strong&gt; and adjusting resources accordingly.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reducing latency&lt;/strong&gt; by dynamically adapting queue processing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ensuring scalability&lt;/strong&gt; using PID-based autoscaling.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Using these equations, performance engineers can &lt;strong&gt;simulate, optimize, and manage&lt;/strong&gt; complex distributed systems dynamically.&lt;/p&gt;
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;scipy.integrate&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;odeint&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Global variables&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;integral&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1e-6&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;e_prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The function below calculates the value of manipulated variable (MV) based on the measured value (in example it is the temperature of the liquid) and setpoint value (temperature we want to obtain).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;PID&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Kp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Ki&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Kd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;setpoint&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;measurement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;global&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;integral&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;e_prev&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# Value of offset - when the error is equal zero&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;offset&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;320&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# PID calculations&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;e&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;setpoint&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;measurement&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;P&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Kp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;integral&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;integral&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Ki&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;D&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Kd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;e_prev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# calculate manipulated variable - MV &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;MV&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;offset&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;P&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;integral&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;D&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# update stored data for next iteration&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;e_prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;MV&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;temp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;epsilon&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;tau&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Tf&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Q&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;dTdt&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tau&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;epsilon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Tf&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;temp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Q&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;epsilon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;temp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dTdt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;tspan&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linspace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;50&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;320&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sol&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;odeint&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tspan&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tfirst&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xlabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Time&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ylabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Temperature&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tspan&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sol&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# number of steps&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;250&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;y0&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;deltat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;y_sol&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;t_sol&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Tq is chosen as a manipulated variable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;320&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;q_sol&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;setpoint&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;310&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;integral&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;deltat&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;tspan&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linspace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PID&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;setpoint&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y_sol&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;yi&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;odeint&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y_sol&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tspan&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;args&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tfirst&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;t_sol&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;y_sol&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;yi&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;][&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;q_sol&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;t_sol&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y_sol&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xlabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Time&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ylabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Temperature&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
