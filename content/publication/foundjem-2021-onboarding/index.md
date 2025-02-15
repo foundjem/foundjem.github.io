@@ -1,6 +1,5 @@
 ---
-title: 'Onboarding vs. diversity, productivity and quality—empirical study of the openstack'
-  ecosystem
+title: 'Onboarding vs. diversity, productivity and quality—empirical study of the openstack ecosystem'
 authors:
 - Armstrong Foundjem
 - Ellis Eghan
