@@ -548,6 +548,7 @@
   
   
   
+  
 
 
 
@@ -1263,6 +1264,13 @@
               
             </li></ul>
       </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/students/"
+    
+  >Students
+    </a></li>
     </ul>
 
     <div class="max-xl:hidden h-0 w-64 shrink-0"></div></div>
@@ -1420,7 +1428,7 @@
 
 
 
-<div id="chart-172895436" class="chart"></div>
+<div id="chart-569471823" class="chart"></div>
 <script>
   async function fetchChartJSON() {
     console.debug('Hugo Blox fetching chart JSON...')
@@ -1438,7 +1446,7 @@
 
       fetchChartJSON().then(chart => {
         console.debug('Plotting chart...')
-        window.Plotly.newPlot('chart-172895436', chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot('chart-569471823', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

@@ -273,5 +273,8 @@
     <loc>https://example.com/publication/foundjem-2017-towards/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/students/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>
