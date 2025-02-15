@@ -1,6 +1,8 @@
 ---
-title: Toxicity and unconcious bias
+title: 'Toxicity and unconcious bias'
 date: 2024-12-26
+author: "Armstrong Foundjem"
+draft: false
 tags:
   - Unconcious Bias
   - Toxicity

@@ -9,4 +9,5 @@ publication_types:
 publication: '*2019 IEEE/ACM 41st International Conference on Software Engineering:
   Companion Proceedings (ICSE-Companion)*'
 featured: true
+draft: false
 ---
