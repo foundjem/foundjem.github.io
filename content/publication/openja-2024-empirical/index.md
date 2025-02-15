@@ -10,7 +10,7 @@ authors:
 date: '2024-01-01'
 publishDate: '2025-02-12T17:08:56.579551Z'
 publication_types:
-- 2 #article-journal
+- article-journal
 publication: '*ACM Transactions on Software Engineering and Methodology*'
 featured: true
 ---

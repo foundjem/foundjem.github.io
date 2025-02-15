@@ -7,7 +7,7 @@ authors:
 date: '2021-01-01'
 publishDate: '2025-02-12T17:08:56.514376Z'
 publication_types:
-- 1 #paper-conference
+- paper-conference
 publication: '*2021 IEEE/ACM 43rd International Conference on Software Engineering
   (ICSE)*'
 featured: true

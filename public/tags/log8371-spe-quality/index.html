@@ -44,7 +44,7 @@
   <meta name="description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://example.com/tags/green-code/" />
+  <link rel="alternate" hreflang="en-us" href="https://example.com/tags/log8371-spe-quality/" />
 
   
   
@@ -156,14 +156,14 @@
 
   
   
-    <link rel="alternate" href="/tags/green-code/index.xml" type="application/rss+xml" title="Hugo Academic CV Theme" />
+    <link rel="alternate" href="/tags/log8371-spe-quality/index.xml" type="application/rss+xml" title="Hugo Academic CV Theme" />
   
 
   
   <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
 
-  <link rel="canonical" href="https://example.com/tags/green-code/" />
+  <link rel="canonical" href="https://example.com/tags/log8371-spe-quality/" />
 
   
   
@@ -189,13 +189,13 @@
     <meta property="twitter:creator" content="@GetResearchDev" />
   
   <meta property="og:site_name" content="Hugo Academic CV Theme" />
-  <meta property="og:url" content="https://example.com/tags/green-code/" />
-  <meta property="og:title" content="Green Code | Hugo Academic CV Theme" />
+  <meta property="og:url" content="https://example.com/tags/log8371-spe-quality/" />
+  <meta property="og:title" content="LOG8371 SPE Quality | Hugo Academic CV Theme" />
   <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="https://example.com/media/icon_hu_645fa481986063ef.png" />
     <meta property="twitter:image" content="https://example.com/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2025-01-26T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2023-10-24T00:00:00&#43;00:00" />
     
   
 
@@ -204,7 +204,7 @@
 
 
 
-  <title>Green Code | Hugo Academic CV Theme</title>
+  <title>LOG8371 SPE Quality | Hugo Academic CV Theme</title>
 
   
   
@@ -862,7 +862,7 @@
 
 <div class="max-w-prose mx-auto flex justify-center">
   <article class="prose prose-slate lg:prose-xl dark:prose-invert">
-    <h1 class="lg:text-6xl">Green Code</h1>
+    <h1 class="lg:text-6xl">LOG8371 SPE Quality</h1>
     
   </article>
 </div>
@@ -886,20 +886,20 @@
 
 
 
-<a href="/project/climate-change/"  class="mb-5">
+<a href="/teaching/quality-eng/"  class="mb-5">
   <div class="md:flex">
     <div class="md:flex-shrink-0 overflow-hidden">
       
         
         
-      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/project/climate-change/featured_hu_861ffbf900a54386.webp" height="655" width="655" alt="Climate change">
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/teaching/quality-eng/featured_hu_c60c80a9ff220388.webp" height="655" width="655" alt="Software Quality Engineering">
       
     </div>
     <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Climate change</div>
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Software Quality Engineering</div>
       <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        #include &lt;iostream&gt; #include &lt;vector&gt; #include &lt;png.h&gt; void convertToGrayscale(const std::string&amp; inputFileName, const std::string&amp; outputFileName) { FILE* inputFile = fopen(inputFileName.c_str(), &#34;rb&#34;); if (!inputFile) { std::cerr &lt;&lt; &#34;Error opening input image file.&#34; &lt;&lt; std::endl; return; } png_structp pngPtr = png_create_read_struct(PNG_LIBPNG_VER_STRING, nullptr, nullptr, nullptr); if (!pngPtr) { std::cerr &lt;&lt; &#34;Error creating PNG read structure.&#34; &lt;&lt; std::endl; fclose(inputFile); return; } png_infop infoPtr = png_create_info_struct(pngPtr); if (!infoPtr) { std::cerr &lt;&lt; &#34;Error creating PNG info structure.&#34; &lt;&lt; std::endl; png_destroy_read_struct(&amp;pngPtr, nullptr, nullptr); fclose(inputFile); return; } png_init_io(pngPtr, inputFile); png_read_info(pngPtr, infoPtr); int width = png_get_image_width(pngPtr, infoPtr); int height = png_get_image_height(pngPtr, infoPtr); int bitDepth = png_get_bit_depth(pngPtr, infoPtr); int colorType = png_get_color_type(pngPtr, infoPtr); if (bitDepth != 8 || colorType != PNG_COLOR_TYPE_RGB) { std::cerr &lt;&lt; &#34;Unsupported image format. Only 8-bit RGB images are supported.&#34; &lt;&lt; std::endl; png_destroy_read_struct(&amp;pngPtr, &amp;infoPtr, nullptr); fclose(inputFile); return; } std::vector&lt;unsigned char&gt; imageData(width * height * 3); std::vector&lt;std::vector&lt;unsigned char&gt; &gt; inputImage(height, std::vector&lt;unsigned char&gt;(width * 3)); for (int i = 0; i &lt; height; &#43;&#43;i) { png_read_row(pngPtr, reinterpret_cast&lt;png_bytep&gt;(inputImage[i].data()), nullptr); } fclose(inputFile); png_destroy_read_struct(&amp;pngPtr, &amp;infoPtr, nullptr); // Convert to grayscale std::vector&lt;std::vector&lt;unsigned char&gt; &gt; outputImage(height, std::vector&lt;unsigned char&gt;(width)); for (int i = 0; i &lt; height; &#43;&#43;i) { for (int j = 0; j &lt; width; &#43;&#43;j) { // Simple grayscale conversion formula: (R &#43; G &#43; B) / 3 outputImage[i][j] = (inputImage[i][j * 3] &#43; inputImage[i][j * 3 &#43; 1] &#43; inputImage[i][j * 3 &#43; 2]) / 3; } } // Write output image FILE* outputFile = fopen(outputFileName.c_str(), &#34;wb&#34;); if (!outputFile) { std::cerr &lt;&lt; &#34;Error opening output image file.&#34; &lt;&lt; std::endl; return; } pngPtr = png_create_write_struct(PNG_LIBPNG_VER_STRING, nullptr, nullptr, nullptr); if (!pngPtr) { std::cerr &lt;&lt; &#34;Error creating PNG write structure.&#34; &lt;&lt; std::endl; fclose(outputFile); return; } infoPtr = png_create_info_struct(pngPtr); if (!infoPtr) { std::cerr &lt;&lt; &#34;Error creating PNG info structure.&#34; &lt;&lt; std::endl; png_destroy_write_struct(&amp;pngPtr, nullptr); fclose(outputFile); return; } png_init_io(pngPtr, outputFile); png_set_IHDR(pngPtr, infoPtr, width, height, 8, PNG_COLOR_TYPE_GRAY, PNG_INTERLACE_NONE, PNG_COMPRESSION_TYPE_DEFAULT, PNG_FILTER_TYPE_DEFAULT); png_write_info(pngPtr, infoPtr); for (int i = 0; i &lt; height; &#43;&#43;i) { png_write_row(pngPtr, reinterpret_cast&lt;png_bytep&gt;(outputImage[i].data())); } png_write_end(pngPtr, nullptr); png_destroy_write_struct(&amp;pngPtr, &amp;infoPtr); fclose(outputFile); std::cout &lt;&lt; &#34;Image processing complete. Grayscale image saved to &#34; &lt;&lt; outputFileName &lt;&lt; std::endl; } int main() { std::string inputFileName = &#34;input.png&#34;; std::string outputFileName = &#34;output_grayscale.png&#34;; convertToGrayscale(inputFileName, outputFileName); return 0; } </p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jan 26, 2025</p>
+        Concepts relevant to software quality, quality assurance and testing, quality engineering and quality planning. Anomaly prevention and defect classification. Fault tolerance. Software reliability engineering. Quality models. Comparison of different quality assurance techniques. Improving the software development process. Software and process. Identifying risks for quantifiable quality improvement.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Oct 24, 2023</p>
     </div>
   </div>
 </a>

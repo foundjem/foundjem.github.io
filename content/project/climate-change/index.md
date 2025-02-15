@@ -1,11 +1,10 @@
 ---
 title: 'Climate change'
 date: 2025-01-26
-
 tags:
-  - 'Climate change' 
-  - 'Sustanability'
-  - 'Green code'
+  - Climate change
+  - Sustanability
+  - Green code
 ---
 
 

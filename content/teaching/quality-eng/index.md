@@ -6,7 +6,7 @@ type: docs
 math: true
 weight: 30
 tags:
-  - LOG8371
+  - LOG8371 SPE Quality
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
@@ -19,10 +19,6 @@ Concepts relevant to software quality, quality assurance and testing, quality en
 
 📥 **Download PDF**
 [Lec-01](slides/01_Intro.pdf),... ,[Lec-05](slides/05_perf_eng.pdf), [Lec-06](slides/06_perf_model.pdf),..., [Lec-11](slides/11_security_testing.pdf), [Lec-12](slides/12_security_testing_2.pdf),...,[Lec-14](slides/14_Autoscaling.pdf)
-
-
-
-
 
 
 
