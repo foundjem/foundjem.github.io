@@ -1,10 +1,14 @@
 ---
 title: 'Software Ecosystem Sustainability, a Socio-Technical Perspective'
-authors:
-- Armstrong Tita Foundjem
-date: '2022-01-01'
-publishDate: '2025-02-12T17:08:56.500438Z'
-publication_types:
-- thesis
+authors: ["Armstrong Tita Foundjem"]
+date: 2022-01-01
+publishDate: 2025-02-12T17:08:56.500438Z
+publication_types: "7" #- thesis
 featured: true
+abstract: "The last decade has seen a plethora of large-scale software ecosystems (SECOs) developed by distributed teams and organizations dispersed across the globe. Despite the growing success of these SECOs, many questions remain regarding their long-term sustainability, in particular in terms of what socio-technical activities during a SECO's lifecycle are beneficial. This thesis aims to empirically study SECOs' sustainability across four major SECO lifecycle phases, i.e., onboarding, micro-collaboration, release synchronization, and cross-community feedback mechanisms. SECOs' onboarding process aims to recruit long-term, high-quality contributors. Through an observational study of an OpenStack onboarding event and mining repositories, we found a significant correlation of onboarding with increased gender diversity and patch acceptance rate, while the time until the first commit and bug-proneness of contributions decrease. Second, we study the so-called micro-collaboration practices of distributed development, in which multiple authors contribute to the same commit (instead of to the same branch). To understand the mechanisms, benefits and limitations of micro-collaboration, we performed a mixed-method analysis of collaboration practices in the OpenStack ecosystem through semi-structured interviews and a mining repositories analysis. Third, open-source SECOs bring value by integrating software projects into a polished product. However, since each SECO project may potentially have its own release cycle and roadmap, a SECO release team has to set up and enforce synchronization activities to sustain SECO releases. Qualitative analysis on OpenStack's release team's IRC-meeting logs allowed us to identify, catalogue, and document ten major release synchronization activities, which we further validated through interviews. Lastly, SECOs continuously gather and process feedback from distributors, which customize a SECO product, and end users, for example in the form of bug reports and contributed features. We aimed to understand the effectiveness of these feedback mechanisms through a grounded theory study of unstructured interviews, a survey, focus groups, and mailing lists archives, leading to a theory involving 15 constructs. Validation of our theory using mining analyses suggests that distros contribute a substantial proportion of a SECO's feedback, and that influential distros in a SECO do not focus on one specific feedback type."
+url_pdf: "https://qspace.library.queensu.ca/items/1fd7af40-9262-454f-b208-e10a0d2aee37"
+links: 
+- name: Online Appendix
+  url: "https://dl.acm.org/doi/10.5555/AAI29421666"
 ---
+

@@ -29,3 +29,5 @@ The following are the students I have mentored at Polytechnique Montreal:
 
 ### M.A.Sc. Alumni:
 - (You can list names of M.A.Sc. alumni here)
+
+ https://www.emmanuelteitelbaum.com/post/managing-pubs-academic-website/

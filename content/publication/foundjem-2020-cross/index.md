@@ -1,12 +1,15 @@
 ---
 title: 'Cross-distribution feedback in software ecosystems'
-authors:
-- Armstrong Foundjem
-date: '2020-01-01'
-publishDate: '2025-02-12T17:08:56.520152Z'
-publication_types:
-- paper-conference
+authors: "Armstrong Foundjem"
+date: 2020-01-01
+publishDate: 2025-02-12T17:08:56.520152Z
+publication_types: ["1"] #- paper-conference
 publication: '*Proceedings of the IEEE/ACM 42nd International Conference on Software
   Engineering Workshops*'
+abstract: "Despite the proliferation of software ecosystems (SECOs), growing a sustainable and healthy SECO remains a significant challenge. One approach to mitigate this challenge is the utilization of a mechanism that collects feedback from distributors (distros) and end-users of the SECO releases. This presentation aims at investigating the effectiveness of the feedback mechanism implemented by OpenStack to address the needs of end-users and distros. I mined the OpenStack repositories and mapped 20 distros' bug-related activities. Results suggest that OpenStack releases are actively maintained for 18 months before reaching end-of-life (EOL), which makes coordination with distros difficult because distros usually provide services to their end-users for a period between 36 - 60 months before reaching EOL. Also, bugs are fixed faster by the distros (7 - 76 days) than the OpenStack community (average of 4 months). However, only 22% of the bugs addressed by OpenStack distros are pushed back upstream."
 featured: true
+url_pdf: "https://dl.acm.org/doi/pdf/10.1145/3387940.3392188"
+links: 
+- name: 'Online Appendix'
+  url: "https://dl.acm.org/doi/pdf/10.1145/3387940.3392188"
 ---
