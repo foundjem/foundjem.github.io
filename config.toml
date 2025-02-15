@@ -6,8 +6,6 @@
 #
 # The actual configuration files are stored in the `config/_default/` folder.
 # theme = ["hugo-embed-pdf-shortcode", "Academic"]
-[security]
-   enableInlineShortcodes = true
 baseURL = "https://foundjem.github.io/"
 title = "My Academic Website"
 author = "Armstrong Foundjem"
