@@ -1,6 +1,6 @@
 ---
-title: Software Quality Engineering
-summary: Concepts relevant to software quality, quality assurance and testing, quality engineering and quality planning. Anomaly prevention and defect classification. Fault tolerance. Software reliability engineering. Quality models. Comparison of different quality assurance techniques. Improving the software development process. Software and process. Identifying risks for quantifiable quality improvement.
+title: 'Software Quality Engineering'
+summary: 'Concepts relevant to software quality, quality assurance and testing, quality engineering and quality planning. Anomaly prevention and defect classification. Fault tolerance. Software reliability engineering. Quality models. Comparison of different quality assurance techniques. Improving the software development process. Software and process. Identifying risks for quantifiable quality improvement.'
 date: 2023-10-24
 type: docs
 math: true

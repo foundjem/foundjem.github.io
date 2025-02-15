@@ -1,11 +1,11 @@
 ---
-title: Cloud Security
+title: 'Cloud Security'
 summary: 'Key cloud computing concepts. Dependability and security in the cloud. Identity and access management. Secure configuration management. Data protection and automation. Networking and logging. Compliance, incident response and penetration testing. Security in mobile cloud environments.'
 date: 2023-10-24
 type: docs
 math: false
 tags:
-  - Security Cloud Python Shell Docker k8s
+  - ['Security', 'Cloud', 'Python', 'Shell', 'Docker', 'k8s']
 ---
 
 - Key cloud computing concepts. Dependability and security in the cloud. Identity and access management. Secure configuration management. Data protection and automation. Networking and logging. Compliance,

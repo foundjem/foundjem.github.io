@@ -1,12 +1,11 @@
 ---
-title: Multi-Agent AI Systems
+title: 'Multi-Agent AI Systems'
 date: 2025-02-11
-link: ''
 tags:
-  - Agentic AI
-  - CyberSecurity
-  - Threat Model
-  - Autonomous Systems
+  - 'Agentic AI'
+  - 'CyberSecurity'
+  - 'Threat Model'
+  - 'Autonomous Systems'
 ---
 
 
