@@ -14,7 +14,7 @@ links:
   url: "https://ieeexplore.ieee.org/document/10589852"
 ---
 
-# Author notes 
+### Author notes 
 In this paper, **_Armstrong Foundjem_** mentored three Ph.D. Students: 
 - Mina Taraghi
 - Gianolli Dorcelus, 

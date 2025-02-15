@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CyberSecurity | Hugo Academic CV Theme</title>
-    <link>http://localhost:1313/tags/cybersecurity/</link>
-      <atom:link href="http://localhost:1313/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:52228/tags/cybersecurity/</link>
+      <atom:link href="http://localhost:52228/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
     <description>CyberSecurity</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:52228/media/icon_hu_645fa481986063ef.png</url>
       <title>CyberSecurity</title>
-      <link>http://localhost:1313/tags/cybersecurity/</link>
+      <link>http://localhost:52228/tags/cybersecurity/</link>
     </image>
     
     <item>
       <title>Multi-Agent AI Systems</title>
-      <link>http://localhost:1313/project/agentic/</link>
+      <link>http://localhost:52228/project/agentic/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/agentic/</guid>
+      <guid>http://localhost:52228/project/agentic/</guid>
       <description>&lt;h1 id=&#34;agentic-ai-systems-in-multi-environment-settings&#34;&gt;&lt;strong&gt;Agentic AI Systems in Multi-Environment Settings&lt;/strong&gt;&lt;/h1&gt;
 &lt;h4 id=&#34;1-introduction-to-agentic-ai&#34;&gt;&lt;strong&gt;1. Introduction to Agentic AI&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;An &lt;strong&gt;Agentic AI System&lt;/strong&gt; refers to an autonomous AI system that can sense, decide, and act in an environment to achieve specific goals. In &lt;strong&gt;multi-environment settings&lt;/strong&gt;, these AI agents operate across diverse, dynamic, and often conflicting environments, requiring &lt;strong&gt;adaptive decision-making, communication, and coordination&lt;/strong&gt;.&lt;/p&gt;

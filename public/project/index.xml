@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Hugo Academic CV Theme</title>
-    <link>http://localhost:1313/project/</link>
-      <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:52228/project/</link>
+      <atom:link href="http://localhost:52228/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:52228/media/icon_hu_645fa481986063ef.png</url>
       <title>Projects</title>
-      <link>http://localhost:1313/project/</link>
+      <link>http://localhost:52228/project/</link>
     </image>
     
     <item>
       <title>Multi-Agent AI Systems</title>
-      <link>http://localhost:1313/project/agentic/</link>
+      <link>http://localhost:52228/project/agentic/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/agentic/</guid>
+      <guid>http://localhost:52228/project/agentic/</guid>
       <description>&lt;h1 id=&#34;agentic-ai-systems-in-multi-environment-settings&#34;&gt;&lt;strong&gt;Agentic AI Systems in Multi-Environment Settings&lt;/strong&gt;&lt;/h1&gt;
 &lt;h4 id=&#34;1-introduction-to-agentic-ai&#34;&gt;&lt;strong&gt;1. Introduction to Agentic AI&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;An &lt;strong&gt;Agentic AI System&lt;/strong&gt; refers to an autonomous AI system that can sense, decide, and act in an environment to achieve specific goals. In &lt;strong&gt;multi-environment settings&lt;/strong&gt;, these AI agents operate across diverse, dynamic, and often conflicting environments, requiring &lt;strong&gt;adaptive decision-making, communication, and coordination&lt;/strong&gt;.&lt;/p&gt;
@@ -349,9 +349,9 @@ These &lt;strong&gt;autonomous systems&lt;/strong&gt; will drive the future of &
     
     <item>
       <title>Climate change</title>
-      <link>http://localhost:1313/project/climate-change/</link>
+      <link>http://localhost:52228/project/climate-change/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/climate-change/</guid>
+      <guid>http://localhost:52228/project/climate-change/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;vector&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;png.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
@@ -463,9 +463,9 @@ These &lt;strong&gt;autonomous systems&lt;/strong&gt; will drive the future of &
     
     <item>
       <title>Toxicity and unconcious bias</title>
-      <link>http://localhost:1313/project/toxicity/</link>
+      <link>http://localhost:52228/project/toxicity/</link>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/toxicity/</guid>
+      <guid>http://localhost:52228/project/toxicity/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Oni9oaNjsnQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Hugo Academic CV Theme</title>
-    <link>http://localhost:1313/publication_types/2/</link>
-      <atom:link href="http://localhost:1313/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:52228/publication_types/2/</link>
+      <atom:link href="http://localhost:52228/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:52228/media/icon_hu_645fa481986063ef.png</url>
       <title>2</title>
-      <link>http://localhost:1313/publication_types/2/</link>
+      <link>http://localhost:52228/publication_types/2/</link>
     </image>
     
     <item>
       <title>An empirical study of testing machine learning in the wild</title>
-      <link>http://localhost:1313/publication/openja-2024-empirical/</link>
+      <link>http://localhost:52228/publication/openja-2024-empirical/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/openja-2024-empirical/</guid>
+      <guid>http://localhost:52228/publication/openja-2024-empirical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep learning model reuse in the huggingface community: Challenges, benefit and trends</title>
-      <link>http://localhost:1313/publication/taraghi-2024-deep/</link>
+      <link>http://localhost:52228/publication/taraghi-2024-deep/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/taraghi-2024-deep/</guid>
-      <description>&lt;h1 id=&#34;author-notes&#34;&gt;Author notes&lt;/h1&gt;
+      <guid>http://localhost:52228/publication/taraghi-2024-deep/</guid>
+      <description>&lt;h3 id=&#34;author-notes&#34;&gt;Author notes&lt;/h3&gt;
 &lt;p&gt;In this paper, &lt;strong&gt;&lt;em&gt;Armstrong Foundjem&lt;/em&gt;&lt;/strong&gt; mentored three Ph.D. Students:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Mina Taraghi&lt;/li&gt;
@@ -37,41 +37,33 @@
     
     <item>
       <title>A Grounded Theory of Cross-community SECOs: Feedback Diversity vs. Synchronization</title>
-      <link>http://localhost:1313/publication/foundjem-2023-grounded/</link>
+      <link>http://localhost:52228/publication/foundjem-2023-grounded/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/foundjem-2023-grounded/</guid>
+      <guid>http://localhost:52228/publication/foundjem-2023-grounded/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Studying the Practices of Testing Machine Learning Software in the Wild</title>
-      <link>http://localhost:1313/publication/openja-2023-studying/</link>
+      <link>http://localhost:52228/publication/openja-2023-studying/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/openja-2023-studying/</guid>
+      <guid>http://localhost:52228/publication/openja-2023-studying/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A mixed-methods analysis of micro-collaborative coding practices in OpenStack</title>
-      <link>http://localhost:1313/publication/foundjem-2022-mixed/</link>
+      <link>http://localhost:52228/publication/foundjem-2022-mixed/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/foundjem-2022-mixed/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Release synchronization in software ecosystems</title>
-      <link>http://localhost:1313/publication/armstrong-2021-release/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/armstrong-2021-release/</guid>
+      <guid>http://localhost:52228/publication/foundjem-2022-mixed/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Release synchronization in software ecosystems: Empirical Study on OpenStack</title>
-      <link>http://localhost:1313/publication/foundjem-2021-release/</link>
+      <link>http://localhost:52228/publication/foundjem-2021-release/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/foundjem-2021-release/</guid>
+      <guid>http://localhost:52228/publication/foundjem-2021-release/</guid>
       <description></description>
     </item>
     
