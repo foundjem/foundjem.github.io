@@ -121,6 +121,36 @@ work:
       - Facilitated the release synchronization process of ecosystem releases
       - I participate in weekly review, and housekeeping activities within the ecosystem.
 
+# ... (existing fields remain the same)
+
+mentorship:
+  - student_name: John Doe
+    program: PhD in Computer Science
+    institution: University of XYZ
+    year_mentored: 2022-2024
+    summary: |
+      John worked on the application of machine learning algorithms to predict software defects in large codebases.
+    thesis: |
+      Title: "Predictive Models for Software Defect Prediction in Open-Source Repositories"
+    email: john.doe@xyz.edu
+  - student_name: Jane Smith
+    program: MSc Data Science
+    institution: ABC University
+    year_mentored: 2021-2023
+    summary: |
+      Jane researched how to improve recommendation algorithms through user sentiment analysis.
+    thesis: |
+      Title: "Improving Collaborative Filtering Algorithms Using Sentiment Analysis"
+    email: jane.smith@abc.edu
+  - student_name: Mark Lee
+    program: BSc Software Engineering
+    institution: DEF University
+    year_mentored: 2020-2021
+    summary: |
+      Mark focused on developing a lightweight framework for analyzing security vulnerabilities in mobile applications.
+    email: mark.lee@def.edu
+
+
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
