@@ -7,7 +7,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
+  <meta name="generator" content="Hugo Blox Builder 0.3.2" />
 
   
   
@@ -34,7 +34,7 @@
   
   
 
-  <meta name="author" content="吳健雄" />
+  <meta name="author" content="Armstrong Foundjem" />
 
   
   
@@ -57,7 +57,7 @@
   
   
     
-    <link href="/dist/wc.min.css" rel="stylesheet" />
+    <link href="/dist/wc.min.05570f1deda629d4e2d77f73534a63aa04471f012db6735c59424372f467db85.css" rel="stylesheet" />
   
 
   
@@ -174,7 +174,6 @@
   
   
     
-    
   
   
 
@@ -183,16 +182,16 @@
     
     
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
     <meta property="twitter:site" content="@GetResearchDev" />
     <meta property="twitter:creator" content="@GetResearchDev" />
   
   <meta property="og:site_name" content="Hugo Academic CV Theme" />
   <meta property="og:url" content="http://localhost:1313/post/" />
-  <meta property="og:title" content="Blog | Hugo Academic CV Theme" />
-  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" />
-    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:title" content="Blogging Techky | Hugo Academic CV Theme" />
+  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="http://localhost:1313/post/featured.png" />
+    <meta property="twitter:image" content="http://localhost:1313/post/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta property="og:updated_time" content="2023-10-27T00:00:00&#43;00:00" />
@@ -204,7 +203,7 @@
 
 
 
-  <title>Blog | Hugo Academic CV Theme</title>
+  <title>Blogging Techky | Hugo Academic CV Theme</title>
 
   
   
@@ -236,25 +235,7 @@
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
   
   
   
@@ -292,85 +273,33 @@
         
       
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
   
   
   
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     
@@ -446,6 +375,60 @@
         
       
     
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
       
       
         
@@ -484,7 +467,71 @@
     
       
       
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
     
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -520,40 +567,67 @@
     --pagefind-ui-border: #152028;
     --pagefind-ui-tag: #152028;
   }
+
+   
+  .search-close > svg {
+    height: calc(64px * var(--pagefind-ui-scale));
+    width: calc(64px * var(--pagefind-ui-scale));
+  }
 </style>
 
 <script>
+  
+  let searchWrapper = null;
+
   window.addEventListener('DOMContentLoaded', (event) => {
+    
     new PagefindUI({
       element: "#search",
       showSubResults: true,
       baseUrl: window.hbb.pagefind.baseUrl,
       bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
     });
+
+    
+    searchWrapper = document.getElementById('search-wrapper');
+
+    
+    let triggers = document.querySelectorAll('[data-search-toggle]');
+    triggers.forEach(trigger =>
+      trigger.addEventListener('click', handleSearchToggle)
+    );
   });
-  document.addEventListener('DOMContentLoaded', () => {
-    let element = document.getElementById('search');
-    let trigger = document.getElementById('search_toggle');
 
-    if (trigger) {
-      trigger.addEventListener('click', () => {
-        element.classList.toggle('hidden');
-        element.querySelector("input").value = ""
-        element.querySelector("input").focus()
+  function handleSearchToggle(event) {
+    if (!searchWrapper) return;
 
-        if (!element.classList.contains('hidden')) {
-          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
+    const isHidden = searchWrapper.classList.contains('hidden');
+    searchWrapper.classList.toggle('hidden');
+    document.body.style.overflow = isHidden ? 'hidden' : '';
 
-          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
-            clear_trigger.setAttribute('listenerOnClick', 'true');
+    const searchInput = searchWrapper.querySelector("input");
+    if (searchInput) {
+      searchInput.value = "";
+      searchInput.focus();
+    }
 
-            clear_trigger.addEventListener('click', () => {
-              element.classList.toggle('hidden');
-            });
-          }
-        }
+    if (!searchWrapper.classList.contains('hidden')) {
+      let clearTrigger = document.querySelector('.pagefind-ui__search-clear');
 
-      });
+      if (clearTrigger && !clearTrigger.hasAttribute('listenerOnClick')) {
+        clearTrigger.setAttribute('listenerOnClick', 'true');
+
+        clearTrigger.addEventListener('click', () => {
+          searchInput.focus();
+        });
+      }
+    }
+  }
+
+  
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && searchWrapper && !searchWrapper.classList.contains('hidden')) {
+      searchWrapper.classList.add('hidden');
     }
   });
 </script>
@@ -623,7 +697,7 @@
     <div class="order-0 h-100">
       
       <a class="navbar-brand" href="/" title="Hugo Academic CV Theme">
-        Your Name
+        InSeco
       </a>
     </div>
     
@@ -674,8 +748,8 @@
         <a
           class="nav-link "
           
-          href="/#papers"
-        >Papers</a
+          href="/experience/"
+        >Experience</a
         >
       </li>
       
@@ -688,7 +762,21 @@
         <a
           class="nav-link "
           
-          href="/#talks"
+          href="/#papers"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/event/"
         >Talks</a
         >
       </li>
@@ -700,24 +788,10 @@
       
       <li class="nav-item">
         <a
-          class="nav-link "
+          class="nav-link active"
           
-          href="/#news"
-        >News</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/experience/"
-        >Experience</a
+          href="/post/"
+        >Post</a
         >
       </li>
       
@@ -759,9 +833,9 @@
       
       
       <button
-        aria-label="search"
+        aria-label="toggle search"
         class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
-        id="search_toggle">
+        data-search-toggle>
         <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
       </button>
       
@@ -802,8 +876,26 @@
   </nav>
 </header>
 
+<div
+  id="search-wrapper"
+  class="hidden fixed inset-0 z-50 bg-white dark:bg-gray-900 flex flex-col overflow-hidden"
+>
+  <div class="flex justify-end p-3">
+    <button
+      aria-label="search"
+      class="search-close text-black hover:text-primary dark:text-white"
+      data-search-toggle
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
 
-<div id="search" class="hidden p-3"></div>
+  <div id="search" class="flex-1 overflow-y-auto p-3">
+    
+  </div>
+</div>
 
 
         
@@ -814,7 +906,7 @@
 
 <div class="max-w-prose mx-auto flex justify-center">
   <article class="prose prose-slate lg:prose-xl dark:prose-invert">
-    <h1 class="lg:text-6xl">Blog</h1>
+    <h1 class="lg:text-6xl">Blogging Techky</h1>
     
   </article>
 </div>
@@ -861,7 +953,7 @@
            class="object-fill transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="540" loading="lazy" src="/post/get-started/featured_hu_3faa1f18a99c641b.webp"
+           fetchpriority="high" height="540" loading="lazy" src="/post/get-started/featured_hu_8e36510aa9ded759.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
            width="960"></a>
   </div>
@@ -888,6 +980,29 @@
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
           
+          
+          <div class="flex items-center gap-3">
+            
+            <div class="relative h-5 w-5 flex-shrink-0">
+              
+              
+              
+              <img alt="avatar"
+                   class="rounded-full object-cover"
+                   data-nimg="fill"
+                   decoding="async" height="50"
+                   loading="lazy"
+                   sizes="20px"
+                   src="/author/armstrong-foundjem/avatar_hu_c42ac0ccb7ce335e.webp"
+                   style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+                   width="50">
+              
+            </div>
+            <span class="truncate text-sm">Armstrong Foundjem</span>
+          </div>
+          
+          
+          <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
           
           <time class="truncate text-sm" datetime="2023-10-27">Oct 27, 2023</time>
         </div>
@@ -926,7 +1041,7 @@
            class="object-fill transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="540" loading="lazy" src="/post/second-brain/featured_hu_841c9b12879f96c1.webp"
+           fetchpriority="high" height="540" loading="lazy" src="/post/second-brain/featured_hu_4656c43a354867be.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
            width="960"></a>
   </div>
@@ -953,6 +1068,29 @@
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
           
+          
+          <div class="flex items-center gap-3">
+            
+            <div class="relative h-5 w-5 flex-shrink-0">
+              
+              
+              
+              <img alt="avatar"
+                   class="rounded-full object-cover"
+                   data-nimg="fill"
+                   decoding="async" height="50"
+                   loading="lazy"
+                   sizes="20px"
+                   src="/author/armstrong-foundjem/avatar_hu_c42ac0ccb7ce335e.webp"
+                   style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+                   width="50">
+              
+            </div>
+            <span class="truncate text-sm">Armstrong Foundjem</span>
+          </div>
+          
+          
+          <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
           
           <time class="truncate text-sm" datetime="2023-10-26">Oct 26, 2023</time>
         </div>
@@ -991,7 +1129,7 @@
            class="object-fill transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="540" loading="lazy" src="/post/data-visualization/featured_hu_cd434a228e3c98bf.webp"
+           fetchpriority="high" height="540" loading="lazy" src="/post/data-visualization/featured_hu_2207ff897d607aaa.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
            width="960"></a>
   </div>
@@ -1018,6 +1156,29 @@
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
           
+          
+          <div class="flex items-center gap-3">
+            
+            <div class="relative h-5 w-5 flex-shrink-0">
+              
+              
+              
+              <img alt="avatar"
+                   class="rounded-full object-cover"
+                   data-nimg="fill"
+                   decoding="async" height="50"
+                   loading="lazy"
+                   sizes="20px"
+                   src="/author/armstrong-foundjem/avatar_hu_c42ac0ccb7ce335e.webp"
+                   style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+                   width="50">
+              
+            </div>
+            <span class="truncate text-sm">Armstrong Foundjem</span>
+          </div>
+          
+          
+          <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
           
           <time class="truncate text-sm" datetime="2023-10-25">Oct 25, 2023</time>
         </div>
@@ -1052,11 +1213,11 @@
       class="relative block aspect-video"
       href="/post/teach-courses/" >
 
-      <img alt="👩🏼‍🏫 Teach academic courses"
+      <img alt="👩🏼‍🏫 Teaching technical Skills"
            class="object-fill transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="540" loading="lazy" src="/post/teach-courses/featured_hu_d9d57e069036e13e.webp"
+           fetchpriority="high" height="540" loading="lazy" src="/post/teach-courses/featured_hu_82c2336889363451.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
            width="960"></a>
   </div>
@@ -1065,14 +1226,14 @@
     <div class="">
       <div class="flex gap-3">
         
-        <a href="/tags/hugo/"><span
-          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Hugo</span></a>
+        <a href="/tags/hands-on/"><span
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Hands-On</span></a>
         
       </div>
       
       <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
         href="/post/teach-courses/" ><span
-        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">👩🏼‍🏫 Teach academic courses
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">👩🏼‍🏫 Teaching technical Skills
           </span></a>
       </h2>
       
@@ -1083,6 +1244,29 @@
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
           
+          
+          <div class="flex items-center gap-3">
+            
+            <div class="relative h-5 w-5 flex-shrink-0">
+              
+              
+              
+              <img alt="avatar"
+                   class="rounded-full object-cover"
+                   data-nimg="fill"
+                   decoding="async" height="50"
+                   loading="lazy"
+                   sizes="20px"
+                   src="/author/armstrong-foundjem/avatar_hu_c42ac0ccb7ce335e.webp"
+                   style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+                   width="50">
+              
+            </div>
+            <span class="truncate text-sm">Armstrong Foundjem</span>
+          </div>
+          
+          
+          <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
           
           <time class="truncate text-sm" datetime="2023-10-24">Oct 24, 2023</time>
         </div>
@@ -1121,7 +1305,7 @@
            class="object-fill transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="540" loading="lazy" src="/post/project-management/featured_hu_1080419234012cdc.webp"
+           fetchpriority="high" height="540" loading="lazy" src="/post/project-management/featured_hu_45051f4a9e5d7d78.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
            width="960"></a>
   </div>
@@ -1148,6 +1332,29 @@
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
           
+          
+          <div class="flex items-center gap-3">
+            
+            <div class="relative h-5 w-5 flex-shrink-0">
+              
+              
+              
+              <img alt="avatar"
+                   class="rounded-full object-cover"
+                   data-nimg="fill"
+                   decoding="async" height="50"
+                   loading="lazy"
+                   sizes="20px"
+                   src="/author/armstrong-foundjem/avatar_hu_c42ac0ccb7ce335e.webp"
+                   style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+                   width="50">
+              
+            </div>
+            <span class="truncate text-sm">Armstrong Foundjem</span>
+          </div>
+          
+          
+          <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
           
           <time class="truncate text-sm" datetime="2023-10-23">Oct 23, 2023</time>
         </div>

@@ -1,137 +1,434 @@
 ---
-title: 👩🏼‍🏫 Teach academic courses
+title: 👩🏼‍🏫 Teaching technical Skills
 summary: Embed videos, podcasts, code, LaTeX math, and even test students!
 date: 2023-10-24
 math: true
 authors:
   - admin
 tags:
-  - Hugo
-  - Hugo Blox Builder
-  - Markdown
+  - Hands-on
+  - Practical use-cases
+  - DevOps culture
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: ''
 ---
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
 
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
+This blog page written in **Org-mode** teaches data science skills to computer science students, with code snippets and mathematical reasoning included:
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
 
-## Video
+## Basic skills in Data Science
 
-Teach your course by sharing videos with your students. Choose from one of the following approaches:
+* Data Structures
 
-**Youtube**:
+**1. Arrays**
 
-    {{</* youtube D2vj0WcvH5c */>}}
+An array is one of the simplest data structures, but it’s fundamental in most computer science problems. It’s a collection of elements, each identified by an index or a key.
 
-{{< youtube D2vj0WcvH5c >}}
+Here's how you would declare an array in Python:
 
-**Bilibili**:
+```python
+# Creating an array of integers
+arr = [10, 20, 30, 40, 50]
 
-    {{</* bilibili BV1WV4y1r7DF */>}}
-
-{{< bilibili BV1WV4y1r7DF >}}
-
-**Video file**
-
-Videos may be added to a page by either placing them in your `assets/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then embedding them with the _video_ shortcode:
-
-    {{</* video src="my_video.mp4" controls="yes" */>}}
-
-## Podcast
-
-You can add a podcast or music to a page by placing the MP3 file in the page's folder or the media library folder and then embedding the audio on your page with the _audio_ shortcode:
-
-    {{</* audio src="ambient-piano.mp3" */>}}
-
-Try it out:
-
-{{< audio src="ambient-piano.mp3" >}}
-
-## Test students
-
-Provide a simple yet fun self-assessment by revealing the solutions to challenges with the `spoiler` shortcode:
-
-```markdown
-{{</* spoiler text="👉 Click to view the solution" */>}}
-You found me!
-{{</* /spoiler */>}}
+# Accessing an element
+print(arr[2])  # Outputs: 30
 ```
 
-renders as
+The time complexity for accessing an element is O(1), meaning it takes constant time to get an element given its index.
 
-{{< spoiler text="👉 Click to view the solution" >}} You found me 🎉 {{< /spoiler >}}
+**2. Linked Lists**
 
-## Math
+A linked list is a linear data structure where elements (called nodes) are connected using pointers. Unlike arrays, linked lists do not store elements in contiguous memory locations.
 
-Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. Enable math by setting the `math: true` option in your page's front matter, or enable math for your entire site by toggling math in your `config/_default/params.yaml` file:
+Here's how a simple singly linked list would look in Python:
 
-```yaml
-features:
-  math:
-    enable: true
+```python
+class Node:
+    def __init__(self, data=None):
+        self.data = data
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+    
+    def append(self, data):
+        new_node = Node(data)
+        if not self.head:
+            self.head = new_node
+        else:
+            last = self.head
+            while last.next:
+                last = last.next
+            last.next = new_node
+    
+    def display(self):
+        current = self.head
+        while current:
+            print(current.data, end=" -> ")
+            current = current.next
+        print("None")
+
+# Creating a linked list and appending values
+ll = LinkedList()
+ll.append(10)
+ll.append(20)
+ll.append(30)
+ll.display()
 ```
 
-To render _inline_ or _block_ math, wrap your LaTeX math with `$...$` or `$$...$$`, respectively.
+**3. Stacks and Queues**
 
-Example **math block**:
+Both stacks and queues are abstract data types that store elements. They differ in how elements are inserted and removed.
 
-```latex
-$$
-\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
-$$
+- **Stack**: Last-In-First-Out (LIFO)
+- **Queue**: First-In-First-Out (FIFO)
+
+Here’s an example of a stack implemented using Python:
+
+```python
+stack = []
+
+# Push elements onto the stack
+stack.append(1)
+stack.append(2)
+stack.append(3)
+
+# Pop an element
+print(stack.pop())  # Outputs: 3
 ```
 
-renders as
+For queues, Python’s `collections.deque` is ideal because it allows O(1) operations for appending and popping:
 
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+```python
+from collections import deque
 
-Example **inline math** `$\nabla F(\mathbf{x}_{n})$` renders as $\nabla F(\mathbf{x}_{n})$.
+queue = deque()
 
-Example **multi-line math** using the math linebreak (`\\`):
+# Enqueue elements
+queue.append(1)
+queue.append(2)
+queue.append(3)
 
-```latex
-$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
+# Dequeue an element
+print(queue.popleft())  # Outputs: 1
 ```
 
-renders as
+* Algorithms
 
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}
-$$
+**1. Sorting Algorithms**
 
-## Code
+Sorting is a fundamental problem, and there are several algorithms used for sorting elements in an array. Let’s take a look at two well-known sorting algorithms: Bubble Sort and Merge Sort.
 
-Hugo Blox Builder utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
+**Bubble Sort (O(n²) time complexity):**
+
+```python
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+
+arr = [64, 34, 25, 12, 22, 11, 90]
+bubble_sort(arr)
+print(arr)
+```
+
+**Merge Sort (O(n log n) time complexity):**
+
+```python
+def merge_sort(arr):
+    if len(arr) > 1:
+        mid = len(arr) // 2
+        left_half = arr[:mid]
+        right_half = arr[mid:]
+
+        merge_sort(left_half)
+        merge_sort(right_half)
+
+        i = j = k = 0
+
+        while i < len(left_half) and j < len(right_half):
+            if left_half[i] < right_half[j]:
+                arr[k] = left_half[i]
+                i += 1
+            else:
+                arr[k] = right_half[j]
+                j += 1
+            k += 1
+
+        while i < len(left_half):
+            arr[k] = left_half[i]
+            i += 1
+            k += 1
+
+        while j < len(right_half):
+            arr[k] = right_half[j]
+            j += 1
+            k += 1
+
+arr = [38, 27, 43, 3, 9, 82, 10]
+merge_sort(arr)
+print(arr)
+```
+
+**2. Searching Algorithms**
+
+**Binary Search (O(log n) time complexity)** is used to find the position of a target value within a sorted array.
+
+```python
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+arr = [1, 3, 5, 7, 9, 11, 13]
+target = 5
+print(binary_search(arr, target))  # Outputs: 2
+```
+
+* Mathematical Reasoning
+
+Understanding the time complexity of algorithms is essential for analyzing their efficiency. One of the most important concepts in this area is **Big-O notation**, which describes the upper bound of an algorithm’s runtime.
+
+Let’s discuss **Big-O** using an example:
+
+- **O(1)**: Constant time, meaning the operation will take the same time regardless of the size of the input.
+- **O(n)**: Linear time, meaning the operation will take longer as the size of the input grows.
+- **O(n²)**: Quadratic time, meaning the operation will take much longer as the size of the input increases.
+
+Example:
+
+```python
+# O(n)
+def print_elements(arr):
+    for elem in arr:
+        print(elem)
+
+# O(n²)
+def print_pairs(arr):
+    for i in arr:
+        for j in arr:
+            print(i, j)
+```
+
+In the second function, **print_pairs**, we see an O(n²) time complexity because we are iterating over the array twice.
+
+* Conclusion
+
+In this post, we've covered essential data structures, algorithms, and mathematical reasoning concepts needed to excel in computer science. As an undergraduate, building a solid foundation in these areas will prepare you for more complex topics as you progress in your studies.
+
+Stay curious, keep experimenting with code, and always challenge yourself to understand the underlying principles of the algorithms and data structures you encounter.
+
+Happy coding!
 
 
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
 
-renders as
+
+### Final Thoughts
+
+Mastering technical skills in computer science is a continuous journey. Start by focusing on clean code, understanding data structures and algorithms, and applying mathematical reasoning. Don't forget to engage in hands-on practice by building projects and solving real-world problems. Over time, you’ll gain a deeper understanding and will be better equipped for more complex challenges.
+
+Good luck, and happy coding!
+
+---
+
+**Additional Resources**:
+- [LeetCode](https://leetcode.com/)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)
+- [HackerRank](https://www.hackerrank.com/)
+
+---
+
+
+```org
+#+TITLE: Data Science for Computer Science Students: A Comprehensive Guide
+#+AUTHOR: Dr. John Doe
+#+DATE: 2025-02-13
+#+OPTIONS: num:t toc:t
+
+* Introduction
+
+Welcome to this comprehensive guide on learning **Data Science** for Computer Science students. Data Science is a field that blends statistical analysis, machine learning, and computer science to extract meaningful insights from data. As a Computer Science student, mastering data science will expand your toolkit to solve complex, data-driven problems.
+
+In this guide, we'll cover the basics of data science, mathematical reasoning, and introduce you to common tools and algorithms. Along the way, we'll integrate code examples, particularly in **Python**, to help you build a hands-on understanding of these concepts.
+
+---
+
+* Understanding the Fundamentals of Data Science
+
+At the heart of data science are the **three pillars**: **Statistics**, **Machine Learning**, and **Data Visualization**. These are the tools you'll use to analyze, model, and communicate insights from your data.
+
+**Statistics** plays a crucial role in understanding data distributions, hypothesis testing, and drawing conclusions. Machine Learning (ML) is about creating predictive models from data. Data Visualization helps you present your findings clearly, making it easier to communicate insights.
+
+**Mathematical Reasoning**
+
+In data science, we rely heavily on mathematics, particularly linear algebra, calculus, probability theory, and optimization. Let's start with a key concept in data science:
+
+- **Linear Regression**: A simple yet powerful technique used to model relationships between variables.
+
+Let's say we have a dataset with **n** observations and **p** features. The goal of linear regression is to model the relationship between the input features and the output target variable.
+
+The equation for a **linear regression model** is:
+
+$$ y = X \beta + \epsilon $$
+
+Where:
+- \( y \) is the output variable,
+- \( X \) is the matrix of input features,
+- \( \beta \) represents the regression coefficients,
+- \( \epsilon \) is the error term.
+
+We can solve for the coefficients \( \beta \) using the **Ordinary Least Squares (OLS)** method:
+
+$$ \hat{\beta} = (X^T X)^{-1} X^T y $$
+
+This equation minimizes the sum of squared errors between the predicted values and the true values.
+
+---
+
+* Getting Started with Data Science Tools
+
+In this section, we'll cover the main tools you'll need to begin your data science journey.
+
+**1. Python**
+
+Python is a widely-used programming language in data science, primarily due to its rich ecosystem of libraries. You'll use Python to manipulate data, train models, and visualize results.
+
+Let's start by installing the essential libraries:
+
+```bash
+pip install numpy pandas matplotlib scikit-learn seaborn
+```
+
+Here is a basic example of using **Pandas** to load and explore a dataset:
 
 ```python
 import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
+
+# Load a CSV file
+data = pd.read_csv('your_dataset.csv')
+
+# Show the first few rows
+print(data.head())
+
+# Get summary statistics
+print(data.describe())
 ```
 
-## Inline Images
+**2. NumPy**
 
-```go
-{{</* icon name="python" */>}} Python
+NumPy is a powerful library for numerical computations. It allows you to perform operations on large arrays and matrices efficiently. Here's how you can use NumPy to perform basic mathematical operations:
+
+```python
+import numpy as np
+
+# Create a vector of numbers
+vector = np.array([1, 2, 3, 4, 5])
+
+# Perform element-wise operations
+squared = np.square(vector)
+print(squared)
 ```
 
-renders as
+**3. Data Visualization with Matplotlib and Seaborn**
 
-{{< icon name="python" >}} Python
+Data visualization is essential to convey your findings. The following example shows how to plot a simple scatter plot using **Matplotlib**:
+
+```python
+import matplotlib.pyplot as plt
+
+# Example data
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+# Create a scatter plot
+plt.scatter(x, y)
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('Scatter Plot Example')
+plt.show()
+```
+
+**Seaborn** is a higher-level library built on top of Matplotlib that makes it easier to create beautiful statistical graphics:
+
+```python
+import seaborn as sns
+
+# Load an example dataset
+tips = sns.load_dataset('tips')
+
+# Create a box plot
+sns.boxplot(x='day', y='total_bill', data=tips)
+plt.title('Box Plot Example')
+plt.show()
+```
+
+---
+
+* Machine Learning: A Key Tool in Data Science
+
+**Machine Learning** is the process of using algorithms to find patterns in data and make predictions. Here's an example of **Linear Regression** using the **scikit-learn** library:
+
+```python
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error
+
+# Split data into features (X) and target (y)
+X = data[['feature1', 'feature2']]
+y = data['target']
+
+# Split data into training and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train a linear regression model
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Make predictions
+y_pred = model.predict(X_test)
+
+# Evaluate the model
+mse = mean_squared_error(y_test, y_pred)
+print(f'Mean Squared Error: {mse}')
+```
+
+---
+
+* Conclusion
+
+In this guide, we've covered the essential concepts of **Data Science**, from the fundamental mathematical principles to the necessary tools and libraries. We've also included practical code snippets to help you get started with Python, pandas, NumPy, and machine learning models. 
+
+As you progress, remember that data science is a vast and evolving field. Keep exploring, experimenting, and learning through practice. Your ability to analyze and interpret data will be a valuable asset as you continue your journey as a Computer Science student.
+
+**Next Steps:**
+- Explore more advanced machine learning algorithms like **Support Vector Machines (SVM)**, **Random Forests**, and **Neural Networks**.
+- Work on real-world datasets to build projects that demonstrate your data science skills.
+- Study specialized topics like **Natural Language Processing (NLP)** and **Deep Learning** to further enhance your knowledge.
+
+Good luck on your journey to mastering Data Science!
+
+---
+
+* References
+
+1. "Python for Data Analysis" by Wes McKinney
+2. "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron
+3. "The Elements of Statistical Learning" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman
+
+
+
+This blog aims to provide the foundational knowledge and practical tools that will be necessary for your success in computer science. Keep learning, experimenting, and building!
 
 ## Did you find this page helpful? Consider sharing it 🙌

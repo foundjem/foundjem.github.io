@@ -13,246 +13,1169 @@
     </image>
     
     <item>
-      <title>Learn JavaScript</title>
-      <link>http://localhost:1313/teaching/js/</link>
+      <title>Software Quality Engineering</title>
+      <link>http://localhost:1313/teaching/quality-eng/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/js/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
-&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
-&lt;p&gt;Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
+      <guid>http://localhost:1313/teaching/quality-eng/</guid>
+      <description>&lt;p&gt;Concepts relevant to software quality, quality assurance and testing, quality engineering and quality planning. Anomaly prevention and defect classification. Fault tolerance. Software reliability engineering. Quality models. Comparison of different quality assurance techniques. Improving the software development process. Software and process. Identifying risks for quantifiable quality improvement.&lt;/p&gt;
+&lt;h2 id=&#34;lecture-notes--log8371&#34;&gt;Lecture Notes 📚 Log8371&lt;/h2&gt;
+&lt;p&gt;📥 &lt;strong&gt;Download PDF&lt;/strong&gt;
+&lt;a href=&#34;slides/01_Intro.pdf&#34;&gt;Lec-01&lt;/a&gt;,&amp;hellip; ,&lt;a href=&#34;slides/05_perf_eng.pdf&#34;&gt;Lec-05&lt;/a&gt;, &lt;a href=&#34;slides/06_perf_model.pdf&#34;&gt;Lec-06&lt;/a&gt;,&amp;hellip;, &lt;a href=&#34;slides/11_security_testing.pdf&#34;&gt;Lec-11&lt;/a&gt;, &lt;a href=&#34;slides/12_security_testing_2.pdf&#34;&gt;Lec-12&lt;/a&gt;,&amp;hellip;,&lt;a href=&#34;slides/14_Autoscaling.pdf&#34;&gt;Lec-14&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;outline&#34;&gt;Outline&lt;/h2&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
 
-&lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;Bilibili&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; bilibili id=&amp;quot;BV1WV4y1r7DF&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;Video file&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Videos may be added to a page by either placing them in your &lt;code&gt;assets/media/&lt;/code&gt; media library or in your &lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page&amp;rsquo;s folder&lt;/a&gt;, and then embedding them with the &lt;em&gt;video&lt;/em&gt; shortcode:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; video src=&amp;quot;my_video.mp4&amp;quot; controls=&amp;quot;yes&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;podcast&#34;&gt;Podcast&lt;/h2&gt;
-&lt;p&gt;You can add a podcast or music to a page by placing the MP3 file in the page&amp;rsquo;s folder or the media library folder and then embedding the audio on your page with the &lt;em&gt;audio&lt;/em&gt; shortcode:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; audio src=&amp;quot;ambient-piano.mp3&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Try it out:&lt;/p&gt;
+&lt;pre&gt;- LOG8371
+  - Module 1 (Qualité fonctionnelle, Fiabilité)
+    - Activités et processus de SQA 
+    - Normes de qualité 
+    - Assurance de qualité fonctionnelle 
+    - Tests unitaires 
+    - Tests automatiques
+    - Débogage
+    - Inspections, audits et revues
+    - Vérification et validation 
+    - Intégration continue
+    - Livraison continue 
+    - Conflits de fusion 
+  - Module 2 (Efficacité)
+    - Performance
+    - Profiling 
+    - Monitoring 
+    - Allocation des ressources 
+    - Modèle de performance 
+    - Systèmes auto-adaptatifs
+    - Autoscaling
+  - Module 3 (Sécurité)
+    - Tests de pénétration
+    - Mitigation des attaques 
+    - Chaos Engineering 
+    - Systèmes auto-réparateurs &lt;/pre&gt;
+&lt;/div&gt;
 
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-&lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
-&lt;/audio&gt;
-
-&lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
-&lt;p&gt;Provide a simple yet fun self-assessment by revealing the solutions to challenges with the &lt;code&gt;spoiler&lt;/code&gt; shortcode:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;👉 Click to view the solution&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;You found me!
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary class=&#34;cursor-pointer&#34;&gt;👉 Click to view the solution&lt;/summary&gt;
-  &lt;div class=&#34;rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2&#34;&gt;
-    You found me 🎉
-  &lt;/div&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-&lt;p&gt;Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; or &lt;code&gt;{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;h2 id=&#34;models&#34;&gt;Models&lt;/h2&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
 &lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;We wrap the LaTeX math in the Hugo Blox &lt;em&gt;math&lt;/em&gt; shortcode to prevent Hugo rendering our math as Markdown.&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Software Performance Engineering (SPE) relies on mathematical models to analyze, predict, and optimize system performance. Here are some commonly used mathematical models for software performance engineering problems:&lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\gamma&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{ &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; | &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^T &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; |}{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-
-
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;{{&amp;lt; math &amp;gt;}}$\nabla F(\mathbf{x}_{n})${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$
-.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the math linebreak (&lt;code&gt;\\&lt;/code&gt;):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;k;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;, &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-
-
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
-1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
-$$
-
-
-
+&lt;hr&gt;
+&lt;h2 id=&#34;queuing-theory-models&#34;&gt;&lt;strong&gt;Queuing Theory Models&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Queuing models are widely used to represent software performance issues related to resource contention, response time, and throughput.&lt;/p&gt;
+&lt;h3 id=&#34;11-single-queue-model-mm1&#34;&gt;&lt;strong&gt;1.1 Single Queue Model (M/M/1)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Used for single-server systems where requests arrive randomly.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( \lambda \) = arrival rate (requests per second)&lt;/li&gt;
+&lt;li&gt;\( \mu \) = service rate (requests per second)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Utilization&lt;/strong&gt;:
+\[
+  \rho = \frac{\lambda}{\mu}, \quad 0 \leq \rho &lt; 1
+  \]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Average number of requests in the system&lt;/strong&gt;:
+\[
+  L = \frac{\rho}{1 - \rho}
+  \]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Average response time&lt;/strong&gt;:
+\[
+  R = \frac{1}{\mu - \lambda}
+  \]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;12-multi-server-queuing-model-mmc&#34;&gt;&lt;strong&gt;1.2 Multi-server Queuing Model (M/M/c)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Used for systems with multiple processing units (e.g., web servers with multiple threads).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( c \) = number of servers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Utilization per server&lt;/strong&gt;:
+\[
+  \rho = \frac{\lambda}{c \cdot \mu}
+  \]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Probability that all servers are busy (Erlang-C formula)&lt;/strong&gt;:
+\[
+  P_0 = \left[ \sum_{n=0}^{c-1} \frac{(\lambda / \mu)^n}{n!} + \frac{(\lambda / \mu)^c}{c!(1 - \rho)} \right]^{-1}
+  \]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Expected response time&lt;/strong&gt;:
+\[
+  R = \frac{1}{\mu} + \frac{P_0 \cdot \rho}{c(1 - \rho) \mu}
+  \]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-littles-law&#34;&gt;&lt;strong&gt;2. Little’s Law&lt;/strong&gt;&lt;/h3&gt;
+\[
+L = \lambda \times R
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( L \) = average number of requests in the system&lt;/li&gt;
+&lt;li&gt;\( \lambda \) = arrival rate of requests&lt;/li&gt;
+&lt;li&gt;\( R \) = response time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This law is often used to validate performance models and ensure consistency between measured and predicted values.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-bottleneck-analysis-utilization-law&#34;&gt;&lt;strong&gt;3. Bottleneck Analysis (Utilization Law)&lt;/strong&gt;&lt;/h3&gt;
+\[
+U_i = X \times S_i
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( U_i \) = utilization of resource \( i \)&lt;/li&gt;
+&lt;li&gt;\( X \) = system throughput (requests per second)&lt;/li&gt;
+&lt;li&gt;\( S_i \) = average service time at resource \( i \)&lt;/li&gt;
+&lt;/ul&gt;
+\[
+X_{\max} = \frac{1}{S_{\max}}
+\]&lt;hr&gt;
+&lt;h3 id=&#34;4-scalability-model-amdahls-law&#34;&gt;&lt;strong&gt;4. Scalability Model (Amdahl’s Law)&lt;/strong&gt;&lt;/h3&gt;
+\[
+S(p) = \frac{1}{(1 - \sigma) + \frac{\sigma}{p}}
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( S(p) \) = speedup with \( p \) processors&lt;/li&gt;
+&lt;li&gt;\( \sigma \) = fraction of execution time that is parallelizable&lt;/li&gt;
+&lt;li&gt;\( p \) = number of processors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For large \( p \), the speedup is limited by the non-parallelizable portion \( (1 - \sigma) \).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;5-gunthers-universal-scalability-law-usl&#34;&gt;&lt;strong&gt;5. Gunther’s Universal Scalability Law (USL)&lt;/strong&gt;&lt;/h3&gt;
+\[
+S(p) = \frac{p}{1 + \alpha(p - 1) + \beta p(p - 1)}
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( \alpha \) = contention factor (how much resources compete for shared resources)&lt;/li&gt;
+&lt;li&gt;\( \beta \) = coherence penalty (overhead from synchronization)&lt;/li&gt;
+&lt;li&gt;\( S(p) \) = speedup with \( p \) processors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This model helps predict performance degradation due to parallelism overhead.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;6-response-time-model-mean-value-analysis&#34;&gt;&lt;strong&gt;6. Response Time Model (Mean Value Analysis)&lt;/strong&gt;&lt;/h3&gt;
+\[
+R_i = S_i \times (1 + N_i)
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( R_i \) = response time at resource \( i \)&lt;/li&gt;
+&lt;li&gt;\( S_i \) = service time at resource \( i \)&lt;/li&gt;
+&lt;li&gt;\( N_i \) = average number of requests in queue at resource \( i \)&lt;/li&gt;
+&lt;/ul&gt;
+\[
+R_{\text{total}} = \sum_{i=1}^{n} R_i
+\]&lt;hr&gt;
+&lt;h3 id=&#34;7-probabilistic-latency-model&#34;&gt;&lt;strong&gt;7. Probabilistic Latency Model&lt;/strong&gt;&lt;/h3&gt;
+\[
+E[R] = \sum_{i=1}^{n} P_i \times R_i
+\]&lt;p&gt;This is useful in microservices architectures where different services contribute to overall latency.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;8-load-testing-model-throughput-and-concurrency&#34;&gt;&lt;strong&gt;8. Load Testing Model (Throughput and Concurrency)&lt;/strong&gt;&lt;/h3&gt;
+\[
+X = \frac{N}{R}
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( X \) = throughput (requests/sec)&lt;/li&gt;
+&lt;li&gt;\( N \) = number of concurrent users&lt;/li&gt;
+&lt;li&gt;\( R \) = response time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If load increases beyond system capacity, response time grows exponentially.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;9-failure-rate-and-reliability-models&#34;&gt;&lt;strong&gt;9. Failure Rate and Reliability Models&lt;/strong&gt;&lt;/h3&gt;
+\[
+R(t) = e^{-\lambda t}
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( R(t) \) = reliability (probability the system runs without failure up to time \( t \))&lt;/li&gt;
+&lt;li&gt;\( \lambda \) = failure rate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For software systems, failure rate often decreases over time as bugs are fixed.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;10-cost-benefit-model-for-performance-optimization&#34;&gt;&lt;strong&gt;10. Cost-Benefit Model for Performance Optimization&lt;/strong&gt;&lt;/h3&gt;
+\[
+C_{\text{total}} = C_{\text{infra}} + C_{\text{latency}} + C_{\text{failure}}
+\]&lt;p&gt;
+Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( C_{\text{infra}} \) = cost of additional hardware/cloud resources&lt;/li&gt;
+&lt;li&gt;\( C_{\text{latency}} \) = lost revenue due to slow response time&lt;/li&gt;
+&lt;li&gt;\( C_{\text{failure}} \) = downtime-related costs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minimizing \( C_{\text{total}} \) ensures cost-effective performance improvements.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;These mathematical models provide a foundation for analyzing and improving software performance. They help predict system behavior, identify bottlenecks, and optimize resources effectively. By applying these models, engineers can ensure software applications meet performance requirements efficiently.&lt;/p&gt;
+&lt;h2 id=&#34;pid-controller-in-software-performance-engineering&#34;&gt;&lt;strong&gt;PID Controller in Software Performance Engineering&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;Proportional-Integral-Derivative (PID) Controller&lt;/strong&gt; is a feedback control mechanism widely used in software performance engineering for tasks such as &lt;strong&gt;autoscaling, latency management, and resource allocation&lt;/strong&gt;. It dynamically adjusts system parameters based on performance deviations.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-pid-controller-equation&#34;&gt;&lt;strong&gt;1. PID Controller Equation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;A PID controller computes the corrective action \( u(t) \) using three components: Proportional (P), Integral (I), and Derivative (D):&lt;/p&gt;
+\[
+u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{d}{dt} e(t)
+\]&lt;p&gt;Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;\( u(t) \) = control output (e.g., CPU allocation, number of servers)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\( e(t) \) = error between desired performance and actual performance:&lt;/p&gt;
+\[
+  e(t) = R_{\text{target}} - R_{\text{actual}}
+  \]&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\( K_p \) = Proportional gain (adjusts based on immediate error)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\( K_i \) = Integral gain (adjusts based on accumulated past errors)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\( K_d \) = Derivative gain (adjusts based on predicted future errors)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\( R_{\text{target}} \) = target performance metric (e.g., response time)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\( R_{\text{actual}} \) = actual observed performance metric&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-discrete-time-pid-controller&#34;&gt;&lt;strong&gt;2. Discrete-Time PID Controller&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In software systems, performance metrics are sampled at discrete time intervals (\( k \)). The discrete PID formula is:&lt;/p&gt;
+\[
+u_k = K_p e_k + K_i \sum_{i=0}^{k} e_i \Delta t + K_d \frac{e_k - e_{k-1}}{\Delta t}
+\]&lt;p&gt;Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( u_k \) = control output at time step \( k \)&lt;/li&gt;
+&lt;li&gt;\( e_k \) = error at time step \( k \)&lt;/li&gt;
+&lt;li&gt;\( \Delta t \) = sampling interval&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In &lt;strong&gt;discrete implementation&lt;/strong&gt;, the integral is approximated as a sum:&lt;/p&gt;
+\[
+I_k = I_{k-1} + e_k \Delta t
+\]&lt;p&gt;And the derivative as a difference:&lt;/p&gt;
+\[
+D_k = \frac{e_k - e_{k-1}}{\Delta t}
+\]&lt;p&gt;Thus, the final control equation becomes:&lt;/p&gt;
+\[
+u_k = K_p e_k + K_i I_k + K_d D_k
+\]&lt;hr&gt;
+&lt;h2 id=&#34;3-application-in-software-performance-engineering&#34;&gt;&lt;strong&gt;3. Application in Software Performance Engineering&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;autoscaling-for-cloud-resources&#34;&gt;&lt;strong&gt;Autoscaling for Cloud Resources&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Objective&lt;/strong&gt;: Adjust the number of virtual machines (VMs) dynamically based on system load.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Error Signal&lt;/strong&gt;: Difference between target response time and measured response time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control Output&lt;/strong&gt;: Number of VMs to add or remove.&lt;/li&gt;
+&lt;/ul&gt;
+\[
+\text{VMs}_{\text{new}} = \text{VMs}_{\text{current}} + u_k
+\]&lt;h3 id=&#34;response-time-optimization&#34;&gt;&lt;strong&gt;Response Time Optimization&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Objective&lt;/strong&gt;: Minimize response time in web applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Error Signal&lt;/strong&gt;: Difference between target latency and actual latency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control Output&lt;/strong&gt;: Request queue size limit or CPU allocation.&lt;/li&gt;
+&lt;/ul&gt;
+\[
+\text{CPU}_{\text{new}} = \text{CPU}_{\text{current}} + u_k
+\]&lt;h3 id=&#34;database-query-rate-limiting&#34;&gt;&lt;strong&gt;Database Query Rate Limiting&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Objective&lt;/strong&gt;: Prevent overload on a database by controlling query rates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Error Signal&lt;/strong&gt;: Difference between allowed and actual queries per second.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control Output&lt;/strong&gt;: Maximum query rate.&lt;/li&gt;
+&lt;/ul&gt;
+\[
+\text{Rate}_{\text{new}} = \text{Rate}_{\text{current}} + u_k
+\]&lt;hr&gt;
+&lt;h2 id=&#34;4-choosing-pid-parameters&#34;&gt;&lt;strong&gt;4. Choosing PID Parameters&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The effectiveness of a PID controller depends on tuning the parameters \( K_p, K_i, K_d \):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;\( K_p \) (Proportional Gain)&lt;/strong&gt;: Large values lead to &lt;strong&gt;faster response&lt;/strong&gt; but may cause instability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;\( K_i \) (Integral Gain)&lt;/strong&gt;: Large values &lt;strong&gt;reduce steady-state error&lt;/strong&gt; but may cause overshoot.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;\( K_d \) (Derivative Gain)&lt;/strong&gt;: Large values help in &lt;strong&gt;predicting future errors&lt;/strong&gt; but may amplify noise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ziegler-nichols-tuning-method&#34;&gt;&lt;strong&gt;Ziegler-Nichols Tuning Method&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;A common method for tuning PID parameters:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Set \( K_i = 0 \) and \( K_d = 0 \).&lt;/li&gt;
+&lt;li&gt;Increase \( K_p \) until system oscillates (critical gain \( K_c \)).&lt;/li&gt;
+&lt;li&gt;Find the oscillation period \( T_c \).&lt;/li&gt;
+&lt;li&gt;Use tuning rules:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Control Type&lt;/th&gt;
+          &lt;th&gt;\( K_p \)&lt;/th&gt;
+          &lt;th&gt;\( K_i \)&lt;/th&gt;
+          &lt;th&gt;\( K_d \)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;P&lt;/td&gt;
+          &lt;td&gt;0.5 \( K_c \)&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;PI&lt;/td&gt;
+          &lt;td&gt;0.45 \( K_c \)&lt;/td&gt;
+          &lt;td&gt;\( 1.2 K_c / T_c \)&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;PID&lt;/td&gt;
+          &lt;td&gt;0.6 \( K_c \)&lt;/td&gt;
+          &lt;td&gt;\( 2 K_c / T_c \)&lt;/td&gt;
+          &lt;td&gt;\( K_c T_c / 8 \)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;5-stability-analysis-laplace-transform&#34;&gt;&lt;strong&gt;5. Stability Analysis (Laplace Transform)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The PID controller in Laplace domain is:&lt;/p&gt;
+\[
+U(s) = (K_p + K_i \frac{1}{s} + K_d s) E(s)
+\]&lt;p&gt;The closed-loop system is:&lt;/p&gt;
+\[
+G(s) = \frac{U(s) G_{\text{plant}}(s)}{1 + U(s) G_{\text{plant}}(s)}
+\]&lt;p&gt;The characteristic equation:&lt;/p&gt;
+\[
+1 + (K_p + K_i \frac{1}{s} + K_d s) G_{\text{plant}}(s) = 0
+\]&lt;p&gt;Stability is determined using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Root locus method&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bode plot for frequency response&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nyquist criterion&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;6-example-pid-for-autoscaling-web-servers&#34;&gt;&lt;strong&gt;6. Example: PID for Autoscaling Web Servers&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Given Data:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Target response time&lt;/strong&gt;: \( R_{\text{target}} = 200ms \)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measured response time&lt;/strong&gt;: \( R_{\text{actual}} = 300ms \)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling time&lt;/strong&gt;: \( \Delta t = 5s \)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Initial number of servers&lt;/strong&gt;: 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PID Parameters&lt;/strong&gt;: \( K_p = 1.5, K_i = 0.1, K_d = 0.5 \)&lt;/li&gt;
+&lt;/ul&gt;
+\[
+e_k = R_{\text{target}} - R_{\text{actual}} = 200 - 300 = -100ms
+\]\[
+P_k = K_p \cdot e_k = 1.5 \cdot (-100) = -150
+\]\[
+I_k = I_{k-1} + K_i e_k \Delta t = 0 + 0.1 \times (-100) \times 5 = -50
+\]\[
+D_k = K_d \frac{e_k - e_{k-1}}{\Delta t} = 0.5 \frac{(-100) - (-50)}{5} = -5
+\]\[
+u_k = P_k + I_k + D_k = -150 - 50 - 5 = -205
+\]\[
+\text{Servers}_{\text{new}} = \text{Servers}_{\text{current}} + u_k = 10 - 2 = 8
+\]&lt;p&gt;If \( u_k \) is negative, it means reducing the number of servers.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;7-conclusion&#34;&gt;&lt;strong&gt;7. Conclusion&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The PID controller is a powerful tool in &lt;strong&gt;software performance engineering&lt;/strong&gt;, allowing dynamic resource management by &lt;strong&gt;continuously adjusting&lt;/strong&gt; system parameters. It is applied in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Autoscaling cloud resources&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Latency and throughput optimization&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database rate limiting&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By tuning the parameters correctly, it ensures that &lt;strong&gt;performance targets are met&lt;/strong&gt; while &lt;strong&gt;avoiding oscillations and instability&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;dynamic-layered-queuing-networks-lqn&#34;&gt;&lt;strong&gt;Dynamic Layered Queuing Networks (LQN)&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;1-overview-of-dynamic-lqn&#34;&gt;&lt;strong&gt;1. Overview of Dynamic LQN&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Layered Queuing Networks (LQNs) extend traditional queuing models to capture the interaction between multiple software and hardware layers, often representing client-server, microservices, and cloud-based architectures.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;Dynamic LQN (DLQN)&lt;/strong&gt; incorporates time-varying workload, adaptive resource allocation, and system behavior changes over time. These models help predict performance bottlenecks, optimize system capacity, and adjust service strategies dynamically.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-basic-mathematical-formulation-of-lqn&#34;&gt;&lt;strong&gt;2. Basic Mathematical Formulation of LQN&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;LQNs describe a system as a set of &lt;strong&gt;tasks&lt;/strong&gt; and &lt;strong&gt;entries&lt;/strong&gt;, where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tasks (\( T_i \))&lt;/strong&gt; represent processing elements (e.g., database, application server).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Entries (\( E_i \))&lt;/strong&gt; represent functions or operations executed within a task.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Calls (\( C_{ij} \))&lt;/strong&gt; denote interactions between tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each task \( T_i \) has:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Arrival rate&lt;/strong&gt; \( \lambda_i(t) \) (requests per second)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service demand&lt;/strong&gt; \( S_i(t) \) (time per request)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Queue discipline&lt;/strong&gt; \( Q_i \) (e.g., FIFO, priority-based)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;queuing-equations-for-a-single-layer&#34;&gt;&lt;strong&gt;Queuing Equations for a Single Layer&lt;/strong&gt;&lt;/h3&gt;
+\[
+R_i = S_i + \frac{Q_i}{1 - \rho_i}
+\]&lt;p&gt;
+where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( \rho_i = \frac{\lambda_i S_i}{m_i} \) is the utilization of task \( T_i \) (with \( m_i \) parallel servers),&lt;/li&gt;
+&lt;li&gt;\( Q_i \) is the waiting time due to other tasks.&lt;/li&gt;
+&lt;/ul&gt;
+\[
+X_i = \frac{\lambda_i}{1 + \sum_{j \in C_{i}} P_{ij} R_j}
+\]&lt;p&gt;
+where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( P_{ij} \) is the probability that \( T_i \) calls \( T_j \),&lt;/li&gt;
+&lt;li&gt;\( R_j \) is the response time of task \( j \).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-dynamic-extension-of-lqn-dlqn&#34;&gt;&lt;strong&gt;3. Dynamic Extension of LQN (DLQN)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To model dynamic behavior, we introduce time-dependent parameters.&lt;/p&gt;
+&lt;h3 id=&#34;state-equations-in-dynamic-lqn&#34;&gt;&lt;strong&gt;State Equations in Dynamic LQN&lt;/strong&gt;&lt;/h3&gt;
+\[
+\frac{dN_i(t)}{dt} = \lambda_i(t) - \mu_i(t) N_i(t)
+\]&lt;p&gt;
+where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( N_i(t) \) is the number of requests in task \( i \) at time \( t \),&lt;/li&gt;
+&lt;li&gt;\( \lambda_i(t) \) is the dynamic arrival rate,&lt;/li&gt;
+&lt;li&gt;\( \mu_i(t) \) is the service rate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;dynamic-resource-allocation&#34;&gt;&lt;strong&gt;Dynamic Resource Allocation&lt;/strong&gt;&lt;/h3&gt;
+\[
+m_i(t) = \max \left( 1, \frac{\lambda_i(t) S_i}{\rho_{\text{max}}} \right)
+\]&lt;p&gt;
+where \( \rho_{\text{max}} \) is the maximum allowable utilization.&lt;/p&gt;
+\[
+\mu_i(t) = \frac{m_i(t)}{S_i}
+\]&lt;h3 id=&#34;dynamic-scaling&#34;&gt;&lt;strong&gt;Dynamic Scaling&lt;/strong&gt;&lt;/h3&gt;
+\[
+m_i(t+1) = m_i(t) + \Delta m_i
+\]\[
+\Delta m_i = k_p e(t) + k_i \int e(\tau) d\tau + k_d \frac{d e(t)}{dt}
+\]&lt;p&gt;
+where \( e(t) = \rho_i - \rho_{\text{target}} \) and \( k_p, k_i, k_d \) are PID controller gains.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;4-performance-metrics-in-dlqn&#34;&gt;&lt;strong&gt;4. Performance Metrics in DLQN&lt;/strong&gt;&lt;/h2&gt;
+\[
+R_{\text{sys}}(t) = \sum_{i=1}^{n} P_i R_i(t)
+\]&lt;p&gt;
+where \( P_i \) is the probability that a request visits task \( i \).&lt;/p&gt;
+\[
+U_i(t) = \frac{\lambda_i(t) S_i}{m_i(t)}
+\]&lt;p&gt;
+where \( U_i(t) \leq 1 \) ensures the system does not overload.&lt;/p&gt;
+\[
+X_{\text{sys}}(t) = \frac{\lambda_{\text{entry}}(t)}{1 + \sum_{i=1}^{n} P_i R_i(t)}
+\]&lt;hr&gt;
+&lt;h2 id=&#34;5-example-dynamic-lqn-for-cloud-autoscaling&#34;&gt;&lt;strong&gt;5. Example: Dynamic LQN for Cloud Autoscaling&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;scenario-web-application-with-3-tiers&#34;&gt;&lt;strong&gt;Scenario: Web Application with 3 Tiers&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Task 1&lt;/strong&gt;: Load Balancer (\( T_1 \))&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task 2&lt;/strong&gt;: Web Server (\( T_2 \))&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task 3&lt;/strong&gt;: Database (\( T_3 \))&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;step-1-define-arrival-rate&#34;&gt;&lt;strong&gt;Step 1: Define Arrival Rate&lt;/strong&gt;&lt;/h3&gt;
+\[
+\lambda_1(t) = \lambda_{\text{users}}(t)
+\]&lt;h3 id=&#34;step-2-compute-response-time-per-layer&#34;&gt;&lt;strong&gt;Step 2: Compute Response Time per Layer&lt;/strong&gt;&lt;/h3&gt;
+\[
+R_1(t) = S_1 + \frac{Q_1}{1 - \rho_1}
+\]\[
+R_2(t) = S_2 + \frac{Q_2}{1 - \rho_2}
+\]\[
+R_3(t) = S_3 + \frac{Q_3}{1 - \rho_3}
+\]&lt;h3 id=&#34;step-3-compute-system-response-time&#34;&gt;&lt;strong&gt;Step 3: Compute System Response Time&lt;/strong&gt;&lt;/h3&gt;
+\[
+R_{\text{sys}}(t) = R_1(t) + P_{12} R_2(t) + P_{23} R_3(t)
+\]&lt;h3 id=&#34;step-4-adjust-resources-dynamically&#34;&gt;&lt;strong&gt;Step 4: Adjust Resources Dynamically&lt;/strong&gt;&lt;/h3&gt;
+\[
+\Delta m_2 = k_p e_2 + k_i \int e_2 d\tau + k_d \frac{d e_2}{dt}
+\]&lt;p&gt;where \( e_2 = \rho_2 - 0.8 \) ensures the web server operates below 80% utilization.&lt;/p&gt;
+&lt;h3 id=&#34;step-5-compute-throughput&#34;&gt;&lt;strong&gt;Step 5: Compute Throughput&lt;/strong&gt;&lt;/h3&gt;
+\[
+X_{\text{sys}}(t) = \frac{\lambda_1(t)}{1 + P_{12} R_2(t) + P_{23} R_3(t)}
+\]&lt;hr&gt;
+&lt;h2 id=&#34;6-conclusion&#34;&gt;&lt;strong&gt;6. Conclusion&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Dynamic LQN (DLQN) extends standard LQN models by incorporating &lt;strong&gt;time-dependent queuing equations&lt;/strong&gt;, &lt;strong&gt;adaptive resource allocation&lt;/strong&gt;, and &lt;strong&gt;autoscaling mechanisms&lt;/strong&gt;. It is particularly useful in &lt;strong&gt;cloud computing, microservices architectures, and dynamic performance modeling&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This model allows for:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Predicting workload changes&lt;/strong&gt; and adjusting resources accordingly.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reducing latency&lt;/strong&gt; by dynamically adapting queue processing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ensuring scalability&lt;/strong&gt; using PID-based autoscaling.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Using these equations, performance engineers can &lt;strong&gt;simulate, optimize, and manage&lt;/strong&gt; complex distributed systems dynamically.&lt;/p&gt;
 &lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-&lt;p&gt;Hugo Blox Builder utilises Hugo&amp;rsquo;s Markdown extension for highlighting code syntax. The code theme can be selected in the &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;inline-images&#34;&gt;Inline Images&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;python&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Python&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;
-  &lt;span class=&#34;inline-block  pr-1&#34;&gt;
-    &lt;svg style=&#34;height: 1em; transform: translateY(0.1em);&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; height=&#34;1em&#34; viewBox=&#34;0 0 448 512&#34; fill=&#34;currentColor&#34;&gt;&lt;path d=&#34;M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z&#34;/&gt;&lt;/svg&gt;
-  &lt;/span&gt; Python&lt;/p&gt;
-&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
-</description>
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;scipy.integrate&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;odeint&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Global variables&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;integral&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1e-6&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;e_prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The function below calculates the value of manipulated variable (MV) based on the measured value (in example it is the temperature of the liquid) and setpoint value (temperature we want to obtain).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;PID&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Kp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Ki&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Kd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;setpoint&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;measurement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;global&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;integral&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;e_prev&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# Value of offset - when the error is equal zero&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;offset&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;320&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# PID calculations&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;e&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;setpoint&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;measurement&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;P&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Kp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;integral&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;integral&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Ki&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;D&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Kd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;e_prev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# calculate manipulated variable - MV &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;MV&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;offset&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;P&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;integral&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;D&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# update stored data for next iteration&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;e_prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;MV&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;temp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;epsilon&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;tau&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Tf&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Q&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;dTdt&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tau&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;epsilon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Tf&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;temp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Q&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;epsilon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;temp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dTdt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;tspan&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linspace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;50&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;320&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sol&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;odeint&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tspan&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tfirst&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xlabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Time&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ylabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Temperature&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tspan&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sol&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# number of steps&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;250&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;y0&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;deltat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;y_sol&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;t_sol&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Tq is chosen as a manipulated variable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;320&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;q_sol&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;setpoint&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;310&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;integral&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;deltat&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;tspan&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linspace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PID&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;setpoint&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y_sol&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;yi&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;odeint&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y_sol&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tspan&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;args&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tfirst&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;t_sol&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;y_sol&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;yi&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;][&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;q_sol&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Tq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;time_prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;t_sol&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y_sol&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xlabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Time&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ylabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Temperature&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
-      <title>Learn Python</title>
-      <link>http://localhost:1313/teaching/python/</link>
+      <title>Cloud Security</title>
+      <link>http://localhost:1313/teaching/security/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/python/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
-&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
-&lt;p&gt;Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;Bilibili&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; bilibili id=&amp;quot;BV1WV4y1r7DF&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;Video file&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Videos may be added to a page by either placing them in your &lt;code&gt;assets/media/&lt;/code&gt; media library or in your &lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page&amp;rsquo;s folder&lt;/a&gt;, and then embedding them with the &lt;em&gt;video&lt;/em&gt; shortcode:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; video src=&amp;quot;my_video.mp4&amp;quot; controls=&amp;quot;yes&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;podcast&#34;&gt;Podcast&lt;/h2&gt;
-&lt;p&gt;You can add a podcast or music to a page by placing the MP3 file in the page&amp;rsquo;s folder or the media library folder and then embedding the audio on your page with the &lt;em&gt;audio&lt;/em&gt; shortcode:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; audio src=&amp;quot;ambient-piano.mp3&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Try it out:&lt;/p&gt;
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-&lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
-&lt;/audio&gt;
-
-&lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
-&lt;p&gt;Provide a simple yet fun self-assessment by revealing the solutions to challenges with the &lt;code&gt;spoiler&lt;/code&gt; shortcode:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;👉 Click to view the solution&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;You found me!
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary class=&#34;cursor-pointer&#34;&gt;👉 Click to view the solution&lt;/summary&gt;
-  &lt;div class=&#34;rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2&#34;&gt;
-    You found me 🎉
-  &lt;/div&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-&lt;p&gt;Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; or &lt;code&gt;{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;We wrap the LaTeX math in the Hugo Blox &lt;em&gt;math&lt;/em&gt; shortcode to prevent Hugo rendering our math as Markdown.&lt;/span&gt;
-&lt;/div&gt;
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\gamma&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{ &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; | &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^T &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; |}{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-
-
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;{{&amp;lt; math &amp;gt;}}$\nabla F(\mathbf{x}_{n})${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$
-.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the math linebreak (&lt;code&gt;\\&lt;/code&gt;):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;k;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;, &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-
-
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
-1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
-$$
-
-
-
+      <guid>http://localhost:1313/teaching/security/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Key cloud computing concepts. Dependability and security in the cloud. Identity and access management. Secure configuration management. Data protection and automation. Networking and logging. Compliance,
+incident response and penetration testing. Security in mobile cloud environments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;lecture-notes--inf8102&#34;&gt;Lecture Notes 📚 INF8102&lt;/h2&gt;
+&lt;p&gt;📥 &lt;strong&gt;Download PDF&lt;/strong&gt;
+📂 &lt;a href=&#34;slides/Lec-1-1-Intro_Infonuagique.pdf&#34;&gt;Lec-1-1&lt;/a&gt;, &lt;a href=&#34;slides/Lec-1-2-Intro_Infonuagique.pdf&#34;&gt;Lec-1-2&lt;/a&gt;, &lt;a href=&#34;slides/Lec-2-1-Gestion_Identite_Acces.pdf&#34;&gt;Lec-2-1&lt;/a&gt;,&amp;hellip;, &lt;a href=&#34;slides/Lec-2-2-Gestion_Identite_Acces.pdf&#34;&gt;Lec-2-2&lt;/a&gt;, &lt;a href=&#34;slides/Lec-3-1-Gestion_Configuration.pdf&#34;&gt;Lec-3-1&lt;/a&gt;,&amp;hellip;,&lt;a href=&#34;slides/Lec-3-2-Security_Configuration.pdf&#34;&gt;Lec-3-2&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;models&#34;&gt;Models&lt;/h2&gt;
+&lt;h3 id=&#34;complex-mathematical-model-for-cloud-security&#34;&gt;&lt;strong&gt;Complex Mathematical Model for Cloud Security&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Cloud security involves multiple interdependent components, including &lt;strong&gt;identity management, data protection, access control, compliance, threat detection, and incident response&lt;/strong&gt;. To mathematically model cloud security, we integrate &lt;strong&gt;probability theory, queuing models, differential equations, and Markov processes&lt;/strong&gt; to analyze attack surfaces, defense mechanisms, and system reliability.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-notation-and-key-parameters&#34;&gt;&lt;strong&gt;1. Notation and Key Parameters&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Define the variables used in the model:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Symbol&lt;/th&gt;
+          &lt;th&gt;Definition&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\( A(t) \)&lt;/td&gt;
+          &lt;td&gt;Rate of incoming access requests (authentication, API calls, etc.) at time \( t \)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\( P_{\text{auth}} \)&lt;/td&gt;
+          &lt;td&gt;Probability of a user successfully authenticating&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\( T_{\text{auth}} \)&lt;/td&gt;
+          &lt;td&gt;Authentication processing time&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\( \lambda_{\text{attack}} \)&lt;/td&gt;
+          &lt;td&gt;Rate of attack attempts (DDoS, brute force, SQL injection, etc.)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\( P_{\text{detect}} \)&lt;/td&gt;
+          &lt;td&gt;Probability of an attack being detected&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\( P_{\text{mitigate}} \)&lt;/td&gt;
+          &lt;td&gt;Probability of mitigation succeeding&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\( C_{\text{data}} \)&lt;/td&gt;
+          &lt;td&gt;Data confidentiality level (measured in entropy)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\( P_{\text{leak}} \)&lt;/td&gt;
+          &lt;td&gt;Probability of a data breach&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\( R_{\text{comp}} \)&lt;/td&gt;
+          &lt;td&gt;Compliance risk score&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\( U_{\text{log}} \)&lt;/td&gt;
+          &lt;td&gt;Utilization of logging infrastructure&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\( X_{\text{log}} \)&lt;/td&gt;
+          &lt;td&gt;Log analysis throughput&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\( S_{\text{cloud}} \)&lt;/td&gt;
+          &lt;td&gt;Overall cloud security risk level&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\( R_{\text{resp}}(t) \)&lt;/td&gt;
+          &lt;td&gt;Response time to an incident at time \( t \)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-identity-and-access-management-iam-model&#34;&gt;&lt;strong&gt;2. Identity and Access Management (IAM) Model&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;IAM enforces security by authenticating and authorizing users.&lt;/p&gt;
+&lt;h3 id=&#34;authentication-model&#34;&gt;&lt;strong&gt;Authentication Model&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We model authentication as a &lt;strong&gt;queuing system&lt;/strong&gt;:&lt;/p&gt;
+\[
+R_{\text{auth}} = T_{\text{auth}} + \frac{A(t)}{\mu_{\text{auth}} - A(t)}
+\]&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( \mu_{\text{auth}} \) is the max authentication processing capacity.&lt;/li&gt;
+&lt;li&gt;\( R_{\text{auth}} \) is the expected authentication response time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security constraint&lt;/strong&gt;: If \( A(t) &gt; \mu_{\text{auth}} \), authentication requests queue up, increasing attack surface.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;attack-detection-probability&#34;&gt;&lt;strong&gt;Attack Detection Probability&lt;/strong&gt;&lt;/h3&gt;
+\[
+P_{\text{detect}} = 1 - e^{-\beta \lambda_{\text{attack}}}
+\]&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( \beta \) is the detection efficiency of intrusion detection systems (IDS).&lt;/li&gt;
+&lt;li&gt;\( \lambda_{\text{attack}} \) is the attack arrival rate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;compromised-sessions&#34;&gt;&lt;strong&gt;Compromised Sessions&lt;/strong&gt;&lt;/h3&gt;
+\[
+P_{\text{compromised}} = (1 - P_{\text{auth}}) P_{\text{bypass}} + P_{\text{leak}}
+\]&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( P_{\text{bypass}} \) is the probability of bypassing authentication.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-secure-configuration-management&#34;&gt;&lt;strong&gt;3. Secure Configuration Management&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Cloud configurations must be dynamically updated to prevent misconfigurations.&lt;/p&gt;
+&lt;h3 id=&#34;configuration-drift-model&#34;&gt;&lt;strong&gt;Configuration Drift Model&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Define &lt;strong&gt;drift rate&lt;/strong&gt; \( D(t) \), which represents the deviation of configurations from secure baselines.&lt;/p&gt;
+\[
+\frac{dD(t)}{dt} = \alpha \cdot (1 - P_{\text{secure}}) - \gamma D(t)
+\]&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( \alpha \) is the misconfiguration rate.&lt;/li&gt;
+&lt;li&gt;\( P_{\text{secure}} \) is the probability that an update maintains security.&lt;/li&gt;
+&lt;li&gt;\( \gamma \) is the rate of security patching.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At equilibrium (\( dD/dt = 0 \)):&lt;/p&gt;
+\[
+D_{\text{eq}} = \frac{\alpha (1 - P_{\text{secure}})}{\gamma}
+\]&lt;p&gt;Security &lt;strong&gt;degrades&lt;/strong&gt; if \( \alpha \) is high and \( \gamma \) is low.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;4-data-protection-and-encryption-model&#34;&gt;&lt;strong&gt;4. Data Protection and Encryption Model&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;data-breach-probability&#34;&gt;&lt;strong&gt;Data Breach Probability&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The probability of a data breach is modeled using &lt;strong&gt;Shannon entropy&lt;/strong&gt;:&lt;/p&gt;
+\[
+P_{\text{leak}} = 1 - e^{-\eta C_{\text{data}}}
+\]&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( C_{\text{data}} \) is the entropy (higher means better encryption).&lt;/li&gt;
+&lt;li&gt;\( \eta \) is the effectiveness of encryption.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-loss-rate&#34;&gt;&lt;strong&gt;Data Loss Rate&lt;/strong&gt;&lt;/h3&gt;
+\[
+L_{\text{data}}(t) = \lambda_{\text{attack}} (1 - P_{\text{mitigate}}) S_{\text{impact}}
+\]&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( S_{\text{impact}} \) represents the impact of a breach.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;5-network-security-and-log-analysis&#34;&gt;&lt;strong&gt;5. Network Security and Log Analysis&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Security logs must be processed efficiently to detect threats.&lt;/p&gt;
+&lt;h3 id=&#34;queuing-model-for-log-processing&#34;&gt;&lt;strong&gt;Queuing Model for Log Processing&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Security logs are generated at a rate \( \lambda_{\text{log}} \) and analyzed at \( \mu_{\text{log}} \).&lt;/p&gt;
+\[
+R_{\text{log}} = \frac{1}{\mu_{\text{log}} - \lambda_{\text{log}}}
+\]&lt;p&gt;If \( \lambda_{\text{log}} &gt; \mu_{\text{log}} \), logs accumulate, &lt;strong&gt;delaying threat detection&lt;/strong&gt;.&lt;/p&gt;
+\[
+U_{\text{log}} = \frac{\lambda_{\text{log}}}{\mu_{\text{log}}}
+\]&lt;p&gt;If \( U_{\text{log}} \approx 1 \), log analysis is overloaded, leading to security blind spots.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;6-compliance-and-risk-management&#34;&gt;&lt;strong&gt;6. Compliance and Risk Management&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Cloud environments must comply with regulatory standards.&lt;/p&gt;
+&lt;h3 id=&#34;compliance-risk-score&#34;&gt;&lt;strong&gt;Compliance Risk Score&lt;/strong&gt;&lt;/h3&gt;
+\[
+R_{\text{comp}} = \sum_{i=1}^{N} w_i P_{\text{non-compliance}, i}
+\]&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( w_i \) is the weight of compliance factor \( i \).&lt;/li&gt;
+&lt;li&gt;\( P_{\text{non-compliance}, i} \) is the probability of violating compliance rule \( i \).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A &lt;strong&gt;high \( R_{\text{comp}} \)&lt;/strong&gt; increases legal and reputational risks.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;7-incident-response-time-model&#34;&gt;&lt;strong&gt;7. Incident Response Time Model&lt;/strong&gt;&lt;/h2&gt;
+\[
+R_{\text{resp}}(t) = T_{\text{detect}} + T_{\text{analysis}} + T_{\text{mitigation}}
+\]&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( T_{\text{detect}} \) is the attack detection time.&lt;/li&gt;
+&lt;li&gt;\( T_{\text{analysis}} \) is the investigation time.&lt;/li&gt;
+&lt;li&gt;\( T_{\text{mitigation}} \) is the response execution time.&lt;/li&gt;
+&lt;/ul&gt;
+\[
+P_{\text{success}} = P_{\text{detect}} \cdot P_{\text{analysis}} \cdot P_{\text{mitigate}}
+\]&lt;hr&gt;
+&lt;h2 id=&#34;8-overall-cloud-security-risk-model&#34;&gt;&lt;strong&gt;8. Overall Cloud Security Risk Model&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;We define &lt;strong&gt;overall cloud security risk&lt;/strong&gt; \( S_{\text{cloud}} \) as:&lt;/p&gt;
+\[
+S_{\text{cloud}} = w_1 P_{\text{compromised}} + w_2 P_{\text{leak}} + w_3 U_{\text{log}} + w_4 R_{\text{comp}}
+\]&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( w_1, w_2, w_3, w_4 \) are weights indicating the impact of each component.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A &lt;strong&gt;higher \( S_{\text{cloud}} \) means a more vulnerable cloud system&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;9-cloud-security-optimization&#34;&gt;&lt;strong&gt;9. Cloud Security Optimization&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To improve security, we minimize:&lt;/p&gt;
+\[
+\min_{P_{\text{auth}}, P_{\text{mitigate}}, \mu_{\text{log}}} S_{\text{cloud}}
+\]&lt;p&gt;under the constraints:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( P_{\text{auth}} \geq 0.95 \) (strict authentication policy)&lt;/li&gt;
+&lt;li&gt;\( P_{\text{mitigate}} \geq 0.9 \) (effective mitigation strategy)&lt;/li&gt;
+&lt;li&gt;\( U_{\text{log}} \leq 0.8 \) (log analysis utilization limit)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Using &lt;strong&gt;Lagrange multipliers&lt;/strong&gt;, we solve for optimal parameters.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;10-conclusion&#34;&gt;&lt;strong&gt;10. Conclusion&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This &lt;strong&gt;complex mathematical model for cloud security&lt;/strong&gt; integrates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Queuing theory&lt;/strong&gt; for authentication and logging.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Markov models&lt;/strong&gt; for attack detection and response.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shannon entropy&lt;/strong&gt; for data protection.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimization methods&lt;/strong&gt; to minimize risk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By analyzing &lt;strong&gt;dynamic security risks&lt;/strong&gt; mathematically, cloud architects can &lt;strong&gt;optimize security policies, improve resilience, and minimize attack surfaces&lt;/strong&gt; effectively.&lt;/p&gt;
+&lt;h3 id=&#34;deep-mathematical-models-in-cybersecurity&#34;&gt;&lt;strong&gt;Deep Mathematical Models in Cybersecurity&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Cybersecurity threats evolve continuously, requiring advanced &lt;strong&gt;mathematical models&lt;/strong&gt; to analyze attack patterns, detect intrusions, assess risks, and optimize defensive strategies. Below are deep mathematical models used in cybersecurity, covering &lt;strong&gt;intrusion detection, attack modeling, risk assessment, cryptography, and optimization techniques&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-intrusion-detection-system-ids-models&#34;&gt;&lt;strong&gt;1. Intrusion Detection System (IDS) Models&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;IDS detects anomalous network activities using statistical and machine learning models.&lt;/p&gt;
+&lt;h3 id=&#34;11-statistical-anomaly-detection-markov-chains&#34;&gt;&lt;strong&gt;1.1 Statistical Anomaly Detection (Markov Chains)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Network events follow a &lt;strong&gt;Markov process&lt;/strong&gt;, where transitions between states represent different network behaviors.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+\[
+  P(X_{t+1} | X_t, X_{t-1}, \dots, X_0) = P(X_{t+1} | X_t)
+  \]&lt;/li&gt;
+&lt;li&gt;
+\[
+  P = \begin{bmatrix}
+  P_{11} &amp; P_{12} &amp; \cdots &amp; P_{1n} \\
+  P_{21} &amp; P_{22} &amp; \cdots &amp; P_{2n} \\
+  \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+  P_{n1} &amp; P_{n2} &amp; \cdots &amp; P_{nn}
+  \end{bmatrix}
+  \]&lt;/li&gt;
+&lt;li&gt;
+\[
+  S_t = \sum_{i=1}^{n} \left| P(X_{t+1} | X_t) - P_{\text{baseline}}(X_{t+1} | X_t) \right|
+  \]&lt;p&gt;
+If \( S_t &gt; \tau \), an anomaly is detected.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-attack-modeling-with-game-theory&#34;&gt;&lt;strong&gt;2. Attack Modeling with Game Theory&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Cybersecurity involves &lt;strong&gt;attackers&lt;/strong&gt; and &lt;strong&gt;defenders&lt;/strong&gt;, making &lt;strong&gt;game theory&lt;/strong&gt; an effective tool.&lt;/p&gt;
+&lt;h3 id=&#34;21-zero-sum-attack-defense-model&#34;&gt;&lt;strong&gt;2.1 Zero-Sum Attack-Defense Model&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The attacker aims to maximize damage \( A \), while the defender minimizes loss \( D \).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+\[
+  U(A, D) = - C(A) + B(A, D) - P(D) C(D)
+  \]&lt;p&gt;
+where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( C(A) \) = attack cost,&lt;/li&gt;
+&lt;li&gt;\( B(A, D) \) = benefit to the attacker,&lt;/li&gt;
+&lt;li&gt;\( P(D) \) = probability of detection,&lt;/li&gt;
+&lt;li&gt;\( C(D) \) = cost of defense.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+\[
+  \frac{\partial U}{\partial A} = 0, \quad \frac{\partial U}{\partial D} = 0
+  \]&lt;p&gt;
+solving for \( A^* \), \( D^* \) gives the optimal attack and defense strategies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-cyber-risk-assessment&#34;&gt;&lt;strong&gt;3. Cyber Risk Assessment&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Risk is computed using probability distributions of attack likelihood and impact.&lt;/p&gt;
+&lt;h3 id=&#34;31-expected-risk-model&#34;&gt;&lt;strong&gt;3.1 Expected Risk Model&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+\[
+  R = \sum_{i=1}^{n} P(A_i) I(A_i)
+  \]&lt;p&gt;
+where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( P(A_i) \) = probability of attack \( i \),&lt;/li&gt;
+&lt;li&gt;\( I(A_i) \) = impact function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+\[
+  L(x) = \int_0^x P_{\text{attack}}(\lambda) P_{\text{loss}}(x | \lambda) d\lambda
+  \]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( P_{\text{attack}}(\lambda) = \frac{\lambda^k e^{-\lambda}}{k!} \) (Poisson distribution of attacks),&lt;/li&gt;
+&lt;li&gt;\( P_{\text{loss}}(x | \lambda) = \frac{\beta^\alpha x^{\alpha-1} e^{-\beta x}}{\Gamma(\alpha)} \) (Gamma-distributed loss).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;4-cryptographic-security-analysis&#34;&gt;&lt;strong&gt;4. Cryptographic Security Analysis&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Mathematical models ensure encryption strength.&lt;/p&gt;
+&lt;h3 id=&#34;41-entropy-based-key-strength&#34;&gt;&lt;strong&gt;4.1 Entropy-Based Key Strength&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Let \( K \) be the cryptographic key space.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+\[
+  H(K) = -\sum_{i=1}^{n} P(k_i) \log_2 P(k_i)
+  \]&lt;p&gt;
+Higher entropy implies stronger keys.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+\[
+  P_{\text{break}}(t) = 1 - e^{- \frac{t}{T_{\text{search}}}}
+  \]&lt;p&gt;
+where \( T_{\text{search}} \) is the time needed to search the key space.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;5-network-traffic-anomaly-detection&#34;&gt;&lt;strong&gt;5. Network Traffic Anomaly Detection&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Anomalous traffic can indicate a cyber attack.&lt;/p&gt;
+&lt;h3 id=&#34;51-gaussian-mixture-model-gmm-for-network-behavior&#34;&gt;&lt;strong&gt;5.1 Gaussian Mixture Model (GMM) for Network Behavior&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+\[
+  P(x) = \sum_{i=1}^{K} w_i \mathcal{N}(x | \mu_i, \Sigma_i)
+  \]&lt;p&gt;
+where \( w_i \) are mixture weights, and \( \mathcal{N}(x | \mu_i, \Sigma_i) \) is the Gaussian component.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+\[
+  L = \prod_{i=1}^{N} P(x_i)
+  \]&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use &lt;strong&gt;Expectation-Maximization (EM)&lt;/strong&gt; to estimate parameters \( w_i, \mu_i, \Sigma_i \) and classify anomalies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;6-cybersecurity-optimization&#34;&gt;&lt;strong&gt;6. Cybersecurity Optimization&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;61-optimizing-security-investments&#34;&gt;&lt;strong&gt;6.1 Optimizing Security Investments&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Budgeting security resources is modeled as:
+\[
+  \max_{x} U(x) = \sum_{i=1}^{n} P(A_i) \left( I(A_i) - C(x_i) \right)
+  \]
+subject to:
+\[
+  \sum_{i=1}^{n} x_i \leq B
+  \]
+where:
+&lt;ul&gt;
+&lt;li&gt;\( x_i \) = security investment in attack \( i \),&lt;/li&gt;
+&lt;li&gt;\( C(x_i) \) = cost function,&lt;/li&gt;
+&lt;li&gt;\( B \) = total security budget.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Using &lt;strong&gt;Lagrange multipliers&lt;/strong&gt;, the optimal investment satisfies:&lt;/p&gt;
+\[
+\frac{\partial U}{\partial x_i} = \lambda
+\]&lt;hr&gt;
+&lt;h2 id=&#34;7-botnet-propagation-model&#34;&gt;&lt;strong&gt;7. Botnet Propagation Model&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Botnets spread through networks, modeled as an &lt;strong&gt;epidemic process&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;71-compartmental-model-sis-model&#34;&gt;&lt;strong&gt;7.1 Compartmental Model (SIS Model)&lt;/strong&gt;&lt;/h3&gt;
+\[
+\frac{dS}{dt} = -\beta S I + \gamma I
+\]\[
+\frac{dI}{dt} = \beta S I - \gamma I
+\]&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( S \) = susceptible systems,&lt;/li&gt;
+&lt;li&gt;\( I \) = infected systems,&lt;/li&gt;
+&lt;li&gt;\( \beta \) = infection rate,&lt;/li&gt;
+&lt;li&gt;\( \gamma \) = recovery rate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;72-stability-analysis&#34;&gt;&lt;strong&gt;7.2 Stability Analysis&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Equilibrium points satisfy:&lt;/p&gt;
+&lt;h2 id=&#34;if--fracbetagamma--1--the-infection-spreads&#34;&gt;\[
+\frac{dI}{dt} = 0 \Rightarrow I^* = \frac{\beta S^*}{\gamma}
+\]
+If \( \frac{\beta}{\gamma} &gt; 1 \), the infection spreads.&lt;/h2&gt;
+&lt;h2 id=&#34;8-malware-detection-using-machine-learning&#34;&gt;&lt;strong&gt;8. Malware Detection Using Machine Learning&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Machine learning classifies malware based on feature vectors.&lt;/p&gt;
+&lt;h3 id=&#34;81-support-vector-machine-svm-for-malware-classification&#34;&gt;&lt;strong&gt;8.1 Support Vector Machine (SVM) for Malware Classification&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+\[
+  f(x) = w^T x + b
+  \]\[
+  \max_{w, b} \frac{1}{||w||} \sum_{i=1}^{n} y_i (w^T x_i + b) \geq 1
+  \]&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Solve using &lt;strong&gt;Lagrange multipliers&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Cybersecurity relies on deep mathematical models for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Intrusion detection (Markov Chains, GMM)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Attack modeling (Game Theory)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Risk assessment (Poisson-Gamma models)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cryptographic strength (Entropy)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Botnet propagation (Epidemic models)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Machine learning-based malware detection (SVM)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These models help &lt;strong&gt;predict, detect, and mitigate&lt;/strong&gt; security threats, ensuring robust cyber defense mechanisms.&lt;/p&gt;
 &lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-&lt;p&gt;Hugo Blox Builder utilises Hugo&amp;rsquo;s Markdown extension for highlighting code syntax. The code theme can be selected in the &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;inline-images&#34;&gt;Inline Images&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;python&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Python&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;
-  &lt;span class=&#34;inline-block  pr-1&#34;&gt;
-    &lt;svg style=&#34;height: 1em; transform: translateY(0.1em);&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; height=&#34;1em&#34; viewBox=&#34;0 0 448 512&#34; fill=&#34;currentColor&#34;&gt;&lt;path d=&#34;M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z&#34;/&gt;&lt;/svg&gt;
-  &lt;/span&gt; Python&lt;/p&gt;
-&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+&lt;p&gt;Here is the Python code for &lt;strong&gt;Attack Modeling with Game Theory&lt;/strong&gt; and &lt;strong&gt;Intrusion Detection using Markov Chains and Gaussian Mixture Models (GMM)&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-attack-modeling-with-game-theory-zero-sum-game&#34;&gt;&lt;strong&gt;1. Attack Modeling with Game Theory (Zero-Sum Game)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We use a &lt;strong&gt;zero-sum game&lt;/strong&gt; model where an &lt;strong&gt;attacker&lt;/strong&gt; tries to maximize their payoff (damage), while a &lt;strong&gt;defender&lt;/strong&gt; minimizes their losses by allocating security resources optimally.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;nashpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;nash&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Nash equilibrium solver&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Define the payoff matrix for Attacker (rows) vs Defender (columns)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;payoff_matrix&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Attacker&amp;#39;s payoff when defender uses strategies (firewall, monitoring, patching)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Create the game&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;game&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nash&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;payoff_matrix&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Compute Nash equilibria&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;equilibria&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;list&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;game&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;support_enumeration&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Display results&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Nash Equilibria (Mixed Strategies):&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;eq&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;equilibria&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Attacker Strategy:&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;eq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Defender Strategy:&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;eq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;explanation&#34;&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;payoff matrix&lt;/strong&gt; represents the attacker&amp;rsquo;s losses (negative values).&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Nash equilibrium&lt;/strong&gt; provides the optimal mixed strategies for both &lt;strong&gt;attacker&lt;/strong&gt; and &lt;strong&gt;defender&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-intrusion-detection-with-markov-chains&#34;&gt;&lt;strong&gt;2. Intrusion Detection with Markov Chains&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We model &lt;strong&gt;network states&lt;/strong&gt; as a Markov Chain where transitions represent &lt;strong&gt;normal vs anomalous behavior&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Transition Matrix (Normal, Suspicious, Attack)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;P&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Normal state&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Suspicious state&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;   &lt;span class=&#34;c1&#34;&gt;# Attack state&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Initial state probabilities&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;initial_state&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Start in normal state&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Simulate 20 steps&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;num_steps&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;initial_state&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;_&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;num_steps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;new_state&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;@&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;P&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;new_state&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Convert results for plotting&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Plot state evolution over time&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;figure&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;figsize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[:,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Normal State&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[:,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Suspicious State&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[:,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Attack State&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xlabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Time Steps&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ylabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Probability&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Intrusion Detection Markov Model&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legend&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;grid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;explanation-1&#34;&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;transition matrix&lt;/strong&gt; defines probabilities of moving between states.&lt;/li&gt;
+&lt;li&gt;We compute &lt;strong&gt;state probabilities&lt;/strong&gt; over time and plot them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-intrusion-detection-with-gaussian-mixture-model-gmm&#34;&gt;&lt;strong&gt;3. Intrusion Detection with Gaussian Mixture Model (GMM)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;GMM is used to classify &lt;strong&gt;network traffic anomalies&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sklearn.mixture&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GaussianMixture&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sklearn.datasets&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;make_blobs&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Generate synthetic normal and attack network traffic data&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;X_normal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;_&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;make_blobs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n_samples&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;centers&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cluster_std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;random_state&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;42&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;X_attack&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;_&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;make_blobs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n_samples&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;centers&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cluster_std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;random_state&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;42&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Combine normal and attack data&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vstack&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X_normal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X_attack&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Fit a GMM model (2 clusters: Normal and Attack)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;gmm&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GaussianMixture&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n_components&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;covariance_type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;full&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;random_state&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;42&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;gmm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;labels&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;gmm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;predict&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Plot the results&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;figure&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;figsize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;scatter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[:,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[:,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;labels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cmap&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;coolwarm&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;edgecolors&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;k&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xlabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Feature 1 (e.g., Packet Size)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ylabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Feature 2 (e.g., Request Rate)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Intrusion Detection using GMM&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;colorbar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Cluster (0: Normal, 1: Attack)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;explanation-2&#34;&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;We generate &lt;strong&gt;synthetic network traffic&lt;/strong&gt; data.&lt;/li&gt;
+&lt;li&gt;GMM classifies &lt;strong&gt;normal vs attack&lt;/strong&gt; behavior.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;scatter plot&lt;/strong&gt; visualizes network behavior, separating normal vs attack traffic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;conclusion-1&#34;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Game Theory&lt;/strong&gt;: Models the attack-defense interaction and finds optimal strategies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Markov Chains&lt;/strong&gt;: Models system states and predicts anomalies over time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GMM&lt;/strong&gt;: Detects anomalies in network traffic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These models &lt;strong&gt;enhance cybersecurity&lt;/strong&gt; by predicting attack strategies, &lt;strong&gt;detecting intrusions&lt;/strong&gt;, and &lt;strong&gt;optimizing defensive responses&lt;/strong&gt;. 🚀&lt;/p&gt;
+&lt;h2 id=&#34;cyber-threat-landscape-attack-vectors-and-methods&#34;&gt;Cyber Threat Landscape: Attack Vectors and Methods&lt;/h2&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
+
+&lt;pre&gt;- Cyber Attack Model
+  - Reconnaissance
+    - Passive Scanning
+    - Active Scanning
+    - Social Engineering
+  - Initial Access
+    - Phishing
+    - Exploit Public-Facing Apps
+    - Supply Chain Compromise
+  - Execution
+    - Remote Code Execution (RCE)
+    - PowerShell Scripting
+    - Macro-based Attacks
+  - Privilege Escalation
+    - Kernel Exploits
+    - Credential Dumping
+    - Bypassing UAC
+  - Defense Evasion
+    - Obfuscation
+    - Rootkits
+    - Code Injection
+  - Lateral Movement
+    - Pass-the-Hash
+    - Remote Services Exploitation
+    - SSH Hijacking
+  - Exfiltration
+    - Data Compression
+    - Encrypted Channel
+    - Cloud Data Theft
+  - Impact
+    - Ransomware
+    - Data Manipulation
+    - Service Disruption (DDoS)
+  - Advanced Persistent Threats (APT)
+    - Nation-State Actors
+    - Zero-Day Exploits
+    - Supply Chain Attacks&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;explanation-3&#34;&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reconnaissance&lt;/strong&gt;: The attacker gathers intelligence before launching an attack.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Initial Access&lt;/strong&gt;: How the attacker infiltrates the system (e.g., phishing, exploiting vulnerabilities).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Execution&lt;/strong&gt;: Running malicious code after gaining access.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privilege Escalation&lt;/strong&gt;: Gaining higher permissions to execute more dangerous actions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Defense Evasion&lt;/strong&gt;: Hiding attack traces using stealth techniques.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lateral Movement&lt;/strong&gt;: Expanding control over the network.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exfiltration&lt;/strong&gt;: Stealing sensitive information.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Impact&lt;/strong&gt;: Consequences like &lt;strong&gt;ransomware&lt;/strong&gt;, &lt;strong&gt;DDoS&lt;/strong&gt;, or &lt;strong&gt;data manipulation&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;APT&lt;/strong&gt;: Advanced threats by nation-state actors using &lt;strong&gt;zero-day exploits&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This &lt;strong&gt;Markmap attack model&lt;/strong&gt; gives a clear &lt;strong&gt;visual representation&lt;/strong&gt; of how cyber attacks progress in different stages. 🚀&lt;/p&gt;
+&lt;h2 id=&#34;cyber-attack-lifecycle-a-time-based-perspective&#34;&gt;Cyber Attack Lifecycle: A Time-Based Perspective&lt;/h2&gt;
+&lt;div class=&#34;mermaid&#34;&gt;gantt
+title Cyber Attack Lifecycle
+dateFormat  YYYY-MM-DD
+section Reconnaissance
+Passive Scanning  :done,   scan1, 2024-02-01, 2d
+Active Scanning   :active, scan2, 2024-02-02, 3d
+Social Engineering :        scan3, after scan2, 2d
+
+section Initial Access
+Phishing          :done, access1, after scan3, 1d
+Exploit Vulnerabilities :done, access2, after scan3, 1d
+Supply Chain Compromise :        access3, after access2, 2d
+
+section Execution
+Remote Code Execution (RCE) :active, exec1, after access3, 2d
+PowerShell Scripting        :        exec2, after exec1, 2d
+
+section Privilege Escalation
+Kernel Exploits     :done, priv1, after exec2, 2d
+Credential Dumping  :active, priv2, after priv1, 3d
+
+section Lateral Movement
+Pass-the-Hash Attack   :done, lateral1, after priv2, 1d
+SSH Hijacking         :active, lateral2, after lateral1, 2d
+
+section Exfiltration
+Cloud Data Theft      :done, exfil1, after lateral2, 1d
+Encrypted Channel Exfiltration :active, exfil2, after exfil1, 2d
+
+section Impact
+Ransomware Deployment :active, impact1, after exfil2, 3d
+Data Manipulation     :        impact2, after impact1, 2d
+Service Disruption (DDoS) :     impact3, after impact2, 2d
+&lt;/div&gt;
+&lt;h3 id=&#34;explanation-4&#34;&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reconnaissance&lt;/strong&gt;: Attackers gather intelligence before striking.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Initial Access&lt;/strong&gt;: Attackers infiltrate the system (via phishing, exploits, etc.).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Execution&lt;/strong&gt;: Malicious code runs (e.g., RCE, scripts).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privilege Escalation&lt;/strong&gt;: Attackers gain higher privileges for deeper system control.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lateral Movement&lt;/strong&gt;: Attackers expand their reach across the network.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exfiltration&lt;/strong&gt;: Data is stolen through encrypted channels.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Impact&lt;/strong&gt;: Attackers deploy ransomware, manipulate data, or disrupt services.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This &lt;strong&gt;Mermaid Gantt chart&lt;/strong&gt; provides a &lt;strong&gt;time-based visualization&lt;/strong&gt; of how attacks progress in stages, highlighting &lt;strong&gt;dependencies&lt;/strong&gt; between different attack techniques. 🚀&lt;/p&gt;
 </description>
     </item>
     

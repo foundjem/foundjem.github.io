@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thesis | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/publication_types/thesis/</link>
+      <atom:link href="http://localhost:1313/publication_types/thesis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thesis</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Thesis</title>
+      <link>http://localhost:1313/publication_types/thesis/</link>
+    </image>
+    
+    <item>
+      <title>Software Ecosystem Sustainability, a Socio-Technical Perspective</title>
+      <link>http://localhost:1313/publication/foundjem-2022-software/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/foundjem-2022-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards improving the reliability of live migration operations in OpenStack clouds</title>
+      <link>http://localhost:1313/publication/foundjem-2017-towards/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/foundjem-2017-towards/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

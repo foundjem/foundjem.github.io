@@ -1,4 +1,4 @@
 ---
-title: Blog
+title: Blogging Techky
 view: article-grid
 ---

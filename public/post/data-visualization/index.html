@@ -3,11 +3,11 @@
 <!-- Last Published: February 14, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
+  <meta name="generator" content="Hugo Blox Builder 0.3.2" />
 
   
   
@@ -34,7 +34,7 @@
   
   
 
-  <meta name="author" content="吳健雄" />
+  <meta name="author" content="Armstrong Foundjem" />
 
   
   
@@ -44,7 +44,7 @@
   <meta name="description" content="Use popular tools such as Plotly, Mermaid, and data frames." />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/data-visualization/" />
+  <link rel="alternate" hreflang="en-us" href="https://example.com/post/data-visualization/" />
 
   
   
@@ -57,7 +57,7 @@
   
   
     
-    <link href="/dist/wc.min.css" rel="stylesheet" />
+    <link href="/dist/wc.min.05570f1deda629d4e2d77f73534a63aa04471f012db6735c59424372f467db85.css" rel="stylesheet" />
   
 
   
@@ -161,7 +161,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
 
-  <link rel="canonical" href="http://localhost:1313/post/data-visualization/" />
+  <link rel="canonical" href="https://example.com/post/data-visualization/" />
 
   
   
@@ -186,10 +186,10 @@
     <meta property="twitter:creator" content="@GetResearchDev" />
   
   <meta property="og:site_name" content="Hugo Academic CV Theme" />
-  <meta property="og:url" content="http://localhost:1313/post/data-visualization/" />
+  <meta property="og:url" content="https://example.com/post/data-visualization/" />
   <meta property="og:title" content="📈 Communicate your results effectively with the best data visualizations | Hugo Academic CV Theme" />
-  <meta property="og:description" content="Use popular tools such as Plotly, Mermaid, and data frames." /><meta property="og:image" content="http://localhost:1313/post/data-visualization/featured.jpg" />
-    <meta property="twitter:image" content="http://localhost:1313/post/data-visualization/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Use popular tools such as Plotly, Mermaid, and data frames." /><meta property="og:image" content="https://example.com/post/data-visualization/featured.png" />
+    <meta property="twitter:image" content="https://example.com/post/data-visualization/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -239,25 +239,7 @@
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
   
   
   
@@ -295,85 +277,33 @@
         
       
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
   
   
   
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     
@@ -449,6 +379,60 @@
         
       
     
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
       
       
         
@@ -487,7 +471,71 @@
     
       
       
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
     
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -523,40 +571,67 @@
     --pagefind-ui-border: #152028;
     --pagefind-ui-tag: #152028;
   }
+
+   
+  .search-close > svg {
+    height: calc(64px * var(--pagefind-ui-scale));
+    width: calc(64px * var(--pagefind-ui-scale));
+  }
 </style>
 
 <script>
+  
+  let searchWrapper = null;
+
   window.addEventListener('DOMContentLoaded', (event) => {
+    
     new PagefindUI({
       element: "#search",
       showSubResults: true,
       baseUrl: window.hbb.pagefind.baseUrl,
       bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
     });
+
+    
+    searchWrapper = document.getElementById('search-wrapper');
+
+    
+    let triggers = document.querySelectorAll('[data-search-toggle]');
+    triggers.forEach(trigger =>
+      trigger.addEventListener('click', handleSearchToggle)
+    );
   });
-  document.addEventListener('DOMContentLoaded', () => {
-    let element = document.getElementById('search');
-    let trigger = document.getElementById('search_toggle');
 
-    if (trigger) {
-      trigger.addEventListener('click', () => {
-        element.classList.toggle('hidden');
-        element.querySelector("input").value = ""
-        element.querySelector("input").focus()
+  function handleSearchToggle(event) {
+    if (!searchWrapper) return;
 
-        if (!element.classList.contains('hidden')) {
-          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
+    const isHidden = searchWrapper.classList.contains('hidden');
+    searchWrapper.classList.toggle('hidden');
+    document.body.style.overflow = isHidden ? 'hidden' : '';
 
-          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
-            clear_trigger.setAttribute('listenerOnClick', 'true');
+    const searchInput = searchWrapper.querySelector("input");
+    if (searchInput) {
+      searchInput.value = "";
+      searchInput.focus();
+    }
 
-            clear_trigger.addEventListener('click', () => {
-              element.classList.toggle('hidden');
-            });
-          }
-        }
+    if (!searchWrapper.classList.contains('hidden')) {
+      let clearTrigger = document.querySelector('.pagefind-ui__search-clear');
 
-      });
+      if (clearTrigger && !clearTrigger.hasAttribute('listenerOnClick')) {
+        clearTrigger.setAttribute('listenerOnClick', 'true');
+
+        clearTrigger.addEventListener('click', () => {
+          searchInput.focus();
+        });
+      }
+    }
+  }
+
+  
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && searchWrapper && !searchWrapper.classList.contains('hidden')) {
+      searchWrapper.classList.add('hidden');
     }
   });
 </script>
@@ -594,8 +669,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.47736f84e20cae1bb2224dc4605239689e913811575e32b5f86a700ee9d6529d.js"
+    integrity="sha256-R3NvhOIMrhuyIk3EYFI5aJ6ROBFXXjK1&#43;GpwDunWUp0="
   ></script>
 
   
@@ -636,7 +711,7 @@
     <div class="order-0 h-100">
       
       <a class="navbar-brand" href="/" title="Hugo Academic CV Theme">
-        Your Name
+        InSeco
       </a>
     </div>
     
@@ -687,8 +762,8 @@
         <a
           class="nav-link "
           
-          href="/#papers"
-        >Papers</a
+          href="/experience/"
+        >Experience</a
         >
       </li>
       
@@ -701,7 +776,21 @@
         <a
           class="nav-link "
           
-          href="/#talks"
+          href="/#papers"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/event/"
         >Talks</a
         >
       </li>
@@ -715,22 +804,8 @@
         <a
           class="nav-link "
           
-          href="/#news"
-        >News</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/experience/"
-        >Experience</a
+          href="/post/"
+        >Post</a
         >
       </li>
       
@@ -772,9 +847,9 @@
       
       
       <button
-        aria-label="search"
+        aria-label="toggle search"
         class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
-        id="search_toggle">
+        data-search-toggle>
         <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
       </button>
       
@@ -815,8 +890,26 @@
   </nav>
 </header>
 
+<div
+  id="search-wrapper"
+  class="hidden fixed inset-0 z-50 bg-white dark:bg-gray-900 flex flex-col overflow-hidden"
+>
+  <div class="flex justify-end p-3">
+    <button
+      aria-label="search"
+      class="search-close text-black hover:text-primary dark:text-white"
+      data-search-toggle
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
 
-<div id="search" class="hidden p-3"></div>
+  <div id="search" class="flex-1 overflow-y-auto p-3">
+    
+  </div>
+</div>
 
 
         
@@ -849,7 +942,7 @@
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
     href="/event/"
     
-  >Recent &amp; Upcoming Talks
+  >Recent Talks
         <span data-hb-sidebar-toggle>
             <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
         </span>
@@ -857,9 +950,85 @@
         <ul class="hb-sidebar-list"><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/event/example/"
+    href="/event/openinfra25/"
     
-  >Example Talk
+  >Leveraging OpenInfra and Open Source GenAI to Address Climate Change
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/openinfra23/"
+    
+  >How large language and deep learning models can prevent toxicity such as unconscious biases
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/fse21/"
+    
+  >ESEC/FSE21 --- Release Synchronization in Software Ecosystems
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/icse21/"
+    
+  >ICSE&#39;21 --- Onboarding vs. Diversity, Productivity and Quality — Empirical Study of the OpenStack Ecosystem
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/podcast/"
+    
+  >CHAOSScast
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/icst17/"
+    
+  >ICST&#39;17 ---Broadcast vs. Unicast Review Technology: Does It Matter?
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/"
+    
+  >Projects
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/agentic/"
+    
+  >Multi-Agent AI Systems
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/climate-change/"
+    
+  >Climate change
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/project/toxicity/"
+    
+  >Toxicity and unconcious bias
     </a>
               
             </li></ul>
@@ -871,12 +1040,136 @@
     
   >Projects
     </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/"
+    
+  >Publications
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/openja-2024-empirical/"
+    
+  >An empirical study of testing machine learning in the wild
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/taraghi-2024-deep/"
+    
+  >Deep learning model reuse in the huggingface community: Challenges, benefit and trends
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2023-grounded/"
+    
+  >A Grounded Theory of Cross-community SECOs: Feedback Diversity vs. Synchronization
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/openja-2023-studying/"
+    
+  >Studying the Practices of Testing Machine Learning Software in the Wild
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2022-mixed/"
+    
+  >A mixed-methods analysis of micro-collaborative coding practices in OpenStack
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2022-software/"
+    
+  >Software Ecosystem Sustainability, a Socio-Technical Perspective
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2021-open/"
+    
+  >An open dataset for onboarding new contributors: empirical study of openstack ecosystem
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2021-onboarding/"
+    
+  >Onboarding vs. diversity, productivity and quality—empirical study of the openstack ecosystem
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/armstrong-2021-release/"
+    
+  >Release synchronization in software ecosystems
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2021-release/"
+    
+  >Release synchronization in software ecosystems: Empirical Study on OpenStack
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2020-cross/"
+    
+  >Cross-distribution feedback in software ecosystems
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2019-release/"
+    
+  >Release synchronization in software ecosystems
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/armstrong-2017-broadcast/"
+    
+  >Broadcast vs. unicast review technology: Does it matter?
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/foundjem-2017-towards/"
+    
+  >Towards improving the reliability of live migration operations in OpenStack clouds
+    </a>
+              
+            </li></ul>
+      </div></li>
         <li class="open"><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
     href="/post/"
     
-  >Blog
+  >Blogging Techky
         <span data-hb-sidebar-toggle>
             <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
         </span>
@@ -925,6 +1218,36 @@
             </li>
           <li>
               <a
+                href="#2-scatter-plots-for-relationship-between-variables"
+                class="hb-docs-link"
+              >2. &lt;strong&gt;Scatter Plots for Relationship Between Variables&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#3-bar-plots-for-categorical-data"
+                class="hb-docs-link"
+              >3. &lt;strong&gt;Bar Plots for Categorical Data&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#4-heatmaps-for-correlation-matrices"
+                class="hb-docs-link"
+              >4. &lt;strong&gt;Heatmaps for Correlation Matrices&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#5-interactive-plots-with-plotly"
+                class="hb-docs-link"
+              >5. &lt;strong&gt;Interactive Plots with Plotly&lt;/strong&gt;</a>
+            </li>
+          <li>
+              <a
+                href="#conclusion"
+                class="hb-docs-link"
+              >Conclusion</a>
+            </li>
+          <li>
+              <a
                 href="#did-you-find-this-page-helpful-consider-sharing-it-"
                 class="hb-docs-link"
               >Did you find this page helpful? Consider sharing it 🙌</a>
@@ -937,7 +1260,7 @@
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
     href="/post/teach-courses/"
     
-  >👩🏼‍🏫 Teach academic courses
+  >👩🏼‍🏫 Teaching technical Skills
     </a>
               
             </li><li class="flex flex-col "><a
@@ -946,42 +1269,6 @@
     href="/post/project-management/"
     
   >✅ Manage your projects
-    </a>
-              
-            </li></ul>
-      </div></li>
-        <li class=""><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/project/"
-    
-  >Projects
-        <span data-hb-sidebar-toggle>
-            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
-        </span>
-    </a><div class="ltr:pr-0 overflow-hidden">
-        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/project/pandas/"
-    
-  >Pandas
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/project/pytorch/"
-    
-  >PyTorch
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/project/scikit/"
-    
-  >scikit-learn
     </a>
               
             </li></ul>
@@ -1006,53 +1293,17 @@
         <ul class="hb-sidebar-list"><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/teaching/js/"
+    href="/teaching/quality-eng/"
     
-  >Learn JavaScript
+  >Software Quality Engineering
     </a>
               
             </li><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/teaching/python/"
+    href="/teaching/security/"
     
-  >Learn Python
-    </a>
-              
-            </li></ul>
-      </div></li>
-        <li class=""><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/publication/"
-    
-  >Publications
-        <span data-hb-sidebar-toggle>
-            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
-        </span>
-    </a><div class="ltr:pr-0 overflow-hidden">
-        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/publication/preprint/"
-    
-  >An example preprint / working paper
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/publication/journal-article/"
-    
-  >An example journal article
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/publication/conference-paper/"
-    
-  >An example conference paper
+  >Cloud Security
     </a>
               
             </li></ul>
@@ -1086,6 +1337,24 @@
       </li>
       <li class="my-2 scroll-my-6 scroll-py-6">
         <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#data-frames">Data Frames</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#2-scatter-plots-for-relationship-between-variables">2. Scatter Plots for Relationship Between Variables</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#3-bar-plots-for-categorical-data">3. Bar Plots for Categorical Data</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#4-heatmaps-for-correlation-matrices">4. Heatmaps for Correlation Matrices</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#5-interactive-plots-with-plotly">5. Interactive Plots with Plotly</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#conclusion">Conclusion</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#how-to-use-this-content">How to Use This Content:</a>
       </li>
       <li class="my-2 scroll-my-6 scroll-py-6">
         <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌</a>
@@ -1131,9 +1400,9 @@
           <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
             
             
-            <img src="/author/%E5%90%B3%E5%81%A5%E9%9B%84/avatar_hu_4bb3a690b6cee14a.webp" alt="吳健雄" class="inline-block h-4 w-4 rounded-full border border-current" loading="lazy" />
+            <img src="/author/armstrong-foundjem/avatar_hu_64c5b4633d1a64b3.webp" alt="Armstrong Foundjem" class="inline-block h-4 w-4 rounded-full border border-current" loading="lazy" />
             
-            <div >吳健雄</div>
+            <div >Armstrong Foundjem</div>
           </div>
           
         
@@ -1141,7 +1410,7 @@
         
         <span class="mx-1">·</span>
         <span class="mx-1">
-          2 min read
+          6 min read
         </span>
         
         </div>
@@ -1174,9 +1443,9 @@
       
       
       
-      <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 720px; max-height: 480px;">
+      <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 720px; max-height: 527px;">
         <div style="position: relative">
-          <img src="/post/data-visualization/featured_hu_9b0a2a4c7b44ff85.webp" width="720" height="480" alt="" class="featured-image">
+          <img src="/post/data-visualization/featured_hu_4725170417f5504e.webp" width="720" height="527" alt="" class="featured-image">
           <span class="article-header-caption">Image credit: <a href="https://unsplash.com" target="_blank" rel="noopener"><strong>Unsplash</strong></a></span>
         </div>
       </div>
@@ -1196,7 +1465,7 @@
 
 
 
-<div id="chart-579846231" class="chart"></div>
+<div id="chart-612387549" class="chart"></div>
 <script>
   async function fetchChartJSON() {
     console.debug('Hugo Blox fetching chart JSON...')
@@ -1214,7 +1483,7 @@
 
       fetchChartJSON().then(chart => {
         console.debug('Plotting chart...')
-        window.Plotly.newPlot('chart-579846231', chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot('chart-612387549', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1387,6 +1656,107 @@ Crash --> [*]
   
 </table>
 
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">title: &#34;Data Science Visualization Techniques&#34;
+</span></span><span class="line"><span class="cl">date: 2025-02-13
+</span></span><span class="line"><span class="cl">author: &#34;Your Name&#34;
+</span></span><span class="line"><span class="cl">categories: [&#34;Data Science&#34;, &#34;Visualization&#34;]
+</span></span><span class="line"><span class="cl">tags: [&#34;Data Visualization&#34;, &#34;Machine Learning&#34;, &#34;Python&#34;, &#34;Matplotlib&#34;]
+</span></span><span class="line"><span class="cl">draft: false
+</span></span><span class="line"><span class="cl">summary: &#34;An exploration of data science visualization techniques to help data scientists communicate insights effectively.&#34;
+</span></span><span class="line"><span class="cl">math: true
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gh"># Introduction
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
+</span></span><span class="line"><span class="cl">In the world of data science, <span class="gs">**visualization**</span> plays a crucial role in making sense of large datasets and communicating insights effectively. Whether you&#39;re a beginner or an experienced data scientist, understanding how to use various visualization techniques is essential for analyzing and presenting data in a clear and intuitive way.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">In this post, we&#39;ll explore some of the most common <span class="gs">**data visualization techniques**</span> used in data science, with examples using <span class="gs">**Python**</span> libraries like <span class="gs">**Matplotlib**</span>, <span class="gs">**Seaborn**</span>, and <span class="gs">**Plotly**</span>.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gu">## 1. **Line Plots for Time Series Data**
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl">Line plots are one of the most widely used visualization techniques for time series data. They help track changes over time and can highlight trends, cycles, and anomalies in your dataset.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Here’s an example of a <span class="gs">**line plot**</span> using <span class="gs">**Matplotlib**</span>:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">```python
+</span></span><span class="line"><span class="cl">import matplotlib.pyplot as plt
+</span></span><span class="line"><span class="cl">import pandas as pd
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gh"># Sample time series data
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>data = pd.Series([1, 2, 4, 8, 16, 32, 64], index=pd.date_range(&#39;2025-01-01&#39;, periods=7))
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gh"># Line plot
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>plt.figure(figsize=(10, 6))
+</span></span><span class="line"><span class="cl">plt.plot(data, marker=&#39;o&#39;, linestyle=&#39;-&#39;, color=&#39;b&#39;)
+</span></span><span class="line"><span class="cl">plt.title(&#39;Exponential Growth Over Time&#39;)
+</span></span><span class="line"><span class="cl">plt.xlabel(&#39;Date&#39;)
+</span></span><span class="line"><span class="cl">plt.ylabel(&#39;Value&#39;)
+</span></span><span class="line"><span class="cl">plt.grid(True)
+</span></span><span class="line"><span class="cl">plt.show()
+</span></span></code></pre></div><p><strong>Explanation</strong>: This plot shows how a dataset grows exponentially over time, which is useful for analyzing trends and predicting future values.</p>
+<h2 id="2-scatter-plots-for-relationship-between-variables">2. <strong>Scatter Plots for Relationship Between Variables</strong></h2>
+<p>Scatter plots are helpful for visualizing the relationship between two continuous variables. They allow you to detect patterns, correlations, and outliers.</p>
+<p>Here’s an example of a <strong>scatter plot</strong> using <strong>Seaborn</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Sample data</span>
+</span></span><span class="line"><span class="cl"><span class="n">tips</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s1">&#39;tips&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Scatter plot</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">sns</span><span class="o">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;total_bill&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;tip&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">tips</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s1">&#39;sex&#39;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s1">&#39;time&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Relationship Between Total Bill and Tip&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Total Bill&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Tip&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><p><strong>Explanation</strong>: This scatter plot shows the relationship between the total bill and the tip, with points differentiated by gender and time of day. You can easily spot patterns and outliers in the data.</p>
+<h2 id="3-bar-plots-for-categorical-data">3. <strong>Bar Plots for Categorical Data</strong></h2>
+<p>Bar plots are used to compare quantities across different categories. They can be horizontal or vertical and are perfect for showing the distribution of a categorical variable.</p>
+<p>Here’s an example of a <strong>bar plot</strong> using <strong>Seaborn</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Bar plot</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;day&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;total_bill&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">tips</span><span class="p">,</span> <span class="n">estimator</span><span class="o">=</span><span class="nb">sum</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Total Bill Sum for Each Day of the Week&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Day&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Total Bill Sum&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><p><strong>Explanation</strong>: This bar plot shows the total bill sum for each day of the week in the dataset. It provides a clear visual comparison across categories.</p>
+<h2 id="4-heatmaps-for-correlation-matrices">4. <strong>Heatmaps for Correlation Matrices</strong></h2>
+<p>Heatmaps are perfect for visualizing complex datasets, especially when working with correlation matrices. They help you identify the strength of relationships between multiple variables at a glance.</p>
+<p>Here’s an example of a <strong>heatmap</strong> using <strong>Seaborn</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Correlation heatmap</span>
+</span></span><span class="line"><span class="cl"><span class="n">corr</span> <span class="o">=</span> <span class="n">tips</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">corr</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;coolwarm&#39;</span><span class="p">,</span> <span class="n">vmin</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">vmax</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Correlation Matrix Heatmap&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><p><strong>Explanation</strong>: This heatmap visualizes the correlation matrix of numerical features in the <code>tips</code> dataset, helping you identify which variables are strongly correlated.</p>
+<h2 id="5-interactive-plots-with-plotly">5. <strong>Interactive Plots with Plotly</strong></h2>
+<p>Sometimes static plots aren’t enough, especially for large datasets or when you want users to explore data interactively. <strong>Plotly</strong> provides interactive plotting capabilities to zoom, hover, and filter data.</p>
+<p>Here’s an example of an <strong>interactive scatter plot</strong> using <strong>Plotly</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Interactive scatter plot</span>
+</span></span><span class="line"><span class="cl"><span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">tips</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;total_bill&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;tip&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;sex&#39;</span><span class="p">,</span> <span class="n">hover_data</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;day&#39;</span><span class="p">,</span> <span class="s1">&#39;time&#39;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">&#39;Interactive Scatter Plot&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><p><strong>Explanation</strong>: This Plotly scatter plot allows users to interact with the data, hover over points for additional information, and visualize the relationship between <code>total_bill</code> and <code>tip</code>.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Data visualization is an essential skill for any data scientist. By using these visualization techniques, you can not only make your data more understandable but also effectively communicate your findings to stakeholders. Whether you&rsquo;re using simple line plots, scatter plots, or advanced interactive visualizations, the goal is to make your insights as clear and actionable as possible.</p>
+<p>If you&rsquo;d like to explore more data visualization techniques or need help with specific visualizations, feel free to reach out in the comments below.</p>
+<p>Happy visualizing!</p>
+<hr>
+<p><strong>Note</strong>: To display this post correctly, make sure your Hugo site is properly set up with the <strong>Academic theme</strong> and necessary libraries (like <strong>Matplotlib</strong>, <strong>Seaborn</strong>, and <strong>Plotly</strong>) installed.</p>
+<h3 id="how-to-use-this-content">How to Use This Content:</h3>
+<ol>
+<li><strong>Save the file</strong>: Copy the above content into a Markdown file (<code>.md</code>), e.g., <code>data-science-visualization-techniques.md</code>.</li>
+<li><strong>Place it in your Hugo site</strong>: Add the file in the appropriate folder, such as <code>/content/post/</code> or <code>/content/blog/</code>, depending on your Hugo structure.</li>
+<li><strong>Ensure dependencies</strong>: Install any required Python libraries (like Matplotlib, Seaborn, Plotly) on your server if you want the code snippets to run correctly.</li>
+</ol>
+<p>This example will allow you to display data science visualizations in an academic, blog-style post using Hugo. Let me know if you&rsquo;d like further customization!</p>
 <h2 id="did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌</h2>
 
       </div>
@@ -1428,7 +1798,7 @@ Crash --> [*]
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fdata-visualization%2F&amp;text=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations"
+    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fpost%2Fdata-visualization%2F&amp;text=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -1446,7 +1816,7 @@ Crash --> [*]
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fdata-visualization%2F&amp;t=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations"
+    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fpost%2Fdata-visualization%2F&amp;t=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1466,7 +1836,7 @@ Crash --> [*]
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=%F0%9F%93%88%20Communicate%20your%20results%20effectively%20with%20the%20best%20data%20visualizations&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fdata-visualization%2F"
+    href="mailto:?subject=%F0%9F%93%88%20Communicate%20your%20results%20effectively%20with%20the%20best%20data%20visualizations&amp;body=https%3A%2F%2Fexample.com%2Fpost%2Fdata-visualization%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -1484,7 +1854,7 @@ Crash --> [*]
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fdata-visualization%2F&amp;title=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations"
+    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fpost%2Fdata-visualization%2F&amp;title=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -1502,7 +1872,7 @@ Crash --> [*]
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations%20http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fdata-visualization%2F"
+    href="whatsapp://send?text=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations%20https%3A%2F%2Fexample.com%2Fpost%2Fdata-visualization%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -1543,8 +1913,8 @@ Crash --> [*]
     class="mr-4 h-24 w-24 rounded-full"
     width="96"
     height="96"
-    alt="吳健雄"
-  src="/author/%E5%90%B3%E5%81%A5%E9%9B%84/avatar_hu_4487bc68c2269668.jpg"
+    alt="Armstrong Foundjem"
+  src="/author/armstrong-foundjem/avatar_hu_c3957f84e9970bb0.jpeg"
   loading="lazy"
   />
   
@@ -1553,8 +1923,8 @@ Crash --> [*]
       Authors
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      <a href="http://localhost:1313/" class="no-underline">
-      吳健雄
+      <a href="https://example.com/" class="no-underline">
+      Armstrong Foundjem
       </a>
     </div>
 
@@ -1579,7 +1949,7 @@ Crash --> [*]
     <a
       class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
       style="will-change:transform;"
-      href="mailto:your-email@example.com"
+      href="mailto:foundjem@ieee.org"
       
       aria-label="At-Symbol"
     ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"/></svg></a>
@@ -1593,7 +1963,7 @@ Crash --> [*]
     <a
       class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
       style="will-change:transform;"
-      href="https://twitter.com/GetResearchDev"
+      href="https://twitter.com/foundjem"
       target="_blank" rel="noopener" rel="me noopener noreferrer"
       aria-label="Brands/X"
     ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
@@ -1621,7 +1991,7 @@ Crash --> [*]
     <a
       class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
       style="will-change:transform;"
-      href="https://github.com/gcushen"
+      href="https://github.com/foundjem"
       target="_blank" rel="noopener" rel="me noopener noreferrer"
       aria-label="Brands/Github"
     ><svg style="height: 1em;" fill="currentColor" viewBox="3 3 18 18"><path d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z"></path></svg></a>
@@ -1635,7 +2005,7 @@ Crash --> [*]
     <a
       class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
       style="will-change:transform;"
-      href="https://www.linkedin.com/"
+      href="https://www.linkedin.com/in/foundjem/"
       target="_blank" rel="noopener" rel="me noopener noreferrer"
       aria-label="Brands/Linkedin"
     ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
@@ -1649,7 +2019,7 @@ Crash --> [*]
     <a
       class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
       style="will-change:transform;"
-      href="https://scholar.google.com/"
+      href="https://scholar.google.com/citations?user=0cVPd2QAAAAJ&amp;hl=en"
       target="_blank" rel="noopener" rel="me noopener noreferrer"
       aria-label="Academicons/Google-Scholar"
     ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M343.759 106.662V79.43L363.524 64h-213.89L20.476 176.274h85.656a82.339 82.339 0 0 0-.219 6.225c0 20.845 7.22 38.087 21.672 51.861c14.453 13.797 32.252 20.648 53.327 20.648c4.923 0 9.75-.368 14.438-1.024c-2.907 6.5-4.374 12.523-4.374 18.142c0 9.875 4.499 20.43 13.467 31.642c-39.234 2.67-68.061 9.732-86.437 21.163c-10.531 6.5-19 14.704-25.39 24.531c-6.391 9.9-9.578 20.515-9.578 31.962c0 9.648 2.062 18.336 6.219 26.062c4.156 7.726 9.578 14.07 16.312 18.984c6.718 4.968 14.469 9.101 23.219 12.469c8.734 3.344 17.406 5.718 26.061 7.062A167.052 167.052 0 0 0 180.555 448c13.469 0 26.953-1.734 40.547-5.187c13.562-3.485 26.28-8.642 38.171-15.493c11.86-6.805 21.515-16.086 28.922-27.718c7.39-11.68 11.094-24.805 11.094-39.336c0-11.016-2.25-21.039-6.75-30.14c-4.468-9.073-9.938-16.542-16.452-22.345c-6.501-5.813-13-11.155-19.516-15.968c-6.5-4.845-12-9.75-16.468-14.813c-4.485-5.046-6.735-10.054-6.735-14.984c0-4.921 1.734-9.672 5.216-14.265c3.455-4.61 7.674-9.048 12.61-13.306c4.937-4.25 9.875-8.968 14.796-14.133c4.922-5.147 9.141-11.827 12.61-20.008c3.485-8.18 5.203-17.445 5.203-27.757c0-13.453-2.547-24.46-7.547-33.314c-.594-1.022-1.218-1.803-1.875-3.022l56.907-46.672v17.119c-7.393.93-6.624 5.345-6.624 10.635V245.96c0 5.958 4.875 10.834 10.834 10.834h3.989c5.958 0 10.833-4.875 10.833-10.834V117.293c0-5.277.778-9.688-6.561-10.63zm-107.36 222.48c1.14.75 3.704 2.78 7.718 6.038c4.05 3.243 6.797 5.695 8.266 7.414a443.553 443.553 0 0 1 6.376 7.547c2.813 3.375 4.718 6.304 5.718 8.734c1 2.477 2.016 5.461 3.047 8.946a38.27 38.27 0 0 1 1.485 10.562c0 17.048-6.564 29.68-19.656 37.859c-13.125 8.18-28.767 12.274-46.938 12.274c-9.187 0-18.203-1.093-27.063-3.196c-8.843-2.116-17.311-5.336-25.39-9.601c-8.078-4.258-14.577-10.204-19.5-17.797c-4.938-7.64-7.407-16.415-7.407-26.25c0-10.32 2.797-19.29 8.422-26.906c5.594-7.625 12.938-13.391 22.032-17.315c9.063-3.946 18.25-6.742 27.562-8.398a157.865 157.865 0 0 1 28.438-2.555c4.47 0 7.936.25 10.405.696c.455.219 3.032 2.07 7.735 5.563c4.704 3.462 7.625 5.595 8.75 6.384zm-3.359-100.579c-7.406 8.86-17.734 13.288-30.953 13.288c-11.86 0-22.298-4.764-31.266-14.312c-9-9.523-15.422-20.328-19.344-32.43c-3.937-12.109-5.906-23.984-5.906-35.648c0-13.694 3.596-25.352 10.781-34.976c7.187-9.65 17.5-14.485 30.938-14.485c11.875 0 22.374 5.038 31.437 15.157c9.094 10.085 15.61 21.413 19.517 33.968c3.922 12.54 5.873 24.53 5.873 35.984c0 13.446-3.702 24.61-11.076 33.454z"/></svg></a>
@@ -1663,7 +2033,7 @@ Crash --> [*]
     <a
       class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
       style="will-change:transform;"
-      href="https://orcid.org/"
+      href="https://orcid.org/0000-0001-6356-1938"
       target="_blank" rel="noopener" rel="me noopener noreferrer"
       aria-label="Academicons/Orcid"
     ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M336.62 194.538c-7.13-3.328-13.866-5.56-20.253-6.614c-6.365-1.095-16.574-1.612-30.71-1.612h-36.704v152.747h37.634c14.673 0 26.081-1.013 34.224-3.017c8.142-2.004 14.921-4.526 20.356-7.626a69.448 69.448 0 0 0 14.942-11.388c14.488-14.714 21.742-33.273 21.742-55.717c0-22.052-7.44-40.052-22.341-53.982c-5.498-5.166-11.822-9.444-18.89-12.793zM256 8C119.022 8 8 119.042 8 256s111.022 248 248 248s248-111.042 248-248S392.978 8 256 8Zm-82.336 357.513h-29.389V160.148h29.389zM158.95 138.696c-11.14 0-20.213-9.01-20.213-20.212c0-11.118 9.052-20.191 20.213-20.191c11.18 0 20.232 9.052 20.232 20.191a20.194 20.194 0 0 1-20.232 20.212zm241.386 163.597c-5.29 12.545-12.834 23.581-22.65 33.088c-9.982 9.837-21.597 17.194-34.844 22.196c-7.75 3.017-14.839 5.063-21.307 6.117c-6.49 1.013-18.828 1.509-37.076 1.509h-64.956V160.148h69.233c27.962 0 50.034 4.154 66.32 12.545c16.265 8.37 29.181 20.728 38.792 36.972c9.61 16.265 14.425 34.018 14.425 53.196c.023 13.765-2.666 26.908-7.936 39.432z"/></svg></a>
@@ -1719,7 +2089,7 @@ Crash --> [*]
           <span class="flex flex-col">
             <span
               class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-            >👩🏼‍🏫 Teach academic courses</span
+            >👩🏼‍🏫 Teaching technical Skills</span
             >
             <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
               

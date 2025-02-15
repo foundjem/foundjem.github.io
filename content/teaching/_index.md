@@ -1,6 +1,6 @@
 ---
 title: Teaching
-summary: My courses
+summary: My courses 📚
 type: landing
 
 cascade:
@@ -13,7 +13,7 @@ sections:
   - block: collection
     id: teaching
     content:
-      title: Teaching
+      title: 📚 Courses
       filters:
         folders:
           - teaching
@@ -21,3 +21,5 @@ sections:
       view: article-grid
       columns: 2
 ---
+
+

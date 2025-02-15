@@ -3,11 +3,11 @@
 <!-- Last Published: February 14, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
+  <meta name="generator" content="Hugo Blox Builder 0.3.2" />
 
   
   
@@ -34,7 +34,7 @@
   
   
 
-  <meta name="author" content="吳健雄" />
+  <meta name="author" content="Armstrong Foundjem" />
 
   
   
@@ -44,7 +44,7 @@
   <meta name="description" content="" />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/projects/" />
+  <link rel="alternate" hreflang="en-us" href="https://example.com/projects/" />
 
   
   
@@ -57,7 +57,7 @@
   
   
     
-    <link href="/dist/wc.min.css" rel="stylesheet" />
+    <link href="/dist/wc.min.05570f1deda629d4e2d77f73534a63aa04471f012db6735c59424372f467db85.css" rel="stylesheet" />
   
 
   
@@ -161,7 +161,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
 
-  <link rel="canonical" href="http://localhost:1313/projects/" />
+  <link rel="canonical" href="https://example.com/projects/" />
 
   
   
@@ -187,10 +187,10 @@
     <meta property="twitter:creator" content="@GetResearchDev" />
   
   <meta property="og:site_name" content="Hugo Academic CV Theme" />
-  <meta property="og:url" content="http://localhost:1313/projects/" />
+  <meta property="og:url" content="https://example.com/projects/" />
   <meta property="og:title" content="Projects | Hugo Academic CV Theme" />
-  <meta property="og:description" content="" /><meta property="og:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" />
-    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="" /><meta property="og:image" content="https://example.com/media/icon_hu_645fa481986063ef.png" />
+    <meta property="twitter:image" content="https://example.com/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -240,25 +240,7 @@
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
   
   
   
@@ -296,85 +278,33 @@
         
       
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
   
   
   
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     
@@ -450,6 +380,60 @@
         
       
     
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
       
       
         
@@ -488,7 +472,71 @@
     
       
       
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
     
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -524,40 +572,67 @@
     --pagefind-ui-border: #152028;
     --pagefind-ui-tag: #152028;
   }
+
+   
+  .search-close > svg {
+    height: calc(64px * var(--pagefind-ui-scale));
+    width: calc(64px * var(--pagefind-ui-scale));
+  }
 </style>
 
 <script>
+  
+  let searchWrapper = null;
+
   window.addEventListener('DOMContentLoaded', (event) => {
+    
     new PagefindUI({
       element: "#search",
       showSubResults: true,
       baseUrl: window.hbb.pagefind.baseUrl,
       bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
     });
+
+    
+    searchWrapper = document.getElementById('search-wrapper');
+
+    
+    let triggers = document.querySelectorAll('[data-search-toggle]');
+    triggers.forEach(trigger =>
+      trigger.addEventListener('click', handleSearchToggle)
+    );
   });
-  document.addEventListener('DOMContentLoaded', () => {
-    let element = document.getElementById('search');
-    let trigger = document.getElementById('search_toggle');
 
-    if (trigger) {
-      trigger.addEventListener('click', () => {
-        element.classList.toggle('hidden');
-        element.querySelector("input").value = ""
-        element.querySelector("input").focus()
+  function handleSearchToggle(event) {
+    if (!searchWrapper) return;
 
-        if (!element.classList.contains('hidden')) {
-          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
+    const isHidden = searchWrapper.classList.contains('hidden');
+    searchWrapper.classList.toggle('hidden');
+    document.body.style.overflow = isHidden ? 'hidden' : '';
 
-          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
-            clear_trigger.setAttribute('listenerOnClick', 'true');
+    const searchInput = searchWrapper.querySelector("input");
+    if (searchInput) {
+      searchInput.value = "";
+      searchInput.focus();
+    }
 
-            clear_trigger.addEventListener('click', () => {
-              element.classList.toggle('hidden');
-            });
-          }
-        }
+    if (!searchWrapper.classList.contains('hidden')) {
+      let clearTrigger = document.querySelector('.pagefind-ui__search-clear');
 
-      });
+      if (clearTrigger && !clearTrigger.hasAttribute('listenerOnClick')) {
+        clearTrigger.setAttribute('listenerOnClick', 'true');
+
+        clearTrigger.addEventListener('click', () => {
+          searchInput.focus();
+        });
+      }
+    }
+  }
+
+  
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && searchWrapper && !searchWrapper.classList.contains('hidden')) {
+      searchWrapper.classList.add('hidden');
     }
   });
 </script>
@@ -585,8 +660,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.47736f84e20cae1bb2224dc4605239689e913811575e32b5f86a700ee9d6529d.js"
+    integrity="sha256-R3NvhOIMrhuyIk3EYFI5aJ6ROBFXXjK1&#43;GpwDunWUp0="
   ></script>
 
   
@@ -627,7 +702,7 @@
     <div class="order-0 h-100">
       
       <a class="navbar-brand" href="/" title="Hugo Academic CV Theme">
-        Your Name
+        InSeco
       </a>
     </div>
     
@@ -678,8 +753,8 @@
         <a
           class="nav-link "
           
-          href="/#papers"
-        >Papers</a
+          href="/experience/"
+        >Experience</a
         >
       </li>
       
@@ -692,7 +767,21 @@
         <a
           class="nav-link "
           
-          href="/#talks"
+          href="/#papers"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/event/"
         >Talks</a
         >
       </li>
@@ -706,22 +795,8 @@
         <a
           class="nav-link "
           
-          href="/#news"
-        >News</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/experience/"
-        >Experience</a
+          href="/post/"
+        >Post</a
         >
       </li>
       
@@ -763,9 +838,9 @@
       
       
       <button
-        aria-label="search"
+        aria-label="toggle search"
         class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
-        id="search_toggle">
+        data-search-toggle>
         <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
       </button>
       
@@ -806,8 +881,26 @@
   </nav>
 </header>
 
+<div
+  id="search-wrapper"
+  class="hidden fixed inset-0 z-50 bg-white dark:bg-gray-900 flex flex-col overflow-hidden"
+>
+  <div class="flex justify-end p-3">
+    <button
+      aria-label="search"
+      class="search-close text-black hover:text-primary dark:text-white"
+      data-search-toggle
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
 
-<div id="search" class="hidden p-3"></div>
+  <div id="search" class="flex-1 overflow-y-auto p-3">
+    
+  </div>
+</div>
 
 
         
@@ -993,9 +1086,6 @@
 
 
 
-  
-  
-
 
 <div class="group cursor-pointer">
 
@@ -1009,41 +1099,41 @@
 
     <a
       class="relative block aspect-video"
-      href="https://github.com/pandas-dev/pandas" target="_blank" rel="noopener">
+      href="/project/agentic/" >
 
-      <img alt="Pandas"
+      <img alt="Multi-Agent AI Systems"
            class="object-contain transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="512" loading="lazy" src="/project/pandas/featured_hu_b4d3874fa9e63402.webp"
+           fetchpriority="high" height="351" loading="lazy" src="/project/agentic/featured_hu_c6899554d956855c.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-           width="512"></a>
+           width="394"></a>
   </div>
   
   <div class="">
     <div class="">
       <div class="flex gap-3">
         
-        <a href="/tags/hugo/"><span
-          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Hugo</span></a>
+        <a href="/tags/agentic-ai/"><span
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Agentic AI</span></a>
         
       </div>
       
       <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
-        href="https://github.com/pandas-dev/pandas" target="_blank" rel="noopener"><span
-        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Pandas<svg style="height: 1em;" class="inline-flex h-6 w-6 pl-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+        href="/project/agentic/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Multi-Agent AI Systems
           </span></a>
       </h2>
       
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
-        href="https://github.com/pandas-dev/pandas" target="_blank" rel="noopener">
-        Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.</a></p>
+        href="/project/agentic/" >
+        Agentic AI Systems in Multi-Environment Settings 1. Introduction to Agentic AI An Agentic AI System refers to an autonomous AI system that can sense, decide, and act in an environment to achieve specific goals. In multi-environment settings, these AI agents operate across diverse, dynamic, and often conflicting environments, requiring adaptive decision-making, communication, and coordination.</a></p>
       </div>
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
           
           
-          <time class="truncate text-sm" datetime="2023-10-26">Oct 26, 2023</time>
+          <time class="truncate text-sm" datetime="2025-02-11">Feb 11, 2025</time>
         </div>
       </div>
 
@@ -1061,9 +1151,6 @@
 
 
 
-  
-  
-
 
 <div class="group cursor-pointer">
 
@@ -1077,41 +1164,41 @@
 
     <a
       class="relative block aspect-video"
-      href="https://github.com/pytorch/pytorch" target="_blank" rel="noopener">
+      href="/project/climate-change/" >
 
-      <img alt="PyTorch"
+      <img alt="Climate change"
            class="object-contain transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="512" loading="lazy" src="/project/pytorch/featured_hu_9352000879a5518e.webp"
+           fetchpriority="high" height="540" loading="lazy" src="/project/climate-change/featured_hu_7e34cea14adb9490.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-           width="512"></a>
+           width="960"></a>
   </div>
   
   <div class="">
     <div class="">
       <div class="flex gap-3">
         
-        <a href="/tags/hugo/"><span
-          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Hugo</span></a>
+        <a href="/tags/climate-change/"><span
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Climate Change</span></a>
         
       </div>
       
       <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
-        href="https://github.com/pytorch/pytorch" target="_blank" rel="noopener"><span
-        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">PyTorch<svg style="height: 1em;" class="inline-flex h-6 w-6 pl-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+        href="/project/climate-change/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Climate change
           </span></a>
       </h2>
       
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
-        href="https://github.com/pytorch/pytorch" target="_blank" rel="noopener">
-        PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.</a></p>
+        href="/project/climate-change/" >
+        #include &lt;iostream&gt; #include &lt;vector&gt; #include &lt;png.h&gt; void convertToGrayscale(const std::string&amp; inputFileName, const std::string&amp; outputFileName) { FILE* inputFile = fopen(inputFileName.c_str(), &#34;rb&#34;); if (!inputFile) { std::cerr &lt;&lt; &#34;Error opening input image file.&#34; &lt;&lt; std::endl; return; } png_structp pngPtr = png_create_read_struct(PNG_LIBPNG_VER_STRING, nullptr, nullptr, nullptr); if (!pngPtr) { std::cerr &lt;&lt; &#34;Error creating PNG read structure.&#34; &lt;&lt; std::endl; fclose(inputFile); return; } png_infop infoPtr = png_create_info_struct(pngPtr); if (!infoPtr) { std::cerr &lt;&lt; &#34;Error creating PNG info structure.&#34; &lt;&lt; std::endl; png_destroy_read_struct(&amp;pngPtr, nullptr, nullptr); fclose(inputFile); return; } png_init_io(pngPtr, inputFile); png_read_info(pngPtr, infoPtr); int width = png_get_image_width(pngPtr, infoPtr); int height = png_get_image_height(pngPtr, infoPtr); int bitDepth = png_get_bit_depth(pngPtr, infoPtr); int colorType = png_get_color_type(pngPtr, infoPtr); if (bitDepth != 8 || colorType != PNG_COLOR_TYPE_RGB) { std::cerr &lt;&lt; &#34;Unsupported image format. Only 8-bit RGB images are supported.&#34; &lt;&lt; std::endl; png_destroy_read_struct(&amp;pngPtr, &amp;infoPtr, nullptr); fclose(inputFile); return; } std::vector&lt;unsigned char&gt; imageData(width * height * 3); std::vector&lt;std::vector&lt;unsigned char&gt; &gt; inputImage(height, std::vector&lt;unsigned char&gt;(width * 3)); for (int i = 0; i &lt; height; &#43;&#43;i) { png_read_row(pngPtr, reinterpret_cast&lt;png_bytep&gt;(inputImage[i].data()), nullptr); } fclose(inputFile); png_destroy_read_struct(&amp;pngPtr, &amp;infoPtr, nullptr); // Convert to grayscale std::vector&lt;std::vector&lt;unsigned char&gt; &gt; outputImage(height, std::vector&lt;unsigned char&gt;(width)); for (int i = 0; i &lt; height; &#43;&#43;i) { for (int j = 0; j &lt; width; &#43;&#43;j) { // Simple grayscale conversion formula: (R &#43; G &#43; B) / 3 outputImage[i][j] = (inputImage[i][j * 3] &#43; inputImage[i][j * 3 &#43; 1] &#43; inputImage[i][j * 3 &#43; 2]) / 3; } } // Write output image FILE* outputFile = fopen(outputFileName.c_str(), &#34;wb&#34;); if (!outputFile) { std::cerr &lt;&lt; &#34;Error opening output image file.&#34; &lt;&lt; std::endl; return; } pngPtr = png_create_write_struct(PNG_LIBPNG_VER_STRING, nullptr, nullptr, nullptr); if (!pngPtr) { std::cerr &lt;&lt; &#34;Error creating PNG write structure.&#34; &lt;&lt; std::endl; fclose(outputFile); return; } infoPtr = png_create_info_struct(pngPtr); if (!infoPtr) { std::cerr &lt;&lt; &#34;Error creating PNG info structure.&#34; &lt;&lt; std::endl; png_destroy_write_struct(&amp;pngPtr, nullptr); fclose(outputFile); return; } png_init_io(pngPtr, outputFile); png_set_IHDR(pngPtr, infoPtr, width, height, 8, PNG_COLOR_TYPE_GRAY, PNG_INTERLACE_NONE, PNG_COMPRESSION_TYPE_DEFAULT, PNG_FILTER_TYPE_DEFAULT); png_write_info(pngPtr, infoPtr); for (int i = 0; i &lt; height; &#43;&#43;i) { png_write_row(pngPtr, reinterpret_cast&lt;png_bytep&gt;(outputImage[i].data())); } png_write_end(pngPtr, nullptr); png_destroy_write_struct(&amp;pngPtr, &amp;infoPtr); fclose(outputFile); std::cout &lt;&lt; &#34;Image processing complete. Grayscale image saved to &#34; &lt;&lt; outputFileName &lt;&lt; std::endl; } int main() { std::string inputFileName = &#34;input.png&#34;; std::string outputFileName = &#34;output_grayscale.png&#34;; convertToGrayscale(inputFileName, outputFileName); return 0; } </a></p>
       </div>
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
           
           
-          <time class="truncate text-sm" datetime="2023-10-26">Oct 26, 2023</time>
+          <time class="truncate text-sm" datetime="2025-01-26">Jan 26, 2025</time>
         </div>
       </div>
 
@@ -1129,9 +1216,6 @@
 
 
 
-  
-  
-
 
 <div class="group cursor-pointer">
 
@@ -1145,13 +1229,13 @@
 
     <a
       class="relative block aspect-video"
-      href="https://github.com/scikit-learn/scikit-learn" target="_blank" rel="noopener">
+      href="/project/toxicity/" >
 
-      <img alt="scikit-learn"
+      <img alt="Toxicity and unconcious bias"
            class="object-contain transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="512" loading="lazy" src="/project/scikit/featured_hu_60f29a316e7432e3.webp"
+           fetchpriority="high" height="512" loading="lazy" src="/project/toxicity/featured_hu_60f29a316e7432e3.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
            width="512"></a>
   </div>
@@ -1160,26 +1244,26 @@
     <div class="">
       <div class="flex gap-3">
         
-        <a href="/tags/hugo/"><span
-          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Hugo</span></a>
+        <a href="/tags/unconcious-bias/"><span
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Unconcious Bias</span></a>
         
       </div>
       
       <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
-        href="https://github.com/scikit-learn/scikit-learn" target="_blank" rel="noopener"><span
-        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">scikit-learn<svg style="height: 1em;" class="inline-flex h-6 w-6 pl-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+        href="/project/toxicity/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Toxicity and unconcious bias
           </span></a>
       </h2>
       
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
-        href="https://github.com/scikit-learn/scikit-learn" target="_blank" rel="noopener">
-        scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.</a></p>
+        href="/project/toxicity/" >
+         Using NLP and Language Models to Address Toxicity and Unconscious Bias Theoretical Foundations of NLP for Addressing Toxicity and Bias To rigorously address toxicity and unconscious bias in language models, we rely on linguistic theories, probabilistic models, fairness-aware AI principles, adversarial learning, and information theory. Below, I outline the strong theoretical basis underpinning these techniques.</a></p>
       </div>
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
           
           
-          <time class="truncate text-sm" datetime="2023-10-26">Oct 26, 2023</time>
+          <time class="truncate text-sm" datetime="2024-12-26">Dec 26, 2024</time>
         </div>
       </div>
 
