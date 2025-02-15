@@ -1,6 +1,5 @@
 ---
-title: 'Towards improving the reliability of live migration operations in OpenStack'
-  clouds
+title: 'Towards improving the reliability of live migration operations in OpenStack clouds'
 authors:
 - Armstrong Tita Foundjem
 date: '2017-01-01'
