@@ -1,5 +1,5 @@
 ---
-title: Software Ecosystem Sustainability, a Socio-Technical Perspective
+title: 'Software Ecosystem Sustainability, a Socio-Technical Perspective'
 authors:
 - Armstrong Tita Foundjem
 date: '2022-01-01'

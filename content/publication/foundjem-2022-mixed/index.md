@@ -1,5 +1,5 @@
 ---
-title: A mixed-methods analysis of micro-collaborative coding practices in OpenStack
+title: 'A mixed-methods analysis of micro-collaborative coding practices in OpenStack'
 authors:
 - Armstrong Foundjem
 - Eleni Constantinou

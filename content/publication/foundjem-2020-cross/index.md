@@ -1,5 +1,5 @@
 ---
-title: Cross-distribution feedback in software ecosystems
+title: 'Cross-distribution feedback in software ecosystems'
 authors:
 - Armstrong Foundjem
 date: '2020-01-01'

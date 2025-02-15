@@ -1,5 +1,5 @@
 ---
-title: Release synchronization in software ecosystems
+title: 'Release synchronization in software ecosystems'
 authors:
 - Foundjem Armstrong
 - Bram Adams

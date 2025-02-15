@@ -1,5 +1,5 @@
 ---
-title: Release synchronization in software ecosystems
+title: 'Release synchronization in software ecosystems'
 authors:
 - Armstrong Foundjem
 date: '2019-01-01'

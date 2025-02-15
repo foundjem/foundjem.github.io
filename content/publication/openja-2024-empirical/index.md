@@ -1,5 +1,5 @@
 ---
-title: An empirical study of testing machine learning in the wild
+title: 'An empirical study of testing machine learning in the wild'
 authors:
 - Moses Openja
 - Foutse Khomh

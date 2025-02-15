@@ -1,6 +1,5 @@
 ---
-title: Onboarding vs. diversity, productivity and quality—empirical study of the openstack
-  ecosystem
+title: 'Onboarding vs. diversity, productivity and quality—empirical study of the openstack ecosystem'
 authors:
 - Armstrong Foundjem
 - Ellis Eghan
@@ -12,4 +11,5 @@ publication_types:
 publication: '*2021 IEEE/ACM 43rd International Conference on Software Engineering
   (ICSE)*'
 featured: true
+draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: Studying the Practices of Testing Machine Learning Software in the Wild
+title: 'Studying the Practices of Testing Machine Learning Software in the Wild'
 authors:
 - Moses Openja
 - Foutse Khomh
