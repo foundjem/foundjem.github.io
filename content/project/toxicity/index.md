@@ -1,6 +1,8 @@
 ---
 title: 'Toxicity and unconcious bias'
 date: 2024-12-26
+type: docs
+math: true
 tags:
   - 'Unconcious Bias'
   - 'Toxicity'

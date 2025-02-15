@@ -1,6 +1,8 @@
 ---
 title: 'Climate change'
 date: 2025-01-26
+type: docs
+math: true
 tags:
   - Climate change
   - Sustanability
