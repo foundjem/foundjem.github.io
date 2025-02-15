@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sustanability | Hugo Academic CV Theme</title>
-    <link>http://localhost:52228/tags/sustanability/</link>
-      <atom:link href="http://localhost:52228/tags/sustanability/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:52352/tags/sustanability/</link>
+      <atom:link href="http://localhost:52352/tags/sustanability/index.xml" rel="self" type="application/rss+xml" />
     <description>Sustanability</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:52228/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:52352/media/icon_hu_645fa481986063ef.png</url>
       <title>Sustanability</title>
-      <link>http://localhost:52228/tags/sustanability/</link>
+      <link>http://localhost:52352/tags/sustanability/</link>
     </image>
     
     <item>
       <title>Climate change</title>
-      <link>http://localhost:52228/project/climate-change/</link>
+      <link>http://localhost:52352/project/climate-change/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52228/project/climate-change/</guid>
+      <guid>http://localhost:52352/project/climate-change/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;vector&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;png.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;

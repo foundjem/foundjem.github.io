@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Hugo Academic CV Theme</title>
-    <link>http://localhost:52228/tags/</link>
-      <atom:link href="http://localhost:52228/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:52352/tags/</link>
+      <atom:link href="http://localhost:52352/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Feb 2025 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:52228/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:52352/media/icon_hu_645fa481986063ef.png</url>
       <title>Tags</title>
-      <link>http://localhost:52228/tags/</link>
+      <link>http://localhost:52352/tags/</link>
     </image>
     
   </channel>

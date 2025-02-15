@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogging Techky | Hugo Academic CV Theme</title>
-    <link>http://localhost:52228/post/</link>
-      <atom:link href="http://localhost:52228/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:52352/post/</link>
+      <atom:link href="http://localhost:52352/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blogging Techky</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:52228/post/featured.png</url>
+      <url>http://localhost:52352/post/featured.png</url>
       <title>Blogging Techky</title>
-      <link>http://localhost:52228/post/</link>
+      <link>http://localhost:52352/post/</link>
     </image>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>http://localhost:52228/post/get-started/</link>
+      <link>http://localhost:52352/post/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52228/post/get-started/</guid>
+      <guid>http://localhost:52352/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -187,9 +187,9 @@
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>http://localhost:52228/post/second-brain/</link>
+      <link>http://localhost:52352/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52228/post/second-brain/</guid>
+      <guid>http://localhost:52352/post/second-brain/</guid>
       <description>&lt;h2 id=&#34;how-second-brain-works&#34;&gt;How second brain works&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: &amp;#34;How the Org-mode Second Brain Works&amp;#34;
@@ -484,9 +484,9 @@
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>http://localhost:52228/post/data-visualization/</link>
+      <link>http://localhost:52352/post/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52228/post/data-visualization/</guid>
+      <guid>http://localhost:52352/post/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
@@ -497,7 +497,7 @@
 
 
 
-&lt;div id=&#34;chart-429568713&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-624978531&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -515,7 +515,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-429568713&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-624978531&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -795,9 +795,9 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teaching technical Skills</title>
-      <link>http://localhost:52228/post/teach-courses/</link>
+      <link>http://localhost:52352/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52228/post/teach-courses/</guid>
+      <guid>http://localhost:52352/post/teach-courses/</guid>
       <description>&lt;p&gt;This blog page written in &lt;strong&gt;Org-mode&lt;/strong&gt; teaches data science skills to computer science students, with code snippets and mathematical reasoning included:&lt;/p&gt;
 &lt;h2 id=&#34;basic-skills-in-data-science&#34;&gt;Basic skills in Data Science&lt;/h2&gt;
 &lt;ul&gt;
@@ -1139,9 +1139,9 @@ Crash --&gt; [*]
     
     <item>
       <title>✅ Manage your projects</title>
-      <link>http://localhost:52228/post/project-management/</link>
+      <link>http://localhost:52352/post/project-management/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52228/post/project-management/</guid>
+      <guid>http://localhost:52352/post/project-management/</guid>
       <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
