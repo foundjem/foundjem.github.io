@@ -128,7 +128,7 @@ mentorship:
     program: PhD in Computer Science
     institution: University of XYZ
     year_mentored: 2022-2024
-    summary: |
+    summary: |2-
       John worked on the application of machine learning algorithms to predict software defects in large codebases.
     thesis: |
       Title: "Predictive Models for Software Defect Prediction in Open-Source Repositories"
@@ -137,7 +137,7 @@ mentorship:
     program: MSc Data Science
     institution: ABC University
     year_mentored: 2021-2023
-    summary: |
+    summary: |2-
       Jane researched how to improve recommendation algorithms through user sentiment analysis.
     thesis: |
       Title: "Improving Collaborative Filtering Algorithms Using Sentiment Analysis"
@@ -146,7 +146,7 @@ mentorship:
     program: BSc Software Engineering
     institution: DEF University
     year_mentored: 2020-2021
-    summary: |
+    summary: |2-
       Mark focused on developing a lightweight framework for analyzing security vulnerabilities in mobile applications.
     email: mark.lee@def.edu
 

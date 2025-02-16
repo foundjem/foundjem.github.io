@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Academic CV Theme</title>
-    <link>http://localhost:52352/</link>
-      <atom:link href="http://localhost:52352/index.xml" rel="self" type="application/rss+xml" />
-    <description>Hugo Academic CV Theme</description>
+    <title>Armstrong website</title>
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>Armstrong website</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:52352/media/icon_hu_645fa481986063ef.png</url>
-      <title>Hugo Academic CV Theme</title>
-      <link>http://localhost:52352/</link>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Armstrong website</title>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
       <title>Software Quality Engineering</title>
-      <link>http://localhost:52352/teaching/quality-eng/</link>
+      <link>http://localhost:1313/teaching/quality-eng/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/teaching/quality-eng/</guid>
+      <guid>http://localhost:1313/teaching/quality-eng/</guid>
       <description>&lt;p&gt;Concepts relevant to software quality, quality assurance and testing, quality engineering and quality planning. Anomaly prevention and defect classification. Fault tolerance. Software reliability engineering. Quality models. Comparison of different quality assurance techniques. Improving the software development process. Software and process. Identifying risks for quantifiable quality improvement.&lt;/p&gt;
 &lt;h2 id=&#34;lecture-notes--log8371&#34;&gt;Lecture Notes 📚 Log8371&lt;/h2&gt;
 &lt;p&gt;📥 &lt;strong&gt;Download PDF&lt;/strong&gt;
@@ -563,9 +563,9 @@ X_{\text{sys}}(t) = \frac{\lambda_1(t)}{1 + P_{12} R_2(t) + P_{23} R_3(t)}
     
     <item>
       <title>Leveraging OpenInfra and Open Source GenAI to Address Climate Change</title>
-      <link>http://localhost:52352/event/openinfra25/</link>
+      <link>http://localhost:1313/event/openinfra25/</link>
       <pubDate>Tue, 11 Feb 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/event/openinfra25/</guid>
+      <guid>http://localhost:1313/event/openinfra25/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -577,9 +577,9 @@ X_{\text{sys}}(t) = \frac{\lambda_1(t)}{1 + P_{12} R_2(t) + P_{23} R_3(t)}
     
     <item>
       <title>Multi-Agent AI Systems</title>
-      <link>http://localhost:52352/project/agentic/</link>
+      <link>http://localhost:1313/project/agentic/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/project/agentic/</guid>
+      <guid>http://localhost:1313/project/agentic/</guid>
       <description>&lt;h1 id=&#34;agentic-ai-systems-in-multi-environment-settings&#34;&gt;&lt;strong&gt;Agentic AI Systems in Multi-Environment Settings&lt;/strong&gt;&lt;/h1&gt;
 &lt;h4 id=&#34;1-introduction-to-agentic-ai&#34;&gt;&lt;strong&gt;1. Introduction to Agentic AI&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;An &lt;strong&gt;Agentic AI System&lt;/strong&gt; refers to an autonomous AI system that can sense, decide, and act in an environment to achieve specific goals. In &lt;strong&gt;multi-environment settings&lt;/strong&gt;, these AI agents operate across diverse, dynamic, and often conflicting environments, requiring &lt;strong&gt;adaptive decision-making, communication, and coordination&lt;/strong&gt;.&lt;/p&gt;
@@ -912,9 +912,9 @@ These &lt;strong&gt;autonomous systems&lt;/strong&gt; will drive the future of &
     
     <item>
       <title>Climate change</title>
-      <link>http://localhost:52352/project/climate-change/</link>
+      <link>http://localhost:1313/project/climate-change/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/project/climate-change/</guid>
+      <guid>http://localhost:1313/project/climate-change/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;vector&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;png.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
@@ -1026,9 +1026,9 @@ These &lt;strong&gt;autonomous systems&lt;/strong&gt; will drive the future of &
     
     <item>
       <title>Toxicity and unconcious bias</title>
-      <link>http://localhost:52352/project/toxicity/</link>
+      <link>http://localhost:1313/project/toxicity/</link>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/project/toxicity/</guid>
+      <guid>http://localhost:1313/project/toxicity/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Oni9oaNjsnQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -1354,25 +1354,25 @@ These techniques **promote ethical AI**, ensuring that language models reflect *
     
     <item>
       <title>Projects</title>
-      <link>http://localhost:52352/projects/</link>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/projects/</guid>
+      <guid>http://localhost:1313/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An empirical study of testing machine learning in the wild</title>
-      <link>http://localhost:52352/publication/openja-2024-empirical/</link>
+      <link>http://localhost:1313/publication/openja-2024-empirical/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/publication/openja-2024-empirical/</guid>
+      <guid>http://localhost:1313/publication/openja-2024-empirical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep learning model reuse in the huggingface community: Challenges, benefit and trends</title>
-      <link>http://localhost:52352/publication/taraghi-2024-deep/</link>
+      <link>http://localhost:1313/publication/taraghi-2024-deep/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/publication/taraghi-2024-deep/</guid>
+      <guid>http://localhost:1313/publication/taraghi-2024-deep/</guid>
       <description>&lt;h3 id=&#34;author-notes&#34;&gt;Author notes&lt;/h3&gt;
 &lt;p&gt;In this paper, &lt;strong&gt;&lt;em&gt;Armstrong Foundjem&lt;/em&gt;&lt;/strong&gt; mentored three Ph.D. Students:&lt;/p&gt;
 &lt;ul&gt;
@@ -1385,9 +1385,9 @@ These techniques **promote ethical AI**, ensuring that language models reflect *
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>http://localhost:52352/post/get-started/</link>
+      <link>http://localhost:1313/post/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/post/get-started/</guid>
+      <guid>http://localhost:1313/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -1558,9 +1558,9 @@ These techniques **promote ethical AI**, ensuring that language models reflect *
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>http://localhost:52352/post/second-brain/</link>
+      <link>http://localhost:1313/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/post/second-brain/</guid>
+      <guid>http://localhost:1313/post/second-brain/</guid>
       <description>&lt;h2 id=&#34;how-second-brain-works&#34;&gt;How second brain works&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: &amp;#34;How the Org-mode Second Brain Works&amp;#34;
@@ -1855,9 +1855,9 @@ These techniques **promote ethical AI**, ensuring that language models reflect *
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>http://localhost:52352/post/data-visualization/</link>
+      <link>http://localhost:1313/post/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/post/data-visualization/</guid>
+      <guid>http://localhost:1313/post/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
@@ -1868,7 +1868,7 @@ These techniques **promote ethical AI**, ensuring that language models reflect *
 
 
 
-&lt;div id=&#34;chart-624978531&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-457162938&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -1886,7 +1886,7 @@ These techniques **promote ethical AI**, ensuring that language models reflect *
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-624978531&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-457162938&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -2166,9 +2166,9 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teaching technical Skills</title>
-      <link>http://localhost:52352/post/teach-courses/</link>
+      <link>http://localhost:1313/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/post/teach-courses/</guid>
+      <guid>http://localhost:1313/post/teach-courses/</guid>
       <description>&lt;p&gt;This blog page written in &lt;strong&gt;Org-mode&lt;/strong&gt; teaches data science skills to computer science students, with code snippets and mathematical reasoning included:&lt;/p&gt;
 &lt;h2 id=&#34;basic-skills-in-data-science&#34;&gt;Basic skills in Data Science&lt;/h2&gt;
 &lt;ul&gt;
@@ -2510,9 +2510,9 @@ Crash --&gt; [*]
     
     <item>
       <title>Cloud Security</title>
-      <link>http://localhost:52352/teaching/security/</link>
+      <link>http://localhost:1313/teaching/security/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/teaching/security/</guid>
+      <guid>http://localhost:1313/teaching/security/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Key cloud computing concepts. Dependability and security in the cloud. Identity and access management. Secure configuration management. Data protection and automation. Networking and logging. Compliance,
 incident response and penetration testing. Security in mobile cloud environments.&lt;/li&gt;
@@ -3128,17 +3128,17 @@ Service Disruption (DDoS) :     impact3, after impact2, 2d
     
     <item>
       <title>Experience</title>
-      <link>http://localhost:52352/experience/</link>
+      <link>http://localhost:1313/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/experience/</guid>
+      <guid>http://localhost:1313/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>✅ Manage your projects</title>
-      <link>http://localhost:52352/post/project-management/</link>
+      <link>http://localhost:1313/post/project-management/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/post/project-management/</guid>
+      <guid>http://localhost:1313/post/project-management/</guid>
       <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
@@ -3326,9 +3326,9 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title>How large language and deep learning models can prevent toxicity such as unconscious biases</title>
-      <link>http://localhost:52352/event/openinfra23/</link>
+      <link>http://localhost:1313/event/openinfra23/</link>
       <pubDate>Thu, 01 Jun 2023 13:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/event/openinfra23/</guid>
+      <guid>http://localhost:1313/event/openinfra23/</guid>
       <description>&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
 
 &lt;style&gt;
@@ -3453,7 +3453,7 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-c
 
     
     if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
-      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:52352\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
 
     
     var pdfDoc = null,
@@ -3588,129 +3588,129 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-c
     
     <item>
       <title>A Grounded Theory of Cross-community SECOs: Feedback Diversity vs. Synchronization</title>
-      <link>http://localhost:52352/publication/foundjem-2023-grounded/</link>
+      <link>http://localhost:1313/publication/foundjem-2023-grounded/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/publication/foundjem-2023-grounded/</guid>
+      <guid>http://localhost:1313/publication/foundjem-2023-grounded/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Studying the Practices of Testing Machine Learning Software in the Wild</title>
-      <link>http://localhost:52352/publication/openja-2023-studying/</link>
+      <link>http://localhost:1313/publication/openja-2023-studying/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/publication/openja-2023-studying/</guid>
+      <guid>http://localhost:1313/publication/openja-2023-studying/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A mixed-methods analysis of micro-collaborative coding practices in OpenStack</title>
-      <link>http://localhost:52352/publication/foundjem-2022-mixed/</link>
+      <link>http://localhost:1313/publication/foundjem-2022-mixed/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/publication/foundjem-2022-mixed/</guid>
+      <guid>http://localhost:1313/publication/foundjem-2022-mixed/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software Ecosystem Sustainability, a Socio-Technical Perspective</title>
-      <link>http://localhost:52352/publication/foundjem-2022-software/</link>
+      <link>http://localhost:1313/publication/foundjem-2022-software/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/publication/foundjem-2022-software/</guid>
+      <guid>http://localhost:1313/publication/foundjem-2022-software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ESEC/FSE21 --- Release Synchronization in Software Ecosystems</title>
-      <link>http://localhost:52352/event/fse21/</link>
+      <link>http://localhost:1313/event/fse21/</link>
       <pubDate>Wed, 03 Nov 2021 22:22:48 +0530</pubDate>
-      <guid>http://localhost:52352/event/fse21/</guid>
+      <guid>http://localhost:1313/event/fse21/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ICSE&#39;21 --- Onboarding vs. Diversity, Productivity and Quality — Empirical Study of the OpenStack Ecosystem</title>
-      <link>http://localhost:52352/event/icse21/</link>
+      <link>http://localhost:1313/event/icse21/</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/event/icse21/</guid>
+      <guid>http://localhost:1313/event/icse21/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An open dataset for onboarding new contributors: empirical study of openstack ecosystem</title>
-      <link>http://localhost:52352/publication/foundjem-2021-open/</link>
+      <link>http://localhost:1313/publication/foundjem-2021-open/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/publication/foundjem-2021-open/</guid>
+      <guid>http://localhost:1313/publication/foundjem-2021-open/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Onboarding vs. diversity, productivity and quality—empirical study of the openstack ecosystem</title>
-      <link>http://localhost:52352/publication/foundjem-2021-onboarding/</link>
+      <link>http://localhost:1313/publication/foundjem-2021-onboarding/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/publication/foundjem-2021-onboarding/</guid>
+      <guid>http://localhost:1313/publication/foundjem-2021-onboarding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Release synchronization in software ecosystems: Empirical Study on OpenStack</title>
-      <link>http://localhost:52352/publication/foundjem-2021-release/</link>
+      <link>http://localhost:1313/publication/foundjem-2021-release/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/publication/foundjem-2021-release/</guid>
+      <guid>http://localhost:1313/publication/foundjem-2021-release/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CHAOSScast</title>
-      <link>http://localhost:52352/event/podcast/</link>
+      <link>http://localhost:1313/event/podcast/</link>
       <pubDate>Fri, 07 Aug 2020 16:20:15 +0700</pubDate>
-      <guid>http://localhost:52352/event/podcast/</guid>
+      <guid>http://localhost:1313/event/podcast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cross-distribution feedback in software ecosystems</title>
-      <link>http://localhost:52352/publication/foundjem-2020-cross/</link>
+      <link>http://localhost:1313/publication/foundjem-2020-cross/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/publication/foundjem-2020-cross/</guid>
+      <guid>http://localhost:1313/publication/foundjem-2020-cross/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Release synchronization in software ecosystems</title>
-      <link>http://localhost:52352/publication/foundjem-2019-release/</link>
+      <link>http://localhost:1313/publication/foundjem-2019-release/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/publication/foundjem-2019-release/</guid>
+      <guid>http://localhost:1313/publication/foundjem-2019-release/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ICST&#39;17 ---Broadcast vs. Unicast Review Technology: Does It Matter?</title>
-      <link>http://localhost:52352/event/icst17/</link>
+      <link>http://localhost:1313/event/icst17/</link>
       <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/event/icst17/</guid>
+      <guid>http://localhost:1313/event/icst17/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Broadcast vs. unicast review technology: Does it matter?</title>
-      <link>http://localhost:52352/publication/armstrong-2017-broadcast/</link>
+      <link>http://localhost:1313/publication/armstrong-2017-broadcast/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/publication/armstrong-2017-broadcast/</guid>
+      <guid>http://localhost:1313/publication/armstrong-2017-broadcast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards improving the reliability of live migration operations in OpenStack clouds</title>
-      <link>http://localhost:52352/publication/foundjem-2017-towards/</link>
+      <link>http://localhost:1313/publication/foundjem-2017-towards/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/publication/foundjem-2017-towards/</guid>
+      <guid>http://localhost:1313/publication/foundjem-2017-towards/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Students</title>
-      <link>http://localhost:52352/students/</link>
+      <link>http://localhost:1313/students/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/students/</guid>
+      <guid>http://localhost:1313/students/</guid>
       <description>&lt;p&gt;The following are the students I have mentored at Polytechnique Montreal:&lt;/p&gt;
 &lt;h2 id=&#34;phd-students&#34;&gt;Ph.D. Students:&lt;/h2&gt;
 &lt;ul&gt;

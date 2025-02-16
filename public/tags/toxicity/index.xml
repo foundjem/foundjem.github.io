@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Toxicity | Hugo Academic CV Theme</title>
-    <link>http://localhost:52352/tags/toxicity/</link>
-      <atom:link href="http://localhost:52352/tags/toxicity/index.xml" rel="self" type="application/rss+xml" />
+    <title>Toxicity | Armstrong website</title>
+    <link>http://localhost:1313/tags/toxicity/</link>
+      <atom:link href="http://localhost:1313/tags/toxicity/index.xml" rel="self" type="application/rss+xml" />
     <description>Toxicity</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Feb 2025 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:52352/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Toxicity</title>
-      <link>http://localhost:52352/tags/toxicity/</link>
+      <link>http://localhost:1313/tags/toxicity/</link>
     </image>
     
     <item>
       <title>Leveraging OpenInfra and Open Source GenAI to Address Climate Change</title>
-      <link>http://localhost:52352/event/openinfra25/</link>
+      <link>http://localhost:1313/event/openinfra25/</link>
       <pubDate>Tue, 11 Feb 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/event/openinfra25/</guid>
+      <guid>http://localhost:1313/event/openinfra25/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -28,9 +28,9 @@
     
     <item>
       <title>Toxicity and unconcious bias</title>
-      <link>http://localhost:52352/project/toxicity/</link>
+      <link>http://localhost:1313/project/toxicity/</link>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/project/toxicity/</guid>
+      <guid>http://localhost:1313/project/toxicity/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Oni9oaNjsnQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -356,9 +356,9 @@ These techniques **promote ethical AI**, ensuring that language models reflect *
     
     <item>
       <title>How large language and deep learning models can prevent toxicity such as unconscious biases</title>
-      <link>http://localhost:52352/event/openinfra23/</link>
+      <link>http://localhost:1313/event/openinfra23/</link>
       <pubDate>Thu, 01 Jun 2023 13:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/event/openinfra23/</guid>
+      <guid>http://localhost:1313/event/openinfra23/</guid>
       <description>&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
 
 &lt;style&gt;
@@ -483,7 +483,7 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-c
 
     
     if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
-      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:52352\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
 
     
     var pdfDoc = null,

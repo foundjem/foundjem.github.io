@@ -36,6 +36,7 @@ header:
     show_theme_chooser: true
     logo: 
       text: InSeco
+      image: "static/images/favicon.png"  # Path to your logo image
   
 # Site footer
 footer:
@@ -55,6 +56,6 @@ locale:
 # Site features
 features:
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false

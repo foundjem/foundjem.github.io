@@ -2,275 +2,276 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/teaching/quality-eng/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/teaching/quality-eng/</loc>
+    <lastmod>2025-02-15T00:36:21-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/climate-change-sustainability/</loc>
-    <lastmod>2025-02-11T13:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/climate-change-sustainability/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/foundation-models/</loc>
-    <lastmod>2025-02-11T13:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/foundation-models/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/event/openinfra25/</loc>
-    <lastmod>2025-02-11T13:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/event/openinfra25/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/open-source/</loc>
-    <lastmod>2025-02-11T13:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/open-source/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/event/</loc>
-    <lastmod>2025-02-11T13:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/</loc>
-    <lastmod>2025-02-11T13:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/toxicity/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/toxicity/</loc>
-    <lastmod>2025-02-11T13:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/agentic-ai/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/agentic-ai/</loc>
-    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/autonomous-systems/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/autonomous-systems/</loc>
-    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/cybersecurity/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/cybersecurity/</loc>
-    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/project/agentic/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/project/agentic/</loc>
-    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/project/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/project/</loc>
-    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/threat-model/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/threat-model/</loc>
-    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/project/climate-change/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/project/climate-change/</loc>
-    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/climate-change/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/climate-change/</loc>
-    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/green-code/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/green-code/</loc>
-    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/sustanability/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/sustanability/</loc>
-    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/cyber-bullying/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/cyber-bullying/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/project/toxicity/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/project/toxicity/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/unconcious-bias/</loc>
+    <lastmod>2025-02-15T11:49:13-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/unconcious-bias/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/projects/</loc>
+    <lastmod>2025-02-15T00:53:52-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/projects/</loc>
-    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication_types/2/</loc>
+    <lastmod>2025-02-15T16:30:43-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication_types/2/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication/openja-2024-empirical/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/openja-2024-empirical/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication/taraghi-2024-deep/</loc>
+    <lastmod>2025-02-15T16:30:43-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/taraghi-2024-deep/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication_types/</loc>
+    <lastmod>2025-02-15T16:30:43-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication_types/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/post/get-started/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/academic/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/post/get-started/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/hugo-blox/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/academic/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/markdown/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/second-brain/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/hugo-blox/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/post/second-brain/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/markdown/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/post/data-visualization/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/second-brain/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/hugo/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/post/second-brain/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/post/teach-courses/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/post/data-visualization/</loc>
-    <lastmod>2023-10-25T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/teaching/security/</loc>
+    <lastmod>2025-02-15T11:47:15-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/hugo/</loc>
-    <lastmod>2023-10-25T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/devops-culture/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/post/teach-courses/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/experience/</loc>
+    <lastmod>2025-02-14T23:21:23-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/teaching/security/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/hands-on/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/devops-culture/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/log8371-spe-quality/</loc>
+    <lastmod>2025-02-15T00:36:21-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/experience/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/practical-use-cases/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/hands-on/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/security-cloud-python-shell-docker-k8s/</loc>
+    <lastmod>2025-02-15T11:47:15-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/log8371-spe-quality/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/post/project-management/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/practical-use-cases/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/event/openinfra23/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/security-cloud-python-shell-docker-k8s/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/language-models/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/teaching/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/tags/unconscious-biases/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/post/project-management/</loc>
-    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication/foundjem-2023-grounded/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/event/openinfra23/</loc>
-    <lastmod>2023-06-01T13:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication/openja-2023-studying/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/language-models/</loc>
-    <lastmod>2023-06-01T13:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/</loc>
+    <lastmod>2025-02-15T00:23:40-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/unconscious-biases/</loc>
-    <lastmod>2023-06-01T13:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication_types/7/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/foundjem-2023-grounded/</loc>
-    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication/foundjem-2022-mixed/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/openja-2023-studying/</loc>
-    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication/foundjem-2022-software/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/</loc>
-    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/event/fse21/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication_types/7/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/event/icse21/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/foundjem-2022-mixed/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication_types/1/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/foundjem-2022-software/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication/foundjem-2021-open/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/event/fse21/</loc>
-    <lastmod>2021-11-03T22:22:48+05:30</lastmod>
+    <loc>https://foundjem.github.io/publication/foundjem-2021-onboarding/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/event/icse21/</loc>
-    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication/foundjem-2021-release/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication_types/1/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/event/podcast/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/foundjem-2021-open/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication/foundjem-2020-cross/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/foundjem-2021-onboarding/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication/foundjem-2019-release/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/foundjem-2021-release/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/event/icst17/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/event/podcast/</loc>
-    <lastmod>2020-08-07T16:20:15+07:00</lastmod>
+    <loc>https://foundjem.github.io/publication/armstrong-2017-broadcast/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/foundjem-2020-cross/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication/foundjem-2017-towards/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/foundjem-2019-release/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/post/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/event/icst17/</loc>
-    <lastmod>2017-03-13T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/publication/</loc>
+    <lastmod>2025-02-15T00:36:21-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/armstrong-2017-broadcast/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/event/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/foundjem-2017-towards/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <loc>https://foundjem.github.io/students/</loc>
+    <lastmod>2025-02-15T13:57:28-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/students/</loc>
+    <loc>https://foundjem.github.io/teaching/</loc>
+    <lastmod>2025-02-14T23:38:35-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

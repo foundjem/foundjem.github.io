@@ -44,7 +44,7 @@
   <meta name="description" content="#include &lt;iostream&gt; #include &lt;vector&gt; #include &lt;png.h&gt; void convertToGrayscale(const std::string&amp; inputFileName, const std::string&amp; outputFileName) { FILE* inputFile = fopen(inputFileName.c_str(), &#34;rb&#34;); if (!inputFile) { std::cerr &lt;&lt; &#34;Error opening input image file.&#34; &lt;&lt; std::endl; return; } png_structp pngPtr = png_create_read_struct(PNG_LIBPNG_VER_STRING, nullptr, nullptr, nullptr); if (!pngPtr) { std::cerr &lt;&lt; &#34;Error creating PNG read structure.&#34; &lt;&lt; std::endl; fclose(inputFile); return; } png_infop infoPtr = png_create_info_struct(pngPtr); if (!infoPtr) { std::cerr &lt;&lt; &#34;Error creating PNG info structure.&#34; &lt;&lt; std::endl; png_destroy_read_struct(&amp;pngPtr, nullptr, nullptr); fclose(inputFile); return; } png_init_io(pngPtr, inputFile); png_read_info(pngPtr, infoPtr); int width = png_get_image_width(pngPtr, infoPtr); int height = png_get_image_height(pngPtr, infoPtr); int bitDepth = png_get_bit_depth(pngPtr, infoPtr); int colorType = png_get_color_type(pngPtr, infoPtr); if (bitDepth != 8 || colorType != PNG_COLOR_TYPE_RGB) { std::cerr &lt;&lt; &#34;Unsupported image format. Only 8-bit RGB images are supported.&#34; &lt;&lt; std::endl; png_destroy_read_struct(&amp;pngPtr, &amp;infoPtr, nullptr); fclose(inputFile); return; } std::vector&lt;unsigned char&gt; imageData(width * height * 3); std::vector&lt;std::vector&lt;unsigned char&gt; &gt; inputImage(height, std::vector&lt;unsigned char&gt;(width * 3)); for (int i = 0; i &lt; height; &#43;&#43;i) { png_read_row(pngPtr, reinterpret_cast&lt;png_bytep&gt;(inputImage[i].data()), nullptr); } fclose(inputFile); png_destroy_read_struct(&amp;pngPtr, &amp;infoPtr, nullptr); // Convert to grayscale std::vector&lt;std::vector&lt;unsigned char&gt; &gt; outputImage(height, std::vector&lt;unsigned char&gt;(width)); for (int i = 0; i &lt; height; &#43;&#43;i) { for (int j = 0; j &lt; width; &#43;&#43;j) { // Simple grayscale conversion formula: (R &#43; G &#43; B) / 3 outputImage[i][j] = (inputImage[i][j * 3] &#43; inputImage[i][j * 3 &#43; 1] &#43; inputImage[i][j * 3 &#43; 2]) / 3; } } // Write output image FILE* outputFile = fopen(outputFileName.c_str(), &#34;wb&#34;); if (!outputFile) { std::cerr &lt;&lt; &#34;Error opening output image file.&#34; &lt;&lt; std::endl; return; } pngPtr = png_create_write_struct(PNG_LIBPNG_VER_STRING, nullptr, nullptr, nullptr); if (!pngPtr) { std::cerr &lt;&lt; &#34;Error creating PNG write structure.&#34; &lt;&lt; std::endl; fclose(outputFile); return; } infoPtr = png_create_info_struct(pngPtr); if (!infoPtr) { std::cerr &lt;&lt; &#34;Error creating PNG info structure.&#34; &lt;&lt; std::endl; png_destroy_write_struct(&amp;pngPtr, nullptr); fclose(outputFile); return; } png_init_io(pngPtr, outputFile); png_set_IHDR(pngPtr, infoPtr, width, height, 8, PNG_COLOR_TYPE_GRAY, PNG_INTERLACE_NONE, PNG_COMPRESSION_TYPE_DEFAULT, PNG_FILTER_TYPE_DEFAULT); png_write_info(pngPtr, infoPtr); for (int i = 0; i &lt; height; &#43;&#43;i) { png_write_row(pngPtr, reinterpret_cast&lt;png_bytep&gt;(outputImage[i].data())); } png_write_end(pngPtr, nullptr); png_destroy_write_struct(&amp;pngPtr, &amp;infoPtr); fclose(outputFile); std::cout &lt;&lt; &#34;Image processing complete. Grayscale image saved to &#34; &lt;&lt; outputFileName &lt;&lt; std::endl; } int main() { std::string inputFileName = &#34;input.png&#34;; std::string outputFileName = &#34;output_grayscale.png&#34;; convertToGrayscale(inputFileName, outputFileName); return 0; } " />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://example.com/project/climate-change/" />
+  <link rel="alternate" hreflang="en-us" href="https://foundjem.github.io/project/climate-change/" />
 
   
   
@@ -161,7 +161,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
 
-  <link rel="canonical" href="https://example.com/project/climate-change/" />
+  <link rel="canonical" href="https://foundjem.github.io/project/climate-change/" />
 
   
   
@@ -185,9 +185,9 @@
     <meta property="twitter:site" content="@GetResearchDev" />
     <meta property="twitter:creator" content="@GetResearchDev" />
   
-  <meta property="og:site_name" content="Hugo Academic CV Theme" />
-  <meta property="og:url" content="https://example.com/project/climate-change/" />
-  <meta property="og:title" content="Climate change | Hugo Academic CV Theme" />
+  <meta property="og:site_name" content="Armstrong website" />
+  <meta property="og:url" content="https://foundjem.github.io/project/climate-change/" />
+  <meta property="og:title" content="Climate change | Armstrong website" />
   <meta property="og:description" content="#include &lt;iostream&gt;
 #include &lt;vector&gt;
 #include &lt;png.h&gt;
@@ -293,8 +293,8 @@ int main() {
 
     return 0;
 }
-" /><meta property="og:image" content="https://example.com/project/climate-change/featured.png" />
-    <meta property="twitter:image" content="https://example.com/project/climate-change/featured.png" /><meta property="og:locale" content="en-us" />
+" /><meta property="og:image" content="https://foundjem.github.io/project/climate-change/featured.png" />
+    <meta property="twitter:image" content="https://foundjem.github.io/project/climate-change/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -302,7 +302,7 @@ int main() {
         content="2025-01-26T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2025-01-26T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2025-02-15T11:49:13-05:00">
   
 
   
@@ -312,7 +312,7 @@ int main() {
   
 
 
-  <title>Climate change | Hugo Academic CV Theme</title>
+  <title>Climate change | Armstrong website</title>
 
   
   
@@ -360,9 +360,6 @@ int main() {
   
   
   
-  
-  
-  
     
       
       
@@ -382,8 +379,6 @@ int main() {
         
       
     
-  
-  
   
   
   
@@ -488,26 +483,6 @@ int main() {
   
   
   
-  
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
   
   
   
@@ -651,6 +626,31 @@ int main() {
   
   
   
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
   
 
 
@@ -911,7 +911,7 @@ int main() {
   <nav class="navbar px-3 flex justify-left">
     <div class="order-0 h-100">
       
-      <a class="navbar-brand" href="/" title="Hugo Academic CV Theme">
+      <a class="navbar-brand" href="/" title="Armstrong website">
         InSeco
       </a>
     </div>
@@ -1117,66 +1117,6 @@ int main() {
     <ul class="flex flex-col gap-1 lg:hidden">
       
       
-        <li class=""><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/event/"
-    
-  >Recent Talks
-        <span data-hb-sidebar-toggle>
-            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
-        </span>
-    </a><div class="ltr:pr-0 overflow-hidden">
-        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/event/openinfra25/"
-    
-  >Leveraging OpenInfra and Open Source GenAI to Address Climate Change
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/event/openinfra23/"
-    
-  >How large language and deep learning models can prevent toxicity such as unconscious biases
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/event/fse21/"
-    
-  >ESEC/FSE21 --- Release Synchronization in Software Ecosystems
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/event/icse21/"
-    
-  >ICSE&#39;21 --- Onboarding vs. Diversity, Productivity and Quality — Empirical Study of the OpenStack Ecosystem
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/event/podcast/"
-    
-  >CHAOSScast
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/event/icst17/"
-    
-  >ICST&#39;17 ---Broadcast vs. Unicast Review Technology: Does It Matter?
-    </a>
-              
-            </li></ul>
-      </div></li>
         <li class="open"><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
@@ -1221,6 +1161,65 @@ int main() {
     
   >Projects
     </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/experience/"
+    
+  >Experience
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/"
+    
+  >Blogging Techky
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/get-started/"
+    
+  >🎉 Easily create your own simple yet highly customizable blog
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/second-brain/"
+    
+  >🧠 Sharpen your thinking with a second brain
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/data-visualization/"
+    
+  >📈 Communicate your results effectively with the best data visualizations
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/teach-courses/"
+    
+  >👩🏼‍🏫 Teaching technical Skills
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/project-management/"
+    
+  >✅ Manage your projects
+    </a>
+              
+            </li></ul>
+      </div></li>
         <li class=""><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
@@ -1340,9 +1339,9 @@ int main() {
         <li class=""><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/post/"
+    href="/event/"
     
-  >Blogging Techky
+  >Recent Talks
         <span data-hb-sidebar-toggle>
             <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
         </span>
@@ -1350,41 +1349,49 @@ int main() {
         <ul class="hb-sidebar-list"><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/post/get-started/"
+    href="/event/openinfra25/"
     
-  >🎉 Easily create your own simple yet highly customizable blog
+  >Leveraging OpenInfra and Open Source GenAI to Address Climate Change
     </a>
               
             </li><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/post/second-brain/"
+    href="/event/openinfra23/"
     
-  >🧠 Sharpen your thinking with a second brain
+  >How large language and deep learning models can prevent toxicity such as unconscious biases
     </a>
               
             </li><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/post/data-visualization/"
+    href="/event/fse21/"
     
-  >📈 Communicate your results effectively with the best data visualizations
+  >ESEC/FSE21 --- Release Synchronization in Software Ecosystems
     </a>
               
             </li><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/post/teach-courses/"
+    href="/event/icse21/"
     
-  >👩🏼‍🏫 Teaching technical Skills
+  >ICSE&#39;21 --- Onboarding vs. Diversity, Productivity and Quality — Empirical Study of the OpenStack Ecosystem
     </a>
               
             </li><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/post/project-management/"
+    href="/event/podcast/"
     
-  >✅ Manage your projects
+  >CHAOSScast
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/event/icst17/"
+    
+  >ICST&#39;17 ---Broadcast vs. Unicast Review Technology: Does It Matter?
     </a>
               
             </li></ul>
@@ -1392,9 +1399,9 @@ int main() {
         <li class=""><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/experience/"
+    href="/students/"
     
-  >Experience
+  >Students
     </a></li>
         <li class=""><a
     class="hb-sidebar-custom-link
@@ -1424,13 +1431,6 @@ int main() {
               
             </li></ul>
       </div></li>
-        <li class=""><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/students/"
-    
-  >Students
-    </a></li>
     </ul>
 
     <ul class="flex flex-col gap-1 max-lg:hidden">
@@ -1508,7 +1508,7 @@ int main() {
       <div class="mb-1">
         <div class="mt-1.5 flex items-center gap-1 overflow-hidden text-sm text-gray-500 dark:text-gray-400">
       <div class="whitespace-nowrap transition-colors min-w-[24px] overflow-hidden text-ellipsis hover:text-gray-900 dark:hover:text-gray-100">
-        <a href="https://example.com/project/">Projects</a>
+        <a href="https://foundjem.github.io/project/">Projects</a>
       </div><svg class="w-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.25 4.5l7.5 7.5l-7.5 7.5"/></svg><div class="whitespace-nowrap font-medium text-gray-700 dark:text-gray-100">Climate change</div>
 </div>
 
@@ -1626,9 +1626,9 @@ int main() {
       </div>
 
       
-  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-01-26T00:00:00.000Z">
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-02-15T11:49:13.000Z">
     <span>Last updated on</span>
-    Jan 26, 2025</time>
+    Feb 15, 2025</time>
       
       
   

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Second Brain | Hugo Academic CV Theme</title>
-    <link>http://localhost:52352/tags/second-brain/</link>
-      <atom:link href="http://localhost:52352/tags/second-brain/index.xml" rel="self" type="application/rss+xml" />
+    <title>Second Brain | Armstrong website</title>
+    <link>http://localhost:1313/tags/second-brain/</link>
+      <atom:link href="http://localhost:1313/tags/second-brain/index.xml" rel="self" type="application/rss+xml" />
     <description>Second Brain</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:52352/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Second Brain</title>
-      <link>http://localhost:52352/tags/second-brain/</link>
+      <link>http://localhost:1313/tags/second-brain/</link>
     </image>
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>http://localhost:52352/post/second-brain/</link>
+      <link>http://localhost:1313/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52352/post/second-brain/</guid>
+      <guid>http://localhost:1313/post/second-brain/</guid>
       <description>&lt;h2 id=&#34;how-second-brain-works&#34;&gt;How second brain works&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: &amp;#34;How the Org-mode Second Brain Works&amp;#34;
