@@ -1868,7 +1868,7 @@ These techniques **promote ethical AI**, ensuring that language models reflect *
 
 
 
-&lt;div id=&#34;chart-457162938&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-468957312&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -1886,7 +1886,7 @@ These techniques **promote ethical AI**, ensuring that language models reflect *
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-457162938&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-468957312&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
