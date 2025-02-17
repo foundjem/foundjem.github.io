@@ -1,4 +1,10 @@
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+\documentclass[10pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\begin{document}
+\begin{align*}<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="1024.000000pt" height="1024.000000pt" viewBox="0 0 1024.000000 1024.000000"
  preserveAspectRatio="xMidYMid meet">
 <metadata>
@@ -953,3 +959,5 @@ l139 126 17 -33 c9 -18 56 -69 105 -113 48 -44 133 -127 188 -184 55 -56 141
 <path d="M3587 613 c-4 -3 -7 -13 -7 -21 0 -18 13 -7 16 13 2 17 1 18 -9 8z"/>
 </g>
 </svg>
+\end{align*}
+\end{document}
