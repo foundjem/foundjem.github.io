@@ -8,6 +8,11 @@
   {{ $logo = (partial "functions/get_logo" (dict "constraint" "max_height" "size" 70)) }}
 {{ end }}
 
+{{ partial "logo.html" . }}
+
+{{ .Site.Params.header | safeHTML }}
+
+
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
@@ -15,7 +20,7 @@
     <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="{{ "/" | relLangURL }}">
         {{- if $has_logo -}}
-          <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}">
+          <img src="/images/inseco.png" alt="InSeco Logo" width="100">
         {{- else -}}
           {{- site.Title -}}
         {{- end -}}
@@ -34,11 +39,19 @@
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
       <a class="navbar-brand" href="{{ "/" | relLangURL }}">
       {{- if $has_logo -}}
-        <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}">
+        <img src="/images/inseco.png" alt="InSeco Logo" width="100">
       {{- else -}}
         {{- site.Title -}}
       {{- end -}}
       </a>
+
+{{ .Site.Params.header | safeHTML }}
+
+<a class="navbar-brand" href="/" title="InSeco">
+  <img src="{{ .Site.Params.logo }}" alt="InSeco Logo" width="100">
+</a>
+
+
     </div>
     {{end}}
 

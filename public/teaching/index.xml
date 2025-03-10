@@ -929,7 +929,7 @@ where:
 &lt;/ul&gt;
 &lt;h3 id=&#34;72-stability-analysis&#34;&gt;&lt;strong&gt;7.2 Stability Analysis&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Equilibrium points satisfy:&lt;/p&gt;
-&lt;h2 id=&#34;if--fracbetagamma--1--the-infection-spreads&#34;&gt;\[
+&lt;h2 id=&#34;if--the-infection-spreads&#34;&gt;\[
 \frac{dI}{dt} = 0 \Rightarrow I^* = \frac{\beta S^*}{\gamma}
 \]
 If \( \frac{\beta}{\gamma} &gt; 1 \), the infection spreads.&lt;/h2&gt;

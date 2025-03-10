@@ -44,8 +44,8 @@ image:
 #    name: Follow
 #    url: https://twitter.com/georgecushen
 url_code: ''
-url_pdf: ''
-url_slides: ''
+url_pdf: "event/openInfra25/scale2.0-LF-NA.pdf"
+url_slides: 'event/openInfra25/scale2.0-LF-NA.pdf'
 url_video: ''
 
 # Markdown Slides (optional).

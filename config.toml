@@ -8,11 +8,10 @@
 # theme = ["hugo-embed-pdf-shortcode", "Academic"]
 [security]
   enableInlineShortcodes = true
-[params]
-#  logo = "static/images/logo.png"
-# Site settings (add favicon here)
-favicon = "images/favicon.png"
 
-[params.logo]
-path = 'images/logos/logo.png' # in assets directory
-alt = 'Welcome to InSeco'
+[params]
+  header = """
+    <a class="navbar-brand" href="/" title="InSeco">
+      <img src="/images/inseco.png" alt="InSeco Logo" width="100">
+    </a>
+  """

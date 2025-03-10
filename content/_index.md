@@ -8,6 +8,8 @@ design:
   # Default section spacing
   spacing: "6rem"
 
+
+
 sections:
   - block: resume-biography-3
     content:
