@@ -53,11 +53,11 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: event/icse21/slides.pdf
+url_slides: 'event/icse21/slides.pdf'
 
 url_code: 
-url_pdf: https://www.computer.org/csdl/proceedings-article/icse/2021/029600b033/1sEXoUCez4c
-url_video: https://www.youtube.com/watch?v=KFTtDWs4irY&t=3s
+url_pdf: 'https://www.computer.org/csdl/proceedings-article/icse/2021/029600b033/1sEXoUCez4c'
+url_video: 'https://www.youtube.com/watch?v=KFTtDWs4irY&t=3s'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
