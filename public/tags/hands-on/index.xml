@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hands-On | Armstrong website</title>
-    <link>http://localhost:1313/tags/hands-on/</link>
-      <atom:link href="http://localhost:1313/tags/hands-on/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://foundjem.github.io/tags/hands-on/</link>
+      <atom:link href="https://foundjem.github.io/tags/hands-on/index.xml" rel="self" type="application/rss+xml" />
     <description>Hands-On</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://foundjem.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Hands-On</title>
-      <link>http://localhost:1313/tags/hands-on/</link>
+      <link>https://foundjem.github.io/tags/hands-on/</link>
     </image>
     
     <item>
       <title>👩🏼‍🏫 Teaching technical Skills</title>
-      <link>http://localhost:1313/post/teach-courses/</link>
+      <link>https://foundjem.github.io/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/teach-courses/</guid>
+      <guid>https://foundjem.github.io/post/teach-courses/</guid>
       <description>&lt;p&gt;This blog page written in &lt;strong&gt;Org-mode&lt;/strong&gt; teaches data science skills to computer science students, with code snippets and mathematical reasoning included:&lt;/p&gt;
 &lt;h2 id=&#34;basic-skills-in-data-science&#34;&gt;Basic skills in Data Science&lt;/h2&gt;
 &lt;ul&gt;

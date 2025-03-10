@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOG8371 SPE Quality | Armstrong website</title>
-    <link>http://localhost:1313/tags/log8371-spe-quality/</link>
-      <atom:link href="http://localhost:1313/tags/log8371-spe-quality/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://foundjem.github.io/tags/log8371-spe-quality/</link>
+      <atom:link href="https://foundjem.github.io/tags/log8371-spe-quality/index.xml" rel="self" type="application/rss+xml" />
     <description>LOG8371 SPE Quality</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://foundjem.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>LOG8371 SPE Quality</title>
-      <link>http://localhost:1313/tags/log8371-spe-quality/</link>
+      <link>https://foundjem.github.io/tags/log8371-spe-quality/</link>
     </image>
     
     <item>
       <title>Software Quality Engineering</title>
-      <link>http://localhost:1313/teaching/quality-eng/</link>
+      <link>https://foundjem.github.io/teaching/quality-eng/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/quality-eng/</guid>
+      <guid>https://foundjem.github.io/teaching/quality-eng/</guid>
       <description>&lt;p&gt;Concepts relevant to software quality, quality assurance and testing, quality engineering and quality planning. Anomaly prevention and defect classification. Fault tolerance. Software reliability engineering. Quality models. Comparison of different quality assurance techniques. Improving the software development process. Software and process. Identifying risks for quantifiable quality improvement.&lt;/p&gt;
 &lt;h2 id=&#34;lecture-notes--log8371&#34;&gt;Lecture Notes 📚 Log8371&lt;/h2&gt;
 &lt;p&gt;📥 &lt;strong&gt;Download PDF&lt;/strong&gt;

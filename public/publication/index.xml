@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Armstrong website</title>
-    <link>http://localhost:1313/publication/</link>
-      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://foundjem.github.io/publication/</link>
+      <atom:link href="https://foundjem.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://foundjem.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Publications</title>
-      <link>http://localhost:1313/publication/</link>
+      <link>https://foundjem.github.io/publication/</link>
     </image>
     
     <item>
       <title>An empirical study of testing machine learning in the wild</title>
-      <link>http://localhost:1313/publication/openja-2024-empirical/</link>
+      <link>https://foundjem.github.io/publication/openja-2024-empirical/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/openja-2024-empirical/</guid>
+      <guid>https://foundjem.github.io/publication/openja-2024-empirical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep learning model reuse in the huggingface community: Challenges, benefit and trends</title>
-      <link>http://localhost:1313/publication/taraghi-2024-deep/</link>
+      <link>https://foundjem.github.io/publication/taraghi-2024-deep/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/taraghi-2024-deep/</guid>
+      <guid>https://foundjem.github.io/publication/taraghi-2024-deep/</guid>
       <description>&lt;h3 id=&#34;author-notes&#34;&gt;Author notes&lt;/h3&gt;
 &lt;p&gt;In this paper, &lt;strong&gt;&lt;em&gt;Armstrong Foundjem&lt;/em&gt;&lt;/strong&gt; mentored three Ph.D. Students:&lt;/p&gt;
 &lt;ul&gt;
@@ -37,89 +37,89 @@
     
     <item>
       <title>A Grounded Theory of Cross-community SECOs: Feedback Diversity vs. Synchronization</title>
-      <link>http://localhost:1313/publication/foundjem-2023-grounded/</link>
+      <link>https://foundjem.github.io/publication/foundjem-2023-grounded/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/foundjem-2023-grounded/</guid>
+      <guid>https://foundjem.github.io/publication/foundjem-2023-grounded/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Studying the Practices of Testing Machine Learning Software in the Wild</title>
-      <link>http://localhost:1313/publication/openja-2023-studying/</link>
+      <link>https://foundjem.github.io/publication/openja-2023-studying/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/openja-2023-studying/</guid>
+      <guid>https://foundjem.github.io/publication/openja-2023-studying/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A mixed-methods analysis of micro-collaborative coding practices in OpenStack</title>
-      <link>http://localhost:1313/publication/foundjem-2022-mixed/</link>
+      <link>https://foundjem.github.io/publication/foundjem-2022-mixed/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/foundjem-2022-mixed/</guid>
+      <guid>https://foundjem.github.io/publication/foundjem-2022-mixed/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software Ecosystem Sustainability, a Socio-Technical Perspective</title>
-      <link>http://localhost:1313/publication/foundjem-2022-software/</link>
+      <link>https://foundjem.github.io/publication/foundjem-2022-software/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/foundjem-2022-software/</guid>
+      <guid>https://foundjem.github.io/publication/foundjem-2022-software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An open dataset for onboarding new contributors: empirical study of openstack ecosystem</title>
-      <link>http://localhost:1313/publication/foundjem-2021-open/</link>
+      <link>https://foundjem.github.io/publication/foundjem-2021-open/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/foundjem-2021-open/</guid>
+      <guid>https://foundjem.github.io/publication/foundjem-2021-open/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Onboarding vs. diversity, productivity and quality—empirical study of the openstack ecosystem</title>
-      <link>http://localhost:1313/publication/foundjem-2021-onboarding/</link>
+      <link>https://foundjem.github.io/publication/foundjem-2021-onboarding/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/foundjem-2021-onboarding/</guid>
+      <guid>https://foundjem.github.io/publication/foundjem-2021-onboarding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Release synchronization in software ecosystems: Empirical Study on OpenStack</title>
-      <link>http://localhost:1313/publication/foundjem-2021-release/</link>
+      <link>https://foundjem.github.io/publication/foundjem-2021-release/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/foundjem-2021-release/</guid>
+      <guid>https://foundjem.github.io/publication/foundjem-2021-release/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cross-distribution feedback in software ecosystems</title>
-      <link>http://localhost:1313/publication/foundjem-2020-cross/</link>
+      <link>https://foundjem.github.io/publication/foundjem-2020-cross/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/foundjem-2020-cross/</guid>
+      <guid>https://foundjem.github.io/publication/foundjem-2020-cross/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Release synchronization in software ecosystems</title>
-      <link>http://localhost:1313/publication/foundjem-2019-release/</link>
+      <link>https://foundjem.github.io/publication/foundjem-2019-release/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/foundjem-2019-release/</guid>
+      <guid>https://foundjem.github.io/publication/foundjem-2019-release/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Broadcast vs. unicast review technology: Does it matter?</title>
-      <link>http://localhost:1313/publication/armstrong-2017-broadcast/</link>
+      <link>https://foundjem.github.io/publication/armstrong-2017-broadcast/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/armstrong-2017-broadcast/</guid>
+      <guid>https://foundjem.github.io/publication/armstrong-2017-broadcast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards improving the reliability of live migration operations in OpenStack clouds</title>
-      <link>http://localhost:1313/publication/foundjem-2017-towards/</link>
+      <link>https://foundjem.github.io/publication/foundjem-2017-towards/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/foundjem-2017-towards/</guid>
+      <guid>https://foundjem.github.io/publication/foundjem-2017-towards/</guid>
       <description></description>
     </item>
     

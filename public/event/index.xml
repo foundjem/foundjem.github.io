@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent Talks | Armstrong website</title>
-    <link>http://localhost:1313/event/</link>
-      <atom:link href="http://localhost:1313/event/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://foundjem.github.io/event/</link>
+      <atom:link href="https://foundjem.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent Talks</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://foundjem.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Recent Talks</title>
-      <link>http://localhost:1313/event/</link>
+      <link>https://foundjem.github.io/event/</link>
     </image>
     
     <item>
       <title>Leveraging OpenInfra and Open Source GenAI to Address Climate Change</title>
-      <link>http://localhost:1313/event/openinfra25/</link>
+      <link>https://foundjem.github.io/event/openinfra25/</link>
       <pubDate>Tue, 11 Feb 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/event/openinfra25/</guid>
+      <guid>https://foundjem.github.io/event/openinfra25/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -28,10 +28,94 @@
     
     <item>
       <title>How large language and deep learning models can prevent toxicity such as unconscious biases</title>
-      <link>http://localhost:1313/event/openinfra23/</link>
+      <link>https://foundjem.github.io/event/openinfra23/</link>
       <pubDate>Thu, 01 Jun 2023 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/event/openinfra23/</guid>
-      <description>&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-c5e6d382&#34;&gt;
+      <guid>https://foundjem.github.io/event/openinfra23/</guid>
+      <description>&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+
+&lt;style&gt;
+  #embed-pdf-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
+     
+  }
+  
+  .pdf-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  #the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  
+  .pdf-loadingWrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .pdf-loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #d2d0d0;;
+    border-radius: 50%;
+    border-top-color: #383838;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }
+  
+  
+  
+  
+  
+  #overlayText {
+    word-wrap: break-word;
+    display: grid;
+    justify-content: end;
+  }
+  
+  #overlayText a {
+    position: relative;
+    top: 10px;
+    right: 4px;
+    color: #000;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 0.3em 1em;
+    border: solid 2px;
+    border-radius: 12px;
+    border-color: #00000030;
+    text-decoration: none;
+  }
+  
+  #overlayText svg {
+    height: clamp(1em, 2vw, 1.4em);
+    width:  clamp(1em, 2vw, 1.4em);
+  }
+  
+  
+  
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  &lt;/style&gt;&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-c5e6d382&#34;&gt;
     &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-c5e6d382&#34;&gt;
         &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-c5e6d382&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
@@ -71,7 +155,7 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-c
 
     
     if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
-      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/foundjem.github.io\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
 
     
     var pdfDoc = null,
@@ -206,33 +290,33 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-c
     
     <item>
       <title>ESEC/FSE21 --- Release Synchronization in Software Ecosystems</title>
-      <link>http://localhost:1313/event/fse21/</link>
+      <link>https://foundjem.github.io/event/fse21/</link>
       <pubDate>Wed, 03 Nov 2021 22:22:48 +0530</pubDate>
-      <guid>http://localhost:1313/event/fse21/</guid>
+      <guid>https://foundjem.github.io/event/fse21/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ICSE&#39;21 --- Onboarding vs. Diversity, Productivity and Quality — Empirical Study of the OpenStack Ecosystem</title>
-      <link>http://localhost:1313/event/icse21/</link>
+      <link>https://foundjem.github.io/event/icse21/</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/event/icse21/</guid>
+      <guid>https://foundjem.github.io/event/icse21/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CHAOSScast</title>
-      <link>http://localhost:1313/event/podcast/</link>
+      <link>https://foundjem.github.io/event/podcast/</link>
       <pubDate>Fri, 07 Aug 2020 16:20:15 +0700</pubDate>
-      <guid>http://localhost:1313/event/podcast/</guid>
+      <guid>https://foundjem.github.io/event/podcast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ICST&#39;17 ---Broadcast vs. Unicast Review Technology: Does It Matter?</title>
-      <link>http://localhost:1313/event/icst17/</link>
+      <link>https://foundjem.github.io/event/icst17/</link>
       <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/event/icst17/</guid>
+      <guid>https://foundjem.github.io/event/icst17/</guid>
       <description></description>
     </item>
     
