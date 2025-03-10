@@ -53,7 +53,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: talk/icse21/slides.pdf
+url_slides: event/icse21/slides.pdf
 
 url_code: 
 url_pdf: https://www.computer.org/csdl/proceedings-article/icse/2021/029600b033/1sEXoUCez4c

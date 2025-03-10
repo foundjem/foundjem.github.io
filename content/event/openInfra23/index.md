@@ -42,8 +42,8 @@ image:
 #    name: Follow
 #    url: https://twitter.com/georgecushen
 url_code: ''
-url_pdf: ''
-url_slides: ''
+url_pdf: 'event/openInfra/slides.pdf'
+url_slides: 'event/openInfra/slides.pdf'
 url_video: 'https://www.youtube.com/watch?v=ONgEAQDq590'
 
 # Markdown Slides (optional).

@@ -45,7 +45,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: talk/icst17/slides.pdf
+url_slides: event/icst17/slides.pdf
 
 url_code: 
 url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7927977

@@ -50,7 +50,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: talk/fse21/slides.pdf
+url_slides: event/fse21/slides.pdf
 
 url_code: https://www.youtube.com/watch?v=U9OxhLkFypA&t=1s
 url_pdf: 
