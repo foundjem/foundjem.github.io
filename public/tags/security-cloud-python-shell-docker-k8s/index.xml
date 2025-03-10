@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security Cloud Python Shell Docker K8s | Armstrong website</title>
-    <link>https://foundjem.github.io/tags/security-cloud-python-shell-docker-k8s/</link>
-      <atom:link href="https://foundjem.github.io/tags/security-cloud-python-shell-docker-k8s/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/security-cloud-python-shell-docker-k8s/</link>
+      <atom:link href="http://localhost:1313/tags/security-cloud-python-shell-docker-k8s/index.xml" rel="self" type="application/rss+xml" />
     <description>Security Cloud Python Shell Docker K8s</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://foundjem.github.io/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Security Cloud Python Shell Docker K8s</title>
-      <link>https://foundjem.github.io/tags/security-cloud-python-shell-docker-k8s/</link>
+      <link>http://localhost:1313/tags/security-cloud-python-shell-docker-k8s/</link>
     </image>
     
     <item>
       <title>Cloud Security</title>
-      <link>https://foundjem.github.io/teaching/security/</link>
+      <link>http://localhost:1313/teaching/security/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://foundjem.github.io/teaching/security/</guid>
+      <guid>http://localhost:1313/teaching/security/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Key cloud computing concepts. Dependability and security in the cloud. Identity and access management. Secure configuration management. Data protection and automation. Networking and logging. Compliance,
 incident response and penetration testing. Security in mobile cloud environments.&lt;/li&gt;
