@@ -36,7 +36,8 @@ header:
     show_theme_chooser: true
     logo: 
       text: InSeco
-      image: "static/images/favicon.png"  # Path to your logo image
+      image: "logo.png"  # Path to your logo image
+      filename: "logo.svg"
   
 # Site footer
 footer:
@@ -47,6 +48,9 @@ footer:
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
+      show_translations: true
+      # If `show_translations` is enabled, do you wish to hide the current language name?
+      hide_language_name: false
 
 # Localization
 locale:

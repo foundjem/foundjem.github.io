@@ -7,7 +7,7 @@
     <description>Armstrong website</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/logo.svg</url>
       <title>Armstrong website</title>
       <link>http://localhost:1313/</link>
     </image>
@@ -1868,7 +1868,7 @@ These techniques **promote ethical AI**, ensuring that language models reflect *
 
 
 
-&lt;div id=&#34;chart-892541673&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-351986724&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -1886,7 +1886,7 @@ These techniques **promote ethical AI**, ensuring that language models reflect *
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-892541673&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-351986724&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
