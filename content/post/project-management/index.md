@@ -1,6 +1,6 @@
 ---
-title: ✅ Manage your projects
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
+title: 🧭  Simplify Project Management 🗂️
+summary: Plan and organize with ease—create mind maps, Gantt charts, to-do lists, and more!
 date: 2023-10-23
 authors:
   - admin

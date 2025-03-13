@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "uid": "student_data",
+      "fill": "tonexty",
+      "mode": "none",
+      "name": "Studytime by Age",
+      "type": "scatter",
+      "x": [18, 17, 15, 15, 16, 16, 16, 17, 15, 15], 
+      "y": [2, 2, 2, 3, 2, 2, 2, 2, 2, 2], 
+      "fillcolor": "rgb(100, 150, 250)"
+    }
+  ],
+  "layout": {
+    "title": "Studytime by Age",
+    "width": 800,
+    "xaxis": {
+      "type": "linear",
+      "title": "Age",
+      "showgrid": true,
+      "autorange": true
+    },
+    "yaxis": {
+      "type": "linear",
+      "title": "Studytime",
+      "autorange": true
+    },
+    "height": 500,
+    "autosize": false
+  },
+  "frames": []
+}

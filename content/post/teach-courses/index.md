@@ -1,5 +1,5 @@
 ---
-title: 👩🏼‍🏫 Teaching technical Skills
+title: 🎓🧑‍💻 Master the Art of Teaching Technical Skills 🖥️
 summary: Embed videos, podcasts, code, LaTeX math, and even test students!
 date: 2023-10-24
 math: true

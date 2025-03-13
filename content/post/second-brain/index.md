@@ -1,6 +1,6 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
+title: ✨  Supercharge Your Thinking with a Second Brain 🧠 
+summary: Capture ideas, organize knowledge, and collaborate with ease through your personal second brain.
 date: 2023-10-26
 authors:
   - admin

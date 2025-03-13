@@ -1,6 +1,6 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
+title: 🛠️ Design a Simple, Flexible, and BCustomizable Blog 🌐
+summary: Reclaim your digital space — enjoy full control over your personal brand and privacy by leaving big tech behind!
 date: 2023-10-27
 
 # Featured image

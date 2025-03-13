@@ -37,7 +37,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am a research scientist at the DEEL project, Polytechnique Montreal. I use mixed-methods research across diverse use cases to explore the Why, How, and What of ecosystem sustainability and the trustworthiness of safety-critical AI systems.
+        My work bridges theory and practice, addressing fundamental questions on the WHY, HOW, and WHAT of sustainable and trustworthy AI in complex socio-technical ecosystems.
+
+        In parallel, I actively contribute to the scientific community as a core reviewer for leading conferences and journals, including ICSE, EMSE, TOSEM, NeurIPS, AAAI, SANER, and MSR. Through these roles, I help uphold scholarly standards and foster innovation in software engineering and artificial intelligence. Additionally, as an international judge for science and engineering competitions, I mentor and support emerging scientists, advancing the next generation of scientific discovery and leadership.
         
         --- Please reach out to collaborate 😃
     design:
