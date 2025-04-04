@@ -47,25 +47,26 @@ if __name__ == '__main__':
 
 ![Alt text for accessibility](./chart1.png)
 
-
-Hugo Blox supports the popular [Plotly](https://plot.ly/) format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!
-
-Save your Plotly JSON in your page folder, for example `line-chart.json`, and then add the `{{</* chart data="line-chart" */>}}` shortcode where you would like the chart to appear.
-
-Demo:
-
-{{< chart data="line-chart" width="1000" height="200" >}}
-
-
-
-You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
-
-
-
-
 <!--
-{{< chart data="students" type="bar" x="age" y="studytime" group="sex" >}}
+### Line Chart  
+{{< chart id="line-chart" data="line-chart" width="300" height="100" >}}
+
+### Web growh Chart  
+{{< chart id="website-growth" data="website-growth" width="300" height="100" >}}
+
+
+### Lang Popularity Chart  
+{{< chart id="language-popularity" data="language-popularity" width="300" height="100" >}}
+
+### lang. preferences
+{{< chart id="learning-preference" data="learning-preference" width="300" height="100" >}}
+
 -->
+
+### lang. preferences
+{{< chart id="learning-preference" data="learning-preference" width="300" height="100" >}}
+
+
 
 
 ## Go Syntax highlight
@@ -91,8 +92,36 @@ func main() {
 
 
 
+### Table
 
-{{< table path="results.csv" header="true" caption="Table 1: Customers' scores" >}}
+{{< table path="results.csv" header="true"  boarder="true" caption="Table 1: Customers' scores" >}}
+
+
+
+{{< youtube w7Ft2ymGmfc >}}
+
+
+## Embed Docs
+
+{{< x user="SanDiegoZoo" id="1453110110599868418" width=100 height=100 >}}
+
+
+## Data Frames
+
+Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
+
+```go
+{{</* table path="results.csv" header="true" caption="Table 1: My results" */>}}
+```
+
+renders as
+
+{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
+
+
+
+---
+
 
 
 ## Diagrams
@@ -209,19 +238,9 @@ Moving --> Crash
 Crash --> [*]
 ```
 
-## Data Frames
 
-Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
 
-```go
-{{</* table path="results.csv" header="true" caption="Table 1: My results" */>}}
-```
 
-renders as
-
-{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
-
----
 
 ```markdown
 ---

@@ -1,0 +1,15 @@
+{
+  "data": [
+    {
+      "type": "bar",
+      "name": "Popularity",
+      "x": ["Python", "JavaScript", "Java", "C#", "C++"],
+      "y": [29, 19, 15, 10, 9]
+    }
+  ],
+  "layout": {
+    "title": "Top Programming Languages by Popularity",
+    "xaxis": { "title": "Programming Languages" },
+    "yaxis": { "title": "Popularity (%)" }
+  }
+}

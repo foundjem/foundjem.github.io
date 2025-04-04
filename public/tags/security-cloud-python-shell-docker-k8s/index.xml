@@ -1,634 +1,602 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Security Cloud Python Shell Docker K8s | Armstrong website</title>
-    <link>http://localhost:1313/tags/security-cloud-python-shell-docker-k8s/</link>
-      <atom:link href="http://localhost:1313/tags/security-cloud-python-shell-docker-k8s/index.xml" rel="self" type="application/rss+xml" />
-    <description>Security Cloud Python Shell Docker K8s</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>http://localhost:1313/media/logo.svg</url>
-      <title>Security Cloud Python Shell Docker K8s</title>
-      <link>http://localhost:1313/tags/security-cloud-python-shell-docker-k8s/</link>
-    </image>
-    
-    <item>
-      <title>Cloud Security</title>
-      <link>http://localhost:1313/teaching/security/</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/security/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Key cloud computing concepts. Dependability and security in the cloud. Identity and access management. Secure configuration management. Data protection and automation. Networking and logging. Compliance,
-incident response and penetration testing. Security in mobile cloud environments.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;lecture-notes--inf8102&#34;&gt;Lecture Notes 📚 INF8102&lt;/h2&gt;
-&lt;p&gt;📥 &lt;strong&gt;Download PDF&lt;/strong&gt;
-📂 &lt;a href=&#34;slides/Lec-1-1-Intro_Infonuagique.pdf&#34;&gt;Lec-1-1&lt;/a&gt;, &lt;a href=&#34;slides/Lec-1-2-Intro_Infonuagique.pdf&#34;&gt;Lec-1-2&lt;/a&gt;, &lt;a href=&#34;slides/Lec-2-1-Gestion_Identite_Acces.pdf&#34;&gt;Lec-2-1&lt;/a&gt;,&amp;hellip;, &lt;a href=&#34;slides/Lec-2-2-Gestion_Identite_Acces.pdf&#34;&gt;Lec-2-2&lt;/a&gt;, &lt;a href=&#34;slides/Lec-3-1-Gestion_Configuration.pdf&#34;&gt;Lec-3-1&lt;/a&gt;,&amp;hellip;,&lt;a href=&#34;slides/Lec-3-2-Security_Configuration.pdf&#34;&gt;Lec-3-2&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;models&#34;&gt;Models&lt;/h2&gt;
-&lt;h3 id=&#34;complex-mathematical-model-for-cloud-security&#34;&gt;&lt;strong&gt;Complex Mathematical Model for Cloud Security&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Cloud security involves multiple interdependent components, including &lt;strong&gt;identity management, data protection, access control, compliance, threat detection, and incident response&lt;/strong&gt;. To mathematically model cloud security, we integrate &lt;strong&gt;probability theory, queuing models, differential equations, and Markov processes&lt;/strong&gt; to analyze attack surfaces, defense mechanisms, and system reliability.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;1-notation-and-key-parameters&#34;&gt;&lt;strong&gt;1. Notation and Key Parameters&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Define the variables used in the model:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Symbol&lt;/th&gt;
-          &lt;th&gt;Definition&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;\( A(t) \)&lt;/td&gt;
-          &lt;td&gt;Rate of incoming access requests (authentication, API calls, etc.) at time \( t \)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;\( P_{\text{auth}} \)&lt;/td&gt;
-          &lt;td&gt;Probability of a user successfully authenticating&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;\( T_{\text{auth}} \)&lt;/td&gt;
-          &lt;td&gt;Authentication processing time&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;\( \lambda_{\text{attack}} \)&lt;/td&gt;
-          &lt;td&gt;Rate of attack attempts (DDoS, brute force, SQL injection, etc.)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;\( P_{\text{detect}} \)&lt;/td&gt;
-          &lt;td&gt;Probability of an attack being detected&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;\( P_{\text{mitigate}} \)&lt;/td&gt;
-          &lt;td&gt;Probability of mitigation succeeding&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;\( C_{\text{data}} \)&lt;/td&gt;
-          &lt;td&gt;Data confidentiality level (measured in entropy)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;\( P_{\text{leak}} \)&lt;/td&gt;
-          &lt;td&gt;Probability of a data breach&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;\( R_{\text{comp}} \)&lt;/td&gt;
-          &lt;td&gt;Compliance risk score&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;\( U_{\text{log}} \)&lt;/td&gt;
-          &lt;td&gt;Utilization of logging infrastructure&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;\( X_{\text{log}} \)&lt;/td&gt;
-          &lt;td&gt;Log analysis throughput&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;\( S_{\text{cloud}} \)&lt;/td&gt;
-          &lt;td&gt;Overall cloud security risk level&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;\( R_{\text{resp}}(t) \)&lt;/td&gt;
-          &lt;td&gt;Response time to an incident at time \( t \)&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;2-identity-and-access-management-iam-model&#34;&gt;&lt;strong&gt;2. Identity and Access Management (IAM) Model&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;IAM enforces security by authenticating and authorizing users.&lt;/p&gt;
-&lt;h3 id=&#34;authentication-model&#34;&gt;&lt;strong&gt;Authentication Model&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;We model authentication as a &lt;strong&gt;queuing system&lt;/strong&gt;:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security Cloud Python Shell Docker K8s | Armstrong website</title><link>https://foundjem.github.io/tags/security-cloud-python-shell-docker-k8s/</link><atom:link href="https://foundjem.github.io/tags/security-cloud-python-shell-docker-k8s/index.xml" rel="self" type="application/rss+xml"/><description>Security Cloud Python Shell Docker K8s</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://foundjem.github.io/media/logo.svg</url><title>Security Cloud Python Shell Docker K8s</title><link>https://foundjem.github.io/tags/security-cloud-python-shell-docker-k8s/</link></image><item><title>Cloud Security</title><link>https://foundjem.github.io/teaching/security/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://foundjem.github.io/teaching/security/</guid><description>&lt;ul>
+&lt;li>Key cloud computing concepts. Dependability and security in the cloud. Identity and access management. Secure configuration management. Data protection and automation. Networking and logging. Compliance,
+incident response and penetration testing. Security in mobile cloud environments.&lt;/li>
+&lt;/ul>
+&lt;h2 id="lecture-notes--inf8102">Lecture Notes 📚 INF8102&lt;/h2>
+&lt;p>📥 &lt;strong>Download PDF&lt;/strong>
+📂 &lt;a href="slides/Lec-1-1-Intro_Infonuagique.pdf">Lec-1-1&lt;/a>, &lt;a href="slides/Lec-1-2-Intro_Infonuagique.pdf">Lec-1-2&lt;/a>, &lt;a href="slides/Lec-2-1-Gestion_Identite_Acces.pdf">Lec-2-1&lt;/a>,&amp;hellip;, &lt;a href="slides/Lec-2-2-Gestion_Identite_Acces.pdf">Lec-2-2&lt;/a>, &lt;a href="slides/Lec-3-1-Gestion_Configuration.pdf">Lec-3-1&lt;/a>,&amp;hellip;,&lt;a href="slides/Lec-3-2-Security_Configuration.pdf">Lec-3-2&lt;/a>&lt;/p>
+&lt;h2 id="models">Models&lt;/h2>
+&lt;h3 id="complex-mathematical-model-for-cloud-security">&lt;strong>Complex Mathematical Model for Cloud Security&lt;/strong>&lt;/h3>
+&lt;p>Cloud security involves multiple interdependent components, including &lt;strong>identity management, data protection, access control, compliance, threat detection, and incident response&lt;/strong>. To mathematically model cloud security, we integrate &lt;strong>probability theory, queuing models, differential equations, and Markov processes&lt;/strong> to analyze attack surfaces, defense mechanisms, and system reliability.&lt;/p>
+&lt;hr>
+&lt;h2 id="1-notation-and-key-parameters">&lt;strong>1. Notation and Key Parameters&lt;/strong>&lt;/h2>
+&lt;p>Define the variables used in the model:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Symbol&lt;/th>
+&lt;th>Definition&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>\( A(t) \)&lt;/td>
+&lt;td>Rate of incoming access requests (authentication, API calls, etc.) at time \( t \)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>\( P_{\text{auth}} \)&lt;/td>
+&lt;td>Probability of a user successfully authenticating&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>\( T_{\text{auth}} \)&lt;/td>
+&lt;td>Authentication processing time&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>\( \lambda_{\text{attack}} \)&lt;/td>
+&lt;td>Rate of attack attempts (DDoS, brute force, SQL injection, etc.)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>\( P_{\text{detect}} \)&lt;/td>
+&lt;td>Probability of an attack being detected&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>\( P_{\text{mitigate}} \)&lt;/td>
+&lt;td>Probability of mitigation succeeding&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>\( C_{\text{data}} \)&lt;/td>
+&lt;td>Data confidentiality level (measured in entropy)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>\( P_{\text{leak}} \)&lt;/td>
+&lt;td>Probability of a data breach&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>\( R_{\text{comp}} \)&lt;/td>
+&lt;td>Compliance risk score&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>\( U_{\text{log}} \)&lt;/td>
+&lt;td>Utilization of logging infrastructure&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>\( X_{\text{log}} \)&lt;/td>
+&lt;td>Log analysis throughput&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>\( S_{\text{cloud}} \)&lt;/td>
+&lt;td>Overall cloud security risk level&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>\( R_{\text{resp}}(t) \)&lt;/td>
+&lt;td>Response time to an incident at time \( t \)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="2-identity-and-access-management-iam-model">&lt;strong>2. Identity and Access Management (IAM) Model&lt;/strong>&lt;/h2>
+&lt;p>IAM enforces security by authenticating and authorizing users.&lt;/p>
+&lt;h3 id="authentication-model">&lt;strong>Authentication Model&lt;/strong>&lt;/h3>
+&lt;p>We model authentication as a &lt;strong>queuing system&lt;/strong>:&lt;/p>
 \[
 R_{\text{auth}} = T_{\text{auth}} + \frac{A(t)}{\mu_{\text{auth}} - A(t)}
-\]&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( \mu_{\text{auth}} \) is the max authentication processing capacity.&lt;/li&gt;
-&lt;li&gt;\( R_{\text{auth}} \) is the expected authentication response time.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Security constraint&lt;/strong&gt;: If \( A(t) &gt; \mu_{\text{auth}} \), authentication requests queue up, increasing attack surface.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;attack-detection-probability&#34;&gt;&lt;strong&gt;Attack Detection Probability&lt;/strong&gt;&lt;/h3&gt;
+\]&lt;p>where:&lt;/p>
+&lt;ul>
+&lt;li>\( \mu_{\text{auth}} \) is the max authentication processing capacity.&lt;/li>
+&lt;li>\( R_{\text{auth}} \) is the expected authentication response time.&lt;/li>
+&lt;li>&lt;strong>Security constraint&lt;/strong>: If \( A(t) > \mu_{\text{auth}} \), authentication requests queue up, increasing attack surface.&lt;/li>
+&lt;/ul>
+&lt;h3 id="attack-detection-probability">&lt;strong>Attack Detection Probability&lt;/strong>&lt;/h3>
 \[
 P_{\text{detect}} = 1 - e^{-\beta \lambda_{\text{attack}}}
-\]&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( \beta \) is the detection efficiency of intrusion detection systems (IDS).&lt;/li&gt;
-&lt;li&gt;\( \lambda_{\text{attack}} \) is the attack arrival rate.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;compromised-sessions&#34;&gt;&lt;strong&gt;Compromised Sessions&lt;/strong&gt;&lt;/h3&gt;
+\]&lt;p>where:&lt;/p>
+&lt;ul>
+&lt;li>\( \beta \) is the detection efficiency of intrusion detection systems (IDS).&lt;/li>
+&lt;li>\( \lambda_{\text{attack}} \) is the attack arrival rate.&lt;/li>
+&lt;/ul>
+&lt;h3 id="compromised-sessions">&lt;strong>Compromised Sessions&lt;/strong>&lt;/h3>
 \[
 P_{\text{compromised}} = (1 - P_{\text{auth}}) P_{\text{bypass}} + P_{\text{leak}}
-\]&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( P_{\text{bypass}} \) is the probability of bypassing authentication.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;3-secure-configuration-management&#34;&gt;&lt;strong&gt;3. Secure Configuration Management&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Cloud configurations must be dynamically updated to prevent misconfigurations.&lt;/p&gt;
-&lt;h3 id=&#34;configuration-drift-model&#34;&gt;&lt;strong&gt;Configuration Drift Model&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Define &lt;strong&gt;drift rate&lt;/strong&gt; \( D(t) \), which represents the deviation of configurations from secure baselines.&lt;/p&gt;
+\]&lt;p>where:&lt;/p>
+&lt;ul>
+&lt;li>\( P_{\text{bypass}} \) is the probability of bypassing authentication.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="3-secure-configuration-management">&lt;strong>3. Secure Configuration Management&lt;/strong>&lt;/h2>
+&lt;p>Cloud configurations must be dynamically updated to prevent misconfigurations.&lt;/p>
+&lt;h3 id="configuration-drift-model">&lt;strong>Configuration Drift Model&lt;/strong>&lt;/h3>
+&lt;p>Define &lt;strong>drift rate&lt;/strong> \( D(t) \), which represents the deviation of configurations from secure baselines.&lt;/p>
 \[
 \frac{dD(t)}{dt} = \alpha \cdot (1 - P_{\text{secure}}) - \gamma D(t)
-\]&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( \alpha \) is the misconfiguration rate.&lt;/li&gt;
-&lt;li&gt;\( P_{\text{secure}} \) is the probability that an update maintains security.&lt;/li&gt;
-&lt;li&gt;\( \gamma \) is the rate of security patching.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;At equilibrium (\( dD/dt = 0 \)):&lt;/p&gt;
+\]&lt;p>where:&lt;/p>
+&lt;ul>
+&lt;li>\( \alpha \) is the misconfiguration rate.&lt;/li>
+&lt;li>\( P_{\text{secure}} \) is the probability that an update maintains security.&lt;/li>
+&lt;li>\( \gamma \) is the rate of security patching.&lt;/li>
+&lt;/ul>
+&lt;p>At equilibrium (\( dD/dt = 0 \)):&lt;/p>
 \[
 D_{\text{eq}} = \frac{\alpha (1 - P_{\text{secure}})}{\gamma}
-\]&lt;p&gt;Security &lt;strong&gt;degrades&lt;/strong&gt; if \( \alpha \) is high and \( \gamma \) is low.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;4-data-protection-and-encryption-model&#34;&gt;&lt;strong&gt;4. Data Protection and Encryption Model&lt;/strong&gt;&lt;/h2&gt;
-&lt;h3 id=&#34;data-breach-probability&#34;&gt;&lt;strong&gt;Data Breach Probability&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;The probability of a data breach is modeled using &lt;strong&gt;Shannon entropy&lt;/strong&gt;:&lt;/p&gt;
+\]&lt;p>Security &lt;strong>degrades&lt;/strong> if \( \alpha \) is high and \( \gamma \) is low.&lt;/p>
+&lt;hr>
+&lt;h2 id="4-data-protection-and-encryption-model">&lt;strong>4. Data Protection and Encryption Model&lt;/strong>&lt;/h2>
+&lt;h3 id="data-breach-probability">&lt;strong>Data Breach Probability&lt;/strong>&lt;/h3>
+&lt;p>The probability of a data breach is modeled using &lt;strong>Shannon entropy&lt;/strong>:&lt;/p>
 \[
 P_{\text{leak}} = 1 - e^{-\eta C_{\text{data}}}
-\]&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( C_{\text{data}} \) is the entropy (higher means better encryption).&lt;/li&gt;
-&lt;li&gt;\( \eta \) is the effectiveness of encryption.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;data-loss-rate&#34;&gt;&lt;strong&gt;Data Loss Rate&lt;/strong&gt;&lt;/h3&gt;
+\]&lt;p>where:&lt;/p>
+&lt;ul>
+&lt;li>\( C_{\text{data}} \) is the entropy (higher means better encryption).&lt;/li>
+&lt;li>\( \eta \) is the effectiveness of encryption.&lt;/li>
+&lt;/ul>
+&lt;h3 id="data-loss-rate">&lt;strong>Data Loss Rate&lt;/strong>&lt;/h3>
 \[
 L_{\text{data}}(t) = \lambda_{\text{attack}} (1 - P_{\text{mitigate}}) S_{\text{impact}}
-\]&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( S_{\text{impact}} \) represents the impact of a breach.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;5-network-security-and-log-analysis&#34;&gt;&lt;strong&gt;5. Network Security and Log Analysis&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Security logs must be processed efficiently to detect threats.&lt;/p&gt;
-&lt;h3 id=&#34;queuing-model-for-log-processing&#34;&gt;&lt;strong&gt;Queuing Model for Log Processing&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Security logs are generated at a rate \( \lambda_{\text{log}} \) and analyzed at \( \mu_{\text{log}} \).&lt;/p&gt;
+\]&lt;p>where:&lt;/p>
+&lt;ul>
+&lt;li>\( S_{\text{impact}} \) represents the impact of a breach.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="5-network-security-and-log-analysis">&lt;strong>5. Network Security and Log Analysis&lt;/strong>&lt;/h2>
+&lt;p>Security logs must be processed efficiently to detect threats.&lt;/p>
+&lt;h3 id="queuing-model-for-log-processing">&lt;strong>Queuing Model for Log Processing&lt;/strong>&lt;/h3>
+&lt;p>Security logs are generated at a rate \( \lambda_{\text{log}} \) and analyzed at \( \mu_{\text{log}} \).&lt;/p>
 \[
 R_{\text{log}} = \frac{1}{\mu_{\text{log}} - \lambda_{\text{log}}}
-\]&lt;p&gt;If \( \lambda_{\text{log}} &gt; \mu_{\text{log}} \), logs accumulate, &lt;strong&gt;delaying threat detection&lt;/strong&gt;.&lt;/p&gt;
+\]&lt;p>If \( \lambda_{\text{log}} > \mu_{\text{log}} \), logs accumulate, &lt;strong>delaying threat detection&lt;/strong>.&lt;/p>
 \[
 U_{\text{log}} = \frac{\lambda_{\text{log}}}{\mu_{\text{log}}}
-\]&lt;p&gt;If \( U_{\text{log}} \approx 1 \), log analysis is overloaded, leading to security blind spots.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;6-compliance-and-risk-management&#34;&gt;&lt;strong&gt;6. Compliance and Risk Management&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Cloud environments must comply with regulatory standards.&lt;/p&gt;
-&lt;h3 id=&#34;compliance-risk-score&#34;&gt;&lt;strong&gt;Compliance Risk Score&lt;/strong&gt;&lt;/h3&gt;
+\]&lt;p>If \( U_{\text{log}} \approx 1 \), log analysis is overloaded, leading to security blind spots.&lt;/p>
+&lt;hr>
+&lt;h2 id="6-compliance-and-risk-management">&lt;strong>6. Compliance and Risk Management&lt;/strong>&lt;/h2>
+&lt;p>Cloud environments must comply with regulatory standards.&lt;/p>
+&lt;h3 id="compliance-risk-score">&lt;strong>Compliance Risk Score&lt;/strong>&lt;/h3>
 \[
 R_{\text{comp}} = \sum_{i=1}^{N} w_i P_{\text{non-compliance}, i}
-\]&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( w_i \) is the weight of compliance factor \( i \).&lt;/li&gt;
-&lt;li&gt;\( P_{\text{non-compliance}, i} \) is the probability of violating compliance rule \( i \).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A &lt;strong&gt;high \( R_{\text{comp}} \)&lt;/strong&gt; increases legal and reputational risks.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;7-incident-response-time-model&#34;&gt;&lt;strong&gt;7. Incident Response Time Model&lt;/strong&gt;&lt;/h2&gt;
+\]&lt;p>where:&lt;/p>
+&lt;ul>
+&lt;li>\( w_i \) is the weight of compliance factor \( i \).&lt;/li>
+&lt;li>\( P_{\text{non-compliance}, i} \) is the probability of violating compliance rule \( i \).&lt;/li>
+&lt;/ul>
+&lt;p>A &lt;strong>high \( R_{\text{comp}} \)&lt;/strong> increases legal and reputational risks.&lt;/p>
+&lt;hr>
+&lt;h2 id="7-incident-response-time-model">&lt;strong>7. Incident Response Time Model&lt;/strong>&lt;/h2>
 \[
 R_{\text{resp}}(t) = T_{\text{detect}} + T_{\text{analysis}} + T_{\text{mitigation}}
-\]&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( T_{\text{detect}} \) is the attack detection time.&lt;/li&gt;
-&lt;li&gt;\( T_{\text{analysis}} \) is the investigation time.&lt;/li&gt;
-&lt;li&gt;\( T_{\text{mitigation}} \) is the response execution time.&lt;/li&gt;
-&lt;/ul&gt;
+\]&lt;p>where:&lt;/p>
+&lt;ul>
+&lt;li>\( T_{\text{detect}} \) is the attack detection time.&lt;/li>
+&lt;li>\( T_{\text{analysis}} \) is the investigation time.&lt;/li>
+&lt;li>\( T_{\text{mitigation}} \) is the response execution time.&lt;/li>
+&lt;/ul>
 \[
 P_{\text{success}} = P_{\text{detect}} \cdot P_{\text{analysis}} \cdot P_{\text{mitigate}}
-\]&lt;hr&gt;
-&lt;h2 id=&#34;8-overall-cloud-security-risk-model&#34;&gt;&lt;strong&gt;8. Overall Cloud Security Risk Model&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;We define &lt;strong&gt;overall cloud security risk&lt;/strong&gt; \( S_{\text{cloud}} \) as:&lt;/p&gt;
+\]&lt;hr>
+&lt;h2 id="8-overall-cloud-security-risk-model">&lt;strong>8. Overall Cloud Security Risk Model&lt;/strong>&lt;/h2>
+&lt;p>We define &lt;strong>overall cloud security risk&lt;/strong> \( S_{\text{cloud}} \) as:&lt;/p>
 \[
 S_{\text{cloud}} = w_1 P_{\text{compromised}} + w_2 P_{\text{leak}} + w_3 U_{\text{log}} + w_4 R_{\text{comp}}
-\]&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( w_1, w_2, w_3, w_4 \) are weights indicating the impact of each component.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A &lt;strong&gt;higher \( S_{\text{cloud}} \) means a more vulnerable cloud system&lt;/strong&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;9-cloud-security-optimization&#34;&gt;&lt;strong&gt;9. Cloud Security Optimization&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;To improve security, we minimize:&lt;/p&gt;
+\]&lt;p>where:&lt;/p>
+&lt;ul>
+&lt;li>\( w_1, w_2, w_3, w_4 \) are weights indicating the impact of each component.&lt;/li>
+&lt;/ul>
+&lt;p>A &lt;strong>higher \( S_{\text{cloud}} \) means a more vulnerable cloud system&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h2 id="9-cloud-security-optimization">&lt;strong>9. Cloud Security Optimization&lt;/strong>&lt;/h2>
+&lt;p>To improve security, we minimize:&lt;/p>
 \[
 \min_{P_{\text{auth}}, P_{\text{mitigate}}, \mu_{\text{log}}} S_{\text{cloud}}
-\]&lt;p&gt;under the constraints:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( P_{\text{auth}} \geq 0.95 \) (strict authentication policy)&lt;/li&gt;
-&lt;li&gt;\( P_{\text{mitigate}} \geq 0.9 \) (effective mitigation strategy)&lt;/li&gt;
-&lt;li&gt;\( U_{\text{log}} \leq 0.8 \) (log analysis utilization limit)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Using &lt;strong&gt;Lagrange multipliers&lt;/strong&gt;, we solve for optimal parameters.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;10-conclusion&#34;&gt;&lt;strong&gt;10. Conclusion&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;This &lt;strong&gt;complex mathematical model for cloud security&lt;/strong&gt; integrates:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Queuing theory&lt;/strong&gt; for authentication and logging.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Markov models&lt;/strong&gt; for attack detection and response.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Shannon entropy&lt;/strong&gt; for data protection.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Optimization methods&lt;/strong&gt; to minimize risk.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;By analyzing &lt;strong&gt;dynamic security risks&lt;/strong&gt; mathematically, cloud architects can &lt;strong&gt;optimize security policies, improve resilience, and minimize attack surfaces&lt;/strong&gt; effectively.&lt;/p&gt;
-&lt;h3 id=&#34;deep-mathematical-models-in-cybersecurity&#34;&gt;&lt;strong&gt;Deep Mathematical Models in Cybersecurity&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Cybersecurity threats evolve continuously, requiring advanced &lt;strong&gt;mathematical models&lt;/strong&gt; to analyze attack patterns, detect intrusions, assess risks, and optimize defensive strategies. Below are deep mathematical models used in cybersecurity, covering &lt;strong&gt;intrusion detection, attack modeling, risk assessment, cryptography, and optimization techniques&lt;/strong&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;1-intrusion-detection-system-ids-models&#34;&gt;&lt;strong&gt;1. Intrusion Detection System (IDS) Models&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;IDS detects anomalous network activities using statistical and machine learning models.&lt;/p&gt;
-&lt;h3 id=&#34;11-statistical-anomaly-detection-markov-chains&#34;&gt;&lt;strong&gt;1.1 Statistical Anomaly Detection (Markov Chains)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Network events follow a &lt;strong&gt;Markov process&lt;/strong&gt;, where transitions between states represent different network behaviors.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
+\]&lt;p>under the constraints:&lt;/p>
+&lt;ul>
+&lt;li>\( P_{\text{auth}} \geq 0.95 \) (strict authentication policy)&lt;/li>
+&lt;li>\( P_{\text{mitigate}} \geq 0.9 \) (effective mitigation strategy)&lt;/li>
+&lt;li>\( U_{\text{log}} \leq 0.8 \) (log analysis utilization limit)&lt;/li>
+&lt;/ul>
+&lt;p>Using &lt;strong>Lagrange multipliers&lt;/strong>, we solve for optimal parameters.&lt;/p>
+&lt;hr>
+&lt;h2 id="10-conclusion">&lt;strong>10. Conclusion&lt;/strong>&lt;/h2>
+&lt;p>This &lt;strong>complex mathematical model for cloud security&lt;/strong> integrates:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Queuing theory&lt;/strong> for authentication and logging.&lt;/li>
+&lt;li>&lt;strong>Markov models&lt;/strong> for attack detection and response.&lt;/li>
+&lt;li>&lt;strong>Shannon entropy&lt;/strong> for data protection.&lt;/li>
+&lt;li>&lt;strong>Optimization methods&lt;/strong> to minimize risk.&lt;/li>
+&lt;/ul>
+&lt;p>By analyzing &lt;strong>dynamic security risks&lt;/strong> mathematically, cloud architects can &lt;strong>optimize security policies, improve resilience, and minimize attack surfaces&lt;/strong> effectively.&lt;/p>
+&lt;h3 id="deep-mathematical-models-in-cybersecurity">&lt;strong>Deep Mathematical Models in Cybersecurity&lt;/strong>&lt;/h3>
+&lt;p>Cybersecurity threats evolve continuously, requiring advanced &lt;strong>mathematical models&lt;/strong> to analyze attack patterns, detect intrusions, assess risks, and optimize defensive strategies. Below are deep mathematical models used in cybersecurity, covering &lt;strong>intrusion detection, attack modeling, risk assessment, cryptography, and optimization techniques&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h2 id="1-intrusion-detection-system-ids-models">&lt;strong>1. Intrusion Detection System (IDS) Models&lt;/strong>&lt;/h2>
+&lt;p>IDS detects anomalous network activities using statistical and machine learning models.&lt;/p>
+&lt;h3 id="11-statistical-anomaly-detection-markov-chains">&lt;strong>1.1 Statistical Anomaly Detection (Markov Chains)&lt;/strong>&lt;/h3>
+&lt;p>Network events follow a &lt;strong>Markov process&lt;/strong>, where transitions between states represent different network behaviors.&lt;/p>
+&lt;ul>
+&lt;li>
 \[
-  P(X_{t+1} | X_t, X_{t-1}, \dots, X_0) = P(X_{t+1} | X_t)
-  \]&lt;/li&gt;
-&lt;li&gt;
+P(X_{t+1} | X_t, X_{t-1}, \dots, X_0) = P(X_{t+1} | X_t)
+\]&lt;/li>
+&lt;li>
 \[
-  P = \begin{bmatrix}
-  P_{11} &amp; P_{12} &amp; \cdots &amp; P_{1n} \\
-  P_{21} &amp; P_{22} &amp; \cdots &amp; P_{2n} \\
-  \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
-  P_{n1} &amp; P_{n2} &amp; \cdots &amp; P_{nn}
-  \end{bmatrix}
-  \]&lt;/li&gt;
-&lt;li&gt;
+P = \begin{bmatrix}
+P_{11} &amp; P_{12} &amp; \cdots &amp; P_{1n} \\
+P_{21} &amp; P_{22} &amp; \cdots &amp; P_{2n} \\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+P_{n1} &amp; P_{n2} &amp; \cdots &amp; P_{nn}
+\end{bmatrix}
+\]&lt;/li>
+&lt;li>
 \[
-  S_t = \sum_{i=1}^{n} \left| P(X_{t+1} | X_t) - P_{\text{baseline}}(X_{t+1} | X_t) \right|
-  \]&lt;p&gt;
-If \( S_t &gt; \tau \), an anomaly is detected.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;2-attack-modeling-with-game-theory&#34;&gt;&lt;strong&gt;2. Attack Modeling with Game Theory&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Cybersecurity involves &lt;strong&gt;attackers&lt;/strong&gt; and &lt;strong&gt;defenders&lt;/strong&gt;, making &lt;strong&gt;game theory&lt;/strong&gt; an effective tool.&lt;/p&gt;
-&lt;h3 id=&#34;21-zero-sum-attack-defense-model&#34;&gt;&lt;strong&gt;2.1 Zero-Sum Attack-Defense Model&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The attacker aims to maximize damage \( A \), while the defender minimizes loss \( D \).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+S_t = \sum_{i=1}^{n} \left| P(X_{t+1} | X_t) - P_{\text{baseline}}(X_{t+1} | X_t) \right|
+\]&lt;p>
+If \( S_t > \tau \), an anomaly is detected.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="2-attack-modeling-with-game-theory">&lt;strong>2. Attack Modeling with Game Theory&lt;/strong>&lt;/h2>
+&lt;p>Cybersecurity involves &lt;strong>attackers&lt;/strong> and &lt;strong>defenders&lt;/strong>, making &lt;strong>game theory&lt;/strong> an effective tool.&lt;/p>
+&lt;h3 id="21-zero-sum-attack-defense-model">&lt;strong>2.1 Zero-Sum Attack-Defense Model&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>The attacker aims to maximize damage \( A \), while the defender minimizes loss \( D \).&lt;/p>
+&lt;/li>
+&lt;li>
 \[
-  U(A, D) = - C(A) + B(A, D) - P(D) C(D)
-  \]&lt;p&gt;
-where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( C(A) \) = attack cost,&lt;/li&gt;
-&lt;li&gt;\( B(A, D) \) = benefit to the attacker,&lt;/li&gt;
-&lt;li&gt;\( P(D) \) = probability of detection,&lt;/li&gt;
-&lt;li&gt;\( C(D) \) = cost of defense.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
+U(A, D) = - C(A) + B(A, D) - P(D) C(D)
+\]&lt;p>
+where:&lt;/p>
+&lt;ul>
+&lt;li>\( C(A) \) = attack cost,&lt;/li>
+&lt;li>\( B(A, D) \) = benefit to the attacker,&lt;/li>
+&lt;li>\( P(D) \) = probability of detection,&lt;/li>
+&lt;li>\( C(D) \) = cost of defense.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
 \[
-  \frac{\partial U}{\partial A} = 0, \quad \frac{\partial U}{\partial D} = 0
-  \]&lt;p&gt;
-solving for \( A^* \), \( D^* \) gives the optimal attack and defense strategies.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;3-cyber-risk-assessment&#34;&gt;&lt;strong&gt;3. Cyber Risk Assessment&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Risk is computed using probability distributions of attack likelihood and impact.&lt;/p&gt;
-&lt;h3 id=&#34;31-expected-risk-model&#34;&gt;&lt;strong&gt;3.1 Expected Risk Model&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
+\frac{\partial U}{\partial A} = 0, \quad \frac{\partial U}{\partial D} = 0
+\]&lt;p>
+solving for \( A^* \), \( D^* \) gives the optimal attack and defense strategies.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="3-cyber-risk-assessment">&lt;strong>3. Cyber Risk Assessment&lt;/strong>&lt;/h2>
+&lt;p>Risk is computed using probability distributions of attack likelihood and impact.&lt;/p>
+&lt;h3 id="31-expected-risk-model">&lt;strong>3.1 Expected Risk Model&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
 \[
-  R = \sum_{i=1}^{n} P(A_i) I(A_i)
-  \]&lt;p&gt;
-where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( P(A_i) \) = probability of attack \( i \),&lt;/li&gt;
-&lt;li&gt;\( I(A_i) \) = impact function.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
+R = \sum_{i=1}^{n} P(A_i) I(A_i)
+\]&lt;p>
+where:&lt;/p>
+&lt;ul>
+&lt;li>\( P(A_i) \) = probability of attack \( i \),&lt;/li>
+&lt;li>\( I(A_i) \) = impact function.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
 \[
-  L(x) = \int_0^x P_{\text{attack}}(\lambda) P_{\text{loss}}(x | \lambda) d\lambda
-  \]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( P_{\text{attack}}(\lambda) = \frac{\lambda^k e^{-\lambda}}{k!} \) (Poisson distribution of attacks),&lt;/li&gt;
-&lt;li&gt;\( P_{\text{loss}}(x | \lambda) = \frac{\beta^\alpha x^{\alpha-1} e^{-\beta x}}{\Gamma(\alpha)} \) (Gamma-distributed loss).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;4-cryptographic-security-analysis&#34;&gt;&lt;strong&gt;4. Cryptographic Security Analysis&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Mathematical models ensure encryption strength.&lt;/p&gt;
-&lt;h3 id=&#34;41-entropy-based-key-strength&#34;&gt;&lt;strong&gt;4.1 Entropy-Based Key Strength&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Let \( K \) be the cryptographic key space.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
+L(x) = \int_0^x P_{\text{attack}}(\lambda) P_{\text{loss}}(x | \lambda) d\lambda
+\]&lt;/li>
+&lt;/ul>
+&lt;p>where:&lt;/p>
+&lt;ul>
+&lt;li>\( P_{\text{attack}}(\lambda) = \frac{\lambda^k e^{-\lambda}}{k!} \) (Poisson distribution of attacks),&lt;/li>
+&lt;li>\( P_{\text{loss}}(x | \lambda) = \frac{\beta^\alpha x^{\alpha-1} e^{-\beta x}}{\Gamma(\alpha)} \) (Gamma-distributed loss).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="4-cryptographic-security-analysis">&lt;strong>4. Cryptographic Security Analysis&lt;/strong>&lt;/h2>
+&lt;p>Mathematical models ensure encryption strength.&lt;/p>
+&lt;h3 id="41-entropy-based-key-strength">&lt;strong>4.1 Entropy-Based Key Strength&lt;/strong>&lt;/h3>
+&lt;p>Let \( K \) be the cryptographic key space.&lt;/p>
+&lt;ul>
+&lt;li>
 \[
-  H(K) = -\sum_{i=1}^{n} P(k_i) \log_2 P(k_i)
-  \]&lt;p&gt;
-Higher entropy implies stronger keys.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+H(K) = -\sum_{i=1}^{n} P(k_i) \log_2 P(k_i)
+\]&lt;p>
+Higher entropy implies stronger keys.&lt;/p>
+&lt;/li>
+&lt;li>
 \[
-  P_{\text{break}}(t) = 1 - e^{- \frac{t}{T_{\text{search}}}}
-  \]&lt;p&gt;
-where \( T_{\text{search}} \) is the time needed to search the key space.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;5-network-traffic-anomaly-detection&#34;&gt;&lt;strong&gt;5. Network Traffic Anomaly Detection&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Anomalous traffic can indicate a cyber attack.&lt;/p&gt;
-&lt;h3 id=&#34;51-gaussian-mixture-model-gmm-for-network-behavior&#34;&gt;&lt;strong&gt;5.1 Gaussian Mixture Model (GMM) for Network Behavior&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
+P_{\text{break}}(t) = 1 - e^{- \frac{t}{T_{\text{search}}}}
+\]&lt;p>
+where \( T_{\text{search}} \) is the time needed to search the key space.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="5-network-traffic-anomaly-detection">&lt;strong>5. Network Traffic Anomaly Detection&lt;/strong>&lt;/h2>
+&lt;p>Anomalous traffic can indicate a cyber attack.&lt;/p>
+&lt;h3 id="51-gaussian-mixture-model-gmm-for-network-behavior">&lt;strong>5.1 Gaussian Mixture Model (GMM) for Network Behavior&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
 \[
-  P(x) = \sum_{i=1}^{K} w_i \mathcal{N}(x | \mu_i, \Sigma_i)
-  \]&lt;p&gt;
-where \( w_i \) are mixture weights, and \( \mathcal{N}(x | \mu_i, \Sigma_i) \) is the Gaussian component.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+P(x) = \sum_{i=1}^{K} w_i \mathcal{N}(x | \mu_i, \Sigma_i)
+\]&lt;p>
+where \( w_i \) are mixture weights, and \( \mathcal{N}(x | \mu_i, \Sigma_i) \) is the Gaussian component.&lt;/p>
+&lt;/li>
+&lt;li>
 \[
-  L = \prod_{i=1}^{N} P(x_i)
-  \]&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Use &lt;strong&gt;Expectation-Maximization (EM)&lt;/strong&gt; to estimate parameters \( w_i, \mu_i, \Sigma_i \) and classify anomalies.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;6-cybersecurity-optimization&#34;&gt;&lt;strong&gt;6. Cybersecurity Optimization&lt;/strong&gt;&lt;/h2&gt;
-&lt;h3 id=&#34;61-optimizing-security-investments&#34;&gt;&lt;strong&gt;6.1 Optimizing Security Investments&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Budgeting security resources is modeled as:
+L = \prod_{i=1}^{N} P(x_i)
+\]&lt;/li>
+&lt;li>
+&lt;p>Use &lt;strong>Expectation-Maximization (EM)&lt;/strong> to estimate parameters \( w_i, \mu_i, \Sigma_i \) and classify anomalies.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="6-cybersecurity-optimization">&lt;strong>6. Cybersecurity Optimization&lt;/strong>&lt;/h2>
+&lt;h3 id="61-optimizing-security-investments">&lt;strong>6.1 Optimizing Security Investments&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Budgeting security resources is modeled as:
 \[
-  \max_{x} U(x) = \sum_{i=1}^{n} P(A_i) \left( I(A_i) - C(x_i) \right)
-  \]
+\max_{x} U(x) = \sum_{i=1}^{n} P(A_i) \left( I(A_i) - C(x_i) \right)
+\]
 subject to:
 \[
-  \sum_{i=1}^{n} x_i \leq B
-  \]
+\sum_{i=1}^{n} x_i \leq B
+\]
 where:
-&lt;ul&gt;
-&lt;li&gt;\( x_i \) = security investment in attack \( i \),&lt;/li&gt;
-&lt;li&gt;\( C(x_i) \) = cost function,&lt;/li&gt;
-&lt;li&gt;\( B \) = total security budget.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Using &lt;strong&gt;Lagrange multipliers&lt;/strong&gt;, the optimal investment satisfies:&lt;/p&gt;
+&lt;ul>
+&lt;li>\( x_i \) = security investment in attack \( i \),&lt;/li>
+&lt;li>\( C(x_i) \) = cost function,&lt;/li>
+&lt;li>\( B \) = total security budget.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Using &lt;strong>Lagrange multipliers&lt;/strong>, the optimal investment satisfies:&lt;/p>
 \[
 \frac{\partial U}{\partial x_i} = \lambda
-\]&lt;hr&gt;
-&lt;h2 id=&#34;7-botnet-propagation-model&#34;&gt;&lt;strong&gt;7. Botnet Propagation Model&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Botnets spread through networks, modeled as an &lt;strong&gt;epidemic process&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;71-compartmental-model-sis-model&#34;&gt;&lt;strong&gt;7.1 Compartmental Model (SIS Model)&lt;/strong&gt;&lt;/h3&gt;
+\]&lt;hr>
+&lt;h2 id="7-botnet-propagation-model">&lt;strong>7. Botnet Propagation Model&lt;/strong>&lt;/h2>
+&lt;p>Botnets spread through networks, modeled as an &lt;strong>epidemic process&lt;/strong>.&lt;/p>
+&lt;h3 id="71-compartmental-model-sis-model">&lt;strong>7.1 Compartmental Model (SIS Model)&lt;/strong>&lt;/h3>
 \[
 \frac{dS}{dt} = -\beta S I + \gamma I
 \]\[
 \frac{dI}{dt} = \beta S I - \gamma I
-\]&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\( S \) = susceptible systems,&lt;/li&gt;
-&lt;li&gt;\( I \) = infected systems,&lt;/li&gt;
-&lt;li&gt;\( \beta \) = infection rate,&lt;/li&gt;
-&lt;li&gt;\( \gamma \) = recovery rate.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;72-stability-analysis&#34;&gt;&lt;strong&gt;7.2 Stability Analysis&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Equilibrium points satisfy:&lt;/p&gt;
-&lt;h2 id=&#34;if--the-infection-spreads&#34;&gt;\[
+\]&lt;p>where:&lt;/p>
+&lt;ul>
+&lt;li>\( S \) = susceptible systems,&lt;/li>
+&lt;li>\( I \) = infected systems,&lt;/li>
+&lt;li>\( \beta \) = infection rate,&lt;/li>
+&lt;li>\( \gamma \) = recovery rate.&lt;/li>
+&lt;/ul>
+&lt;h3 id="72-stability-analysis">&lt;strong>7.2 Stability Analysis&lt;/strong>&lt;/h3>
+&lt;p>Equilibrium points satisfy:&lt;/p>
+&lt;h2 id="if--the-infection-spreads">\[
 \frac{dI}{dt} = 0 \Rightarrow I^* = \frac{\beta S^*}{\gamma}
 \]
-If \( \frac{\beta}{\gamma} &gt; 1 \), the infection spreads.&lt;/h2&gt;
-&lt;h2 id=&#34;8-malware-detection-using-machine-learning&#34;&gt;&lt;strong&gt;8. Malware Detection Using Machine Learning&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Machine learning classifies malware based on feature vectors.&lt;/p&gt;
-&lt;h3 id=&#34;81-support-vector-machine-svm-for-malware-classification&#34;&gt;&lt;strong&gt;8.1 Support Vector Machine (SVM) for Malware Classification&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
+If \( \frac{\beta}{\gamma} > 1 \), the infection spreads.&lt;/h2>
+&lt;h2 id="8-malware-detection-using-machine-learning">&lt;strong>8. Malware Detection Using Machine Learning&lt;/strong>&lt;/h2>
+&lt;p>Machine learning classifies malware based on feature vectors.&lt;/p>
+&lt;h3 id="81-support-vector-machine-svm-for-malware-classification">&lt;strong>8.1 Support Vector Machine (SVM) for Malware Classification&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
 \[
-  f(x) = w^T x + b
-  \]\[
-  \max_{w, b} \frac{1}{||w||} \sum_{i=1}^{n} y_i (w^T x_i + b) \geq 1
-  \]&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Solve using &lt;strong&gt;Lagrange multipliers&lt;/strong&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;conclusion&#34;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Cybersecurity relies on deep mathematical models for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Intrusion detection (Markov Chains, GMM)&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Attack modeling (Game Theory)&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Risk assessment (Poisson-Gamma models)&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cryptographic strength (Entropy)&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Botnet propagation (Epidemic models)&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Machine learning-based malware detection (SVM)&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These models help &lt;strong&gt;predict, detect, and mitigate&lt;/strong&gt; security threats, ensuring robust cyber defense mechanisms.&lt;/p&gt;
-&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-&lt;p&gt;Here is the Python code for &lt;strong&gt;Attack Modeling with Game Theory&lt;/strong&gt; and &lt;strong&gt;Intrusion Detection using Markov Chains and Gaussian Mixture Models (GMM)&lt;/strong&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;1-attack-modeling-with-game-theory-zero-sum-game&#34;&gt;&lt;strong&gt;1. Attack Modeling with Game Theory (Zero-Sum Game)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;We use a &lt;strong&gt;zero-sum game&lt;/strong&gt; model where an &lt;strong&gt;attacker&lt;/strong&gt; tries to maximize their payoff (damage), while a &lt;strong&gt;defender&lt;/strong&gt; minimizes their losses by allocating security resources optimally.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;nashpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;nash&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Nash equilibrium solver&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Define the payoff matrix for Attacker (rows) vs Defender (columns)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;payoff_matrix&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Attacker&amp;#39;s payoff when defender uses strategies (firewall, monitoring, patching)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Create the game&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;game&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nash&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;payoff_matrix&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Compute Nash equilibria&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;equilibria&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;list&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;game&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;support_enumeration&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Display results&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Nash Equilibria (Mixed Strategies):&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;eq&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;equilibria&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Attacker Strategy:&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;eq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Defender Strategy:&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;eq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;explanation&#34;&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;The &lt;strong&gt;payoff matrix&lt;/strong&gt; represents the attacker&amp;rsquo;s losses (negative values).&lt;/li&gt;
-&lt;li&gt;The &lt;strong&gt;Nash equilibrium&lt;/strong&gt; provides the optimal mixed strategies for both &lt;strong&gt;attacker&lt;/strong&gt; and &lt;strong&gt;defender&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;2-intrusion-detection-with-markov-chains&#34;&gt;&lt;strong&gt;2. Intrusion Detection with Markov Chains&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;We model &lt;strong&gt;network states&lt;/strong&gt; as a Markov Chain where transitions represent &lt;strong&gt;normal vs anomalous behavior&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Transition Matrix (Normal, Suspicious, Attack)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;P&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Normal state&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Suspicious state&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;   &lt;span class=&#34;c1&#34;&gt;# Attack state&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Initial state probabilities&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;initial_state&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Start in normal state&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Simulate 20 steps&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;num_steps&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;initial_state&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;_&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;num_steps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;new_state&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;@&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;P&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;new_state&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Convert results for plotting&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Plot state evolution over time&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;figure&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;figsize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[:,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Normal State&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[:,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Suspicious State&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;state_probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[:,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Attack State&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xlabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Time Steps&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ylabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Probability&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Intrusion Detection Markov Model&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legend&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;grid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;explanation-1&#34;&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;The &lt;strong&gt;transition matrix&lt;/strong&gt; defines probabilities of moving between states.&lt;/li&gt;
-&lt;li&gt;We compute &lt;strong&gt;state probabilities&lt;/strong&gt; over time and plot them.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;3-intrusion-detection-with-gaussian-mixture-model-gmm&#34;&gt;&lt;strong&gt;3. Intrusion Detection with Gaussian Mixture Model (GMM)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;GMM is used to classify &lt;strong&gt;network traffic anomalies&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sklearn.mixture&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GaussianMixture&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sklearn.datasets&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;make_blobs&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Generate synthetic normal and attack network traffic data&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;X_normal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;_&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;make_blobs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n_samples&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;centers&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cluster_std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;random_state&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;42&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;X_attack&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;_&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;make_blobs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n_samples&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;centers&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cluster_std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;random_state&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;42&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Combine normal and attack data&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vstack&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X_normal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X_attack&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Fit a GMM model (2 clusters: Normal and Attack)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;gmm&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GaussianMixture&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n_components&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;covariance_type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;full&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;random_state&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;42&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;gmm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;labels&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;gmm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;predict&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Plot the results&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;figure&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;figsize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;scatter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[:,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[:,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;labels&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cmap&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;coolwarm&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;edgecolors&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;k&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xlabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Feature 1 (e.g., Packet Size)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ylabel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Feature 2 (e.g., Request Rate)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Intrusion Detection using GMM&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;colorbar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Cluster (0: Normal, 1: Attack)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;explanation-2&#34;&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;We generate &lt;strong&gt;synthetic network traffic&lt;/strong&gt; data.&lt;/li&gt;
-&lt;li&gt;GMM classifies &lt;strong&gt;normal vs attack&lt;/strong&gt; behavior.&lt;/li&gt;
-&lt;li&gt;The &lt;strong&gt;scatter plot&lt;/strong&gt; visualizes network behavior, separating normal vs attack traffic.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;conclusion-1&#34;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Game Theory&lt;/strong&gt;: Models the attack-defense interaction and finds optimal strategies.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Markov Chains&lt;/strong&gt;: Models system states and predicts anomalies over time.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GMM&lt;/strong&gt;: Detects anomalies in network traffic.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These models &lt;strong&gt;enhance cybersecurity&lt;/strong&gt; by predicting attack strategies, &lt;strong&gt;detecting intrusions&lt;/strong&gt;, and &lt;strong&gt;optimizing defensive responses&lt;/strong&gt;. 🚀&lt;/p&gt;
-&lt;h2 id=&#34;cyber-threat-landscape-attack-vectors-and-methods&#34;&gt;Cyber Threat Landscape: Attack Vectors and Methods&lt;/h2&gt;
-&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
-
-&lt;pre&gt;- Cyber Attack Model
-  - Reconnaissance
-    - Passive Scanning
-    - Active Scanning
-    - Social Engineering
-  - Initial Access
-    - Phishing
-    - Exploit Public-Facing Apps
-    - Supply Chain Compromise
-  - Execution
-    - Remote Code Execution (RCE)
-    - PowerShell Scripting
-    - Macro-based Attacks
-  - Privilege Escalation
-    - Kernel Exploits
-    - Credential Dumping
-    - Bypassing UAC
-  - Defense Evasion
-    - Obfuscation
-    - Rootkits
-    - Code Injection
-  - Lateral Movement
-    - Pass-the-Hash
-    - Remote Services Exploitation
-    - SSH Hijacking
-  - Exfiltration
-    - Data Compression
-    - Encrypted Channel
-    - Cloud Data Theft
-  - Impact
-    - Ransomware
-    - Data Manipulation
-    - Service Disruption (DDoS)
-  - Advanced Persistent Threats (APT)
-    - Nation-State Actors
-    - Zero-Day Exploits
-    - Supply Chain Attacks&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&#34;explanation-3&#34;&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Reconnaissance&lt;/strong&gt;: The attacker gathers intelligence before launching an attack.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Initial Access&lt;/strong&gt;: How the attacker infiltrates the system (e.g., phishing, exploiting vulnerabilities).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Execution&lt;/strong&gt;: Running malicious code after gaining access.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privilege Escalation&lt;/strong&gt;: Gaining higher permissions to execute more dangerous actions.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Defense Evasion&lt;/strong&gt;: Hiding attack traces using stealth techniques.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lateral Movement&lt;/strong&gt;: Expanding control over the network.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Exfiltration&lt;/strong&gt;: Stealing sensitive information.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Impact&lt;/strong&gt;: Consequences like &lt;strong&gt;ransomware&lt;/strong&gt;, &lt;strong&gt;DDoS&lt;/strong&gt;, or &lt;strong&gt;data manipulation&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;APT&lt;/strong&gt;: Advanced threats by nation-state actors using &lt;strong&gt;zero-day exploits&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This &lt;strong&gt;Markmap attack model&lt;/strong&gt; gives a clear &lt;strong&gt;visual representation&lt;/strong&gt; of how cyber attacks progress in different stages. 🚀&lt;/p&gt;
-&lt;h2 id=&#34;cyber-attack-lifecycle-a-time-based-perspective&#34;&gt;Cyber Attack Lifecycle: A Time-Based Perspective&lt;/h2&gt;
-&lt;div class=&#34;mermaid&#34;&gt;gantt
+f(x) = w^T x + b
+\]\[
+\max_{w, b} \frac{1}{||w||} \sum_{i=1}^{n} y_i (w^T x_i + b) \geq 1
+\]&lt;/li>
+&lt;li>
+&lt;p>Solve using &lt;strong>Lagrange multipliers&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="conclusion">&lt;strong>Conclusion&lt;/strong>&lt;/h2>
+&lt;p>Cybersecurity relies on deep mathematical models for:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Intrusion detection (Markov Chains, GMM)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Attack modeling (Game Theory)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Risk assessment (Poisson-Gamma models)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Cryptographic strength (Entropy)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Botnet propagation (Epidemic models)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Machine learning-based malware detection (SVM)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>These models help &lt;strong>predict, detect, and mitigate&lt;/strong> security threats, ensuring robust cyber defense mechanisms.&lt;/p>
+&lt;h2 id="code">Code&lt;/h2>
+&lt;p>Here is the Python code for &lt;strong>Attack Modeling with Game Theory&lt;/strong> and &lt;strong>Intrusion Detection using Markov Chains and Gaussian Mixture Models (GMM)&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="1-attack-modeling-with-game-theory-zero-sum-game">&lt;strong>1. Attack Modeling with Game Theory (Zero-Sum Game)&lt;/strong>&lt;/h3>
+&lt;p>We use a &lt;strong>zero-sum game&lt;/strong> model where an &lt;strong>attacker&lt;/strong> tries to maximize their payoff (damage), while a &lt;strong>defender&lt;/strong> minimizes their losses by allocating security resources optimally.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">numpy&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">np&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">nashpy&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">nash&lt;/span> &lt;span class="c1"># Nash equilibrium solver&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Define the payoff matrix for Attacker (rows) vs Defender (columns)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">payoff_matrix&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">np&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">10&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">5&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">20&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="c1"># Attacker&amp;#39;s payoff when defender uses strategies (firewall, monitoring, patching)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">5&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">10&lt;/span>&lt;span class="p">],&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">15&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">7&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">25&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">])&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Create the game&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">game&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">nash&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">Game&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">payoff_matrix&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Compute Nash equilibria&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">equilibria&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">list&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">game&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">support_enumeration&lt;/span>&lt;span class="p">())&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Display results&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Nash Equilibria (Mixed Strategies):&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">for&lt;/span> &lt;span class="n">eq&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">equilibria&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Attacker Strategy:&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">eq&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">])&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Defender Strategy:&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">eq&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">])&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="explanation">&lt;strong>Explanation:&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>The &lt;strong>payoff matrix&lt;/strong> represents the attacker&amp;rsquo;s losses (negative values).&lt;/li>
+&lt;li>The &lt;strong>Nash equilibrium&lt;/strong> provides the optimal mixed strategies for both &lt;strong>attacker&lt;/strong> and &lt;strong>defender&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="2-intrusion-detection-with-markov-chains">&lt;strong>2. Intrusion Detection with Markov Chains&lt;/strong>&lt;/h3>
+&lt;p>We model &lt;strong>network states&lt;/strong> as a Markov Chain where transitions represent &lt;strong>normal vs anomalous behavior&lt;/strong>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">numpy&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">np&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">matplotlib.pyplot&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">plt&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Transition Matrix (Normal, Suspicious, Attack)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">P&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">np&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="mf">0.7&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mf">0.2&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mf">0.1&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="c1"># Normal state&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="mf">0.3&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mf">0.5&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mf">0.2&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="c1"># Suspicious state&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="mf">0.1&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mf">0.3&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mf">0.6&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="c1"># Attack state&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">])&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Initial state probabilities&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">initial_state&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">np&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">])&lt;/span> &lt;span class="c1"># Start in normal state&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Simulate 20 steps&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">num_steps&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">20&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">state_probabilities&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="n">initial_state&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">for&lt;/span> &lt;span class="n">_&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="nb">range&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">num_steps&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">new_state&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">state_probabilities&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">@&lt;/span> &lt;span class="n">P&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">state_probabilities&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">append&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">new_state&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Convert results for plotting&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">state_probabilities&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">np&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">state_probabilities&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Plot state evolution over time&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">figure&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">figsize&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">8&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">5&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">plot&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">state_probabilities&lt;/span>&lt;span class="p">[:,&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="n">label&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;Normal State&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">plot&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">state_probabilities&lt;/span>&lt;span class="p">[:,&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="n">label&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;Suspicious State&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">plot&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">state_probabilities&lt;/span>&lt;span class="p">[:,&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="n">label&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;Attack State&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">xlabel&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Time Steps&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">ylabel&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Probability&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">title&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Intrusion Detection Markov Model&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">legend&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">grid&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">show&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="explanation-1">&lt;strong>Explanation:&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>The &lt;strong>transition matrix&lt;/strong> defines probabilities of moving between states.&lt;/li>
+&lt;li>We compute &lt;strong>state probabilities&lt;/strong> over time and plot them.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="3-intrusion-detection-with-gaussian-mixture-model-gmm">&lt;strong>3. Intrusion Detection with Gaussian Mixture Model (GMM)&lt;/strong>&lt;/h3>
+&lt;p>GMM is used to classify &lt;strong>network traffic anomalies&lt;/strong>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">numpy&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">np&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">matplotlib.pyplot&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">plt&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">sklearn.mixture&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">GaussianMixture&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">sklearn.datasets&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">make_blobs&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Generate synthetic normal and attack network traffic data&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">X_normal&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">_&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">make_blobs&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">n_samples&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">300&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">centers&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="p">[[&lt;/span>&lt;span class="mi">5&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">5&lt;/span>&lt;span class="p">]],&lt;/span> &lt;span class="n">cluster_std&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mf">1.0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">random_state&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">42&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">X_attack&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">_&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">make_blobs&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">n_samples&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">100&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">centers&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="p">[[&lt;/span>&lt;span class="mi">10&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">]],&lt;/span> &lt;span class="n">cluster_std&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mf">1.5&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">random_state&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">42&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Combine normal and attack data&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">X&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">np&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">vstack&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="n">X_normal&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">X_attack&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Fit a GMM model (2 clusters: Normal and Attack)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">gmm&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">GaussianMixture&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">n_components&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">covariance_type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;full&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">random_state&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">42&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">gmm&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">fit&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">X&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">labels&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">gmm&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">predict&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">X&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Plot the results&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">figure&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">figsize&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">8&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">5&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">scatter&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">X&lt;/span>&lt;span class="p">[:,&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="n">X&lt;/span>&lt;span class="p">[:,&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="n">c&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">labels&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">cmap&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;coolwarm&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">edgecolors&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;k&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">xlabel&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Feature 1 (e.g., Packet Size)&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">ylabel&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Feature 2 (e.g., Request Rate)&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">title&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Intrusion Detection using GMM&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">colorbar&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">label&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;Cluster (0: Normal, 1: Attack)&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">plt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">show&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="explanation-2">&lt;strong>Explanation:&lt;/strong>&lt;/h4>
+&lt;ul>
+&lt;li>We generate &lt;strong>synthetic network traffic&lt;/strong> data.&lt;/li>
+&lt;li>GMM classifies &lt;strong>normal vs attack&lt;/strong> behavior.&lt;/li>
+&lt;li>The &lt;strong>scatter plot&lt;/strong> visualizes network behavior, separating normal vs attack traffic.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="conclusion-1">&lt;strong>Conclusion&lt;/strong>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Game Theory&lt;/strong>: Models the attack-defense interaction and finds optimal strategies.&lt;/li>
+&lt;li>&lt;strong>Markov Chains&lt;/strong>: Models system states and predicts anomalies over time.&lt;/li>
+&lt;li>&lt;strong>GMM&lt;/strong>: Detects anomalies in network traffic.&lt;/li>
+&lt;/ul>
+&lt;p>These models &lt;strong>enhance cybersecurity&lt;/strong> by predicting attack strategies, &lt;strong>detecting intrusions&lt;/strong>, and &lt;strong>optimizing defensive responses&lt;/strong>. 🚀&lt;/p>
+&lt;h2 id="cyber-threat-landscape-attack-vectors-and-methods">Cyber Threat Landscape: Attack Vectors and Methods&lt;/h2>
+&lt;div class="markmap" style="height: 500px;">
+&lt;pre>- Cyber Attack Model
+- Reconnaissance
+- Passive Scanning
+- Active Scanning
+- Social Engineering
+- Initial Access
+- Phishing
+- Exploit Public-Facing Apps
+- Supply Chain Compromise
+- Execution
+- Remote Code Execution (RCE)
+- PowerShell Scripting
+- Macro-based Attacks
+- Privilege Escalation
+- Kernel Exploits
+- Credential Dumping
+- Bypassing UAC
+- Defense Evasion
+- Obfuscation
+- Rootkits
+- Code Injection
+- Lateral Movement
+- Pass-the-Hash
+- Remote Services Exploitation
+- SSH Hijacking
+- Exfiltration
+- Data Compression
+- Encrypted Channel
+- Cloud Data Theft
+- Impact
+- Ransomware
+- Data Manipulation
+- Service Disruption (DDoS)
+- Advanced Persistent Threats (APT)
+- Nation-State Actors
+- Zero-Day Exploits
+- Supply Chain Attacks&lt;/pre>
+&lt;/div>
+&lt;h3 id="explanation-3">&lt;strong>Explanation:&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Reconnaissance&lt;/strong>: The attacker gathers intelligence before launching an attack.&lt;/li>
+&lt;li>&lt;strong>Initial Access&lt;/strong>: How the attacker infiltrates the system (e.g., phishing, exploiting vulnerabilities).&lt;/li>
+&lt;li>&lt;strong>Execution&lt;/strong>: Running malicious code after gaining access.&lt;/li>
+&lt;li>&lt;strong>Privilege Escalation&lt;/strong>: Gaining higher permissions to execute more dangerous actions.&lt;/li>
+&lt;li>&lt;strong>Defense Evasion&lt;/strong>: Hiding attack traces using stealth techniques.&lt;/li>
+&lt;li>&lt;strong>Lateral Movement&lt;/strong>: Expanding control over the network.&lt;/li>
+&lt;li>&lt;strong>Exfiltration&lt;/strong>: Stealing sensitive information.&lt;/li>
+&lt;li>&lt;strong>Impact&lt;/strong>: Consequences like &lt;strong>ransomware&lt;/strong>, &lt;strong>DDoS&lt;/strong>, or &lt;strong>data manipulation&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>APT&lt;/strong>: Advanced threats by nation-state actors using &lt;strong>zero-day exploits&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>This &lt;strong>Markmap attack model&lt;/strong> gives a clear &lt;strong>visual representation&lt;/strong> of how cyber attacks progress in different stages. 🚀&lt;/p>
+&lt;h2 id="cyber-attack-lifecycle-a-time-based-perspective">Cyber Attack Lifecycle: A Time-Based Perspective&lt;/h2>
+&lt;div class="mermaid">gantt
 title Cyber Attack Lifecycle
-dateFormat  YYYY-MM-DD
+dateFormat YYYY-MM-DD
 section Reconnaissance
-Passive Scanning  :done,   scan1, 2024-02-01, 2d
-Active Scanning   :active, scan2, 2024-02-02, 3d
-Social Engineering :        scan3, after scan2, 2d
-
+Passive Scanning :done, scan1, 2024-02-01, 2d
+Active Scanning :active, scan2, 2024-02-02, 3d
+Social Engineering : scan3, after scan2, 2d
 section Initial Access
-Phishing          :done, access1, after scan3, 1d
+Phishing :done, access1, after scan3, 1d
 Exploit Vulnerabilities :done, access2, after scan3, 1d
-Supply Chain Compromise :        access3, after access2, 2d
-
+Supply Chain Compromise : access3, after access2, 2d
 section Execution
 Remote Code Execution (RCE) :active, exec1, after access3, 2d
-PowerShell Scripting        :        exec2, after exec1, 2d
-
+PowerShell Scripting : exec2, after exec1, 2d
 section Privilege Escalation
-Kernel Exploits     :done, priv1, after exec2, 2d
-Credential Dumping  :active, priv2, after priv1, 3d
-
+Kernel Exploits :done, priv1, after exec2, 2d
+Credential Dumping :active, priv2, after priv1, 3d
 section Lateral Movement
-Pass-the-Hash Attack   :done, lateral1, after priv2, 1d
-SSH Hijacking         :active, lateral2, after lateral1, 2d
-
+Pass-the-Hash Attack :done, lateral1, after priv2, 1d
+SSH Hijacking :active, lateral2, after lateral1, 2d
 section Exfiltration
-Cloud Data Theft      :done, exfil1, after lateral2, 1d
+Cloud Data Theft :done, exfil1, after lateral2, 1d
 Encrypted Channel Exfiltration :active, exfil2, after exfil1, 2d
-
 section Impact
 Ransomware Deployment :active, impact1, after exfil2, 3d
-Data Manipulation     :        impact2, after impact1, 2d
-Service Disruption (DDoS) :     impact3, after impact2, 2d
-&lt;/div&gt;
-&lt;h3 id=&#34;explanation-4&#34;&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Reconnaissance&lt;/strong&gt;: Attackers gather intelligence before striking.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Initial Access&lt;/strong&gt;: Attackers infiltrate the system (via phishing, exploits, etc.).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Execution&lt;/strong&gt;: Malicious code runs (e.g., RCE, scripts).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privilege Escalation&lt;/strong&gt;: Attackers gain higher privileges for deeper system control.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lateral Movement&lt;/strong&gt;: Attackers expand their reach across the network.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Exfiltration&lt;/strong&gt;: Data is stolen through encrypted channels.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Impact&lt;/strong&gt;: Attackers deploy ransomware, manipulate data, or disrupt services.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This &lt;strong&gt;Mermaid Gantt chart&lt;/strong&gt; provides a &lt;strong&gt;time-based visualization&lt;/strong&gt; of how attacks progress in stages, highlighting &lt;strong&gt;dependencies&lt;/strong&gt; between different attack techniques. 🚀&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+Data Manipulation : impact2, after impact1, 2d
+Service Disruption (DDoS) : impact3, after impact2, 2d
+&lt;/div>
+&lt;h3 id="explanation-4">&lt;strong>Explanation:&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Reconnaissance&lt;/strong>: Attackers gather intelligence before striking.&lt;/li>
+&lt;li>&lt;strong>Initial Access&lt;/strong>: Attackers infiltrate the system (via phishing, exploits, etc.).&lt;/li>
+&lt;li>&lt;strong>Execution&lt;/strong>: Malicious code runs (e.g., RCE, scripts).&lt;/li>
+&lt;li>&lt;strong>Privilege Escalation&lt;/strong>: Attackers gain higher privileges for deeper system control.&lt;/li>
+&lt;li>&lt;strong>Lateral Movement&lt;/strong>: Attackers expand their reach across the network.&lt;/li>
+&lt;li>&lt;strong>Exfiltration&lt;/strong>: Data is stolen through encrypted channels.&lt;/li>
+&lt;li>&lt;strong>Impact&lt;/strong>: Attackers deploy ransomware, manipulate data, or disrupt services.&lt;/li>
+&lt;/ul>
+&lt;p>This &lt;strong>Mermaid Gantt chart&lt;/strong> provides a &lt;strong>time-based visualization&lt;/strong> of how attacks progress in stages, highlighting &lt;strong>dependencies&lt;/strong> between different attack techniques. 🚀&lt;/p></description></item></channel></rss>

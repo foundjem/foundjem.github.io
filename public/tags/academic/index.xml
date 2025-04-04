@@ -1,189 +1,161 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Academic | Armstrong website</title>
-    <link>http://localhost:1313/tags/academic/</link>
-      <atom:link href="http://localhost:1313/tags/academic/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>http://localhost:1313/media/logo.svg</url>
-      <title>Academic</title>
-      <link>http://localhost:1313/tags/academic/</link>
-    </image>
-    
-    <item>
-      <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>http://localhost:1313/post/get-started/</link>
-      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/get-started/</guid>
-      <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
-
-
-
-&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
-  &lt;summary&gt;Table of Contents&lt;/summary&gt;
-  &lt;div class=&#34;text-sm&#34;&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#1-flowchart-with-decision-nodes&#34;&gt;1. &lt;strong&gt;Flowchart with Decision Nodes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#2-sequence-diagram-plantuml&#34;&gt;2. &lt;strong&gt;Sequence Diagram (PlantUML)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#3-use-case-diagram-plantuml&#34;&gt;3. &lt;strong&gt;Use Case Diagram (PlantUML)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#4-class-diagram-plantuml&#34;&gt;4. &lt;strong&gt;Class Diagram (PlantUML)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#5-network-topology-diagram-dot&#34;&gt;5. &lt;strong&gt;Network Topology Diagram (Dot)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#6-gantt-chart-org-mode&#34;&gt;6. &lt;strong&gt;Gantt Chart (Org-mode)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#7-er-diagram-dot&#34;&gt;7. &lt;strong&gt;ER Diagram (Dot)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#8-mind-map-diagram-dot&#34;&gt;8. &lt;strong&gt;Mind Map Diagram (Dot)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;p&gt;Here are more useful examples of Org-mode diagrams that you can include in your blog post. These examples will help demonstrate the flexibility and power of Org-mode in visualizing complex relationships, processes, and systems.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;1-flowchart-with-decision-nodes&#34;&gt;1. &lt;strong&gt;Flowchart with Decision Nodes&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;In many workflows, you need decision points. Org-mode can easily represent these using &lt;strong&gt;Dot&lt;/strong&gt; language. Here is an example of a flowchart with decision nodes:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+BEGIN_SRC &lt;/span&gt;&lt;span class=&#34;cs&#34;&gt;dot&lt;/span&gt;&lt;span class=&#34;c&#34;&gt; :file decision_flowchart.png :exports results
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;digraph G {
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Start -&amp;gt; Process1;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Process1 -&amp;gt; Decision [label=&amp;#34;Is it valid?&amp;#34;];
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Decision -&amp;gt; Process2 [label=&amp;#34;Yes&amp;#34;];
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Decision -&amp;gt; End [label=&amp;#34;No&amp;#34;];
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Process2 -&amp;gt; End;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+END_SRC&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This flowchart depicts a simple decision-making process. After a process step, a decision is made, and depending on whether the answer is &amp;ldquo;Yes&amp;rdquo; or &amp;ldquo;No&amp;rdquo;, the flow either continues to another process or ends.&lt;/p&gt;
-&lt;h4 id=&#34;result&#34;&gt;Result:&lt;/h4&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;2-sequence-diagram-plantuml&#34;&gt;2. &lt;strong&gt;Sequence Diagram (PlantUML)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;A sequence diagram is useful for depicting interactions between objects or components in a system over time. Here&amp;rsquo;s an example in &lt;strong&gt;PlantUML&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+BEGIN_SRC &lt;/span&gt;&lt;span class=&#34;cs&#34;&gt;plantuml&lt;/span&gt;&lt;span class=&#34;c&#34;&gt; :file sequence_diagram.png :exports results
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;@startuml
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;actor User
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;participant &amp;#34;Server&amp;#34; as S
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;participant &amp;#34;Database&amp;#34; as DB
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;User -&amp;gt; S: Request data
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;S -&amp;gt; DB: Query data
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DB -&amp;gt; S: Return data
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;S -&amp;gt; User: Provide data
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@enduml
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+END_SRC&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This sequence diagram shows how a user interacts with a server, which in turn queries a database and returns the requested data.&lt;/p&gt;
-&lt;h4 id=&#34;result-1&#34;&gt;Result:&lt;/h4&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;3-use-case-diagram-plantuml&#34;&gt;3. &lt;strong&gt;Use Case Diagram (PlantUML)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;A use case diagram helps to define the interactions between users (actors) and the system&amp;rsquo;s functionality. Here’s an example:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+BEGIN_SRC &lt;/span&gt;&lt;span class=&#34;cs&#34;&gt;plantuml&lt;/span&gt;&lt;span class=&#34;c&#34;&gt; :file use_case_diagram.png :exports results
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;@startuml
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;actor User
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;actor Admin
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;User --&amp;gt; (Login)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;User --&amp;gt; (View Dashboard)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Admin --&amp;gt; (Login)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Admin --&amp;gt; (Manage Users)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@enduml
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+END_SRC&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This use case diagram shows two actors, &lt;code&gt;User&lt;/code&gt; and &lt;code&gt;Admin&lt;/code&gt;, with their respective interactions with the system (e.g., login, viewing the dashboard, managing users).&lt;/p&gt;
-&lt;h4 id=&#34;result-2&#34;&gt;Result:&lt;/h4&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;4-class-diagram-plantuml&#34;&gt;4. &lt;strong&gt;Class Diagram (PlantUML)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;A class diagram is essential for object-oriented design and helps to represent the structure of a system. Here&amp;rsquo;s an example of a class diagram:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+BEGIN_SRC &lt;/span&gt;&lt;span class=&#34;cs&#34;&gt;plantuml&lt;/span&gt;&lt;span class=&#34;c&#34;&gt; :file class_diagram.png :exports results
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;@startuml
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;class Animal {
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  +String name
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  +int age
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  +void speak()
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;class Dog {
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  +String breed
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  +void bark()
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Animal &amp;lt;|-- Dog
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@enduml
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+END_SRC&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this class diagram, we define a general &lt;code&gt;Animal&lt;/code&gt; class with properties like &lt;code&gt;name&lt;/code&gt; and &lt;code&gt;age&lt;/code&gt; and a &lt;code&gt;Dog&lt;/code&gt; class that inherits from &lt;code&gt;Animal&lt;/code&gt; and adds specific functionality like &lt;code&gt;bark()&lt;/code&gt;.&lt;/p&gt;
-&lt;h4 id=&#34;result-3&#34;&gt;Result:&lt;/h4&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;5-network-topology-diagram-dot&#34;&gt;5. &lt;strong&gt;Network Topology Diagram (Dot)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Network topology diagrams are helpful for illustrating how various devices are interconnected in a network. Here’s an example using &lt;strong&gt;Dot&lt;/strong&gt; language:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+BEGIN_SRC &lt;/span&gt;&lt;span class=&#34;cs&#34;&gt;dot&lt;/span&gt;&lt;span class=&#34;c&#34;&gt; :file network_topology.png :exports results
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;digraph G {
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Router -&amp;gt; Switch1;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Switch1 -&amp;gt; Device1;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Switch1 -&amp;gt; Device2;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Switch1 -&amp;gt; Device3;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Router -&amp;gt; Switch2;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Switch2 -&amp;gt; Device4;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Switch2 -&amp;gt; Device5;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+END_SRC&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This diagram illustrates a simple network with a router, switches, and multiple devices connected to those switches.&lt;/p&gt;
-&lt;h4 id=&#34;result-4&#34;&gt;Result:&lt;/h4&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;6-gantt-chart-org-mode&#34;&gt;6. &lt;strong&gt;Gantt Chart (Org-mode)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Org-mode also allows you to create Gantt charts for project management. Here&amp;rsquo;s an example of how to structure a Gantt chart within an Org-mode document:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+BEGIN_SRC &lt;/span&gt;&lt;span class=&#34;cs&#34;&gt;org&lt;/span&gt;&lt;span class=&#34;c&#34;&gt; :file gantt_chart.png :exports results
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;gs&#34;&gt; Project Timeline&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Task 1
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    SCHEDULED: &amp;lt;&lt;span class=&#34;s&#34;&gt;2025-02-10&lt;/span&gt;&amp;gt;--&amp;lt;&lt;span class=&#34;s&#34;&gt;2025-02-15&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Task 2
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    SCHEDULED: &amp;lt;&lt;span class=&#34;s&#34;&gt;2025-02-16&lt;/span&gt;&amp;gt;--&amp;lt;&lt;span class=&#34;s&#34;&gt;2025-02-20&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Task 3
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    SCHEDULED: &amp;lt;&lt;span class=&#34;s&#34;&gt;2025-02-21&lt;/span&gt;&amp;gt;--&amp;lt;&lt;span class=&#34;s&#34;&gt;2025-02-25&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+END_SRC&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This example outlines a project timeline with three tasks and their respective scheduled dates. When rendered, Org-mode will generate a Gantt chart to represent these tasks.&lt;/p&gt;
-&lt;h4 id=&#34;result-5&#34;&gt;Result:&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;(Rendered Gantt chart with scheduled tasks)&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;7-er-diagram-dot&#34;&gt;7. &lt;strong&gt;ER Diagram (Dot)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Entity-relationship (ER) diagrams are commonly used to illustrate how entities relate in databases. Here&amp;rsquo;s an example of an ER diagram:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+BEGIN_SRC &lt;/span&gt;&lt;span class=&#34;cs&#34;&gt;dot&lt;/span&gt;&lt;span class=&#34;c&#34;&gt; :file er_diagram.png :exports results
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;digraph G {
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Customer [shape=record,label=&amp;#34;{Customer|+customer_id: int\l+name: string}&amp;#34;];
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Order [shape=record,label=&amp;#34;{Order|+order_id: int\l+date: date}&amp;#34;];
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Customer -&amp;gt; Order [label=&amp;#34;places&amp;#34;];
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+END_SRC&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This ER diagram represents a simple relationship where a customer places an order. It shows entities (&lt;code&gt;Customer&lt;/code&gt; and &lt;code&gt;Order&lt;/code&gt;) with their attributes and the relationship between them.&lt;/p&gt;
-&lt;h4 id=&#34;result-6&#34;&gt;Result:&lt;/h4&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;8-mind-map-diagram-dot&#34;&gt;8. &lt;strong&gt;Mind Map Diagram (Dot)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Mind maps are a great way to brainstorm and organize ideas. Here’s an example in &lt;strong&gt;Dot&lt;/strong&gt; format:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+BEGIN_SRC &lt;/span&gt;&lt;span class=&#34;cs&#34;&gt;dot&lt;/span&gt;&lt;span class=&#34;c&#34;&gt; :file mind_map.png :exports results
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;digraph G {
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    rankdir=LR;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    node [shape=ellipse];
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    root [label=&amp;#34;Main Idea&amp;#34;];
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    root -&amp;gt; SubIdea1;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    root -&amp;gt; SubIdea2;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    SubIdea1 -&amp;gt; Detail1;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    SubIdea1 -&amp;gt; Detail2;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    SubIdea2 -&amp;gt; Detail3;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#+END_SRC&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This mind map shows how a main idea branches out into sub-ideas, with further details expanding the sub-ideas.&lt;/p&gt;
-&lt;h4 id=&#34;result-7&#34;&gt;Result:&lt;/h4&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;Org-mode diagrams are an incredibly powerful feature for visualizing various aspects of your work. Whether you&amp;rsquo;re documenting systems, processes, or data structures, Org-mode allows you to do so in a clean, text-based format that can easily be rendered into diagrams. These diagrams can be seamlessly integrated into your Hugo Academic blog to make your content more interactive and informative.&lt;/p&gt;
-&lt;p&gt;By using the examples provided above, you can start integrating these diagrams into your blog posts and research presentations. Org-mode offers a simple, efficient way to keep your visualizations within the same workflow as your academic writing.&lt;/p&gt;
-&lt;p&gt;Let me know if you need more examples or help with your setup!&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Academic | Armstrong website</title><link>https://foundjem.github.io/tags/academic/</link><atom:link href="https://foundjem.github.io/tags/academic/index.xml" rel="self" type="application/rss+xml"/><description>Academic</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://foundjem.github.io/media/logo.svg</url><title>Academic</title><link>https://foundjem.github.io/tags/academic/</link></image><item><title>🛠️ Design a Simple, Flexible, and BCustomizable Blog 🌐</title><link>https://foundjem.github.io/post/get-started/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://foundjem.github.io/post/get-started/</guid><description>&lt;p>Welcome 👋&lt;/p>
+&lt;details class="print:hidden xl:hidden" open>
+&lt;summary>Table of Contents&lt;/summary>
+&lt;div class="text-sm">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;a href="#1-flowchart-with-decision-nodes">1. &lt;strong>Flowchart with Decision Nodes&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-sequence-diagram-plantuml">2. &lt;strong>Sequence Diagram (PlantUML)&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-use-case-diagram-plantuml">3. &lt;strong>Use Case Diagram (PlantUML)&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-class-diagram-plantuml">4. &lt;strong>Class Diagram (PlantUML)&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-network-topology-diagram-dot">5. &lt;strong>Network Topology Diagram (Dot)&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-gantt-chart-org-mode">6. &lt;strong>Gantt Chart (Org-mode)&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-er-diagram-dot">7. &lt;strong>ER Diagram (Dot)&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-mind-map-diagram-dot">8. &lt;strong>Mind Map Diagram (Dot)&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#conclusion">Conclusion&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#license">License&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/details>
+&lt;p>Here are more useful examples of Org-mode diagrams that you can include in your blog post. These examples will help demonstrate the flexibility and power of Org-mode in visualizing complex relationships, processes, and systems.&lt;/p>
+&lt;hr>
+&lt;h3 id="1-flowchart-with-decision-nodes">1. &lt;strong>Flowchart with Decision Nodes&lt;/strong>&lt;/h3>
+&lt;p>In many workflows, you need decision points. Org-mode can easily represent these using &lt;strong>Dot&lt;/strong> language. Here is an example of a flowchart with decision nodes:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+BEGIN_SRC &lt;/span>&lt;span class="cs">dot&lt;/span>&lt;span class="c"> :file decision_flowchart.png :exports results
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>digraph G {
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Start -&amp;gt; Process1;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Process1 -&amp;gt; Decision [label=&amp;#34;Is it valid?&amp;#34;];
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Decision -&amp;gt; Process2 [label=&amp;#34;Yes&amp;#34;];
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Decision -&amp;gt; End [label=&amp;#34;No&amp;#34;];
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Process2 -&amp;gt; End;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+END_SRC&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This flowchart depicts a simple decision-making process. After a process step, a decision is made, and depending on whether the answer is &amp;ldquo;Yes&amp;rdquo; or &amp;ldquo;No&amp;rdquo;, the flow either continues to another process or ends.&lt;/p>
+&lt;h4 id="result">Result:&lt;/h4>
+&lt;hr>
+&lt;h3 id="2-sequence-diagram-plantuml">2. &lt;strong>Sequence Diagram (PlantUML)&lt;/strong>&lt;/h3>
+&lt;p>A sequence diagram is useful for depicting interactions between objects or components in a system over time. Here&amp;rsquo;s an example in &lt;strong>PlantUML&lt;/strong>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+BEGIN_SRC &lt;/span>&lt;span class="cs">plantuml&lt;/span>&lt;span class="c"> :file sequence_diagram.png :exports results
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>@startuml
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">actor User
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">participant &amp;#34;Server&amp;#34; as S
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">participant &amp;#34;Database&amp;#34; as DB
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">User -&amp;gt; S: Request data
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">S -&amp;gt; DB: Query data
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">DB -&amp;gt; S: Return data
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">S -&amp;gt; User: Provide data
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">@enduml
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+END_SRC&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This sequence diagram shows how a user interacts with a server, which in turn queries a database and returns the requested data.&lt;/p>
+&lt;h4 id="result-1">Result:&lt;/h4>
+&lt;hr>
+&lt;h3 id="3-use-case-diagram-plantuml">3. &lt;strong>Use Case Diagram (PlantUML)&lt;/strong>&lt;/h3>
+&lt;p>A use case diagram helps to define the interactions between users (actors) and the system&amp;rsquo;s functionality. Here’s an example:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+BEGIN_SRC &lt;/span>&lt;span class="cs">plantuml&lt;/span>&lt;span class="c"> :file use_case_diagram.png :exports results
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>@startuml
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">actor User
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">actor Admin
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">User --&amp;gt; (Login)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">User --&amp;gt; (View Dashboard)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Admin --&amp;gt; (Login)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Admin --&amp;gt; (Manage Users)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">@enduml
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+END_SRC&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This use case diagram shows two actors, &lt;code>User&lt;/code> and &lt;code>Admin&lt;/code>, with their respective interactions with the system (e.g., login, viewing the dashboard, managing users).&lt;/p>
+&lt;h4 id="result-2">Result:&lt;/h4>
+&lt;hr>
+&lt;h3 id="4-class-diagram-plantuml">4. &lt;strong>Class Diagram (PlantUML)&lt;/strong>&lt;/h3>
+&lt;p>A class diagram is essential for object-oriented design and helps to represent the structure of a system. Here&amp;rsquo;s an example of a class diagram:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+BEGIN_SRC &lt;/span>&lt;span class="cs">plantuml&lt;/span>&lt;span class="c"> :file class_diagram.png :exports results
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>@startuml
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">class Animal {
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> +String name
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> +int age
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> +void speak()
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">class Dog {
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> +String breed
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> +void bark()
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Animal &amp;lt;|-- Dog
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">@enduml
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+END_SRC&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In this class diagram, we define a general &lt;code>Animal&lt;/code> class with properties like &lt;code>name&lt;/code> and &lt;code>age&lt;/code> and a &lt;code>Dog&lt;/code> class that inherits from &lt;code>Animal&lt;/code> and adds specific functionality like &lt;code>bark()&lt;/code>.&lt;/p>
+&lt;h4 id="result-3">Result:&lt;/h4>
+&lt;hr>
+&lt;h3 id="5-network-topology-diagram-dot">5. &lt;strong>Network Topology Diagram (Dot)&lt;/strong>&lt;/h3>
+&lt;p>Network topology diagrams are helpful for illustrating how various devices are interconnected in a network. Here’s an example using &lt;strong>Dot&lt;/strong> language:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+BEGIN_SRC &lt;/span>&lt;span class="cs">dot&lt;/span>&lt;span class="c"> :file network_topology.png :exports results
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>digraph G {
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Router -&amp;gt; Switch1;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Switch1 -&amp;gt; Device1;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Switch1 -&amp;gt; Device2;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Switch1 -&amp;gt; Device3;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Router -&amp;gt; Switch2;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Switch2 -&amp;gt; Device4;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Switch2 -&amp;gt; Device5;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+END_SRC&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This diagram illustrates a simple network with a router, switches, and multiple devices connected to those switches.&lt;/p>
+&lt;h4 id="result-4">Result:&lt;/h4>
+&lt;hr>
+&lt;h3 id="6-gantt-chart-org-mode">6. &lt;strong>Gantt Chart (Org-mode)&lt;/strong>&lt;/h3>
+&lt;p>Org-mode also allows you to create Gantt charts for project management. Here&amp;rsquo;s an example of how to structure a Gantt chart within an Org-mode document:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+BEGIN_SRC &lt;/span>&lt;span class="cs">org&lt;/span>&lt;span class="c"> :file gantt_chart.png :exports results
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>&lt;span class="gh">*&lt;/span>&lt;span class="gs"> Project Timeline&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">- [ ]&lt;/span> Task 1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> SCHEDULED: &amp;lt;&lt;span class="s">2025-02-10&lt;/span>&amp;gt;--&amp;lt;&lt;span class="s">2025-02-15&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">- [ ]&lt;/span> Task 2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> SCHEDULED: &amp;lt;&lt;span class="s">2025-02-16&lt;/span>&amp;gt;--&amp;lt;&lt;span class="s">2025-02-20&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">- [ ]&lt;/span> Task 3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> SCHEDULED: &amp;lt;&lt;span class="s">2025-02-21&lt;/span>&amp;gt;--&amp;lt;&lt;span class="s">2025-02-25&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+END_SRC&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This example outlines a project timeline with three tasks and their respective scheduled dates. When rendered, Org-mode will generate a Gantt chart to represent these tasks.&lt;/p>
+&lt;h4 id="result-5">Result:&lt;/h4>
+&lt;p>&lt;em>(Rendered Gantt chart with scheduled tasks)&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="7-er-diagram-dot">7. &lt;strong>ER Diagram (Dot)&lt;/strong>&lt;/h3>
+&lt;p>Entity-relationship (ER) diagrams are commonly used to illustrate how entities relate in databases. Here&amp;rsquo;s an example of an ER diagram:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+BEGIN_SRC &lt;/span>&lt;span class="cs">dot&lt;/span>&lt;span class="c"> :file er_diagram.png :exports results
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>digraph G {
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Customer [shape=record,label=&amp;#34;{Customer|+customer_id: int\l+name: string}&amp;#34;];
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Order [shape=record,label=&amp;#34;{Order|+order_id: int\l+date: date}&amp;#34;];
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Customer -&amp;gt; Order [label=&amp;#34;places&amp;#34;];
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+END_SRC&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This ER diagram represents a simple relationship where a customer places an order. It shows entities (&lt;code>Customer&lt;/code> and &lt;code>Order&lt;/code>) with their attributes and the relationship between them.&lt;/p>
+&lt;h4 id="result-6">Result:&lt;/h4>
+&lt;hr>
+&lt;h3 id="8-mind-map-diagram-dot">8. &lt;strong>Mind Map Diagram (Dot)&lt;/strong>&lt;/h3>
+&lt;p>Mind maps are a great way to brainstorm and organize ideas. Here’s an example in &lt;strong>Dot&lt;/strong> format:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+BEGIN_SRC &lt;/span>&lt;span class="cs">dot&lt;/span>&lt;span class="c"> :file mind_map.png :exports results
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>digraph G {
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> rankdir=LR;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> node [shape=ellipse];
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> root [label=&amp;#34;Main Idea&amp;#34;];
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> root -&amp;gt; SubIdea1;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> root -&amp;gt; SubIdea2;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> SubIdea1 -&amp;gt; Detail1;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> SubIdea1 -&amp;gt; Detail2;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> SubIdea2 -&amp;gt; Detail3;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">#+END_SRC&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This mind map shows how a main idea branches out into sub-ideas, with further details expanding the sub-ideas.&lt;/p>
+&lt;h4 id="result-7">Result:&lt;/h4>
+&lt;hr>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
+&lt;p>Org-mode diagrams are an incredibly powerful feature for visualizing various aspects of your work. Whether you&amp;rsquo;re documenting systems, processes, or data structures, Org-mode allows you to do so in a clean, text-based format that can easily be rendered into diagrams. These diagrams can be seamlessly integrated into your Hugo Academic blog to make your content more interactive and informative.&lt;/p>
+&lt;p>By using the examples provided above, you can start integrating these diagrams into your blog posts and research presentations. Org-mode offers a simple, efficient way to keep your visualizations within the same workflow as your academic writing.&lt;/p>
+&lt;p>Let me know if you need more examples or help with your setup!&lt;/p>
+&lt;h2 id="license">License&lt;/h2>
+&lt;p>Copyright 2016-present &lt;a href="https://georgecushen.com" target="_blank" rel="noopener">George Cushen&lt;/a>.&lt;/p>
+&lt;p>Released under the &lt;a href="https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md" target="_blank" rel="noopener">MIT&lt;/a> license.&lt;/p></description></item></channel></rss>

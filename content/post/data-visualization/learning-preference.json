@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "type": "pie",
+      "labels": ["Videos", "Podcasts", "Books", "Hands-on", "Group Discussions"],
+      "values": [40, 10, 15, 25, 10]
+    }
+  ],
+  "layout": {
+    "title": "Preferred Learning Methods"
+  }
+}
