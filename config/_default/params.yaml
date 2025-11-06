@@ -35,7 +35,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo: 
-      text: InSeco
+      text: TS-AI
       image: "logo.png"  # Path to your logo image
       filename: "logo.svg"
   
